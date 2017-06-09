@@ -261,8 +261,8 @@ echo "&lt;/items&gt;"</string>
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>readonly remote_info_plist="https://github.com/nikitavoloboev/alfred-knowledge-map/blob/master/knowledge%20map.alfredworkflow?raw=true"
-readonly workflow_url="https://github.com/nikitavoloboev/alfred-knowledge-map/blob/master/knowledge%20map.alfredworkflow"
+				<string>readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/alfred-my-mind/master/info.plist"
+readonly workflow_url="https://github.com/nikitavoloboev/alfred-my-mind/blob/master/nikivi's%20mind.alfredworkflow?raw=true"
 readonly workflow_type='workflow'
 readonly frequency_check='15'
 
