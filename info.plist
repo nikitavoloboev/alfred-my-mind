@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>nikivi.mind</string>
+	<key>category</key>
+	<string>dev</string>
+	<key>connections</key>
+	<dict>
+		<key>32890C1F-BF61-4F1E-BE85-019984F68450</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>41FE3A4B-ACE8-427D-B415-075F79AE9BC3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>413FA2AE-0F4D-4662-9E53-BF30E2735EC6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>528B7844-3B84-4C28-8BCF-C0F58DA8A0B8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>528B7844-3B84-4C28-8BCF-C0F58DA8A0B8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9F0183BB-32B1-4AE7-A4D0-3840A4A6ECEB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0E2B9AC8-68E6-4A5B-AB40-5F19AD2C7ED5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9F0183BB-32B1-4AE7-A4D0-3840A4A6ECEB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>32890C1F-BF61-4F1E-BE85-019984F68450</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EA1CEA1F-EEDC-4279-B0A4-AD1CEF64DA34</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>528B7844-3B84-4C28-8BCF-C0F58DA8A0B8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>nikivi</string>
+	<key>description</key>
+	<string>Alfred interface to my mind maps and notes</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>nikivi mind</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>IFS=$'\n'
+
+echo "&lt;?xml version='1.0'?&gt;&lt;items&gt;"
+for line in $(grep --extended-regexp '\[.+\]\(.+\)' &lt; "$mdfile"); do
+  sed -E "s|.*\[(.+)\]\((.+)\).*|&lt;item arg='\2' valid='yes'&gt;&lt;title&gt;\1&lt;/title&gt;&lt;/item&gt;|" &lt;&lt;&lt; "${line}"
+done
+echo "&lt;/items&gt;"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>32890C1F-BF61-4F1E-BE85-019984F68450</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>41FE3A4B-ACE8-427D-B415-075F79AE9BC3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>inside</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>413FA2AE-0F4D-4662-9E53-BF30E2735EC6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"blogs","arg":"inside\/blogs.md","subtitle":""},{"title":"books","arg":"inside\/books.md","subtitle":""},{"title":"courses","arg":"inside\/courses.md","subtitle":""},{"title":"github","arg":"inside\/github.md","subtitle":""},{"title":"images","arg":"inside\/images.md","subtitle":""},{"title":"more","arg":"inside\/more.md","subtitle":""},{"title":"personal","arg":"inside\/personal.md","subtitle":""},{"title":"research papers","arg":"inside\/research-papers.md","subtitle":""},{"title":"websites","arg":"inside\/websites.md","subtitle":""},{"title":"reddit","arg":"inside\/reddit.md"},{"title":"web","arg":"inside\/bookmarks.md"},{"title":"articles","arg":"inside\/my-articles.md"},{"title":"gists","arg":"inside\/my-gists.md"},{"title":"quora","arg":"inside\/quora.md"},{"title":"notes","arg":"inside\/my-notes.md"},{"title":"twitter","arg":"inside\/twitter.md"}]</string>
+				<key>keyword</key>
+				<string>inside</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>notes, bookmarks, blogs</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>528B7844-3B84-4C28-8BCF-C0F58DA8A0B8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict>
+					<key>mdfile</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9F0183BB-32B1-4AE7-A4D0-3840A4A6ECEB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>EA1CEA1F-EEDC-4279-B0A4-AD1CEF64DA34</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>readonly remote_info_plist="https://github.com/nikitavoloboev/alfred-knowledge-map/blob/master/knowledge%20map.alfredworkflow?raw=true"
+readonly workflow_url="https://github.com/nikitavoloboev/alfred-knowledge-map/blob/master/knowledge%20map.alfredworkflow"
+readonly workflow_type='workflow'
+readonly frequency_check='15'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  local readonly terminal_notifier="$(find . -name terminal-notifier.app)"
+
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}"/Contents/MacOS/terminal-notifier -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+  else
+    osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+  fi
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${workflow_type}" =~ ^(workflow|page)$ ]] || abort "'workflow_type' (${workflow_type}) needs to be one of 'workflow' or 'page'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" != "${remote_version}" ]]; then
+    if [[ "${workflow_type}" == 'page' ]]; then
+      notification 'Opening download page…'
+      open "${workflow_url}"
+    else
+      if url_exists "${workflow_url}"; then
+        notification 'Downloading and installing…'
+        curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${workflow_url}"
+        open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+      else
+        abort "'workflow_url' (${workflow_url}) appears to not be reachable."
+      fi # url_exists
+    fi # workflow_type
+  else
+    touch "${local_info_plist}" # Reset timer by touching local file
+  fi # diff
+fi #find</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0E2B9AC8-68E6-4A5B-AB40-5F19AD2C7ED5</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>0E2B9AC8-68E6-4A5B-AB40-5F19AD2C7ED5</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>410</integer>
+			<key>ypos</key>
+			<integer>170</integer>
+		</dict>
+		<key>32890C1F-BF61-4F1E-BE85-019984F68450</key>
+		<dict>
+			<key>xpos</key>
+			<integer>460</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
+		<key>413FA2AE-0F4D-4662-9E53-BF30E2735EC6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
+		<key>41FE3A4B-ACE8-427D-B415-075F79AE9BC3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>630</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
+		<key>528B7844-3B84-4C28-8BCF-C0F58DA8A0B8</key>
+		<dict>
+			<key>note</key>
+			<string>notes, bookmarks, blogs</string>
+			<key>xpos</key>
+			<integer>210</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
+		<key>9F0183BB-32B1-4AE7-A4D0-3840A4A6ECEB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>EA1CEA1F-EEDC-4279-B0A4-AD1CEF64DA34</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>150</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://github.com/nikitavoloboev</string>
+</dict>
+</plist>
