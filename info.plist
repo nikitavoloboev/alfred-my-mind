@@ -203,7 +203,7 @@ echo "&lt;/items&gt;"</string>
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"blogs","arg":"inside\/blogs.md","subtitle":""},{"title":"books","arg":"inside\/books.md","subtitle":""},{"title":"courses","arg":"inside\/courses.md","subtitle":""},{"title":"github","arg":"inside\/my-github.md","subtitle":""},{"title":"images","arg":"inside\/images.md","subtitle":""},{"title":"more","arg":"inside\/more.md","subtitle":""},{"title":"personal","arg":"inside\/personal.md","subtitle":""},{"title":"research papers","arg":"inside\/research-papers.md","subtitle":""},{"title":"reddit","arg":"inside\/reddit.md"},{"title":"web","arg":"inside\/web.md"},{"title":"articles","arg":"inside\/my-articles.md"},{"title":"gists","arg":"inside\/my-gists.md"},{"title":"quora","arg":"inside\/quora.md"},{"title":"notes","arg":"inside\/my-notes.md"},{"title":"twitter","arg":"inside\/twitter.md"}]</string>
+				<string>[{"title":"blogs","arg":"inside\/blogs.md","subtitle":""},{"title":"books","arg":"inside\/books.md","subtitle":""},{"title":"courses","arg":"inside\/courses.md","subtitle":""},{"title":"github","arg":"inside\/my-github.md","subtitle":""},{"title":"images","arg":"inside\/images.md","subtitle":""},{"title":"personal","arg":"inside\/personal.md","subtitle":""},{"title":"research papers","arg":"inside\/research-papers.md","subtitle":""},{"title":"reddit","arg":"inside\/reddit.md"},{"title":"web","arg":"inside\/web.md"},{"title":"articles","arg":"inside\/my-articles.md"},{"title":"gists","arg":"inside\/my-gists.md"},{"title":"quora","arg":"inside\/quora.md"},{"title":"notes","arg":"inside\/my-notes.md"},{"title":"twitter","arg":"inside\/twitter.md"}]</string>
 				<key>keyword</key>
 				<string>inside</string>
 				<key>runningsubtext</key>
@@ -345,53 +345,53 @@ fi #find</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>420</integer>
+			<integer>340</integer>
 			<key>ypos</key>
-			<integer>180</integer>
+			<integer>170</integer>
 		</dict>
 		<key>32890C1F-BF61-4F1E-BE85-019984F68450</key>
 		<dict>
 			<key>xpos</key>
-			<integer>470</integer>
+			<integer>390</integer>
 			<key>ypos</key>
-			<integer>30</integer>
+			<integer>20</integer>
 		</dict>
 		<key>413FA2AE-0F4D-4662-9E53-BF30E2735EC6</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>10</integer>
 		</dict>
 		<key>41FE3A4B-ACE8-427D-B415-075F79AE9BC3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>640</integer>
+			<integer>540</integer>
 			<key>ypos</key>
-			<integer>30</integer>
+			<integer>20</integer>
 		</dict>
 		<key>528B7844-3B84-4C28-8BCF-C0F58DA8A0B8</key>
 		<dict>
 			<key>note</key>
 			<string>notes, bookmarks, blogs</string>
 			<key>xpos</key>
-			<integer>210</integer>
+			<integer>160</integer>
 			<key>ypos</key>
-			<integer>80</integer>
+			<integer>60</integer>
 		</dict>
 		<key>9F0183BB-32B1-4AE7-A4D0-3840A4A6ECEB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>320</integer>
 			<key>ypos</key>
-			<integer>60</integer>
+			<integer>50</integer>
 		</dict>
 		<key>EA1CEA1F-EEDC-4279-B0A4-AD1CEF64DA34</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>150</integer>
+			<integer>130</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

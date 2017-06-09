@@ -1,6 +1,6 @@
 # Alfred interface to my mind 🎗
 
-# [Download](https://www.dropbox.com/s/vvr4x66arrjrz8l/nikivi%20mind.alfredworkflow?dl=1)
+# [Download](https://www.dropbox.com/s/bg3afy7wli7zuk2/nikivi%27s%20mind.alfredworkflow?dl=1)
 
 ## [Demonstration](http://quick.as/j0O2SvxLR) 🚀
 
