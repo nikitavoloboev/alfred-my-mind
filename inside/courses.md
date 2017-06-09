@@ -13,8 +13,6 @@
 
 ## [10: mit probabilistic systems analysis and applied probability 📝](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/index.htm)
 
-## [statistics 110 📝](https://www.youtube.com/watch?v=KbB0FjPg0mw&list=EC2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo)
-
 
 # iOS
 

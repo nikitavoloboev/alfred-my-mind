@@ -1,1119 +1,713 @@
 # machine learning
 
 
-## [christopher olah](http://colah.github.io/)
+## [christopher olah 🗃️](http://colah.github.io/)
 
-### READ: 
+## [igor babuschkin 🗃️](https://babushk.in/archive.html)
 
-### FOCUS: 
+## [max welling 🗃️](http://scientificpearlsofwisdom.blogspot.nl/)
 
-## [Igor Babuschkin ✨](https://babushk.in/archive.html)
+## [stephan hoyer 🗃️](Stephan%20Hoyer)
 
-### READ: 
+## [tim head 🗃️](http://betatim.github.io/)
 
-## [max welling](http://scientificpearlsofwisdom.blogspot.nl/)
+## [bradford cross 🗃️](http://www.bradfordcross.com)
 
-### READ: 
+## [distill 🗃️](http://distill.pub/)
 
-## [Stephan Hoyer](Stephan%20Hoyer)
+## [andrew gambarella 🗃️](https://atgambardella.github.io/)
 
-### READ: 
+## [openAI 🗃️](https://blog.openai.com/)
 
-## [Tim Head](http://betatim.github.io/)
+## [deepmind 🗃️](https://deepmind.com/blog/)
 
-### READ: 
+## [google research 🗃️](https://research.googleblog.com/)
 
-### FOCUS: 
+## [facebook research 🗃️](https://research.fb.com/blog/)
 
-## [Bradford Cross ✨](http://www.bradfordcross.com)
+## [wildml 🗃️](http://www.wildml.com/)
 
-## [distill ✨](http://distill.pub/)
+## [andrej karpathy 🗃️](https://karpathy.github.io/)
 
-### READ: 
+- [his medium blog 🗃️](https://medium.com/@karpathy)
 
-## [Andrew Gambarella](https://atgambardella.github.io/)
+## [statistical modelling, causal inference and social science 🗃️](http://andrewgelman.com/)
 
-## [openAI](https://blog.openai.com/)
+## [arg min 🗃️](http://www.argmin.net/)
 
-## [Deepmind](https://deepmind.com/blog/)
+## [off the convex path 🗃️](http://www.offconvex.org/)
 
-## [Google Research](https://research.googleblog.com/)
+## [i’m a bandit 🗃️](https://blogs.princeton.edu/imabandit/)
 
-## [Facebook research](https://research.fb.com/blog/)
+## [the spectator 🗃️](http://blog.shakirm.com/)
 
-## [WILDML](http://www.wildml.com/)
+## [kaggle blog 🗃️](http://blog.kaggle.com/)
 
-### READ: 
+## [brief history of machine learning 🗃️](http://www.erogol.com/)
 
-### FOCUS: 
+## [silicon valley AI lab 🗃️](https://svail.github.io/)
 
-## [Andrej Karpathy ✨](https://karpathy.github.io/)
+## [inverse probability 🗃️](http://inverseprobability.com/blog.html)
 
-### READ: 
+## [concept search on wikipedia 🗃️](http://mccormickml.com/)
 
-### FOCUS: 
+## [unintentionally inconsiderate 🗃️](http://rocknrollnerd.github.io/)
 
-## [statistical modelling, causal inference and social science](http://andrewgelman.com/)
+## [i am trask 🗃️](http://iamtrask.github.io/)
 
-## [arg min](http://www.argmin.net/)
+## [sander dieleman 🗃️](http://benanne.github.io/)
 
-### READ: 
+## [aditya prakash 🗃️](http://iamaaditya.github.io/)
 
-## [off the convex path](http://www.offconvex.org/)
+## [machine learning theory 🗃️](http://hunch.net/)
 
-### READ: 
+## [inFERENCe 🗃️](http://www.inference.vc/)
 
-## [i’m a bandit](https://blogs.princeton.edu/imabandit/)
+## [deeplearning4j 🗃️](https://deeplearning4j.org/eigenvector)
 
-## [the spectator](http://blog.shakirm.com/)
+## [clarifai 🗃️](http://blog.clarifai.com/)
 
-### READ: 
+## [somatic 🗃️](http://www.somatic.io/blog)
 
-## [kaggle blog](http://blog.kaggle.com/)
+## [triangle inequality 🗃️](https://triangleinequality.wordpress.com/)
 
-### READ: 
+## [FastML 🗃️](http://www.fastml.com/)
 
-## [brief history of machine learning](http://www.erogol.com/)
+## [the neural perspective 🗃️](https://theneuralperspective.com/)
 
-## [silicon valley AI lab](https://svail.github.io/)
-
-### READ: 
-
-## [inverse probability](http://inverseprobability.com/blog.html)
-
-### READ: 
-
-## [concept search on wikipedia](http://mccormickml.com/)
-
-## [Unintentionally inconsiderate](http://rocknrollnerd.github.io/)
-
-### READ: 
-
-## [i am trask](http://iamtrask.github.io/)
-
-### READ: 
-
-## [Sander Dieleman](http://benanne.github.io/)
-
-### READ: 
-
-## [Aditya Prakash](http://iamaaditya.github.io/)
-
-### READ: 
-
-## [machine learning theory](http://hunch.net/)
-
-## [inFERENCe](http://www.inference.vc/)
-
-### READ: 
-
-## [DEEPLEARNING4J](https://deeplearning4j.org/eigenvector)
-
-### READ: 
-
-## [Clarifai](http://blog.clarifai.com/)
-
-### READ: 
-
-## [Somatic](http://www.somatic.io/blog)
-
-### READ: 
-
-## [triangle inequality](https://triangleinequality.wordpress.com/)
-
-### READ: 
-
-## [FastML](http://www.fastml.com/)
-
-### READ: 
-
-## [the neural perspective](https://theneuralperspective.com/)
-
-### RESEARCH: 
-
-### INTERESTING: 
-
-## [sourabh bajaj](http://sourabhbajaj.com/)
-
-### READ: 
-
-### INTERESTING: 
+## [sourabh bajaj 🗃️](http://sourabhbajaj.com/)
 
 
 # code
 
 
-## [loreto parisi](http://loretoparisi.com/)
+## [loreto parisi 🗃️](http://loretoparisi.com/)
 
-## [marc qualie](https://marcqualie.com/)
+## [marc qualie 🗃️](https://marcqualie.com/)
 
-### READ: 
+## [amjad masad 🗃️](https://amasad.me/)
 
-## [amjad masad](https://amasad.me/)
+## [jan hunermann 🗃️](http://lab.janhuenermann.de/)
 
-### READ: 
+## [marcus westin 🗃️](http://marcuswest.in/)
 
-## [jan hunermann](http://lab.janhuenermann.de/)
+## [ben orestein 🗃️](http://www.benorenstein.com/blog/)
 
-### is really young and does some really impressive work
+## [fuzzy notepad 🗃️](https://eev.ee/blog/)
 
-## [marcus westin](http://marcuswest.in/)
+## [akullpp 🗃️](%F0%9F%97%83%EF%B8%8F)
 
-### READ: 
+## [armin ronacher 🗃️](http://lucumr.pocoo.org/)
 
-## [ben orestein](http://www.benorenstein.com/blog/)
+## [samuel e. giddins 🗃️](http://blog.segiddins.me/)
 
-## [fuzzy notepad ✨](https://eev.ee/blog/)
+## [eli bendersky 🗃️](http://eli.thegreenplace.net/archives/all)
 
-amazing
+## [tapasweni pathak 🗃️](https://tapaswenipathak.wordpress.com/)
 
-## [akullpp](akullpp)
+## [frank mcsherry 🗃️](https://github.com/frankmcsherry/blog)
 
-## [Armin Ronacher](http://lucumr.pocoo.org/)
+## [steve yegge 🗃️](https://steve-yegge.blogspot.nl/)
 
-## [Samuel E. Giddins](http://blog.segiddins.me/)
+- [also has an a pretty funny internal amazon blog](https://sites.google.com/site/steveyegge2/blog-rants)
 
-### READ: 
+## [coding horror 🗃️](https://blog.codinghorror.com/)
 
-## [Eli Bendersky](http://eli.thegreenplace.net/archives/all)
+## [joel on software 🗃️](https://www.joelonsoftware.com/)
 
-### READ: 
+## [preshing on programming 🗃️](http://preshing.com/)
 
-## [tapasweni pathak](https://tapaswenipathak.wordpress.com/)
+## [the old new thing 🗃️](https://blogs.msdn.microsoft.com/oldnewthing/)
 
-### READ: 
+## [tedunagst 🗃️](http://www.tedunangst.com/flak/)
 
-## [Frank Mcsherry](https://github.com/frankmcsherry/blog)
+## [stratechery 🗃️](https://stratechery.com/)
 
-### READ: 
+## [hackernoon 🗃️](https://hackernoon.com/)
 
-### FOCUS: 
+## [oleg kiselyov 🗃️](http://okmij.org/ftp/)
 
-## [steve yegge](https://steve-yegge.blogspot.nl/)
+## [sugar pirate 🗃️](https://medium.com/@sugarpirate)
 
-### READ: 
+## [motemen 🗃️](https://medium.com/@motemen)
 
-### INTERESTING: 
+## [bo jeanes 🗃️](http://bjeanes.com/)
 
-### [also has an a pretty funny internal amazon blog he made](https://sites.google.com/site/steveyegge2/blog-rants)
+## [kamran ahmed 🗃️](http://kamranahmed.info/)
 
-- READ: 
+## [dr. bunsen 🗃️](http://www.drbunsen.org/archives/)
 
-## [coding horror](https://blog.codinghorror.com/)
+## [jon gjengset 🗃️](https://thesquareplanet.com/blog/)
 
-### READ: 
+## [jeremy walker 🗃️](http://www.ihid.co.uk/blog)
 
-## [joel on software](https://www.joelonsoftware.com/)
+## [nick farina 🗃️](http://nfarina.com/)
 
-### READ: 
+## [edne 🗃️](http://edne.net/)
 
-### INTERESTING: 
+## [jesse hallett 🗃️](http://sitr.us/)
 
-## [preshing on programming](http://preshing.com/)
+## [dont panic 🗃️](http://chrismatheson.github.io/)
 
-### READ: 
+## [john d. cook 🗃️](https://www.johndcook.com/blog/)
 
-### efficient concurrent data structures
+## [chris aniszczyk 🗃️](http://aniszczyk.org/)
 
-## [the old new thing](https://blogs.msdn.microsoft.com/oldnewthing/)
+## [joe duffy 🗃️](http://joeduffyblog.com/)
 
-### READ: 
+## [pointers gone wild 🗃️](https://pointersgonewild.com/)
 
-## [tedunagst](http://www.tedunangst.com/flak/)
+## [michael parker 🗃️](http://omgitsmgp.com/)
 
-### READ: 
+## [ryan lefevre 🗃️](http://meltingice.net/)
 
-### [Jeaye.](https://blog.jeaye.com)
+## [drew devault 🗃️](https://drewdevault.com/)
 
-- READ: 
+## [gggritso 🗃️](http://gggritso.com/)
 
-## [stratechery](https://stratechery.com/)
+## [bgamari 🗃️](http://bgamari.github.io/posts.html)
 
-### READ: 
+## [gary sieling 🗃️](https://www.garysieling.com/blog/)
 
-### INTERESTING: 
+## [marius schulz 🗃️](https://blog.mariusschulz.com/)
 
-## [hackernoon](https://hackernoon.com/)
+## [susan j. fowler 🗃️](https://www.susanjfowler.com/blog/?category=Lessons+Learned)
 
-### aggregate of medium technical links
+## [accidentally quadratic 🗃️](http://accidentallyquadratic.tumblr.com/)
 
-## [Oleg Kiselyov ✨](http://okmij.org/ftp/)
+## [eric jang 🗃️](http://evjang.com/articles.html)
 
-### not a blog but a collection of code snippets, documentation and articles 
+## [juan benet 🗃️](http://juan.benet.ai/)
 
-### RESEARCH: 
+## [александр субботин 🗃️](https://blog.asubbotin.ru/)
 
-### INTERESTING: 
+## [dan luu 🗃️](https://danluu.com/)
 
-## [sugar pirate](https://medium.com/@sugarpirate)
+## [julia evans 🗃️](http://jvns.ca/)
 
-### READ: 
+## [thoughts from the red planet 🗃️](http://nathanmarz.com/archives)
 
-## [motemen](https://medium.com/@motemen)
+## [erik bernhardsson 🗃️](https://erikbern.com/)
 
-### READ: 
+## [programming in the twenty first century 🗃️](http://prog21.dadgum.com/)
 
-## [Bo Jeanes](http://bjeanes.com/)
+## [daily wtf 🗃️](http://thedailywtf.com/)
 
-### READ: 
+## [kenneth reitz 🗃️](https://www.kennethreitz.org/essays)
 
-## [Kamran Ahmed](http://kamranahmed.info/)
+## [dave beazley 🗃️](http://www.dabeaz.com/blog.html)
 
-### READ: 
+## [chares leifer 🗃️](http://charlesleifer.com/blog/)
 
-## [dr. bunsen](http://www.drbunsen.org/archives/)
+## [saudi metz 🗃️](https://www.sandimetz.com/blog/)
 
-## [Jon Gjengset](https://thesquareplanet.com/blog/)
+## [bret victor 🗃️](http://worrydream.com/)
 
-### READ: 
+## [brett terpstra 🗃️](http://brettterpstra.com/)
 
-### FOCUS: 
+## [mike bostock 🗃️](https://bost.ocks.org/mike/)
 
-## [Jeremy Walker](http://www.ihid.co.uk/blog)
+## [okmij 🗃️](http://okmij.org/ftp/)
 
-### READ: 
+## [send more paramedics 🗃️](http://blog.fogus.me/)
 
-## [Nick Farina](http://nfarina.com/)
+## [0xDE 🗃️](http://11011110.livejournal.com/)
 
-### READ: 
+## [blind seeker? 🗃️](https://blindseeker.com/blahg/)
 
-## [edne](http://edne.net/)
+## [ryg blog 🗃️](https://fgiesen.wordpress.com/)
 
-### READ: 
+## [david r. maclver 🗃️](http://www.drmaciver.com/blog/)
 
-## [Jesse Hallett](http://sitr.us/)
+## [sudoscript 🗃️](http://sudoscript.com/)
 
-### READ: 
+## [scott nonnenberg 🗃️](https://blog.scottnonnenberg.com/)
 
-## [Dont Panic](http://chrismatheson.github.io/)
+## [jezen thomas 🗃️](https://jezenthomas.com/posts/)
 
-### READ: 
+## [seph 🗃️](https://josephg.com/blog/)
 
-## [John D. Cook](https://www.johndcook.com/blog/)
+## [beg riffs 🗃️](https://begriffs.com/)
 
-### READ: 
+## [idle words 🗃️](http://idlewords.com/)
 
-## [Chris Aniszczyk](http://aniszczyk.org/)
+## [brian lee 🗃️](http://moderndescartes.com/)
 
-## [joe duffy](http://joeduffyblog.com/)
+## [stevey’s rants 🗃️](http://steve-yegge.blogspot.nl/)
 
-### READ: 
+## [dustin curtis 🗃️](https://dcurt.is/)
 
-## [pointers gone wild](https://pointersgonewild.com/)
+## [mike buss 🗃️](http://mikebuss.com/)
 
-### READ: 
+## [command-z 🗃️](http://zaidsyed.com/)
 
-## [michael parker](http://omgitsmgp.com/)
+## [justin kan 🗃️](https://justinkan.com/)
 
-### READ: 
+## [steve losh 🗃️](http://stevelosh.com/blog/)
 
-### works at Khan Academy
+## [msol 🗃️](https://msol.io/blog/)
 
-## [ryan lefevre](http://meltingice.net/)
+## [programming in twenty-first century 🗃️](http://prog21.dadgum.com/)
 
-### READ: 
+## [zachary voase 🗃️](http://zacharyvoase.com/)
 
-## [drew devault](https://drewdevault.com/)
+## [aerotwist 🗃️](https://aerotwist.com/)
 
-## [gggritso](http://gggritso.com/)
+## [romain 🗃️](http://romain.goyet.com/)
 
-### READ: 
+## [andrew ray 🗃️](http://blog.andrewray.me/)
 
-## [bgamari](http://bgamari.github.io/posts.html)
+## [candler blog 🗃️](http://candlerblog.com/blog/archives/)
 
-### does some work on haskell compiler
+## [cdixon 🗃️](http://cdixon.org/)
 
-### READ: 
+## [umputun 🗃️](http://p.umputun.com/)
 
-## [gary sieling](https://www.garysieling.com/blog/)
+## [aria 🗃️](https://ariya.io/)
 
-### READ: 
+## [bez hermoso 🗃️](http://bezhermoso.github.io/)
 
-## [marius schulz](https://blog.mariusschulz.com/)
+## [xero 🗃️](http://blog.xero.nu/)
 
-### READ: 
+## [made mistakes 🗃️](https://mademistakes.com/articles/)
 
-## [susan j. fowler](https://www.susanjfowler.com/blog/?category=Lessons+Learned)
+## [mitchell hashimoto 🗃️](http://mitchellh.com/)
 
-### I really like the design of her blog
+## [irace 🗃️](http://irace.me/writing/)
 
-## [accidentally quadratic](http://accidentallyquadratic.tumblr.com/)
+## [aidanf 🗃️](http://www.aidanf.net/)
 
-### READ: 
+## [monochromatic 🗃️](http://blog.z3bra.org/)
 
-## [eric jang ✨](http://evjang.com/articles.html)
+## [hackthology 🗃️](http://hackthology.com/index.html)
 
-### really interesting posts about work, machine learning and math
+## [anish athalye 🗃️](http://www.anishathalye.com/)
 
-## [juan benet ✨](http://juan.benet.ai/)
-
-### READ: 
-
-### [does really interesting work on a new distributed file system IPFS](https://github.com/ipfs/ipfs)
-
-## [александр субботин](https://blog.asubbotin.ru/)
-
-## [Dan Luu](https://danluu.com/)
-
-### READ: 
-
-### FOCUS: 
-
-### INTERESTING: 
-
-## [Julia Evans](http://jvns.ca/)
-
-### READ: 
-
-### INTERESTING: 
-
-## [thoughts from the red planet](http://nathanmarz.com/archives)
-
-### READ: 
-
-## [Erik Bernhardsson](https://erikbern.com/)
-
-### READ: 
-
-## [programming in the twenty first century](http://prog21.dadgum.com/)
-
-### READ: 
-
-## [daily wtf](http://thedailywtf.com/)
-
-## [Kenneth Reitz](https://www.kennethreitz.org/essays)
-
-### READ: 
-
-## [Dave Beazley](http://www.dabeaz.com/blog.html)
-
-### READ: 
-
-## [chares leifer](http://charlesleifer.com/blog/)
-
-### READ: 
-
-## [Saudi Metz](https://www.sandimetz.com/blog/)
-
-### READ: 
-
-## [Bret Victor](http://worrydream.com/)
-
-### READ: 
-
-## [brett terpstra](http://brettterpstra.com/)
-
-## [mike bostock](https://bost.ocks.org/mike/)
-
-### READ: 
-
-## [interesting](http://okmij.org/ftp/)
-
-### READ: 
-
-### INTERESTING: 
-
-## [send more paramedics](http://blog.fogus.me/)
-
-### READ: 
-
-## [0xDE](http://11011110.livejournal.com/)
-
-### READ: 
-
-## [Blind Seeker?](https://blindseeker.com/blahg/)
-
-### READ: 
-
-## [ryg blog](https://fgiesen.wordpress.com/)
-
-### READ: 
-
-## [David R. Maclver](http://www.drmaciver.com/blog/)
-
-### READ: 
-
-## [sudoscript](http://sudoscript.com/)
-
-### READ: 
-
-## [Scott Nonnenberg](https://blog.scottnonnenberg.com/)
-
-### READ: 
-
-### INTERESTING: 
-
-## [Jezen Thomas](https://jezenthomas.com/posts/)
-
-### READ: 
-
-## [Seph ✨](https://josephg.com/blog/)
-
-### READ: 
-
-## [Beg Riffs](https://begriffs.com/)
-
-### READ: 
-
-## [idle words](http://idlewords.com/)
-
-### READ: 
-
-### FOCUS: 
-
-## [brian lee](http://moderndescartes.com/)
-
-### READ: 
-
-### INTERESTING: 
-
-## [stevey’s rants](http://steve-yegge.blogspot.nl/)
-
-### READ: 
-
-## [dustin curtis](https://dcurt.is/)
-
-## [mike buss](http://mikebuss.com/)
-
-## [command-z](http://zaidsyed.com/)
-
-## [justin kan](https://justinkan.com/)
-
-## [steve losh](http://stevelosh.com/blog/)
-
-## [msol](https://msol.io/blog/)
-
-## [programming in twenty-first century](http://prog21.dadgum.com/)
-
-## [zachary voase](http://zacharyvoase.com/)
-
-## [aerotwist](https://aerotwist.com/)
-
-## [romain](http://romain.goyet.com/)
-
-## [andrew ray](http://blog.andrewray.me/)
-
-## [candler blog](http://candlerblog.com/blog/archives/)
-
-## [cdixon](http://cdixon.org/)
-
-## [umputun](http://p.umputun.com/)
-
-## [aria](https://ariya.io/)
-
-## [bez hermoso](http://bezhermoso.github.io/)
-
-## [xero](http://blog.xero.nu/)
-
-## [made mistakes](https://mademistakes.com/articles/)
-
-## [mitchell hashimoto](http://mitchellh.com/)
-
-## [irace](http://irace.me/writing/)
-
-## [aidanf](http://www.aidanf.net/)
-
-## [monochromatic](http://blog.z3bra.org/)
-
-## [hackthology](http://hackthology.com/index.html)
-
-## [anish athalye](http://www.anishathalye.com/)
+## [jeaye 🗃️](https://blog.jeaye.com)
 
 
 # go
 
 
-## [dmitri shuralyov ✨](https://dmitri.shuralyov.com/blog)
+## [dmitri shuralyov 🗃️](https://dmitri.shuralyov.com/blog)
 
-## [applied go ✨](https://appliedgo.net/)
+## [applied go 🗃️](https://appliedgo.net/)
 
-### READ: 
+## [nsf 🗃️](https://nsfdev.wordpress.com/)
 
-### FOCUS: 
+## [scott mansfield 🗃️](http://blog.sgmansfield.com/)
 
-## [nsf](https://nsfdev.wordpress.com/)
+## [aliaksandr pliutau 🗃️](http://pliutau.com/)
 
-## [scott mansfield ✨](http://blog.sgmansfield.com/)
+## [groob 🗃️](https://groob.io/)
 
-### READ: 
+## [fatih arslan 🗃️](https://medium.com/@farslan)
 
-## [aliaksandr pliutau](http://pliutau.com/)
+## [dassur 🗃️](https://dassur.ma/)
 
-### READ: 
+## [npf 🗃️](https://npf.io/blog/)
 
-## [groob](https://groob.io/)
+## [rvolosatovs 🗃️](https://rvolosatovs.github.io/)
 
-### READ: 
+## [william kennedy 🗃️](https://www.goinggo.net/)
 
-## [fatih arslan ✨](https://medium.com/@farslan)
-
-### READ: 
-
-## [dassur](https://dassur.ma/)
-
-### READ: 
-
-## [npf ✨](https://npf.io/blog/)
-
-## [rvolosatovs](https://rvolosatovs.github.io/)
-
-## [william kennedy](https://www.goinggo.net/)
-
-## [gopher academy](https://blog.gopheracademy.com/)
+## [gopher academy 🗃️](https://blog.gopheracademy.com/)
 
 
 # math
 
 
-## [shape operator](http://www.shapeoperator.com/)
+## [shape operator 🗃️](http://www.shapeoperator.com/)
 
-## [comfortable numbered](http://hardmath123.github.io/)
+## [comfortable numbered 🗃️](http://hardmath123.github.io/)
 
-## [Steven Wittens](http://acko.net/)
+## [steven wittens 🗃️](http://acko.net/)
 
-- does amazing work at visualising math
+## [random ascii 🗃️](https://randomascii.wordpress.com/)
 
-## [random ascii](https://randomascii.wordpress.com/)
+## [nicky case 🗃️](http://blog.ncase.me/)
 
-- software efficiency, performance optimization, fractals and more
+## [the polymath blog 🗃️](https://polymathprojects.org/)
 
-## [Nicky Case](http://blog.ncase.me/)
+## [math ⋂ programming 🗃️](https://jeremykun.com/)
 
-## [The polymath blog](https://polymathprojects.org/)
-
-## [math ⋂ programming](https://jeremykun.com/)
+## [quantitative journey 🗃️](http://outlace.com/)
 
 
 # javascript
 
 
-## [wavesoft](http://wavesoft.github.io/)
+## [wavesoft 🗃️](http://wavesoft.github.io/)
 
-## [jason format ✨](https://jasonformat.com/)
+## [jason format 🗃️](https://jasonformat.com/)
 
-## [Max Ogden](https://maxogden.com/index.html)
+## [max ogden 🗃️](https://maxogden.com/index.html)
 
-### READ: 
+## [andré staltz 🗃️](http://staltz.com/blog.html)
 
-## [André Staltz](http://staltz.com/blog.html)
+## [nick balestra 🗃️](http://nick.balestra.ch/)
 
-### READ: 
+## [wes bos 🗃️](http://wesbos.com/blog/)
 
-### INTERESTING: 
+## [yehuda katz 🗃️](http://yehudakatz.com/)
 
-## [nick balestra](http://nick.balestra.ch/)
+## [ian sinnott 🗃️](http://blog.iansinnott.com/)
 
-### READ: 
+## [2ality 🗃️](http://2ality.com/)
 
-## [Wes Bos](http://wesbos.com/blog/)
+## [perfection kills 🗃️](http://perfectionkills.com/)
 
-### READ: 
+## [feross 🗃️](https://feross.org/)
 
-## [David Walsh](https://davidwalsh.name/tutorials/features)
-
-### READ: 
-
-## [Yehuda Katz](http://yehudakatz.com/)
-
-## [Ian Sinnott](http://blog.iansinnott.com/)
-
-### READ: 
-
-## [2ality](http://2ality.com/)
-
-### READ: 
-
-### INTERESTING: 
-
-## [perfection kills](http://perfectionkills.com/)
-
-## [feross](https://feross.org/)
+## [david walsh 🗃️](https://davidwalsh.name/tutorials/features)
 
 
 # security
 
 
-## [zdziarski's blog of things](https://www.zdziarski.com/blog/)
+## [zdziarski's blog of things 🗃️](https://www.zdziarski.com/blog/)
 
-works at Apple now
+## [troy hunt 🗃️](https://www.troyhunt.com/)
 
-### READ: 
+## [krebs on security 🗃️](https://krebsonsecurity.com/)
 
-## [Troy Hunt](https://www.troyhunt.com/)
-
-### updated it quite often
-
-### READ: 
-
-## [Krebs on Security](https://krebsonsecurity.com/)
-
-### READ: 
-
-## [Simone Margaritelli](https://www.evilsocket.net/)
-
-### READ: 
+## [simone margaritelli 🗃️](https://www.evilsocket.net/)
 
 
 # web
 
 
-## [monica dinclescu](https://meowni.ca/)
+## [monica dinclescu 🗃️](https://meowni.ca/)
 
-### READ: 
+## [advanced web machinery 🗃️](https://advancedweb.hu/)
 
-## [advanced web machinery](https://advancedweb.hu/)
+## [josh habdas 🗃️](https://habd.as/)
 
-### READ: 
+## [tomek wiszniewski 🗃️](http://tomek.wiszniewski.cc/)
 
-## [Josh Habdas](https://habd.as/)
+## [high scalability 🗃️](http://highscalability.com/)
 
-### READ: 
-
-## [Tomek Wiszniewski](http://tomek.wiszniewski.cc/)
-
-### READ: 
-
-## [high scalability](http://highscalability.com/)
-
-### READ: 
-
-## [growing with the web](http://www.growingwiththeweb.com/p/explore.html?t=Computer%20science)
-
-### READ: 
-
-### FOCUS: 
+## [growing with the web 🗃️](http://www.growingwiththeweb.com/p/explore.html?t=Computer%20science)
 
 
 # ai
 
 
-## [openAI ✨](https://openai.com/blog/adversarial-example-research/)
-
-### READ: 
-
-### FOCUS: 
-
-## [AI Roadmap Institute ✨](https://medium.com/@AIroadmap)
-
-### READ: 
-
-## [Ritchie Ng](http://www.ritchieng.com/news/)
+## [ritchie ng 🗃️](http://www.ritchieng.com/news/)
 
 does amazing research on ML
 
-### READ: 
+## [adam paszke 🗃️](http://apaszke.github.io/posts.html)
 
-## [Adam Paszke](http://apaszke.github.io/posts.html)
+## [rylan schaeffer 🗃️](http://rylanschaeffer.github.io/content/research.html)
 
-### READ: 
-
-## [Rylan Schaeffer ✨](http://rylanschaeffer.github.io/content/research.html)
+## [ai roadmap institute 🗃️](https://medium.com/@AIroadmap)
 
 
 # v8
 
 
-## [wingolog](https://wingolog.org/)
-
-### READ: 
-
-### INTERESTING: 
+## [wingolog 🗃️](https://wingolog.org/)
 
 
 # functional programming
 
 
-## [keathley](http://keathley.io/)
+## [keathley 🗃️](http://keathley.io/)
 
-### READ: 
+## [to overcome 🗃️](http://www.parsonsmatt.org/)
 
-## [to overcome](http://www.parsonsmatt.org/)
-
-## [CF](http://xn--wxak1a.com/blog/)
-
-### READ: 
+## [CF 🗃️](http://xn--wxak1a.com/blog/)
 
 
 # perl
 
 
-## [perl tricks](http://perltricks.com/)
+## [perl tricks 🗃️](http://perltricks.com/)
 
 
 # computer science
 
 
-## [the morning paper](https://blog.acolyer.org/)
-
-### INTERESTING: 
-
-### READ: 
-
-### summarises one CS research article every day
+## [the morning paper 🗃️](https://blog.acolyer.org/)
 
 
 # data science
 
 
-## [variance explained](http://varianceexplained.org/)
-
-### READ: 
-
-### INTERESTING: 
+## [variance explained 🗃️](http://varianceexplained.org/)
 
 
 # statistics
 
 
-## [David Robinson](http://varianceexplained.org/posts/)
-
-### READ: 
-
-### INTERESTING: 
+## [david robinson 🗃️](http://varianceexplained.org/posts/)
 
 
 # swift
 
 
-## [michael kyriacou](http://codeforcaffeine.com/)
+## [michael kyriacou 🗃️](http://codeforcaffeine.com/)
 
-### READ: 
+## stylekit 🗃️
 
-## StyleKit
+## [ankit 🗃️](http://ankit.im)
 
-### READ: 
+## [ash furrow 🗃️](https://ashfurrow.com/)
 
-## [ankit](http://ankit.im)
+## [vinh nguyen 🗃️](https://ninjapro.wordpress.com/)
 
-### READ: 
-
-## [ash furrow](https://ashfurrow.com/)
-
-### READ: 
-
-## [Vinh Nguyen](https://ninjapro.wordpress.com/)
-
-### READ: 
-
-## NSHipster
+## [NSHipster 🗃️](http://nshipster.com/)
 
 
 # webgl
 
 
-## [Brandon Jones](http://blog.tojicode.com/)
-
-### READ: 
+## [brandon jones 🗃️](http://blog.tojicode.com/)
 
 
 # technology
 
 
-## [tech specs](https://techspecs.blog/)
+## [tech specs 🗃️](https://techspecs.blog/)
 
-## [startechery ✨](https://stratechery.com/)
+## [startechery 🗃️](https://stratechery.com/)
 
 
 # compression
 
 
-## [RealTime Data Compression](http://fastcompression.blogspot.nl/)
-
-### READ: 
+## [realtime data compression 🗃️](http://fastcompression.blogspot.nl/)
 
 
 # language design
 
 
-## [the big mud puddle](http://evincarofautumn.blogspot.nl/)
-
-### READ: 
+## [the big mud puddle 🗃️](http://evincarofautumn.blogspot.nl/)
 
 
 # quantum computing
 
 
-## [Schtect-optimised](http://www.scottaaronson.com/blog/)
-
-### READ: 
-
-### INTERESTING: 
+## [schtect-optimised 🗃️](http://www.scottaaronson.com/blog/)
 
 
 # haskell
 
 
-## [joy of haskell](https://joyofhaskell.com/blog.html)
+## [joy of haskell 🗃️](https://joyofhaskell.com/blog.html)
 
-## [Vincent Hanquez](http://tab.snarc.org/)
+## [vincent hanquez 🗃️](http://tab.snarc.org/)
 
-### READ: 
-
-## [Nikita Volkov](http://nikita-volkov.github.io/)
-
-### READ: 
+## [nikita volkov 🗃️](http://nikita-volkov.github.io/)
 
 
 # java
 
 
-## [stuff gil says](http://stuff-gil-says.blogspot.nl/)
-
-### READ: 
+## [stuff gil says 🗃️](http://stuff-gil-says.blogspot.nl/)
 
 
 # computer graphics
 
 
-## [0 FPS](https://0fps.net/)
-
-### READ: 
-
-### graphics programming, geometry and algorithms
+## [0 fps 🗃️](https://0fps.net/)
 
 
 # rust
 
 
-## [Manish Goregaokar](https://manishearth.github.io/)
+## [manish goregaokar 🗃️](https://manishearth.github.io/)
 
-### READ: 
+## [edunham 🗃️](http://edunham.net/)
 
-## [edunham](http://edunham.net/)
-
-### READ: 
-
-## [steve klabnik](http://words.steveklabnik.com/)
-
-### READ: 
+## [steve klabnik 🗃️](http://words.steveklabnik.com/)
 
 
 # clojure
 
 
-## [boolean knot](https://www.booleanknot.com/blog/)
-
-### INTERESTING: 
-
-### READ: 
-
-
-# android
-
-
-## [joe birch](https://medium.com/@hitherejoe)
-
-### READ: 
-
-
-# vim
-
-
-## [AirBlade Software](https://airbladesoftware.com/notes/)
-
-### READ: 
-
-
-# node
-
-
-## [node as we go](http://blog.trevnorris.com/)
-
-### READ: 
-
-
-# optimisation
-
-
-## [Aleksey Shipilëv](https://shipilev.net/)
-
-### READ: 
-
-### INTERESTING: 
-
-### JDK internals, low-level optimization
-
-
-# design
-
-
-## [domain driven design](http://dddweekly.com/)
-
-## [Nicole Harris](http://whoisnicoleharris.com/#writing)
-
-### READ: 
-
-## [willis wilkinson](http://williamwilkinson.com/)
-
-
-# reverse engineering
-
-
-## [objective see](https://objective-see.com/blog.html)
-
-### READ: 
-
-
-# python
-
-
-## [rg3 ✨](http://rg3.name/)
-
-### READ: 
-
-
-# c
-
-
-## [Tony Finch](http://fanf.livejournal.com/)
-
-### READ: 
-
-
-# ios
-
-
-## [luke zhao](http://lkzhao.com/)
-
-## [CALayer](http://calayer.com/)
-
-
-# ruby
-
-
-## [javivelasco ✨](http://javivelasco.com/blog/)
-
-## [alyssa.is](https://alyssa.is/)
+## [boolean knot 🗃️](https://www.booleanknot.com/blog/)
 
 
 # c++
 
 
-## [victor zverovich](http://zverovich.net/)
+## [victor zverovich 🗃️](http://zverovich.net/)
 
-### READ: 
-
-## [Kevin Dungs](https://dun.gs/)
-
-### READ: 
+## [Kevin Dungs 🗃️](https://dun.gs/)
 
 
-# startups
+# android
 
 
-## [paul graham](http://www.paulgraham.com/articles.html)
-
-### READ: 
-
-### INTERESTING: 
+## [joe birch 🗃️](https://medium.com/@hitherejoe)
 
 
-# hacking
+# vim
 
 
-## [SpritesMods](http://spritesmods.com/)
-
-### READ: 
+## [AirBlade Software 🗃️](https://airbladesoftware.com/notes/)
 
 
-# php
+# node
 
 
-## [nikic](http://nikic.github.io/)
+## [node as we go 🗃️](http://blog.trevnorris.com/)
 
 
-# scala
+# optimisation
 
 
-## [Higher Order](http://blog.higher-order.com/)
+## [aleksey shipilëv 🗃️](https://shipilev.net/)
 
-### READ: 
+
+# design
+
+
+## [domain driven design 🗃️](http://dddweekly.com/)
+
+## [willis wilkinson 🗃️](http://williamwilkinson.com/)
+
+## [nicole harris 🗃️](http://whoisnicoleharris.com/#writing)
+
+
+# reverse engineering
+
+
+## [objective see 🗃️](https://objective-see.com/blog.html)
+
+
+# python
+
+
+## [rg3 🗃️](http://rg3.name/)
 
 
 # networking
 
 
-## [mnot](https://www.mnot.net/blog/)
-
-### READ: 
-
-### INTERESTING: 
+## [mnot 🗃️](https://www.mnot.net/blog/)
 
 
-# css
+# c
 
 
-## [css wizardry](https://csswizardry.com/archive/)
+## [tony finch 🗃️](http://fanf.livejournal.com/)
 
 
-# react
+# ios
 
 
-## [brent vatne](http://brentvatne.ca/)
+## [luke zhao 🗃️](http://lkzhao.com/)
 
-## [build with react](http://buildwithreact.com/)
+## [CALayer 🗃️](http://calayer.com/)
+
+
+# ruby
+
+
+## [javivelasco 🗃️](http://javivelasco.com/blog/)
+
+## [alyssa.is 🗃️](https://alyssa.is/)
+
+
+# startups
+
+
+## [paul graham 🗃️](http://www.paulgraham.com/articles.html)
+
+
+# php
+
+
+## [nikic 🗃️](http://nikic.github.io/)
+
+
+# hacking
+
+
+## [SpritesMods 🗃️](http://spritesmods.com/)
 
 
 # brain computer interface
 
 
-## [Alexandre Barachant](http://alexandre.barachant.org/blog/)
-
-### READ: 
-
-
-# physics
-
-
-## [brilliantly wrong](https://arogozhnikov.github.io/)
-
-## [AMVA4NewPhysics ✨](https://amva4newphysics.wordpress.com/)
-
-
-# blog aggregator
-
-
-## [MLWave](http://mlwave.com/)
-
-## [KD nuggets](http://www.kdnuggets.com/)
-
-
-# macOS
-
-
-## [And now it’s all this](http://leancrew.com/all-this/)
-
-## [coding bull junky](https://codingbulljunky.wordpress.com/)
-
-## [macdrifter](http://macdrifter.com/)
-
-## [michael tsai](https://mjtsai.com/blog/)
-
-## defaults write
-
-
-# other
-
-
-## [pavel miroshenko](https://pavel.miroshnichen.co/)
-
-## [dean sherwood](http://deansherwood.com/deansblog)
-
-## [work smarter and be remarkable](https://www.worksmartandberemarkable.com/)
-
-## [dave lee](http://heydave.org/)
-
-## [today I learned](https://til.hashrocket.com/)
-
-## [daring fireball](https://til.hashrocket.com/)
-
-## [brad conte](http://bradconte.com/)
-
-## [disregard everything I say](http://disregardeverythingisay.com/)
+## [alexandre barachant 🗃️](http://alexandre.barachant.org/blog/)
 
 
 # natural language processing
 
 
-## [natural language processing blog](https://nlpers.blogspot.nl/)
+## [natural language processing 🗃️](https://nlpers.blogspot.nl/)
+
+
+# blog aggregator
+
+
+## [MLWave 🗃️](http://mlwave.com/)
+
+## [KD nuggets 🗃️](http://www.kdnuggets.com/)
+
+
+# physics
+
+
+## [brilliantly wrong 🗃️](https://arogozhnikov.github.io/)
+
+## [AMVA4NewPhysics 🗃️](https://amva4newphysics.wordpress.com/)
+
+
+# react
+
+
+## [brent vatne 🗃️](http://brentvatne.ca/)
+
+## [build with react 🗃️](http://buildwithreact.com/)
+
+
+# macOS
+
+
+## [and now it’s all this 🗃️](http://leancrew.com/all-this/)
+
+## [coding bull junky 🗃️](https://codingbulljunky.wordpress.com/)
+
+## [macdrifter 🗃️](http://macdrifter.com/)
+
+## [michael tsai 🗃️](https://mjtsai.com/blog/)
+
+## [defaults write 🗃️](http://www.defaults-write.com/)
+
+
+# other
+
+
+## [pavel miroshenko 🗃️](https://pavel.miroshnichen.co/)
+
+## [dean sherwood 🗃️](http://deansherwood.com/deansblog)
+
+## [work smarter and be remarkable 🗃️](https://www.worksmartandberemarkable.com/)
+
+## [dave lee 🗃️](http://heydave.org/)
+
+## [today I learned 🗃️](https://til.hashrocket.com/)
+
+## [daring fireball 🗃️](https://til.hashrocket.com/)
+
+## [brad conte 🗃️](http://bradconte.com/)
+
+## [disregard everything I say 🗃️](http://disregardeverythingisay.com/)
+
+
+# scala
+
+
+## [higher order 🗃️](http://blog.higher-order.com/)
+
+
+# css
+
+
+## [css wizardry 🗃️](https://csswizardry.com/archive/)
 

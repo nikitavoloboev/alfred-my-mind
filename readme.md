@@ -1,8 +1,8 @@
 # Alfred interface to my mind 🎗
 
-# [Download]()
+# [Download](https://www.dropbox.com/s/vvr4x66arrjrz8l/nikivi%20mind.alfredworkflow?dl=1)
 
-## [Demonstration](http://quick.as/b1gwsneao) 🚀
+## [Demonstration](http://quick.as/1aj4hlxrb) 🚀
 
 # Description
 
