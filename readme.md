@@ -1,10 +1,10 @@
-# Alfred interface to my mind 🎗
+<h1 align="center">Alfred interface to my mind 🎗</h1>
 
-# [Download](https://www.dropbox.com/s/bg3afy7wli7zuk2/nikivi%27s%20mind.alfredworkflow?dl=1)
+<h2 align="center"><a href="https://www.dropbox.com/s/bg3afy7wli7zuk2/nikivi%27s%20mind.alfredworkflow?dl=1"> Download 💾</a></h2>
 
-## [Demonstration](http://quick.as/j0O2SvxLR) 🚀
+<h2 align="center"><a href="http://quick.as/j0O2SvxLR"> Demonstration 🚀</a></h2>
 
-# Description
+<h1 align="center"> Description</h1>
 
 You can read why this workflow exists in an article [here](https://medium.com/@NikitaVoloboev/opening-up-my-mind-%EF%B8%8F-575c8ece8a24). ✍🏻
 
