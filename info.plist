@@ -8,6 +8,19 @@
 	<string>dev</string>
 	<key>connections</key>
 	<dict>
+		<key>0A7CFA30-436F-426D-A335-F6DB1300ABDB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E7A4EA37-AB0C-4EB1-BDC5-1A01D7B8ADDF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>32890C1F-BF61-4F1E-BE85-019984F68450</key>
 		<array>
 			<dict>
@@ -25,7 +38,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>528B7844-3B84-4C28-8BCF-C0F58DA8A0B8</string>
+				<string>6445A419-2BF7-4CB1-9DD9-DDE8D9CC488B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -57,11 +70,60 @@
 				<false/>
 			</dict>
 		</array>
+		<key>6445A419-2BF7-4CB1-9DD9-DDE8D9CC488B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0A7CFA30-436F-426D-A335-F6DB1300ABDB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>EF7691E8-3805-4528-BAB6-6A1CE3AABDA2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>64E6193D-82E3-41DE-B2C9-C268338E780C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D50F7AEB-EBAA-442E-8C64-A25D042C0A84</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>9F0183BB-32B1-4AE7-A4D0-3840A4A6ECEB</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>32890C1F-BF61-4F1E-BE85-019984F68450</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E7A4EA37-AB0C-4EB1-BDC5-1A01D7B8ADDF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FBB89A0B-1F46-44EF-8687-F2AA41CD0E02</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -83,6 +145,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>EF7691E8-3805-4528-BAB6-6A1CE3AABDA2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>64E6193D-82E3-41DE-B2C9-C268338E780C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>nikivi</string>
@@ -94,19 +169,6 @@
 	<string>nikivi's mind</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>inside</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>413FA2AE-0F4D-4662-9E53-BF30E2735EC6</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -196,35 +258,6 @@ echo "&lt;/items&gt;"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[{"title":"blogs","arg":"inside\/blogs.md","subtitle":""},{"title":"books","arg":"inside\/books.md","subtitle":""},{"title":"courses","arg":"inside\/courses.md","subtitle":""},{"title":"github","arg":"inside\/my-github.md","subtitle":""},{"title":"images","arg":"inside\/images.md","subtitle":""},{"title":"personal","arg":"inside\/personal.md","subtitle":""},{"title":"research papers","arg":"inside\/research-papers.md","subtitle":""},{"title":"reddit","arg":"inside\/reddit.md"},{"title":"web","arg":"inside\/web.md"},{"title":"articles","arg":"inside\/my-articles.md"},{"title":"gists","arg":"inside\/my-gists.md"},{"title":"quora","arg":"inside\/quora.md"},{"title":"notes","arg":"inside\/my-notes.md"},{"title":"twitter","arg":"inside\/twitter.md"},{"title":"learn anything","arg":"inside\/learn-anything.md"}]</string>
-				<key>keyword</key>
-				<string>inside</string>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>notes, bookmarks, blogs</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
-			<key>uid</key>
-			<string>528B7844-3B84-4C28-8BCF-C0F58DA8A0B8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -252,6 +285,35 @@ echo "&lt;/items&gt;"</string>
 			<string>EA1CEA1F-EEDC-4279-B0A4-AD1CEF64DA34</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"blogs","arg":"inside\/blogs.md","subtitle":""},{"title":"books","arg":"inside\/books.md","subtitle":""},{"title":"courses","arg":"inside\/courses.md","subtitle":""},{"title":"github","arg":"inside\/my-github.md","subtitle":""},{"title":"images","arg":"inside\/images.md","subtitle":""},{"title":"personal","arg":"inside\/personal.md","subtitle":""},{"title":"research papers","arg":"inside\/research-papers.md","subtitle":""},{"title":"reddit","arg":"inside\/reddit.md"},{"title":"web","arg":"inside\/web.md"},{"title":"articles","arg":"inside\/my-articles.md"},{"title":"gists","arg":"inside\/my-gists.md"},{"title":"quora","arg":"inside\/quora.md"},{"title":"notes","arg":"inside\/my-notes.md"},{"title":"twitter","arg":"inside\/twitter.md"},{"title":"learn anything","arg":"inside\/learn-anything.md"}]</string>
+				<key>keyword</key>
+				<string>inside</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>notes, bookmarks, blogs</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>528B7844-3B84-4C28-8BCF-C0F58DA8A0B8</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -333,11 +395,190 @@ fi #find</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>FBB89A0B-1F46-44EF-8687-F2AA41CD0E02</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"learn programming 🤖","arg":"https:\/\/www.reddit.com\/r\/learnprogramming\/","subtitle":""},{"title":"programming 🤖","arg":"https:\/\/www.reddit.com\/r\/programming\/","subtitle":""},{"title":"tiny code 🤖","arg":"https:\/\/www.reddit.com\/r\/tinycode\/","subtitle":""},{"title":"daily programmer 🤖","arg":"https:\/\/www.reddit.com\/r\/dailyprogrammer\/","subtitle":""},{"title":"programmer tools 🤖","arg":"https:\/\/www.reddit.com\/r\/programmingtools\/","subtitle":""},{"title":"vim 🤖","arg":"https:\/\/www.reddit.com\/r\/vim\/","subtitle":""},{"title":"vim magic 🤖","arg":"https:\/\/www.reddit.com\/r\/vim_magic\/","subtitle":""},{"title":"programmer til 🤖","arg":"https:\/\/www.reddit.com\/r\/ProgrammerTIL\/","subtitle":""},{"title":"reverse engineering 🤖","arg":"https:\/\/www.reddit.com\/r\/ReverseEngineering\/","subtitle":""},{"title":"coding 🤖","arg":"https:\/\/www.reddit.com\/r\/coding\/","subtitle":""},{"title":"systems 🤖","arg":"https:\/\/www.reddit.com\/r\/systems\/","subtitle":""},{"title":"web dev 🤖","arg":"https:\/\/www.reddit.com\/r\/webdev\/","subtitle":""},{"title":"web design 🤖","arg":"https:\/\/www.reddit.com\/r\/web_design\/","subtitle":""},{"title":"learn javascript 🤖","arg":"https:\/\/www.reddit.com\/r\/learnjavascript\/","subtitle":""},{"title":"node js 🤖","arg":"https:\/\/www.reddit.com\/r\/node\/","subtitle":""},{"title":"front end 🤖","arg":"https:\/\/www.reddit.com\/r\/Frontend\/","subtitle":""},{"title":"rails 🤖","arg":"https:\/\/www.reddit.com\/r\/rails\/","subtitle":""},{"title":"react js 🤖","arg":"https:\/\/www.reddit.com\/r\/reactjs\/","subtitle":""},{"title":"internet is beautiful 🤖","arg":"https:\/\/www.reddit.com\/r\/InternetIsBeautiful\/","subtitle":""},{"title":"listen to this 🤖","arg":"https:\/\/www.reddit.com\/r\/listentothis\/","subtitle":""},{"title":"future beats 🤖","arg":"https:\/\/www.reddit.com\/r\/futurebeats\/","subtitle":""},{"title":"experimental music 🤖","arg":"https:\/\/www.reddit.com\/r\/experimentalmusic\/","subtitle":""},{"title":"future pop music 🤖","arg":"https:\/\/www.reddit.com\/r\/futurepopmusic\/","subtitle":""},{"title":"listen to us 🤖","arg":"https:\/\/www.reddit.com\/r\/listentous\/","subtitle":""},{"title":"future synth 🤖","arg":"https:\/\/www.reddit.com\/r\/futuresynth\/","subtitle":""},{"title":"new retro wave 🤖","arg":"https:\/\/www.reddit.com\/r\/newretrowave\/","subtitle":""},{"title":"80s electro 🤖","arg":"https:\/\/www.reddit.com\/r\/80sElectro\/","subtitle":""},{"title":"cyber punk music 🤖","arg":"https:\/\/www.reddit.com\/r\/Cyberpunk_Music\/","subtitle":""},{"title":"psychonaut 🤖","arg":"https:\/\/www.reddit.com\/r\/Psychonaut\/","subtitle":""},{"title":"rational psychonaut 🤖","arg":"https:\/\/www.reddit.com\/r\/RationalPsychonaut\/","subtitle":""},{"title":"meditation 🤖","arg":"https:\/\/www.reddit.com\/r\/Meditation\/","subtitle":""},{"title":"neuro 🤖","arg":"https:\/\/www.reddit.com\/r\/neuro\/","subtitle":""},{"title":"golang 🤖","arg":"https:\/\/www.reddit.com\/r\/golang\/","subtitle":""},{"title":"swift 🤖","arg":"https:\/\/www.reddit.com\/r\/swift\/","subtitle":""},{"title":"javascript 🤖","arg":"https:\/\/www.reddit.com\/r\/javascript\/","subtitle":""},{"title":"powershell 🤖","arg":"https:\/\/www.reddit.com\/r\/PowerShell\/","subtitle":""},{"title":"python 🤖","arg":"https:\/\/www.reddit.com\/r\/Python\/","subtitle":""},{"title":"java 🤖","arg":"https:\/\/www.reddit.com\/r\/java\/","subtitle":""},{"title":"kotlin 🤖","arg":"https:\/\/www.reddit.com\/r\/factorio\/","subtitle":""},{"title":"haskell 🤖","arg":"https:\/\/www.reddit.com\/r\/haskell\/","subtitle":""},{"title":"perl 🤖","arg":"https:\/\/www.reddit.com\/r\/perl\/","subtitle":""},{"title":"apple 🤖","arg":"https:\/\/www.reddit.com\/r\/apple\/","subtitle":""},{"title":"iosdev 🤖","arg":"https:\/\/www.reddit.com\/r\/iosdev\/","subtitle":""},{"title":"macos 🤖","arg":"https:\/\/www.reddit.com\/r\/MacOS\/","subtitle":""},{"title":"osx 🤖","arg":"https:\/\/www.reddit.com\/r\/osx\/","subtitle":""},{"title":"ios programming 🤖","arg":"https:\/\/www.reddit.com\/r\/iOSProgramming\/","subtitle":""},{"title":"mac apps 🤖","arg":"https:\/\/www.reddit.com\/r\/macapps\/","subtitle":""},{"title":"cs career questions 🤖","arg":"https:\/\/www.reddit.com\/r\/cscareerquestions\/","subtitle":""},{"title":"computer science 🤖","arg":"https:\/\/www.reddit.com\/r\/compsci\/","subtitle":""},{"title":"ask computer science 🤖","arg":"https:\/\/www.reddit.com\/r\/AskComputerScience\/","subtitle":""},{"title":"algorithms 🤖","arg":"https:\/\/www.reddit.com\/r\/algorithms\/","subtitle":""},{"title":"compsci 🤖","arg":"https:\/\/www.reddit.com\/r\/compsci\/","subtitle":""},{"title":"netsec 🤖","arg":"https:\/\/www.reddit.com\/r\/netsec\/","subtitle":""},{"title":"linux 🤖","arg":"https:\/\/www.reddit.com\/r\/linux\/","subtitle":""},{"title":"docker 🤖","arg":"https:\/\/www.reddit.com\/r\/docker\/","subtitle":""},{"title":"android 🤖","arg":"https:\/\/www.reddit.com\/r\/Android\/","subtitle":""},{"title":"health 🤖","arg":"https:\/\/www.reddit.com\/r\/Health\/","subtitle":""},{"title":"get disciplined 🤖","arg":"https:\/\/www.reddit.com\/r\/getdisciplined\/","subtitle":""},{"title":"nootropics 🤖","arg":"https:\/\/www.reddit.com\/r\/Nootropics\/","subtitle":""},{"title":"vegan 🤖","arg":"https:\/\/www.reddit.com\/r\/vegan\/","subtitle":""},{"title":"longevity 🤖","arg":"https:\/\/www.reddit.com\/r\/longevity\/","subtitle":""},{"title":"advanced fitness 🤖","arg":"https:\/\/www.reddit.com\/r\/AdvancedFitness\/","subtitle":""},{"title":"nutrition 🤖","arg":"https:\/\/www.reddit.com\/r\/nutrition\/","subtitle":""},{"title":"patient gamers 🤖","arg":"https:\/\/www.reddit.com\/r\/patientgamers\/","subtitle":""},{"title":"fractals 🤖","arg":"https:\/\/www.reddit.com\/r\/fractals\/","subtitle":""},{"title":"gonwild 🤖","arg":"https:\/\/www.reddit.com\/r\/gonwild\/","subtitle":""},{"title":"holofractal 🤖","arg":"https:\/\/www.reddit.com\/r\/holofractal\/","subtitle":""},{"title":"fived 🤖","arg":"https:\/\/www.reddit.com\/r\/fived\/","subtitle":""},{"title":"hypershape 🤖","arg":"https:\/\/www.reddit.com\/r\/hypershape\/","subtitle":""},{"title":"math 🤖","arg":"https:\/\/www.reddit.com\/r\/math\/","subtitle":""},{"title":"imaginary cityscapes 🤖","arg":"https:\/\/www.reddit.com\/r\/ImaginaryCityscapes\/","subtitle":""},{"title":"factorio 🤖","arg":"https:\/\/www.reddit.com\/r\/factorio\/","subtitle":""},{"title":"stopped working 🤖","arg":"https:\/\/www.reddit.com\/r\/StoppedWorking\/","subtitle":""},{"title":"outside 🤖","arg":"https:\/\/www.reddit.com\/r\/outside\/","subtitle":""},{"title":"nature is lit 🤖","arg":"https:\/\/www.reddit.com\/r\/NatureIsFuckingLit\/","subtitle":""},{"title":"united kingdom 🤖","arg":"https:\/\/www.reddit.com\/r\/unitedkingdom\/","subtitle":""},{"title":"cinemagraphs 🤖","arg":"https:\/\/www.reddit.com\/r\/Cinemagraphs\/","subtitle":""},{"title":"internet of things 🤖","arg":"https:\/\/www.reddit.com\/r\/IOT\/","subtitle":""},{"title":"res 🤖","arg":"https:\/\/www.reddit.com\/r\/Enhancement\/","subtitle":""},{"title":"outrun 🤖","arg":"https:\/\/www.reddit.com\/r\/outrun\/","subtitle":""},{"title":"videos 🤖","arg":"https:\/\/www.reddit.com\/r\/videos\/","subtitle":""},{"title":"i want out 🤖","arg":"https:\/\/www.reddit.com\/r\/IWantOut\/","subtitle":""},{"title":"art 🤖","arg":"https:\/\/www.reddit.com\/r\/Art\/","subtitle":""},{"title":"dotnet 🤖","arg":"https:\/\/www.reddit.com\/r\/dotnet\/","subtitle":""},{"title":"btc 🤖","arg":"https:\/\/www.reddit.com\/r\/btc\/","subtitle":""},{"title":"sociology 🤖","arg":"https:\/\/www.reddit.com\/r\/sociology\/","subtitle":""},{"title":"marketing 🤖","arg":"https:\/\/www.reddit.com\/r\/marketing\/","subtitle":""},{"title":"arduino 🤖","arg":"https:\/\/www.reddit.com\/r\/arduino\/","subtitle":""},{"title":"simple living 🤖","arg":"https:\/\/www.reddit.com\/r\/simpleliving\/","subtitle":""},{"title":"NLP 🤖","arg":"https:\/\/www.reddit.com\/r\/LanguageTechnology\/","subtitle":""},{"title":"procedural generation 🤖","arg":"https:\/\/www.reddit.com\/r\/proceduralgeneration\/","subtitle":""},{"title":"knowledge map 🤖","arg":"https:\/\/www.reddit.com\/r\/factorio\/","subtitle":""},{"title":"data science 🤖","arg":"https:\/\/www.reddit.com\/r\/datascience\/","subtitle":""},{"title":"late stage capitalism 🤖","arg":"https:\/\/www.reddit.com\/r\/LateStageCapitalism\/","subtitle":""},{"title":"history 🤖","arg":"https:\/\/www.reddit.com\/r\/history\/","subtitle":""},{"title":"financial independence 🤖","arg":"https:\/\/www.reddit.com\/r\/financialindependence\/","subtitle":""},{"title":"stoicism 🤖","arg":"https:\/\/www.reddit.com\/r\/Stoicism\/","subtitle":""},{"title":"philosophy 🤖","arg":"https:\/\/www.reddit.com\/r\/philosophy\/","subtitle":""},{"title":"anthropology 🤖","arg":"https:\/\/www.reddit.com\/r\/Anthropology\/","subtitle":""},{"title":"fitness 🤖","arg":"https:\/\/www.reddit.com\/r\/Fitness\/","subtitle":""},{"title":"singularity 🤖","arg":"https:\/\/www.reddit.com\/r\/singularity\/","subtitle":""},{"title":"ynab 🤖","arg":"https:\/\/www.reddit.com\/r\/ynab\/","subtitle":""},{"title":"investing 🤖","arg":"https:\/\/www.reddit.com\/r\/investing\/","subtitle":""},{"title":"depthhub 🤖","arg":"https:\/\/www.reddit.com\/r\/DepthHub\/","subtitle":""},{"title":"lectures 🤖","arg":"https:\/\/www.reddit.com\/r\/lectures\/","subtitle":""},{"title":"anki 🤖","arg":"https:\/\/www.reddit.com\/r\/Anki\/","subtitle":""},{"title":"cognitive science 🤖","arg":"https:\/\/www.reddit.com\/r\/cogsci\/","subtitle":""},{"title":"artificial intelligence 🤖","arg":"https:\/\/www.reddit.com\/r\/artificial\/","subtitle":""},{"title":"minimalism 🤖","arg":"https:\/\/www.reddit.com\/r\/minimalism\/","subtitle":""},{"title":"startups 🤖","arg":"https:\/\/www.reddit.com\/r\/startups\/","subtitle":""},{"title":"true film 🤖","arg":"https:\/\/www.reddit.com\/r\/TrueFilm\/","subtitle":""},{"title":"privacy 🤖","arg":"https:\/\/www.reddit.com\/r\/privacy\/","subtitle":""},{"title":"out of the loop 🤖","arg":"https:\/\/www.reddit.com\/r\/OutOfTheLoop\/","subtitle":""},{"title":"technology 🤖","arg":"https:\/\/www.reddit.com\/r\/technology\/","subtitle":""},{"title":"ELI 5 🤖","arg":"https:\/\/www.reddit.com\/r\/explainlikeimfive\/","subtitle":""},{"title":"askreddit 🤖","arg":"https:\/\/www.reddit.com\/r\/AskReddit\/","subtitle":""},{"title":"data is beautiful 🤖","arg":"https:\/\/www.reddit.com\/r\/dataisbeautiful\/","subtitle":""},{"title":"futurology 🤖","arg":"https:\/\/www.reddit.com\/r\/Futurology\/","subtitle":""},{"title":"ask historians 🤖","arg":"http:\/\/www.reddit.com\/r\/askhistorians","subtitle":""},{"title":"lsd 🤖","arg":"https:\/\/www.reddit.com\/r\/LSD\/","subtitle":""},{"title":"art history 🤖","arg":"https:\/\/www.reddit.com\/r\/ArtHistory\/","subtitle":""},{"title":"drug nerds 🤖","arg":"https:\/\/www.reddit.com\/r\/DrugNerds\/","subtitle":""},{"title":"machine learning 🤖","arg":"https:\/\/www.reddit.com\/r\/MachineLearning\/","subtitle":""},{"title":"big data 🤖","arg":"https:\/\/www.reddit.com\/r\/bigdata\/","subtitle":""},{"title":"askscience 🤖","arg":"https:\/\/www.reddit.com\/r\/askscience\/","subtitle":""},{"title":"quantum computing 🤖","arg":"https:\/\/www.reddit.com\/r\/QuantumComputing\/","subtitle":""},{"title":"computational chemistry 🤖","arg":"https:\/\/www.reddit.com\/r\/comp_chem\/","subtitle":""},{"title":"explorables 🤖","arg":"https:\/\/www.reddit.com\/r\/explorables\/","subtitle":""},{"title":"physics 🤖","arg":"https:\/\/www.reddit.com\/r\/Physics\/","subtitle":""},{"title":"chemistry 🤖","arg":"https:\/\/www.reddit.com\/r\/chemistry\/","subtitle":""},{"title":"astronomy 🤖","arg":"https:\/\/www.reddit.com\/r\/Astronomy\/","subtitle":""},{"title":"science 🤖","arg":"https:\/\/www.reddit.com\/r\/science\/","subtitle":""},{"title":"bike commuting 🤖","arg":"https:\/\/www.reddit.com\/r\/bikecommuting\/","subtitle":""}]</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>E7A4EA37-AB0C-4EB1-BDC5-1A01D7B8ADDF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>reddit</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>0A7CFA30-436F-426D-A335-F6DB1300ABDB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"reddit","arg":"reddit"},{"title":"blogs","arg":"blogs","subtitle":""},{"title":"courses","arg":"courses","subtitle":""},{"title":"books","arg":"inside\/books.md","subtitle":""},{"title":"github","arg":"inside\/my-github.md","subtitle":""},{"title":"images","arg":"inside\/images.md","subtitle":""},{"title":"personal","arg":"inside\/personal.md","subtitle":""},{"title":"research papers","arg":"inside\/research-papers.md","subtitle":""},{"title":"web","arg":"inside\/web.md"},{"title":"articles","arg":"inside\/my-articles.md"},{"title":"gists","arg":"inside\/my-gists.md"},{"title":"quora","arg":"inside\/quora.md"},{"title":"notes","arg":"inside\/my-notes.md"},{"title":"twitter","arg":"inside\/twitter.md"},{"title":"learn anything","arg":"inside\/learn-anything.md"}]</string>
+				<key>keyword</key>
+				<string>inside</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>notes, bookmarks, blogs</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>6445A419-2BF7-4CB1-9DD9-DDE8D9CC488B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>inside</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>413FA2AE-0F4D-4662-9E53-BF30E2735EC6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>D50F7AEB-EBAA-442E-8C64-A25D042C0A84</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>courses</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>EF7691E8-3805-4528-BAB6-6A1CE3AABDA2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"notes 🐙","arg":"https:\/\/github.com\/1094401996\/machine-learning-coursera","subtitle":""},{"title":"lectures","arg":"https:\/\/www.youtube.com\/playlist?list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_","subtitle":""},{"title":"lecture notes","arg":"http:\/\/www-inst.eecs.berkeley.edu\/%7Ecs61c\/sp15\/#Calendar","subtitle":""},{"title":"course resources","arg":"http:\/\/www-inst.eecs.berkeley.edu\/%7Ecs61c\/sp15\/#Resources","subtitle":""},{"title":"old exams","arg":"https:\/\/hkn.eecs.berkeley.edu\/exams\/course\/CS\/61C","subtitle":""},{"title":"lectures 👀","arg":"https:\/\/www.youtube.com\/watch?v=2pWv7GOvuf0&amp;feature=youtu.be&amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT","subtitle":""},{"title":"14: stanford functional systems in haskell 📝","arg":"http:\/\/www.scs.stanford.edu\/14sp-cs240h\/","subtitle":""},{"title":"16: introduction to haskell 📝","arg":"http:\/\/www.seas.upenn.edu\/%7Ecis194\/spring13\/","subtitle":""},{"title":"16: rust programming 📝","arg":"http:\/\/cis198-2016s.github.io\/","subtitle":""},{"title":"functional programming principles in scala 📝","arg":"https:\/\/www.coursera.org\/learn\/progfun1","subtitle":""}]</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>64E6193D-82E3-41DE-B2C9-C268338E780C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>0A7CFA30-436F-426D-A335-F6DB1300ABDB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>320</integer>
+			<key>ypos</key>
+			<integer>470</integer>
+		</dict>
 		<key>0E2B9AC8-68E6-4A5B-AB40-5F19AD2C7ED5</key>
 		<dict>
 			<key>colorindex</key>
@@ -361,7 +602,7 @@ fi #find</string>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>480</integer>
 		</dict>
 		<key>41FE3A4B-ACE8-427D-B415-075F79AE9BC3</key>
 		<dict>
@@ -375,9 +616,27 @@ fi #find</string>
 			<key>note</key>
 			<string>notes, bookmarks, blogs</string>
 			<key>xpos</key>
-			<integer>160</integer>
+			<integer>170</integer>
 			<key>ypos</key>
 			<integer>60</integer>
+		</dict>
+		<key>6445A419-2BF7-4CB1-9DD9-DDE8D9CC488B</key>
+		<dict>
+			<key>note</key>
+			<string>notes, bookmarks, blogs</string>
+			<key>xpos</key>
+			<integer>160</integer>
+			<key>ypos</key>
+			<integer>480</integer>
+		</dict>
+		<key>64E6193D-82E3-41DE-B2C9-C268338E780C</key>
+		<dict>
+			<key>note</key>
+			<string>courses</string>
+			<key>xpos</key>
+			<integer>390</integer>
+			<key>ypos</key>
+			<integer>540</integer>
 		</dict>
 		<key>9F0183BB-32B1-4AE7-A4D0-3840A4A6ECEB</key>
 		<dict>
@@ -386,12 +645,42 @@ fi #find</string>
 			<key>ypos</key>
 			<integer>50</integer>
 		</dict>
+		<key>D50F7AEB-EBAA-442E-8C64-A25D042C0A84</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>540</integer>
+		</dict>
+		<key>E7A4EA37-AB0C-4EB1-BDC5-1A01D7B8ADDF</key>
+		<dict>
+			<key>note</key>
+			<string>reddit</string>
+			<key>xpos</key>
+			<integer>390</integer>
+			<key>ypos</key>
+			<integer>400</integer>
+		</dict>
 		<key>EA1CEA1F-EEDC-4279-B0A4-AD1CEF64DA34</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>130</integer>
+			<integer>60</integer>
+		</dict>
+		<key>EF7691E8-3805-4528-BAB6-6A1CE3AABDA2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>320</integer>
+			<key>ypos</key>
+			<integer>540</integer>
+		</dict>
+		<key>FBB89A0B-1F46-44EF-8687-F2AA41CD0E02</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>400</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

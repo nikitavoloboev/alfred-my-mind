@@ -1,8 +1,8 @@
 <h1 align="center">Alfred interface to my mind 🎗</h1>
 
-<h1 align="center"><a href="https://www.dropbox.com/s/bg3afy7wli7zuk2/nikivi%27s%20mind.alfredworkflow?dl=1"> Download 💾</a></h1>
+<h1 align="center"><a href="https://www.dropbox.com/s/bg3afy7wli7zuk2/nikivi%27s%20mind.alfredworkflow?dl=1"> Download 🍀</a></h1>
 
-<h2 align="center"><a href="http://quick.as/j0O2SvxLR"> Demonstration 🍀</a></h2>
+<h2 align="center"><a href="http://quick.as/j0O2SvxLR"> Demonstration 👀</a></h2>
 
 <h1 align="center"> Description</h1>
 
