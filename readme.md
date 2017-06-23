@@ -1,6 +1,6 @@
 <h1 align="center">Alfred interface to my mind 🎗</h1>
 
-<h1 align="center"><a href="https://github.com/nikitavoloboev/alfred-my-mind/releases/latest"> Latest Release 🍀</a></h1>
+<h1 align="center"><a href="https://github.com/nikitavoloboev/alfred-my-mind/releases/latest"> Latest Version 🍀</a></h1>
 
 <h2 align="center"><a href="http://quick.as/j0O2SvxLR"> Demonstration 👀</a></h2>
 
