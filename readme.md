@@ -12,5 +12,3 @@ You can read why this workflow exists in an article [here](https://medium.com/@N
 Essentially you can search through all of my notes, bookmarks, blogs, github users, images, research papers and more that I use to move and learn things faster.
 
 ![](http://i.imgur.com/4wvJNy6.png)
-
-test
