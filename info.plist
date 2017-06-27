@@ -8,6 +8,19 @@
 	<string>dev</string>
 	<key>connections</key>
 	<dict>
+		<key>0796E35E-23A6-4F1A-A98B-B3A3969A53D7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>27E5C22B-BE1F-4F80-88AB-FCFE975C4410</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>096EDDE9-2074-4F14-8808-0FA550235052</key>
 		<array>
 			<dict>
@@ -117,6 +130,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>A1B84D97-AA1F-4597-A164-138FC0B6A71D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>27E5C22B-BE1F-4F80-88AB-FCFE975C4410</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>56970757-4076-47DE-BAA2-B1B1D8638A97</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -244,6 +270,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>A6705B58-E2B1-43A9-B272-B11ED668F3B6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>56970757-4076-47DE-BAA2-B1B1D8638A97</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D6DB8F7E-57F3-4C60-88A0-00B69565C754</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -443,6 +482,16 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>CD52395E-1951-4560-8538-7DC83DD4789C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0796E35E-23A6-4F1A-A98B-B3A3969A53D7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1313,92 +1362,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/alfred-my-mind/1.0/info.plist"
-readonly workflow_url="https://github.com/nikitavoloboev/alfred-my-mind/releases/download/1.0/nikivi.s.mind.alfredworkflow"
-readonly workflow_type='workflow'
-readonly frequency_check='0'
-
-# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING
-function abort {
-  echo "${1}" &gt;&amp;2
-  exit 1
-}
-
-function url_exists {
-  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
-}
-
-function notification {
-  readonly local notificator="$(find . -type d -name 'Notificator.app')"
-  if [[ -n "${notificator}" ]]; then
-    "${notificator}/Contents/Resources/Scripts/notificator" --title "${alfred_workflow_name}" --subtitle 'A new version is availale' --message "${1}"
-    return
-  fi
-
-  readonly local terminal_notifier="$(find . -type f -name 'terminal-notifier')"
-  if [[ -n "${terminal_notifier}" ]]; then
-    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
-    return
-  fi
-
-  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
-}
-
-# Local sanity checks
-readonly local_info_plist='info.plist'
-readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
-
-[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
-[[ "${workflow_type}" =~ ^(workflow|page)$ ]] || abort "'workflow_type' (${workflow_type}) needs to be one of 'workflow' or 'page'."
-[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
-
-# Check for updates
-if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
-  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
-
-  readonly tmp_file="$(mktemp)"
-  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
-  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
-
-  if [[ "${local_version}" != "${remote_version}" ]]; then
-    if [[ "${workflow_type}" == 'page' ]]; then
-      notification 'Opening download page…'
-      open "${workflow_url}"
-    else
-      if url_exists "${workflow_url}"; then
-        notification 'Downloading and installing…'
-        curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${workflow_url}"
-        open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
-      else
-        abort "'workflow_url' (${workflow_url}) appears to not be reachable."
-      fi # url_exists
-    fi # workflow_type
-  else
-    touch "${local_info_plist}" # Reset timer by touching local file
-  fi # diff
-fi #find</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>30678076-BB4C-4024-9C5D-BDFA37D2BC65</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -1486,48 +1449,6 @@ fi #find</string>
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"reddit","arg":"reddit"},{"title":"blogs","arg":"blogs","subtitle":""},{"title":"courses","arg":"courses","subtitle":""},{"title":"books","arg":"books","subtitle":""},{"title":"github","arg":"github","subtitle":""},{"title":"images","arg":"images","subtitle":""},{"title":"personal","arg":"personal","subtitle":""},{"title":"research papers","arg":"research papers","subtitle":""},{"title":"web","arg":"web"},{"title":"articles","arg":"articles"},{"title":"gists","arg":"gists"},{"title":"quora","arg":"quora"},{"title":"notes","arg":"notes"},{"title":"twitter","arg":"twitter"},{"title":"LA blogs","arg":"LA blogs"},{"title":"\u0016LA check","arg":"check"}]</string>
-				<key>keyword</key>
-				<string>inside</string>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>notes, bookmarks, blogs</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
-			<key>uid</key>
-			<string>6445A419-2BF7-4CB1-9DD9-DDE8D9CC488B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>inside</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>413FA2AE-0F4D-4662-9E53-BF30E2735EC6</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
 				<string>[{"title":"heavy mind","arg":"http:\/\/imgur.com\/a\/om6BB","subtitle":""},{"title":"humans","arg":"https:\/\/imgur.com\/a\/p9FC3","subtitle":""},{"title":"setups","arg":"https:\/\/imgur.com\/a\/BinVf","subtitle":""},{"title":"minimalism","arg":"http:\/\/imgur.com\/a\/IZPbP","subtitle":""},{"title":"nature","arg":"https:\/\/imgur.com\/a\/56pFc","subtitle":""},{"title":"space","arg":"http:\/\/imgur.com\/a\/uymmM","subtitle":""},{"title":"animals","arg":"http:\/\/imgur.com\/a\/yNpGf","subtitle":""},{"title":"math","arg":"http:\/\/imgur.com\/a\/hmK2C","subtitle":""},{"title":"physics","arg":"http:\/\/imgur.com\/a\/Reo8S","subtitle":""},{"title":"funny","arg":"http:\/\/imgur.com\/a\/NAZ9l","subtitle":""},{"title":"art","arg":"http:\/\/imgur.com\/a\/3m5wf","subtitle":""},{"title":"unix","arg":"http:\/\/imgur.com\/a\/7osPZ","subtitle":""},{"title":"wallpapers","arg":"http:\/\/imgur.com\/a\/SOiPJ","subtitle":""},{"title":"earth","arg":"https:\/\/imgur.com\/a\/4U5P7","subtitle":""},{"title":"cats","arg":"https:\/\/imgur.com\/a\/TgL0x","subtitle":""},{"title":"dogs","arg":"http:\/\/imgur.com\/a\/CExqu","subtitle":""},{"title":"geometric","arg":"http:\/\/imgur.com\/a\/7ThWP","subtitle":""},{"title":"photos - artistic","arg":"https:\/\/imgur.com\/a\/jAEYj","subtitle":""},{"title":"funny - o’rly covers","arg":"http:\/\/imgur.com\/a\/Ykcyb","subtitle":""},{"title":"snowflakes under a microscope","arg":"http:\/\/imgur.com\/a\/4rE1H","subtitle":""},{"title":"404 pages","arg":"http:\/\/imgur.com\/a\/NJ2X7","subtitle":""},{"title":"photos - beautiful","arg":"https:\/\/imgur.com\/a\/vA2Ly","subtitle":""},{"title":"xkcd - favourite","arg":"http:\/\/imgur.com\/a\/LK364","subtitle":""},{"title":"funny - programming","arg":"http:\/\/imgur.com\/a\/hb4nX","subtitle":""},{"title":"art - psychedelic","arg":"http:\/\/imgur.com\/a\/9yOpt","subtitle":""},{"title":"psychedelic","arg":"http:\/\/imgur.com\/a\/urG7X","subtitle":""},{"title":"art - James R. Eads","arg":"http:\/\/imgur.com\/a\/Aao8R","subtitle":""},{"title":"replications","arg":"http:\/\/imgur.com\/a\/ep7CH","subtitle":""}]</string>
 				<key>runningsubtext</key>
 				<string></string>
@@ -1597,37 +1518,6 @@ fi #find</string>
 			<string>AED05DBE-54B2-4E66-A7A9-5409176BA5A0</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>C8C01147-B974-49A7-96D6-FD7A9C7D5586</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1708,6 +1598,92 @@ fi #find</string>
 			<string>3CD2BE81-5971-435B-94F5-F67263FC6F05</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/alfred-my-mind/1.0/info.plist"
+readonly workflow_url="https://github.com/nikitavoloboev/alfred-my-mind/releases/download/1.0/nikivi.s.mind.alfredworkflow"
+readonly workflow_type='workflow'
+readonly frequency_check='15'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  readonly local notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --title "${alfred_workflow_name}" --subtitle 'A new version is availale' --message "${1}"
+    return
+  fi
+
+  readonly local terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${workflow_type}" =~ ^(workflow|page)$ ]] || abort "'workflow_type' (${workflow_type}) needs to be one of 'workflow' or 'page'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" != "${remote_version}" ]]; then
+    if [[ "${workflow_type}" == 'page' ]]; then
+      notification 'Opening download page…'
+      open "${workflow_url}"
+    else
+      if url_exists "${workflow_url}"; then
+        notification 'Downloading and installing…'
+        curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${workflow_url}"
+        open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+      else
+        abort "'workflow_url' (${workflow_url}) appears to not be reachable."
+      fi # url_exists
+    fi # workflow_type
+  else
+    touch "${local_info_plist}" # Reset timer by touching local file
+  fi # diff
+fi #find</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>30678076-BB4C-4024-9C5D-BDFA37D2BC65</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1799,6 +1775,48 @@ fi #find</string>
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
+				<string>[{"title":"reddit","arg":"reddit"},{"title":"blogs","arg":"blogs","subtitle":""},{"title":"courses","arg":"courses","subtitle":""},{"title":"books","arg":"books","subtitle":""},{"title":"github","arg":"github","subtitle":""},{"title":"images","arg":"images","subtitle":""},{"title":"personal","arg":"personal","subtitle":""},{"title":"research papers","arg":"research papers","subtitle":""},{"title":"web","arg":"web"},{"title":"articles","arg":"articles"},{"title":"gists","arg":"gists"},{"title":"quora","arg":"quora"},{"title":"notes","arg":"notes"},{"title":"twitter","arg":"twitter"},{"title":"LA blogs","arg":"LA blogs"},{"title":"LA mentions","arg":"check"},{"title":"humans","arg":"humans"}]</string>
+				<key>keyword</key>
+				<string>inside</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>notes, bookmarks, blogs</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>6445A419-2BF7-4CB1-9DD9-DDE8D9CC488B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>inside</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>413FA2AE-0F4D-4662-9E53-BF30E2735EC6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
 				<string>[{"title":"academia 🗺️","arg":"https:\/\/my.mindnode.com\/w8nLZUNfczTJSbzZEcTKN12CfkvDSCE3x4nwWzzq","subtitle":""},{"title":"advice 🗺️","arg":"https:\/\/my.mindnode.com\/AMWqLcbRWy1gMJaCgDnYkwq7Hyg16a1SHER3Bevh","subtitle":""},{"title":"ai 🗺️","arg":"https:\/\/my.mindnode.com\/EiSzSXEzxBK63KXUfzcWSpm4Gr7kLfPNC5nDPu1Q","subtitle":""},{"title":"ai algorithms 🗺️","arg":"https:\/\/my.mindnode.com\/5s1e1uqYzxovBt8pPpiS1CwM9F3zyE2qxV7Akc8K","subtitle":""},{"title":"alfred 🗺️","arg":"https:\/\/my.mindnode.com\/nGqZuMj3dNGbycpppaizg8Y2AXqkZPkpihXSQkn1","subtitle":""},{"title":"algebra 🗺️","arg":"https:\/\/my.mindnode.com\/WePuU3VttdFCvxoE4rCq4mrwaQsY3KxQexbsq1hp","subtitle":""},{"title":"algorithms 🗺️","arg":"https:\/\/my.mindnode.com\/AAcCxWCPwdMJsJSpqPPeQkNufM5CcNYxjB1G9fCf","subtitle":""},{"title":"amazon 🗺️","arg":"https:\/\/my.mindnode.com\/TUAQHWsQdwf9r6ZYacCxib61xm8N7fpDjyz3nsmT","subtitle":""},{"title":"analysis 🗺️","arg":"https:\/\/my.mindnode.com\/bNq8qWPMCbt9GgjoacfvLNfpDoCsVzmkCpJs4wM1","subtitle":""},{"title":"android 🗺️","arg":"https:\/\/my.mindnode.com\/VpwFg9eb6XBHbvuMRM4yanpyzaSVMpxJptWessvv","subtitle":""},{"title":"antimatter 🗺️","arg":"https:\/\/my.mindnode.com\/vE6G4KqBpuzxNuz1RHWVvtKhzVHGdi7rjyEZsb9a","subtitle":""},{"title":"api 🗺️","arg":"https:\/\/my.mindnode.com\/yzsbVz8YJ7LFgS2Mj3ix4BWBpEStwu88Egn1eZMs","subtitle":""},{"title":"bash 🗺️","arg":"https:\/\/my.mindnode.com\/GDnCm8yQJdTXQwBgDLis8pyzH15hDmsozmWEoxqx","subtitle":""},{"title":"big O 🗺️","arg":"https:\/\/my.mindnode.com\/jfFc7qRvx3xg85qiKUug3osNxjhrsBjsSspYHdh4","subtitle":""},{"title":"bitwise operations 🗺️","arg":"https:\/\/my.mindnode.com\/SPuK4PGNp7nLV6daAyzVyDt6Gy1pqyDpxMVWPno4","subtitle":""},{"title":"black holes 🗺️","arg":"https:\/\/my.mindnode.com\/b6bdVJq1skGwKPJKqFzqaYBxMr9iEG9ADwzZvkjZ","subtitle":""},{"title":"brain 🗺️","arg":"https:\/\/my.mindnode.com\/ynpAeT2u4Zfqssdpyi1eSMskLMxKsm5Zk1bPFVrq","subtitle":""},{"title":"calculus 🗺️","arg":"https:\/\/my.mindnode.com\/VazGizvy2KhqWrxYNy4PYtGK7W31szRPSNShpcX2","subtitle":""},{"title":"business 🗺️","arg":"https:\/\/my.mindnode.com\/uVpoobPYRGsNs39cWG37vskxowULtixRLGn2uNNu","subtitle":""},{"title":"capitalism 🗺️","arg":"https:\/\/my.mindnode.com\/9RJRsYsiC1oSMy8veVVMSugNWv6pdqg6sfuXsH8g","subtitle":""},{"title":"category theory 🗺️","arg":"https:\/\/my.mindnode.com\/CqzhQ55CL2nJ2P6jTg99op8o9XQsQRxzC8JJ898z","subtitle":""},{"title":"chemistry 🗺️","arg":"https:\/\/my.mindnode.com\/uTQdQWbx69XNBTj6zp1qSpki5Dwo1bSdkEg1XTrz","subtitle":""},{"title":"competitive programming 🗺️","arg":"https:\/\/my.mindnode.com\/fbJ1AEKgp1pvKsdmAbZqKpCxsMDkx3DFsx8CQJ5h","subtitle":""},{"title":"control theory 🗺️","arg":"https:\/\/my.mindnode.com\/5CfqKvs59zjyPKqyLppwEcHoNxrcxDPXoVpZfGaM","subtitle":""},{"title":"creativity 🗺️","arg":"https:\/\/my.mindnode.com\/yCRqxhtpEbCRx8u3zPvHDGpVNyKdTzsa53LHDVLn","subtitle":""},{"title":"cryptocurrency 🗺️","arg":"https:\/\/my.mindnode.com\/2Vbv3Zssxzs8yqpmgLQBWzwzyyyzngtsPAGgSrz4","subtitle":""},{"title":"cryptography 🗺️","arg":"https:\/\/my.mindnode.com\/9Tybt6ovvYKzUvcFQis1HeFJvq2qnB3j17Ms3t5K","subtitle":""},{"title":"cs 🗺️","arg":"https:\/\/my.mindnode.com\/JGA9WYyxQQVYi539jLqBG1SgrYYFeCU6NRkCFJYF","subtitle":""},{"title":"databases 🗺️","arg":"https:\/\/my.mindnode.com\/X5TB2yUz6qeab5VnxjhuqW22XFpkeVf41awM8fME","subtitle":""},{"title":"decision theory 🗺️","arg":"https:\/\/my.mindnode.com\/sNsDF6gZMFXpazLbz3yssP1HSFYX4eP4xgrL1ks2","subtitle":""},{"title":"design patterns 🗺️","arg":"https:\/\/my.mindnode.com\/P1BHPUnVH91sCqvwk6pbNDazXThpRYeTEMhgmMjo","subtitle":""},{"title":"discrete math 🗺️","arg":"https:\/\/my.mindnode.com\/2nLdTaCfxtCkUkNLLiYu4sxdWjr9bRANg4ydm67A","subtitle":""},{"title":"dna 🗺️","arg":"https:\/\/my.mindnode.com\/Mup8YF1esNzGjLMiKTognz6HkLop3e24RAyeEa8Q","subtitle":""},{"title":"documentaries 🗺️","arg":"https:\/\/my.mindnode.com\/uskHbPRmV6hdnDy3CPP2hDosCJPAQ2akrEh8Pvs4","subtitle":""},{"title":"dynamic programming 🗺️","arg":"https:\/\/my.mindnode.com\/SChAN9cyGTecAFLW1fvhXRvL4qUqzyegZxZcBmez","subtitle":""},{"title":"economics 🗺️","arg":"https:\/\/my.mindnode.com\/EydTQD5iyFJjYzevdWXoVFvqKps4svqnz1pyicYR","subtitle":""},{"title":"electrical engineering 🗺️","arg":"https:\/\/my.mindnode.com\/N2pvxxUzRP1Gukep8hmF7dxg91mHjXwqes7jdaCE","subtitle":""},{"title":"education 🗺️","arg":"https:\/\/my.mindnode.com\/gTypCKY5ZrreftaqTWqQ4EHPbzRWcX4hj1KxyDd8","subtitle":""},{"title":"english 🗺️","arg":"https:\/\/my.mindnode.com\/UTqjAbhyLspXu2qypReAiEdfpXftzxmetACEYpvM","subtitle":""},{"title":"financial independence 🗺️","arg":"https:\/\/my.mindnode.com\/ns6bdhrhQsskjB1CE4NtT8M6sz9rhooSsFpuqm3K","subtitle":""},{"title":"fuchsia 🗺️","arg":"https:\/\/my.mindnode.com\/1nnUUynxx5mSqMX8XQ6iGMC5UqwyeuuCMqxVsqZq","subtitle":""},{"title":"functions 🗺️","arg":"https:\/\/my.mindnode.com\/S8sGizPinss5LxZSRkSay1sfPBQoHmpE4ex9gcRp","subtitle":""},{"title":"game development 🗺️","arg":"https:\/\/my.mindnode.com\/pyTdTbZ46po7utfWxr79bsg367wLUwRMbkYHUePD","subtitle":""},{"title":"game theory 🗺️","arg":"https:\/\/my.mindnode.com\/3RNn1ekZyfZ3ubzzxBzqkB3CUFr8Ua5ZGDshzBdP","subtitle":""},{"title":"geometry 🗺️","arg":"https:\/\/my.mindnode.com\/iPMHqtrEeKq6sY77YnvmQPsdFpAnLSdp2HzZV95C","subtitle":""},{"title":"git 🗺️","arg":"https:\/\/my.mindnode.com\/tUCqtHCNkBNspHGSxeLKKhwoRcL1oYtvyBeZgCEU","subtitle":""},{"title":"go language 🗺️","arg":"https:\/\/my.mindnode.com\/UvcRbpzysTYHXhz4UZwYwsZwVMhcTGvKHyquXh4p","subtitle":""},{"title":"graph algos 🗺️","arg":"https:\/\/my.mindnode.com\/qJE18D7nF6gvcJ8i5zy4pUx47Fwq8xdsf3MAPgbJ","subtitle":""},{"title":"graph theory 🗺️","arg":"https:\/\/my.mindnode.com\/MVhsVJ3hefXKpzuoESZk5qzpwH5ihY38C8dXJ77j","subtitle":""},{"title":"growth hacking 🗺️","arg":"https:\/\/my.mindnode.com\/UD2ftUynyHW4wQsTz8wbghq6V3vyjbQiYWmouDzx","subtitle":""},{"title":"guitar 🗺️","arg":"https:\/\/my.mindnode.com\/XsSHzYEGp6WFBL4HHkdpmmYHywPKAF2p1271GqtZ","subtitle":""},{"title":"hackathons 🗺️","arg":"https:\/\/my.mindnode.com\/Zf2mMabjpkMTssJZVNaXskeuFs4s8uv8o2tzqsVj","subtitle":""},{"title":"haskell 🗺️","arg":"https:\/\/my.mindnode.com\/ZLzsV6RSzjKx7L71ss8GVMRqmUJuHye2vpwpV1rc","subtitle":""},{"title":"ideas 🗺️","arg":"https:\/\/my.mindnode.com\/nFyqYEGM9zkBzBUUCHDHUyfJX3pwjszzXgrgLajt","subtitle":""},{"title":"idris language 🗺️","arg":"https:\/\/my.mindnode.com\/yZjpaZ1jyTPqWfDwgs2Fiwe7QUaYQxcnzotfqpJj","subtitle":""},{"title":"interesting 🗺️","arg":"https:\/\/my.mindnode.com\/cxKjRwycZEPgmcN1Bu5ZHYL7mgjvonawcWUttx4Z","subtitle":""},{"title":"internet of things 🗺️","arg":"https:\/\/my.mindnode.com\/HEJBhFnb9cG6oRmPcuCHHR2e3YJGiLc8adDksXqu","subtitle":""},{"title":"iOS 🗺️","arg":"https:\/\/my.mindnode.com\/ZQrVmhCPCKLTQAExqRRRp6vE7dyY4qgzxdd3JBbK","subtitle":""},{"title":"interview prep 🗺️","arg":"https:\/\/my.mindnode.com\/74shGqz57xynsytaEmPNycqUMbwSqGBEy5sbyuJd","subtitle":""},{"title":"java 🗺️","arg":"https:\/\/my.mindnode.com\/uW6gNqfJnX8MqQJdmFTYvswRDypSKNDVzTWSUqQs","subtitle":""},{"title":"kernel 🗺️","arg":"https:\/\/my.mindnode.com\/4tJzMdsTPnq5qbgP3p8y3vVyx2XehnDHocqcZDEf","subtitle":""},{"title":"latex 🗺️","arg":"https:\/\/my.mindnode.com\/a4K82tYLVvppFDi83jmKpto629B1EmzWoLvzNK3L","subtitle":""},{"title":"learning techniques 🗺️","arg":"https:\/\/my.mindnode.com\/dvX2qpxmrhpkqarsfykGgrLg8aysueTPAycqhhNq","subtitle":""},{"title":"light 🗺️","arg":"https:\/\/my.mindnode.com\/RxxJDwCpXgdCsDxj1mBRxxGso3Dc7nfyt88sFjb3","subtitle":""},{"title":"linear algebra 🗺️","arg":"https:\/\/my.mindnode.com\/q98qxZu6vxeRacnDJksQs4CHvLFhmuVUoqH2bRqr","subtitle":""},{"title":"linux 🗺️","arg":"https:\/\/my.mindnode.com\/FfNkZPmBQzHSvyYr2KEgP5xNdg8pS23x95ChQhnz","subtitle":""},{"title":"live talks 🗺️","arg":"https:\/\/my.mindnode.com\/nQ7EssnyfTAvL537T5fbfYKyPQMMh2rwmdD3kTYr","subtitle":""},{"title":"logic 🗺️","arg":"https:\/\/my.mindnode.com\/udLymVCptv6K7YteJzSN4oC1PLawZpHqhRP2zJxz","subtitle":""},{"title":"longevity 🗺️","arg":"https:\/\/my.mindnode.com\/gbss6GyEQkYBYgSArjWDo6qSUunzNKSsJNw81wxu","subtitle":""},{"title":"lysergamide 🗺️","arg":"https:\/\/my.mindnode.com\/S7x2oPpKhXuE4pyqmsRmnCwLXXn4YkK6sfnCmFzx","subtitle":""},{"title":"machine learning 🗺️","arg":"https:\/\/my.mindnode.com\/sUiNTVRSx6pvLvsmaqgUZCrSsmkhFAN5p55WS9Az","subtitle":""},{"title":"macOS apps 🗺️","arg":"https:\/\/my.mindnode.com\/pNGBkeHxS7UvFepVD7tYKMG5rRnFkxTYoXsTRbQP","subtitle":""},{"title":"management 🗺️","arg":"https:\/\/my.mindnode.com\/9CkZVchbByey79dKsQ4x7Ueyg8FG5CKXrcygwzoY","subtitle":""},{"title":"math 🗺️","arg":"https:\/\/my.mindnode.com\/PHr7Khddpz82b9WqhpqEy2oARquyKeqnaRFpxfPa","subtitle":""},{"title":"matrix multiplication 🗺️","arg":"https:\/\/my.mindnode.com\/4m6fCW4RC3LXEk8gq3qzRCE7GdpFZKfJEfe2utKe","subtitle":""},{"title":"memory 🗺️","arg":"https:\/\/my.mindnode.com\/A9HVyycbj5MTvYcaDqsXC7ivZ6iKGvoU5uhP8Tof","subtitle":""},{"title":"microdosing 🗺️","arg":"https:\/\/my.mindnode.com\/teNMpsu3rDq6qGJsHyoeURdQDY4cS6HsWaMjaADH","subtitle":""},{"title":"music 🗺️","arg":"https:\/\/my.mindnode.com\/G9aTgksJy8DRthxJjhvLdBmJVHpYpLDRSn9e7sWo","subtitle":""},{"title":"networking 🗺️","arg":"https:\/\/my.mindnode.com\/ozyVhF5XzzsSm6zhhkhZcHBowgBk4z9p8Xj5S6EU","subtitle":""},{"title":"observations 🗺️","arg":"https:\/\/my.mindnode.com\/qQqqSMEywvxGaWmcUUqdWXPvqxqP8V4mrq3G4Ed7","subtitle":""},{"title":"physics 🗺️","arg":"https:\/\/my.mindnode.com\/Ycqejqm2AG3U6rgpNmY6qTwTBkXxzrDxk2g26BQ5","subtitle":""},{"title":"personal stories 🗺️","arg":"https:\/\/my.mindnode.com\/yv8pR5Nxs9aT7nViGJuE9e7zmx4Y8tH5GKhvL9Ai","subtitle":""},{"title":"podcasts 🗺️","arg":"https:\/\/my.mindnode.com\/yZpdbw3gG2bLbH45FEzdf2bVLME9QmS6TeYvavQf","subtitle":""},{"title":"poetry 🗺️","arg":"https:\/\/my.mindnode.com\/XbXaz2exfvA7UU5MG3fYiCd9TK3wQzqbpSsgMnbZ","subtitle":""},{"title":"predictions 🗺️","arg":"https:\/\/my.mindnode.com\/NpznGi3zaqkttusAs1sgyuKqvpJviY7B4vxALQLe","subtitle":""},{"title":"programming 🗺️","arg":"https:\/\/my.mindnode.com\/ry68QZLmg8HU4fo7CNsKWpb3CxUYFB1vsFzDuhpT","subtitle":""},{"title":"principles 🗺️","arg":"https:\/\/my.mindnode.com\/PPnT6faNKE91mY7Qkqgp6noTzyvBUpqH7gea8HXe","subtitle":""},{"title":"protein folding 🗺️","arg":"https:\/\/my.mindnode.com\/zHNcchz3TEkVxPVRaVUDnnxG9PzprdyY17P47LGs","subtitle":""},{"title":"protocols 🗺️","arg":"https:\/\/my.mindnode.com\/hAm74vsGtt53eX8WW8BswTGBSmm4RsDVnchryoAC","subtitle":""},{"title":"psychedelics 🗺️","arg":"https:\/\/my.mindnode.com\/pzq3ZcU98Jc1naBSroFajQsCs4rxQB5NDGkaqSso","subtitle":""},{"title":"psychology 🗺️","arg":"https:\/\/my.mindnode.com\/fF52KAHb57PQuqcRvAwyghFsqGULJuMcincJvzkH","subtitle":""},{"title":"public speaking 🗺️","arg":"https:\/\/my.mindnode.com\/WKoHvNsnELNRbxVNJcqpN2n3f9k9fsyGzngHxWkW","subtitle":""},{"title":"python language 🗺️","arg":"https:\/\/my.mindnode.com\/LCjsb2p2qXdsXMDKszHzhZV5S6yYaCqqJq5Fdp4H","subtitle":""},{"title":"questions 🗺️","arg":"https:\/\/my.mindnode.com\/fpTwDqGtLAFWYdc6eqsyWjaDRQtuoHDjp69Py7Gx","subtitle":""},{"title":"react 🗺️","arg":"https:\/\/my.mindnode.com\/iagvmVu2wjo4zA4txJpitgy2wLi17Rkiav6YA6H5","subtitle":""},{"title":"redux 🗺️","arg":"https:\/\/my.mindnode.com\/WgCLNTTcvsr2yJnQ1p6pLFR1iyoY1jGDWEhWynuu","subtitle":""},{"title":"reverse engineering 🗺️","arg":"https:\/\/my.mindnode.com\/5pVW6qryKxCfR9ojcz7upfstXsy5GFWNtWFSwVsB","subtitle":""},{"title":"searching algos 🗺️","arg":"https:\/\/my.mindnode.com\/ZeW7AqxzEtEGCszvqmyEkQ27qhRZd7sRzREkvhKk","subtitle":""},{"title":"set theory 🗺️","arg":"https:\/\/my.mindnode.com\/w6DAjCbPnspxK9rGxxQzzpVnyHQewdskywmTVoN2","subtitle":""},{"title":"shower thoughts 🗺️","arg":"https:\/\/my.mindnode.com\/pfWiJrvxgwaCbqZMauzqepzsNVEMSSGzwhErCUnX","subtitle":""},{"title":"sleep 🗺️","arg":"https:\/\/my.mindnode.com\/Jmfx5xY8RuXQqVXzqPcXVuVjhDqLrzqFs1H9TGWL","subtitle":""},{"title":"software 🗺️","arg":"https:\/\/my.mindnode.com\/CTtNX7SVxAHngbJxQpjwgu4x9Bzt3zXz5S7JDbcv","subtitle":""},{"title":"sorting algos 🗺️","arg":"https:\/\/my.mindnode.com\/V4zLbnj4ZECx4zPWnmPssppQ6ctFSPur4rAsys28","subtitle":""},{"title":"statistics 🗺️","arg":"https:\/\/my.mindnode.com\/tcKsvzGzxHQBXseW4VtKxCs6772eADfgisACPkoh","subtitle":""},{"title":"swift language 🗺️","arg":"https:\/\/my.mindnode.com\/NsHt2NLqDsoCsq9uNhwG4KQfxKyDQu2Rz1ikyb8W","subtitle":""},{"title":"talent 🗺️","arg":"https:\/\/my.mindnode.com\/dx3CG2pugyAM9PmfWf4Se5vCqwmZg1D9DpfmYHh4","subtitle":""},{"title":"talks 🗺️","arg":"https:\/\/my.mindnode.com\/sR7foSDL4wzKvUsbiLZXzkxR7yqhEUCxJUQzTrph","subtitle":""},{"title":"taylor series 🗺️","arg":"https:\/\/my.mindnode.com\/XxKoxtXa3pf7MnBnfJuJnpwySFhz8HxQTssksHwz","subtitle":""},{"title":"teaching 🗺️","arg":"https:\/\/my.mindnode.com\/1pU2sYNH591ECZoxwjT2S2zYYMBUqbzzs8SGsAMg","subtitle":""},{"title":"testing 🗺️","arg":"https:\/\/my.mindnode.com\/pCUZZ8HyrXtzmm6nc75YhUJzKRnKgo1Pg1R1F9zv","subtitle":""},{"title":"topology 🗺️","arg":"https:\/\/my.mindnode.com\/GaZtDTRhEx5MWRsJex1xmHJb1MA8xRwXcV56WojK","subtitle":""},{"title":"tryptamine 🗺️","arg":"https:\/\/my.mindnode.com\/zsXcwGzUz3zcxWcYHwCtW2R7Mz5N94mPHAxzjALP","subtitle":""},{"title":"videos 🗺️","arg":"https:\/\/my.mindnode.com\/7c2Zxp9SXsxPMpq8zH7rbc1pjuJqxC75xWRg5enH","subtitle":""},{"title":"vim 🗺️","arg":"https:\/\/my.mindnode.com\/24sx5yV3S7FLayi5Msvhysx5HZ8aAPzUqJ6rStKi","subtitle":""},{"title":"virtual reality 🗺️","arg":"https:\/\/my.mindnode.com\/pdN6fHEZ1yMMFxAScyyd2zmz42FfL8Qx3Nh8QJU3","subtitle":""},{"title":"work 🗺️","arg":"https:\/\/my.mindnode.com\/xkSzWggwcP5MnaxaQWcpPp7TURzrFThUTR1tPdoq","subtitle":""},{"title":"writing 🗺️","arg":"https:\/\/my.mindnode.com\/q5RRL5cXGeny9QtLmacTpitSkgvG5sjypiKvtDDp","subtitle":""},{"title":"neuroscience 🗺️","arg":"https:\/\/my.mindnode.com\/axWqhiYa5PpxoiwVNE4KEQrQYAnXG1MCg9v1AMkZ","subtitle":""},{"title":"philosophy 🗺️","arg":"https:\/\/my.mindnode.com\/azoUfLZ1vk7qcR6WenHYZbKwaeWnzxvc8dN1tQ9H","subtitle":""},{"title":"health 🗺️","arg":"https:\/\/my.mindnode.com\/FTpm95FFyz4zxy5kPKLYgovRcbtBhFymcdu7FLxp","subtitle":""},{"title":"automation 🗺️","arg":"https:\/\/my.mindnode.com\/yqJsqNsp8fq6vzvKJcxMsc8nUZoAyQ9Fge2Xvpeb","subtitle":""},{"title":"iOS interview 🗺️","arg":"https:\/\/my.mindnode.com\/u9z2sB1z2GjqwCqePTXMe1wqypFLxEfbRYcNN7yS","subtitle":""},{"title":"cocoa 🗺️","arg":"https:\/\/my.mindnode.com\/HKSUmY6qBArQfPxeqypsbRA7YpGRA2HQaiKZwfce","subtitle":""},{"title":"quantum physics 🗺️","arg":"https:\/\/my.mindnode.com\/TiYWGhtphj4Ydp5ZzNWAHc6LQpJq1RamYMeDP6fA","subtitle":""},{"title":"complexity theory 🗺️","arg":"https:\/\/my.mindnode.com\/SFptq3w9suinqXDBD6uUScx1k96GZzUsaAqC8mjk","subtitle":""},{"title":"np-completeness 🗺️","arg":"https:\/\/my.mindnode.com\/ni7yoN5ALHcBscNJUsUMoJNz3msKMVeyKojs1qnf","subtitle":""},{"title":"model theory 🗺️","arg":"https:\/\/my.mindnode.com\/fUZfdaXtywczqmHmKq6DhQRb4z4izpaxCJKGztKx","subtitle":""},{"title":"pi 🗺️","arg":"https:\/\/my.mindnode.com\/GcnG3f87adFLmJqPz5S1xYJWH54HsrC5wZiCT6eG","subtitle":""},{"title":"universe 🗺️","arg":"https:\/\/my.mindnode.com\/qLhyKjyxSNih41QmYpgAcKodnBaxvYpRNA6FV51Q","subtitle":""},{"title":"compilers 🗺️","arg":"https:\/\/my.mindnode.com\/iQi6LxkxMpfuaqE3qTZMdt4J7y4tFn7wGxj43VCm","subtitle":""},{"title":"nootropics 🗺️","arg":"https:\/\/my.mindnode.com\/h3eduU3fHvALHSw89ogV3KdpcPeXe9ZTK35TUYys","subtitle":""},{"title":"programming languages 🗺️","arg":"https:\/\/my.mindnode.com\/zc4K9WG1smrBcpQTAvd25mfp6HRKpDAy6yZVTsBS","subtitle":""},{"title":"fitness 🗺️","arg":"https:\/\/my.mindnode.com\/jj3zEypvFGz6uGbcyVU7hALAXxFZMSt8q7tnREx6","subtitle":""},{"title":"computer graphics 🗺️","arg":"https:\/\/my.mindnode.com\/T3Vpzm8s3pQzGEqeX97M58D8omgkT2wTwXkL6ei7","subtitle":""},{"title":"problem solving 🗺️","arg":"https:\/\/my.mindnode.com\/3PKizFcY3vqGnUoEXoMkyhGyyzLFTfZwPDpx2MpC","subtitle":""},{"title":"consciousness 🗺️","arg":"https:\/\/my.mindnode.com\/XSeWzQyrHsQkeqW5f2p924ri6S2xeFokuFtaGhaw","subtitle":""},{"title":"javascript 🗺️","arg":"https:\/\/my.mindnode.com\/Q1qVZohzuiiQtshomLLmJa8ckBxQ4stesVMztp7Q","subtitle":""}]</string>
 				<key>runningsubtext</key>
 				<string></string>
@@ -1868,6 +1886,37 @@ fi #find</string>
 			<string>9A5C139A-D54B-46FF-9F3E-D09E576044C8</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>C8C01147-B974-49A7-96D6-FD7A9C7D5586</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2410,6 +2459,86 @@ fi #find</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>humans</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>0796E35E-23A6-4F1A-A98B-B3A3969A53D7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>D6DB8F7E-57F3-4C60-88A0-00B69565C754</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>27E5C22B-BE1F-4F80-88AB-FCFE975C4410</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Turing and von Neumann 👀","arg":"https:\/\/www.youtube.com\/watch?v=fJltiCjPeMA&amp;t=1239s","subtitle":""},{"title":"archive of his work","arg":"https:\/\/www.cs.utexas.edu\/users\/EWD\/","subtitle":""}]</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>56970757-4076-47DE-BAA2-B1B1D8638A97</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -2421,6 +2550,13 @@ fi #find</string>
 			<integer>710</integer>
 			<key>ypos</key>
 			<integer>1450</integer>
+		</dict>
+		<key>0796E35E-23A6-4F1A-A98B-B3A3969A53D7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>340</integer>
+			<key>ypos</key>
+			<integer>2210</integer>
 		</dict>
 		<key>096EDDE9-2074-4F14-8808-0FA550235052</key>
 		<dict>
@@ -2494,6 +2630,13 @@ fi #find</string>
 			<key>ypos</key>
 			<integer>540</integer>
 		</dict>
+		<key>27E5C22B-BE1F-4F80-88AB-FCFE975C4410</key>
+		<dict>
+			<key>xpos</key>
+			<integer>420</integer>
+			<key>ypos</key>
+			<integer>2260</integer>
+		</dict>
 		<key>2BDA6AA2-6436-476E-9839-25B04D4D13B3</key>
 		<dict>
 			<key>xpos</key>
@@ -2510,7 +2653,7 @@ fi #find</string>
 			<key>xpos</key>
 			<integer>160</integer>
 			<key>ypos</key>
-			<integer>630</integer>
+			<integer>1020</integer>
 		</dict>
 		<key>3130D66F-014F-49A5-99AC-4695A4075788</key>
 		<dict>
@@ -2556,7 +2699,7 @@ fi #find</string>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>780</integer>
+			<integer>1170</integer>
 		</dict>
 		<key>4E99A229-8DF2-48B2-B78B-1DD4A3DC8DC8</key>
 		<dict>
@@ -2611,6 +2754,15 @@ fi #find</string>
 			<key>ypos</key>
 			<integer>1190</integer>
 		</dict>
+		<key>56970757-4076-47DE-BAA2-B1B1D8638A97</key>
+		<dict>
+			<key>note</key>
+			<string>humans</string>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>2260</integer>
+		</dict>
 		<key>5D28E787-1C1F-461B-B005-4BEEA30E82B4</key>
 		<dict>
 			<key>xpos</key>
@@ -2639,7 +2791,7 @@ fi #find</string>
 			<key>xpos</key>
 			<integer>160</integer>
 			<key>ypos</key>
-			<integer>780</integer>
+			<integer>1170</integer>
 		</dict>
 		<key>64E6193D-82E3-41DE-B2C9-C268338E780C</key>
 		<dict>
@@ -2796,7 +2948,7 @@ fi #find</string>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>900</integer>
+			<integer>1290</integer>
 		</dict>
 		<key>CB0D9526-51DB-4CE5-9349-F06110602188</key>
 		<dict>
@@ -2850,6 +3002,13 @@ fi #find</string>
 			<integer>710</integer>
 			<key>ypos</key>
 			<integer>150</integer>
+		</dict>
+		<key>D6DB8F7E-57F3-4C60-88A0-00B69565C754</key>
+		<dict>
+			<key>xpos</key>
+			<integer>710</integer>
+			<key>ypos</key>
+			<integer>2260</integer>
 		</dict>
 		<key>D80EC868-D855-48DD-BD0B-E1D465EEC82A</key>
 		<dict>
