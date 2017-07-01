@@ -2,7 +2,7 @@
 
 <div align="center">
 <a href="https://saythanks.io/to/nikitavoloboev">
-		<img src="https://img.shields.io/badge/Say%20Thanks-💚-1EAEDB.svg">
+		<img src="https://img.shields.io/badge/Say%20Thanks-💚-ff69b4.svg">
 	</a>
 	<a href="https://github.com/nikitavoloboev/alfred-my-mind/blob/master/LICENSE">
 		<img src="https://img.shields.io/pypi/l/pipenv.svg">
