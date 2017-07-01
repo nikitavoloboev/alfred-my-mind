@@ -1,6 +1,15 @@
 <h1 align="center">Alfred interface to my mind 🎗</h1>
 
-<h1 align="center"><a href="https://github.com/nikitavoloboev/alfred-my-mind/releases/latest"> Latest Version 🍀</a></h1>
+<div align="center">
+<a href="https://saythanks.io/to/nikitavoloboev">
+		<img src="https://img.shields.io/badge/Say%20Thanks-💚-1EAEDB.svg">
+	</a>
+	<a href="https://github.com/nikitavoloboev/alfred-my-mind/blob/master/LICENSE">
+		<img src="https://img.shields.io/pypi/l/pipenv.svg">
+	</a>
+</div>
+
+<h2 align="center"><a href="https://github.com/nikitavoloboev/alfred-my-mind/releases/latest"> Latest Version 🍀</a></h2>
 
 <h2 align="center"><a href="http://quick.as/j0O2SvxLR"> Demonstration 👀</a></h2>
 

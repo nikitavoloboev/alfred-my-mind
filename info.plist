@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>nikivi.mind</string>
 	<key>category</key>
-	<string>dev</string>
+	<string>mine</string>
 	<key>connections</key>
 	<dict>
 		<key>0796E35E-23A6-4F1A-A98B-B3A3969A53D7</key>
