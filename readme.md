@@ -1,7 +1,7 @@
 <h1 align="center">Alfred interface to my mind 🎗</h1>
 
 <div align="center">
-<a href="https://saythanks.io/to/nikitavoloboev">
+<a href="https://www.patreon.com/nikitavoloboev">
 		<img src="https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg">
 	</a>
 	<a href="https://github.com/nikitavoloboev/alfred-my-mind/blob/master/LICENSE">
