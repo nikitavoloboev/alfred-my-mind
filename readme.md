@@ -22,3 +22,7 @@ Essentially you can search through all of my notes, bookmarks, blogs, github use
 
 
 <p align="center"><img src="http://i.imgur.com/4wvJNy6.png" alt="img" width="600"></p>
+
+<h1 align="center"> Thanks 🍀</h1>
+
+You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-191.2,-905.2,2) I shared. Thank you. 💛 

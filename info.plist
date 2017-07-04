@@ -1607,8 +1607,8 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/alfred-my-mind/1.0/info.plist"
-readonly workflow_url="https://github.com/nikitavoloboev/alfred-my-mind/releases/download/1.0/nikivi.s.mind.alfredworkflow"
+				<string>readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/alfred-my-mind/master/info.plist"
+readonly workflow_url="https://github.com/nikitavoloboev/alfred-my-mind/releases/latest"
 readonly workflow_type='workflow'
 readonly frequency_check='15'
 
@@ -2653,7 +2653,7 @@ fi #find</string>
 			<key>xpos</key>
 			<integer>160</integer>
 			<key>ypos</key>
-			<integer>1020</integer>
+			<integer>1030</integer>
 		</dict>
 		<key>3130D66F-014F-49A5-99AC-4695A4075788</key>
 		<dict>
