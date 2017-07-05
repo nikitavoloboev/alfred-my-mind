@@ -11,7 +11,7 @@
 
 <h2 align="center"><a href="https://github.com/nikitavoloboev/alfred-my-mind/releases/latest"> Latest Version 🍀</a></h2>
 
-<h2 align="center"><a href="http://quick.as/j0O2SvxLR"> Demonstration 👀</a></h2>
+<p align="center"><img src="https://raw.githubusercontent.com/nikitavoloboev/img/master/github/alfred%20my%20mind.gif?token=AGGH4H4askfxpqxpcyrqnZVM6izGV00Yks5ZZqxxwA%3D%3D" alt="img" width="600"></p>
 
 <h1 align="center"> Description</h1>
 
