@@ -194,7 +194,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>30678076-BB4C-4024-9C5D-BDFA37D2BC65</string>
+				<string>83219C6A-3F57-44EA-B82E-168A6CC2ACFE</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1607,10 +1607,10 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/alfred-my-mind/master/info.plist"
-readonly workflow_url="https://github.com/nikitavoloboev/alfred-my-mind/releases/latest"
-readonly workflow_type='workflow'
-readonly frequency_check='0'
+				<string>readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/alfred-my-mind/v1.0.1/info.plist"
+readonly workflow_url="https://github.com/nikitavoloboev/alfred-my-mind/releases"
+readonly workflow_type='page'
+readonly frequency_check='15'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING
 function abort {
@@ -1623,19 +1623,13 @@ function url_exists {
 }
 
 function notification {
-  readonly local notificator="$(find . -type d -name 'Notificator.app')"
-  if [[ -n "${notificator}" ]]; then
-    "${notificator}/Contents/Resources/Scripts/notificator" --title "${alfred_workflow_name}" --subtitle 'A new version is availale' --message "${1}"
-    return
-  fi
+  local readonly terminal_notifier="$(find . -name terminal-notifier.app)"
 
-  readonly local terminal_notifier="$(find . -type f -name 'terminal-notifier')"
   if [[ -n "${terminal_notifier}" ]]; then
-    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
-    return
+    "${terminal_notifier}"/Contents/MacOS/terminal-notifier -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+  else
+    osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
   fi
-
-  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
 }
 
 # Local sanity checks
@@ -1681,7 +1675,7 @@ fi #find</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>30678076-BB4C-4024-9C5D-BDFA37D2BC65</string>
+			<string>83219C6A-3F57-44EA-B82E-168A6CC2ACFE</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -2644,17 +2638,6 @@ fi #find</string>
 			<key>ypos</key>
 			<integer>1720</integer>
 		</dict>
-		<key>30678076-BB4C-4024-9C5D-BDFA37D2BC65</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>note</key>
-			<string>check update</string>
-			<key>xpos</key>
-			<integer>160</integer>
-			<key>ypos</key>
-			<integer>1030</integer>
-		</dict>
 		<key>3130D66F-014F-49A5-99AC-4695A4075788</key>
 		<dict>
 			<key>xpos</key>
@@ -2838,6 +2821,17 @@ fi #find</string>
 			<integer>550</integer>
 			<key>ypos</key>
 			<integer>2120</integer>
+		</dict>
+		<key>83219C6A-3F57-44EA-B82E-168A6CC2ACFE</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>160</integer>
+			<key>ypos</key>
+			<integer>1020</integer>
 		</dict>
 		<key>8EC24CA3-895C-435C-988B-DFF31790E578</key>
 		<dict>
