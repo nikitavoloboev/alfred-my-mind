@@ -1,0 +1,1200 @@
+{
+  "items": [
+    {
+      "title": "r: postnauka",
+      "arg": "https://postnauka.ru/",
+      "autocomplete": "r: postnauka"
+    },
+    {
+      "title": "r: meduza",
+      "arg": "https://meduza.io/",
+      "autocomplete": "r: meduza"
+    },
+    {
+      "title": "a: wallcat",
+      "arg": "https://beta.wall.cat/",
+      "autocomplete": "a: wallcat"
+    },
+    {
+      "title": "a: ulysses",
+      "arg": "https://ulyssesapp.com/",
+      "autocomplete": "a: ulysses"
+    },
+    {
+      "title": "a: karabiner",
+      "arg": "https://pqrs.org/osx/karabiner/",
+      "autocomplete": "a: karabiner"
+    },
+    {
+      "title": "a: alfred",
+      "arg": "https://www.alfredapp.com/",
+      "autocomplete": "a: alfred"
+    },
+    {
+      "title": "a: jumpshare",
+      "arg": "https://jumpshare.com/",
+      "autocomplete": "a: jumpshare"
+    },
+    {
+      "title": "a. 2Do",
+      "arg": "https://www.2doapp.com/",
+      "autocomplete": "a. 2Do"
+    },
+    {
+      "title": "a: mindnode",
+      "arg": "https://mindnode.com/",
+      "autocomplete": "a: mindnode"
+    },
+    {
+      "title": "a: pixave",
+      "arg": "http://www.littlehj.com/",
+      "autocomplete": "a: pixave"
+    },
+    {
+      "title": "i: reaction gif albums",
+      "arg": "http://reactiongifsarchive.imgur.com/",
+      "autocomplete": "i: reaction gif albums"
+    },
+    {
+      "title": "w: tumblr",
+      "arg": "https://www.tumblr.com/login?redirect_to=%2Fdashboard",
+      "autocomplete": "w: tumblr"
+    },
+    {
+      "title": "w: gitbook",
+      "arg": "https://www.gitbook.com/",
+      "autocomplete": "w: gitbook"
+    },
+    {
+      "title": "w: alternativeTo",
+      "arg": "http://alternativeto.net/",
+      "autocomplete": "w: alternativeTo"
+    },
+    {
+      "title": "w: nutrition facts",
+      "arg": "https://nutritionfacts.org/",
+      "autocomplete": "w: nutrition facts"
+    },
+    {
+      "title": "w: brain pickings",
+      "arg": "https://www.brainpickings.org/",
+      "autocomplete": "w: brain pickings"
+    },
+    {
+      "title": "w: the working lunch",
+      "arg": "https://theworkinglunch.co/",
+      "autocomplete": "w: the working lunch"
+    },
+    {
+      "title": "w: how stuff works",
+      "arg": "http://www.howstuffworks.com/",
+      "autocomplete": "w: how stuff works"
+    },
+    {
+      "title": "w: all reddit",
+      "arg": "https://www.reddit.com/r/all/",
+      "autocomplete": "w: all reddit"
+    },
+    {
+      "title": "w: netlify",
+      "arg": "https://www.netlify.com/",
+      "autocomplete": "w: netlify"
+    },
+    {
+      "title": "w: overcast",
+      "arg": "https://overcast.fm/podcasts",
+      "autocomplete": "w: overcast"
+    },
+    {
+      "title": "w: the setup",
+      "arg": "https://usesthis.com/",
+      "autocomplete": "w: the setup"
+    },
+    {
+      "title": "w: jupyter notebook",
+      "arg": "http://nbviewer.jupyter.org/",
+      "autocomplete": "w: jupyter notebook"
+    },
+    {
+      "title": "w: medium drafts",
+      "arg": "https://medium.com/me/stories/drafts",
+      "autocomplete": "w: medium drafts"
+    },
+    {
+      "title": "w: fast company",
+      "arg": "https://www.fastcompany.com/",
+      "autocomplete": "w: fast company"
+    },
+    {
+      "title": "w: artsy",
+      "arg": "https://www.artsy.net/",
+      "autocomplete": "w: artsy"
+    },
+    {
+      "title": "w: geeksforgeeks",
+      "arg": "http://www.geeksforgeeks.org/",
+      "autocomplete": "w: geeksforgeeks"
+    },
+    {
+      "title": "w: brilliant",
+      "arg": "https://brilliant.org/",
+      "autocomplete": "w: brilliant"
+    },
+    {
+      "title": "w: gitxiv",
+      "arg": "http://www.gitxiv.com/",
+      "autocomplete": "w: gitxiv"
+    },
+    {
+      "title": "w: firebase",
+      "arg": "https://console.firebase.google.com/?pli=1",
+      "autocomplete": "w: firebase"
+    },
+    {
+      "title": "w: massdrop",
+      "arg": "https://www.massdrop.com/my-communities",
+      "autocomplete": "w: massdrop"
+    },
+    {
+      "title": "w: etsy",
+      "arg": "https://www.etsy.com/?ref=lgo",
+      "autocomplete": "w: etsy"
+    },
+    {
+      "title": "w: tutorials point",
+      "arg": "https://www.tutorialspoint.com/index.htm",
+      "autocomplete": "w: tutorials point"
+    },
+    {
+      "title": "w: couchsurfing",
+      "arg": "https://www.couchsurfing.com",
+      "autocomplete": "w: couchsurfing"
+    },
+    {
+      "title": "w: pinterest",
+      "arg": "https://nl.pinterest.com/",
+      "autocomplete": "w: pinterest"
+    },
+    {
+      "title": "w: rocumentaries",
+      "arg": "https://rocumentaries.com/",
+      "autocomplete": "w: rocumentaries"
+    },
+    {
+      "title": "w: coworking coffee",
+      "arg": "https://www.coworking.coffee/",
+      "autocomplete": "w: coworking coffee"
+    },
+    {
+      "title": "w: imzy",
+      "arg": "https://www.imzy.com/",
+      "autocomplete": "w: imzy"
+    },
+    {
+      "title": "w: pixabay",
+      "arg": "https://pixabay.com/",
+      "autocomplete": "w: pixabay"
+    },
+    {
+      "title": "w: bandcamp",
+      "arg": "https://bandcamp.com/",
+      "autocomplete": "w: bandcamp"
+    },
+    {
+      "title": "w: arbital",
+      "arg": "https://arbital.com/",
+      "autocomplete": "w: arbital"
+    },
+    {
+      "title": "w: interview cake",
+      "arg": "https://www.interviewcake.com/",
+      "autocomplete": "w: interview cake"
+    },
+    {
+      "title": "w: code academy",
+      "arg": "https://www.codecademy.com/learn/all",
+      "autocomplete": "w: code academy"
+    },
+    {
+      "title": "w: pastebin",
+      "arg": "https://pastebin.com/",
+      "autocomplete": "w: pastebin"
+    },
+    {
+      "title": "w: telegraph",
+      "arg": "http://telegra.ph/",
+      "autocomplete": "w: telegraph"
+    },
+    {
+      "title": "w: docker hub",
+      "arg": "https://hub.docker.com/",
+      "autocomplete": "w: docker hub"
+    },
+    {
+      "title": "w: checkio",
+      "arg": "https://py.checkio.org/",
+      "autocomplete": "w: checkio"
+    },
+    {
+      "title": "w: git logs",
+      "arg": "http://www.gitlogs.com/",
+      "autocomplete": "w: git logs"
+    },
+    {
+      "title": "w: crowdAI",
+      "arg": "https://www.crowdai.org/",
+      "autocomplete": "w: crowdAI"
+    },
+    {
+      "title": "w: hackMD",
+      "arg": "https://hackmd.io/",
+      "autocomplete": "w: hackMD"
+    },
+    {
+      "title": "w: patreon",
+      "arg": "https://www.patreon.com/home",
+      "autocomplete": "w: patreon"
+    },
+    {
+      "title": "w: skyscanner",
+      "arg": "https://www.skyscanner.net/",
+      "autocomplete": "w: skyscanner"
+    },
+    {
+      "title": "w: lecture search",
+      "arg": "https://www.findlectures.com/",
+      "autocomplete": "w: lecture search"
+    },
+    {
+      "title": "w: chemdiary",
+      "arg": "https://chemdiary.com/users/sign_in",
+      "autocomplete": "w: chemdiary"
+    },
+    {
+      "title": "w: proton mail",
+      "arg": "https://mail.protonmail.com/login",
+      "autocomplete": "w: proton mail"
+    },
+    {
+      "title": "w: github info",
+      "arg": "http://githut.info/",
+      "autocomplete": "w: github info"
+    },
+    {
+      "title": "w: daybook",
+      "arg": "https://www.daybook.co/",
+      "autocomplete": "w: daybook"
+    },
+    {
+      "title": "w: arxiv",
+      "arg": "https://arxiv.org/",
+      "autocomplete": "w: arxiv"
+    },
+    {
+      "title": "w: google trends",
+      "arg": "https://trends.google.com/trends/",
+      "autocomplete": "w: google trends"
+    },
+    {
+      "title": "w: azquotes",
+      "arg": "http://www.azquotes.com/",
+      "autocomplete": "w: azquotes"
+    },
+    {
+      "title": "w: google docs",
+      "arg": "https://docs.google.com/document/u/0/",
+      "autocomplete": "w: google docs"
+    },
+    {
+      "title": "w: google forms",
+      "arg": "https://docs.google.com/forms/u/0/",
+      "autocomplete": "w: google forms"
+    },
+    {
+      "title": "w: booking",
+      "arg": "https://www.booking.com/",
+      "autocomplete": "w: booking"
+    },
+    {
+      "title": "w: heroku apps",
+      "arg": "https://dashboard.heroku.com/apps",
+      "autocomplete": "w: heroku apps"
+    },
+    {
+      "title": "w: google dashboard",
+      "arg": "https://myaccount.google.com/dashboard",
+      "autocomplete": "w: google dashboard"
+    },
+    {
+      "title": "w: pocket",
+      "arg": "https://getpocket.com/a/queue/list/",
+      "autocomplete": "w: pocket"
+    },
+    {
+      "title": "w: soundcloud",
+      "arg": "https://soundcloud.com/stream",
+      "autocomplete": "w: soundcloud"
+    },
+    {
+      "title": "w: google slides",
+      "arg": "https://docs.google.com/presentation/u/0/",
+      "autocomplete": "w: google slides"
+    },
+    {
+      "title": "w: bold.io",
+      "arg": "https://bold.io/",
+      "autocomplete": "w: bold.io"
+    },
+    {
+      "title": "w: google projects",
+      "arg": "https://console.cloud.google.com/start",
+      "autocomplete": "w: google projects"
+    },
+    {
+      "title": "w: code combat",
+      "arg": "https://codecombat.com/",
+      "autocomplete": "w: code combat"
+    },
+    {
+      "title": "w: npm",
+      "arg": "https://www.npmjs.com/",
+      "autocomplete": "w: npm"
+    },
+    {
+      "title": "w: kaggle",
+      "arg": "https://www.kaggle.com/",
+      "autocomplete": "w: kaggle"
+    },
+    {
+      "title": "w: quanta magazine",
+      "arg": "https://www.quantamagazine.org/",
+      "autocomplete": "w: quanta magazine"
+    },
+    {
+      "title": "w: barnacles",
+      "arg": "https://barnacl.es/",
+      "autocomplete": "w: barnacles"
+    },
+    {
+      "title": "w: n-gate",
+      "arg": "http://n-gate.com/",
+      "autocomplete": "w: n-gate"
+    },
+    {
+      "title": "w: scholarpedia",
+      "arg": "http://www.scholarpedia.org/article/Main_Page",
+      "autocomplete": "w: scholarpedia"
+    },
+    {
+      "title": "w: hashnode",
+      "arg": "https://hashnode.com/",
+      "autocomplete": "w: hashnode"
+    },
+    {
+      "title": "w: open culture",
+      "arg": "http://www.openculture.com/",
+      "autocomplete": "w: open culture"
+    },
+    {
+      "title": "w: medium - top",
+      "arg": "https://medium.com/browse/top",
+      "autocomplete": "w: medium - top"
+    },
+    {
+      "title": "w: documentary addict",
+      "arg": "https://documentaryaddict.com/",
+      "autocomplete": "w: documentary addict"
+    },
+    {
+      "title": "w: thought maybe",
+      "arg": "https://thoughtmaybe.com/?ref=producthunt",
+      "autocomplete": "w: thought maybe"
+    },
+    {
+      "title": "w: deskhunt",
+      "arg": "http://deskhunt.com/",
+      "autocomplete": "w: deskhunt"
+    },
+    {
+      "title": "w: topl",
+      "arg": "http://www.topl.io/",
+      "autocomplete": "w: topl"
+    },
+    {
+      "title": "w: zeef",
+      "arg": "https://zeef.com/",
+      "autocomplete": "w: zeef"
+    },
+    {
+      "title": "w: tvtropes",
+      "arg": "http://tvtropes.org/pmwiki/pmwiki.php/Main/HomePage",
+      "autocomplete": "w: tvtropes"
+    },
+    {
+      "title": "w: letters of note",
+      "arg": "http://www.lettersofnote.com/",
+      "autocomplete": "w: letters of note"
+    },
+    {
+      "title": "w: packal",
+      "arg": "http://www.packal.org/",
+      "autocomplete": "w: packal"
+    },
+    {
+      "title": "w: the sweet setup",
+      "arg": "http://thesweetsetup.com/",
+      "autocomplete": "w: the sweet setup"
+    },
+    {
+      "title": "w: sparkman",
+      "arg": "http://sparkman.strikingly.com/",
+      "autocomplete": "w: sparkman"
+    },
+    {
+      "title": "w: exercism",
+      "arg": "http://exercism.io/",
+      "autocomplete": "w: exercism"
+    },
+    {
+      "title": "w: project euler",
+      "arg": "https://projecteuler.net/archives",
+      "autocomplete": "w: project euler"
+    },
+    {
+      "title": "w: vim awesome",
+      "arg": "http://vimawesome.com/",
+      "autocomplete": "w: vim awesome"
+    },
+    {
+      "title": "w: w3schools",
+      "arg": "https://www.w3schools.com/",
+      "autocomplete": "w: w3schools"
+    },
+    {
+      "title": "w: IFTT",
+      "arg": "https://ifttt.com/discover",
+      "autocomplete": "w: IFTT"
+    },
+    {
+      "title": "w: namecheap",
+      "arg": "https://www.namecheap.com/",
+      "autocomplete": "w: namecheap"
+    },
+    {
+      "title": "w: matrix multiplication",
+      "arg": "http://matrixmultiplication.xyz/",
+      "autocomplete": "w: matrix multiplication"
+    },
+    {
+      "title": "w: trakt",
+      "arg": "https://trakt.tv/dashboard",
+      "autocomplete": "w: trakt"
+    },
+    {
+      "title": "w: grouvee",
+      "arg": "https://www.grouvee.com/",
+      "autocomplete": "w: grouvee"
+    },
+    {
+      "title": "w: goodreads",
+      "arg": "https://www.goodreads.com/",
+      "autocomplete": "w: goodreads"
+    },
+    {
+      "title": "w: edX",
+      "arg": "https://www.edx.org/",
+      "autocomplete": "w: edX"
+    },
+    {
+      "title": "w: udacity",
+      "arg": "https://www.udacity.com/",
+      "autocomplete": "w: udacity"
+    },
+    {
+      "title": "w: udemy",
+      "arg": "https://www.udemy.com/user/nikitavoloboev/",
+      "autocomplete": "w: udemy"
+    },
+    {
+      "title": "w: ted",
+      "arg": "https://www.ted.com/",
+      "autocomplete": "w: ted"
+    },
+    {
+      "title": "w: metacademy",
+      "arg": "https://www.metacademy.org/",
+      "autocomplete": "w: metacademy"
+    },
+    {
+      "title": "w: mit courses",
+      "arg": "https://ocw.mit.edu/courses/",
+      "autocomplete": "w: mit courses"
+    },
+    {
+      "title": "w: coursera",
+      "arg": "https://www.coursera.org/",
+      "autocomplete": "w: coursera"
+    },
+    {
+      "title": "w: explained visually",
+      "arg": "http://setosa.io/ev/",
+      "autocomplete": "w: explained visually"
+    },
+    {
+      "title": "w: open yale courses",
+      "arg": "http://oyc.yale.edu/",
+      "autocomplete": "w: open yale courses"
+    },
+    {
+      "title": "w: khan academy",
+      "arg": "http://www.openculture.com/",
+      "autocomplete": "w: khan academy"
+    },
+    {
+      "title": "w: world statistics updated real time",
+      "arg": "http://www.worldometers.info/",
+      "autocomplete": "w: world statistics updated real time"
+    },
+    {
+      "title": "w: coderpad",
+      "arg": "https://coderpad.io/",
+      "autocomplete": "w: coderpad"
+    },
+    {
+      "title": "w: skytorrents",
+      "arg": "https://www.skytorrents.in/",
+      "autocomplete": "w: skytorrents"
+    },
+    {
+      "title": "w: instant.io",
+      "arg": "https://instant.io/",
+      "autocomplete": "w: instant.io"
+    },
+    {
+      "title": "w: sci-hub",
+      "arg": "https://sci-hub.cc/",
+      "autocomplete": "w: sci-hub"
+    },
+    {
+      "title": "w: codementor",
+      "arg": "https://www.codementor.io/",
+      "autocomplete": "w: codementor"
+    },
+    {
+      "title": "w: angellist",
+      "arg": "https://angel.co",
+      "autocomplete": "w: angellist"
+    },
+    {
+      "title": "w: silicon valley dictionary",
+      "arg": "http://svdictionary.com/",
+      "autocomplete": "w: silicon valley dictionary"
+    },
+    {
+      "title": "w: music player for reddit",
+      "arg": "https://reddit.musicplayer.io/",
+      "autocomplete": "w: music player for reddit"
+    },
+    {
+      "title": "w: gnoosic",
+      "arg": "http://www.gnoosic.com/",
+      "autocomplete": "w: gnoosic"
+    },
+    {
+      "title": "w: unsplash",
+      "arg": "https://unsplash.com/",
+      "autocomplete": "w: unsplash"
+    },
+    {
+      "title": "w: twitch",
+      "arg": "https://www.twitch.tv/",
+      "autocomplete": "w: twitch"
+    },
+    {
+      "title": "w: snoopsnoo",
+      "arg": "https://snoopsnoo.com/",
+      "autocomplete": "w: snoopsnoo"
+    },
+    {
+      "title": "w: numbeo",
+      "arg": "https://www.numbeo.com/common/",
+      "autocomplete": "w: numbeo"
+    },
+    {
+      "title": "w. hn favourites",
+      "arg": "http://www.hnfavorites.com/#",
+      "autocomplete": "w. hn favourites"
+    },
+    {
+      "title": "w: egghead",
+      "arg": "https://egghead.io/",
+      "autocomplete": "w: egghead"
+    },
+    {
+      "title": "w: bubblehunt",
+      "arg": "https://bubblehunt.com/",
+      "autocomplete": "w: bubblehunt"
+    },
+    {
+      "title": "w: hammerspoon",
+      "arg": "http://www.hammerspoon.org",
+      "autocomplete": "w: hammerspoon"
+    },
+    {
+      "title": "w: readspike",
+      "arg": "https://readspike.com/",
+      "autocomplete": "w: readspike"
+    },
+    {
+      "title": "g: online go",
+      "arg": "https://online-go.com/play",
+      "autocomplete": "g: online go"
+    },
+    {
+      "title": "g: thinking chess",
+      "arg": "http://www.bewitched.com/chess/",
+      "autocomplete": "g: thinking chess"
+    },
+    {
+      "title": "g: human benchmark",
+      "arg": "https://www.humanbenchmark.com/tests/memory",
+      "autocomplete": "g: human benchmark"
+    },
+    {
+      "title": "g: the ai games",
+      "arg": "http://theaigames.com/",
+      "autocomplete": "g: the ai games"
+    },
+    {
+      "title": "g: lichess",
+      "arg": "https://lichess.org/",
+      "autocomplete": "g: lichess"
+    },
+    {
+      "title": "pinboard popular",
+      "arg": "https://pinboard.in/popular/",
+      "autocomplete": "pinboard popular"
+    },
+    {
+      "title": "lobsters",
+      "arg": "https://lobste.rs/",
+      "autocomplete": "lobsters"
+    },
+    {
+      "title": "facebook",
+      "arg": "https://www.facebook.com/",
+      "autocomplete": "facebook"
+    },
+    {
+      "title": "w: quizlet",
+      "arg": "https://quizlet.com/latest",
+      "autocomplete": "w: quizlet"
+    },
+    {
+      "title": "w: dribble",
+      "arg": "https://dribbble.com/shots",
+      "autocomplete": "w: dribble"
+    },
+    {
+      "title": "w: slashdot",
+      "arg": "https://slashdot.org/",
+      "autocomplete": "w: slashdot"
+    },
+    {
+      "title": "w: ph today",
+      "arg": "http://ph.needles.me/",
+      "autocomplete": "w: ph today"
+    },
+    {
+      "title": "w: no excuse",
+      "arg": "http://ph.needles.me/",
+      "autocomplete": "w: no excuse"
+    },
+    {
+      "title": "w: favourite and forget",
+      "arg": "http://usefulinterweb.com/",
+      "autocomplete": "w: favourite and forget"
+    },
+    {
+      "title": "w: stack overflow",
+      "arg": "https://stackoverflow.com/",
+      "autocomplete": "w: stack overflow"
+    },
+    {
+      "title": "w: freecodecamp",
+      "arg": "https://www.freecodecamp.com/",
+      "autocomplete": "w: freecodecamp"
+    },
+    {
+      "title": "w: product hunt",
+      "arg": "https://www.producthunt.com/",
+      "autocomplete": "w: product hunt"
+    },
+    {
+      "title": "w: medium",
+      "arg": "https://medium.com/",
+      "autocomplete": "w: medium"
+    },
+    {
+      "title": "w: devpost",
+      "arg": "https://devpost.com/",
+      "autocomplete": "w: devpost"
+    },
+    {
+      "title": "w: habrahabr",
+      "arg": "https://habrahabr.ru/top/",
+      "autocomplete": "w: habrahabr"
+    },
+    {
+      "title": "w: zen habits",
+      "arg": "https://zenhabits.net/archives/",
+      "autocomplete": "w: zen habits"
+    },
+    {
+      "title": "w: eventbrite",
+      "arg": "https://www.eventbrite.com/",
+      "autocomplete": "w: eventbrite"
+    },
+    {
+      "title": "w: hackerrank",
+      "arg": "https://www.hackerrank.com/",
+      "autocomplete": "w: hackerrank"
+    },
+    {
+      "title": "w: interviewbit",
+      "arg": "https://www.interviewbit.com/",
+      "autocomplete": "w: interviewbit"
+    },
+    {
+      "title": "w: youtube",
+      "arg": "https://www.youtube.com/",
+      "autocomplete": "w: youtube"
+    },
+    {
+      "title": "w: drive",
+      "arg": "https://drive.google.com/drive/my-drive",
+      "autocomplete": "w: drive"
+    },
+    {
+      "title": "w: toggl",
+      "arg": "https://toggl.com/",
+      "autocomplete": "w: toggl"
+    },
+    {
+      "title": "w: apple id",
+      "arg": "https://appleid.apple.com/",
+      "autocomplete": "w: apple id"
+    },
+    {
+      "title": "w: dropbox",
+      "arg": "https://www.dropbox.com/home",
+      "autocomplete": "w: dropbox"
+    },
+    {
+      "title": "f: km",
+      "arg": "https://forum.keyboardmaestro.com/latest",
+      "autocomplete": "f: km"
+    },
+    {
+      "title": "f: longecity",
+      "arg": "http://www.longecity.org/forum/",
+      "autocomplete": "f: longecity"
+    },
+    {
+      "title": "f: affinity",
+      "arg": "https://affinity.serif.com/forum/",
+      "autocomplete": "f: affinity"
+    },
+    {
+      "title": "f: alfred",
+      "arg": "https://www.alfredforum.com/",
+      "autocomplete": "f: alfred"
+    },
+    {
+      "title": "f: hack forums",
+      "arg": "https://hackforums.net/index.php",
+      "autocomplete": "f: hack forums"
+    },
+    {
+      "title": "f: nixers",
+      "arg": "https://nixers.net/",
+      "autocomplete": "f: nixers"
+    },
+    {
+      "title": "f: hazel",
+      "arg": "https://www.noodlesoft.com/forums/",
+      "autocomplete": "f: hazel"
+    },
+    {
+      "title": "f: script debugger",
+      "arg": "http://forum.latenightsw.com/",
+      "autocomplete": "f: script debugger"
+    },
+    {
+      "title": "f: taskpaper",
+      "arg": "http://support.hogbaysoftware.com/c/taskpaper",
+      "autocomplete": "f: taskpaper"
+    },
+    {
+      "title": "f: things network",
+      "arg": "https://www.thethingsnetwork.org/forum/top/all?order=activity",
+      "autocomplete": "f: things network"
+    },
+    {
+      "title": "f: go",
+      "arg": "https://forum.golangbridge.org/",
+      "autocomplete": "f: go"
+    },
+    {
+      "title": "f: sublime",
+      "arg": "https://forum.sublimetext.com/",
+      "autocomplete": "f: sublime"
+    },
+    {
+      "title": "f: discourse",
+      "arg": "https://try.discourse.org/",
+      "autocomplete": "f: discourse"
+    },
+    {
+      "title": "f: shroomery",
+      "arg": "https://www.shroomery.org/",
+      "autocomplete": "f: shroomery"
+    },
+    {
+      "title": "w: ill gander",
+      "arg": "https://illgander.com/",
+      "autocomplete": "w: ill gander"
+    },
+    {
+      "title": "w: flickr",
+      "arg": "https://www.flickr.com/",
+      "autocomplete": "w: flickr"
+    },
+    {
+      "title": "w: flickr - explore",
+      "arg": "https://www.flickr.com/explore",
+      "autocomplete": "w: flickr - explore"
+    },
+    {
+      "title": "w: imgur",
+      "arg": "https://imgur.com/",
+      "autocomplete": "w: imgur"
+    },
+    {
+      "title": "w: instagram",
+      "arg": "https://www.instagram.com/",
+      "autocomplete": "w: instagram"
+    },
+    {
+      "title": "w: slant",
+      "arg": "https://www.slant.co/",
+      "autocomplete": "w: slant"
+    },
+    {
+      "title": "w: aminer",
+      "arg": "https://cn.aminer.org/",
+      "autocomplete": "w: aminer"
+    },
+    {
+      "title": "w: duckduckgo",
+      "arg": "https://duckduckgo.com/",
+      "autocomplete": "w: duckduckgo"
+    },
+    {
+      "title": "w: yandex",
+      "arg": "https://www.yandex.com/",
+      "autocomplete": "w: yandex"
+    },
+    {
+      "title": "w: google scholar",
+      "arg": "https://scholar.google.nl/",
+      "autocomplete": "w: google scholar"
+    },
+    {
+      "title": "w: meetup",
+      "arg": "http://www.meetup.com/",
+      "autocomplete": "w: meetup"
+    },
+    {
+      "title": "w: whatsapp",
+      "arg": "https://web.whatsapp.com/",
+      "autocomplete": "w: whatsapp"
+    },
+    {
+      "title": "w: google plus",
+      "arg": "https://plus.google.com/",
+      "autocomplete": "w: google plus"
+    },
+    {
+      "title": "m: last.fm",
+      "arg": "https://www.last.fm/home",
+      "autocomplete": "m: last.fm"
+    },
+    {
+      "title": "m: last.fm charts",
+      "arg": "https://www.last.fm/music",
+      "autocomplete": "m: last.fm charts"
+    },
+    {
+      "title": "m: discogs",
+      "arg": "http://discogs.com",
+      "autocomplete": "m: discogs"
+    },
+    {
+      "title": "m: rainy mood",
+      "arg": "http://www.rainymood.com/",
+      "autocomplete": "m: rainy mood"
+    },
+    {
+      "title": "m: touch pianist",
+      "arg": "http://touchpianist.com/",
+      "autocomplete": "m: touch pianist"
+    },
+    {
+      "title": "m: jazz and rain",
+      "arg": "http://www.jazzandrain.com/",
+      "autocomplete": "m: jazz and rain"
+    },
+    {
+      "title": "m: designer mix",
+      "arg": "https://designers.mx/",
+      "autocomplete": "m: designer mix"
+    },
+    {
+      "title": "m: denver ",
+      "arg": "http://youarelistening.to/denver",
+      "autocomplete": "m: denver "
+    },
+    {
+      "title": "m: music for programming",
+      "arg": "http://www.musicforprogramming.net/?c=aesthetic",
+      "autocomplete": "m: music for programming"
+    },
+    {
+      "title": "m: soft murmur",
+      "arg": "http://asoftmurmur.com/",
+      "autocomplete": "m: soft murmur"
+    },
+    {
+      "title": "t: bitcoin now",
+      "arg": "https://bitcoin.now.sh/",
+      "autocomplete": "t: bitcoin now"
+    },
+    {
+      "title": "t: tube replay",
+      "arg": "http://www.tubereplay.com/",
+      "autocomplete": "t: tube replay"
+    },
+    {
+      "title": "t: draw.io",
+      "arg": "https://www.draw.io/",
+      "autocomplete": "t: draw.io"
+    },
+    {
+      "title": "t: updwn",
+      "arg": "http://updwn.co/",
+      "autocomplete": "t: updwn"
+    },
+    {
+      "title": "t: vocaroo",
+      "arg": "http://vocaroo.com/",
+      "autocomplete": "t: vocaroo"
+    },
+    {
+      "title": "t: sketch toy",
+      "arg": "http://sketchtoy.com/",
+      "autocomplete": "t: sketch toy"
+    },
+    {
+      "title": "t: streamable",
+      "arg": "https://streamable.com/",
+      "autocomplete": "t: streamable"
+    },
+    {
+      "title": "t: sleep time",
+      "arg": "http://sleepyti.me/",
+      "autocomplete": "t: sleep time"
+    },
+    {
+      "title": "t: fast fingers",
+      "arg": "https://10fastfingers.com/typing-test/english",
+      "autocomplete": "t: fast fingers"
+    },
+    {
+      "title": "t: thesaurus",
+      "arg": "http://www.thesaurus.com/",
+      "autocomplete": "t: thesaurus"
+    },
+    {
+      "title": "t: sharelatex",
+      "arg": "https://www.sharelatex.com",
+      "autocomplete": "t: sharelatex"
+    },
+    {
+      "title": "t: regex101",
+      "arg": "https://regex101.com/",
+      "autocomplete": "t: regex101"
+    },
+    {
+      "title": "t: asciinema",
+      "arg": "https://asciinema.org/~nikivi",
+      "autocomplete": "t: asciinema"
+    },
+    {
+      "title": "t: symbolab",
+      "arg": "https://www.symbolab.com/",
+      "autocomplete": "t: symbolab"
+    },
+    {
+      "title": "t: wolfram alpha",
+      "arg": "http://www.wolframalpha.com/",
+      "autocomplete": "t: wolfram alpha"
+    },
+    {
+      "title": "t: 10 min mail",
+      "arg": "https://10minutemail.com/10MinuteMail/index.html?dswid=-4717",
+      "autocomplete": "t: 10 min mail"
+    },
+    {
+      "title": "t: google translate",
+      "arg": "https://translate.google.com/",
+      "autocomplete": "t: google translate"
+    },
+    {
+      "title": "t: crontab guru",
+      "arg": "https://crontab.guru/",
+      "autocomplete": "t: crontab guru"
+    },
+    {
+      "title": "t: regexr",
+      "arg": "http://regexr.com/",
+      "autocomplete": "t: regexr"
+    },
+    {
+      "title": "t: json placeholder",
+      "arg": "https://jsonplaceholder.typicode.com/",
+      "autocomplete": "t: json placeholder"
+    },
+    {
+      "title": "t: cdecl",
+      "arg": "https://cdecl.org/",
+      "autocomplete": "t: cdecl"
+    },
+    {
+      "title": "t: javascript event codes",
+      "arg": "http://keycode.info/",
+      "autocomplete": "t: javascript event codes"
+    },
+    {
+      "title": "t: know it all",
+      "arg": "https://know-it-all.io/",
+      "autocomplete": "t: know it all"
+    },
+    {
+      "title": "t: js bin",
+      "arg": "https://jsbin.com/?html,output",
+      "autocomplete": "t: js bin"
+    },
+    {
+      "title": "t: wakatime",
+      "arg": "https://wakatime.com/dashboard",
+      "autocomplete": "t: wakatime"
+    },
+    {
+      "title": "t: can I use",
+      "arg": "http://caniuse.com/",
+      "autocomplete": "t: can I use"
+    },
+    {
+      "title": "t: go play space",
+      "arg": "https://goplay.space/",
+      "autocomplete": "t: go play space"
+    },
+    { "title": "t: TIO", "arg": "https://tio.run/#", "autocomplete": "t: TIO" },
+    {
+      "title": "d: stackshare tools",
+      "arg": "https://stackshare.io/trending/tools",
+      "autocomplete": "d: stackshare tools"
+    },
+    {
+      "title": "d: overAPI",
+      "arg": "http://overapi.com/",
+      "autocomplete": "d: overAPI"
+    },
+    {
+      "title": "d: glot.io",
+      "arg": "https://glot.io/",
+      "autocomplete": "d: glot.io"
+    },
+    {
+      "title": "d: advent of code",
+      "arg": "http://adventofcode.com/",
+      "autocomplete": "d: advent of code"
+    },
+    {
+      "title": "d: free interactive tutorials",
+      "arg": "https://github.com/vhf/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md",
+      "autocomplete": "d: free interactive tutorials"
+    },
+    {
+      "title": "d: algorithm visualiser",
+      "arg": "http://algo-visualizer.jasonpark.me/",
+      "autocomplete": "d: algorithm visualiser"
+    },
+    {
+      "title": "d: hackr",
+      "arg": "https://hackr.io/",
+      "autocomplete": "d: hackr"
+    },
+    {
+      "title": "d: libraries.io",
+      "arg": "https://libraries.io/",
+      "autocomplete": "d: libraries.io"
+    },
+    {
+      "title": "d: visualgo",
+      "arg": "https://visualgo.net/en",
+      "autocomplete": "d: visualgo"
+    },
+    {
+      "title": "d: code school",
+      "arg": "https://www.codeschool.com/",
+      "autocomplete": "d: code school"
+    },
+    {
+      "title": "d: realm",
+      "arg": "https://realm.io/",
+      "autocomplete": "d: realm"
+    },
+    {
+      "title": "d: leetcode discuss",
+      "arg": "https://discuss.leetcode.com/category/5/interview-questions",
+      "autocomplete": "d: leetcode discuss"
+    },
+    {
+      "title": "d: codility",
+      "arg": "https://codility.com/programmers/",
+      "autocomplete": "d: codility"
+    },
+    {
+      "title": "w: finviz",
+      "arg": "http://finviz.com/",
+      "autocomplete": "w: finviz"
+    },
+    {
+      "title": "w: trading view",
+      "arg": "https://www.tradingview.com/",
+      "autocomplete": "w: trading view"
+    },
+    {
+      "title": "w: paypal",
+      "arg": "https://www.paypal.com",
+      "autocomplete": "w: paypal"
+    },
+    {
+      "title": "e: webGL water",
+      "arg": "http://madebyevan.com/webgl-water/",
+      "autocomplete": "e: webGL water"
+    }
+  ]
+}
