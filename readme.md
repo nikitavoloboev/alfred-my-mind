@@ -9,19 +9,23 @@
 	</a>
 </div>
 
-<h2 align="center"><a href="https://github.com/nikitavoloboev/alfred-my-mind/releases/latest"> Latest Version 🍀</a></h2>
 
-<p align="center"><img src="https://raw.githubusercontent.com/nikitavoloboev/img/master/github/alfred%20my%20mind.gif?token=AGGH4H4askfxpqxpcyrqnZVM6izGV00Yks5ZZqxxwA%3D%3D" alt="img" width="600"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nikitavoloboev/img/master/github/alfred%20my%20mind.gif?token=AGGH4AajC-2AquZcrNnjoEOpi1kKcPZAks5ZhKSQwA%3D%3D" alt="img" width="600"></p>
 
-<h1 align="center"> Description</h1>
+<h1 align="center"> Description 📕</h1>
 
 
 You can read why this workflow exists in an article [here](https://medium.com/@NikitaVoloboev/opening-up-my-mind-%EF%B8%8F-575c8ece8a24). ✍🏻
 
-Essentially you can search through all of my notes, bookmarks, blogs, github users, images, research papers and more that I use to move and learn things faster.
+Essentially you can search through [all of my notes, bookmarks, blogs, github users, images, research papers and more](https://my.mindnode.com/myLVaRLKytoTYBLshxGzzb75MN9cyGHbQBgaVVPp#809.9,-15.9,1) that I use to move and learn things faster.
 
 
 <p align="center"><img src="http://i.imgur.com/4wvJNy6.png" alt="img" width="600"></p>
+
+<h1 align="center"> Install 💎</h1>
+
+Download the workflow from [GitHub releases](https://github.com/nikitavoloboev/alfred-my-mind/releases/latest).
+
 
 <h1 align="center"> Thanks 🍀</h1>
 
