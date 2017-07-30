@@ -16,37 +16,15 @@
       "uid": "evan wallace  ✨",
       "title": "evan wallace  ✨",
       "autocomplete": "evan wallace  ✨",
+      "subtitle": "has a lot of impressive projects",
       "arg": "https://github.com/evanw"
-    },
-    {
-      "uid": "has a lot of impressive projects",
-      "title": "has a lot of impressive projects",
-      "autocomplete": "has a lot of impressive projects",
-      "arg": "http://madebyevan.com/"
-    },
-    {
-      "uid": "has a lot of impressive projects",
-      "title": "has a lot of impressive projects",
-      "autocomplete": "has a lot of impressive projects",
-      "arg": "http://madebyevan.com/"
     },
     {
       "uid": "mathias buus",
       "title": "mathias buus",
       "autocomplete": "mathias buus",
+      "subtitle": "created peerflix",
       "arg": "https://github.com/mafintosh"
-    },
-    {
-      "uid": "created peerflix",
-      "title": "created peerflix",
-      "autocomplete": "created peerflix",
-      "arg": "https://github.com/mafintosh/peerflix"
-    },
-    {
-      "uid": "created peerflix",
-      "title": "created peerflix",
-      "autocomplete": "created peerflix",
-      "arg": "https://github.com/mafintosh/peerflix"
     },
     {
       "uid": "alexander kuznetsov",
@@ -70,6 +48,7 @@
       "uid": "andré staltz  ✨",
       "title": "andré staltz  ✨",
       "autocomplete": "andré staltz  ✨",
+      "subtitle": "user interfaces, reactive programming, JavaScript, and peer-to-peer networks",
       "arg": "https://github.com/staltz"
     },
     {
@@ -274,19 +253,8 @@
       "uid": "vitor galvao  ✨",
       "title": "vitor galvao  ✨",
       "autocomplete": "vitor galvao  ✨",
+      "subtitle": "makes a lot of amazing alfred workflows",
       "arg": "https://github.com/vitorgalvao"
-    },
-    {
-      "uid": "makes a lot of amazing alfred workflows",
-      "title": "makes a lot of amazing alfred workflows",
-      "autocomplete": "makes a lot of amazing alfred workflows",
-      "arg": "https://github.com/vitorgalvao/alfred-workflows"
-    },
-    {
-      "uid": "makes a lot of amazing alfred workflows",
-      "title": "makes a lot of amazing alfred workflows",
-      "autocomplete": "makes a lot of amazing alfred workflows",
-      "arg": "https://github.com/vitorgalvao/alfred-workflows"
     },
     {
       "uid": "jason cheatham  ✨",
@@ -298,19 +266,8 @@
       "uid": "dean jackson  ✨",
       "title": "dean jackson  ✨",
       "autocomplete": "dean jackson  ✨",
+      "subtitle": "alfred workflow library",
       "arg": "https://github.com/deanishe"
-    },
-    {
-      "uid": "alfred workflow library",
-      "title": "alfred workflow library",
-      "autocomplete": "alfred workflow library",
-      "arg": "https://github.com/deanishe/alfred-workflow"
-    },
-    {
-      "uid": "alfred workflow library",
-      "title": "alfred workflow library",
-      "autocomplete": "alfred workflow library",
-      "arg": "https://github.com/deanishe/alfred-workflow"
     },
     {
       "uid": "tim pope",
@@ -436,19 +393,8 @@
       "uid": "grant sanderson  ✨",
       "title": "grant sanderson  ✨",
       "autocomplete": "grant sanderson  ✨",
+      "subtitle": "has amazing youtube channel",
       "arg": "https://github.com/3b1b"
-    },
-    {
-      "uid": "has amazing youtube channel",
-      "title": "has amazing youtube channel",
-      "autocomplete": "has amazing youtube channel",
-      "arg": "https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos"
-    },
-    {
-      "uid": "has amazing youtube channel",
-      "title": "has amazing youtube channel",
-      "autocomplete": "has amazing youtube channel",
-      "arg": "https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos"
     }
   ]
 }

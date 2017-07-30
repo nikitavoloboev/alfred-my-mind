@@ -61,6 +61,7 @@ const parseNode = node => {
       uid: text,
       title: text,
       autocomplete: text,
+      subtitle: node.note ? getText(node.note.text) : undefined,
       arg: getURL(node.title.text)
       // eslint-disable-next-line no-use-before-define
     }

@@ -1618,6 +1618,7 @@
       "uid": "1954: the doors of perception   📕",
       "title": "1954: the doors of perception   📕",
       "autocomplete": "1954: the doors of perception   📕",
+      "subtitle": "details Aldous Huxley’s own experiences when taking mescaline",
       "arg": "http://www.goodreads.com/book/show/3188964-the-doors-of-perception"
     },
     {
@@ -1840,6 +1841,7 @@
       "uid": "university physics with modern physics   📕",
       "title": "university physics with modern physics   📕",
       "autocomplete": "university physics with modern physics   📕",
+      "subtitle": "notes on the book",
       "arg": "https://my.mindnode.com/1M2ZVqow9pgJ95qwCH7hnwFWdRL8sDcMQqx5b3z9"
     },
     {
@@ -3166,6 +3168,7 @@
       "uid": "1979: godel, escher, bach  📕",
       "title": "1979: godel, escher, bach  📕",
       "autocomplete": "1979: godel, escher, bach  📕",
+      "subtitle": "explores fundamental concepts of mathematics, symmetry and intelligence and how they interlink",
       "arg": "http://www.goodreads.com/book/show/24113.G_del_Escher_Bach"
     },
     {
@@ -3472,6 +3475,7 @@
       "uid": "15: elon musk: tesla, spacex, and the quest for a fantastic future  📕",
       "title": "15: elon musk: tesla, spacex, and the quest for a fantastic future  📕",
       "autocomplete": "15: elon musk: tesla, spacex, and the quest for a fantastic future  📕",
+      "subtitle": "the book really inspired me to think bigger and to optimise for impact",
       "arg": "http://www.goodreads.com/book/show/22543496-elon-musk"
     },
     {
@@ -3526,18 +3530,21 @@
       "uid": "05: the database hacker’s handbook  📕",
       "title": "05: the database hacker’s handbook  📕",
       "autocomplete": "05: the database hacker’s handbook  📕",
+      "subtitle": "most detailed book available for attacking databases  covers basic through advanced topics",
       "arg": "http://www.goodreads.com/book/show/369905.The_Database_Hacker_s_Handbook"
     },
     {
       "uid": "10: a guide to kernel exploitation  📕",
       "title": "10: a guide to kernel exploitation  📕",
       "autocomplete": "10: a guide to kernel exploitation  📕",
+      "subtitle": "advanced exploitation of a range of operating systems",
       "arg": "http://www.goodreads.com/book/show/9224826-a-guide-to-kernel-exploitation"
     },
     {
       "uid": "11: the tangled web  📕",
       "title": "11: the tangled web  📕",
       "autocomplete": "11: the tangled web  📕",
+      "subtitle": "detailed look at the foundations of web protocols followed by a thorough examination of their weakness",
       "arg": "http://www.goodreads.com/book/show/11553604-the-tangled-web"
     },
     {
@@ -3550,6 +3557,7 @@
       "uid": "14: the browser hacker's handbook  📕",
       "title": "14: the browser hacker's handbook  📕",
       "autocomplete": "14: the browser hacker's handbook  📕",
+      "subtitle": "a detailed look into many web security topics   covers basic through advanced topics",
       "arg": "http://www.goodreads.com/book/show/17891588-the-browser-hacker-s-handbook"
     },
     {

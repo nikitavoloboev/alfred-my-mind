@@ -4,6 +4,7 @@
       "uid": "17: ama  🐙",
       "title": "17: ama  🐙",
       "autocomplete": "17: ama  🐙",
+      "subtitle": "",
       "arg": "https://github.com/nikitavoloboev/ama"
     },
     {
@@ -34,30 +35,35 @@
       "uid": "17: alfred ask create share  🐙",
       "title": "17: alfred ask create share  🐙",
       "autocomplete": "17: alfred ask create share  🐙",
+      "subtitle": "alfred interface to web submissions",
       "arg": "https://github.com/nikitavoloboev/alfred-ask-create-share"
     },
     {
       "uid": "17: alfred imgur album download  🐙",
       "title": "17: alfred imgur album download  🐙",
       "autocomplete": "17: alfred imgur album download  🐙",
+      "subtitle": "download imgur album from your browser to the desktop",
       "arg": "https://github.com/nikitavoloboev/alfred-imgur-album-download"
     },
     {
       "uid": "17: alfred karabiner  🐙",
       "title": "17: alfred karabiner  🐙",
       "autocomplete": "17: alfred karabiner  🐙",
+      "subtitle": "reload Karabiner XML",
       "arg": "https://github.com/nikitavoloboev/alfred-karabiner"
     },
     {
       "uid": "17: alfred clean folders  🐙",
       "title": "17: alfred clean folders  🐙",
       "autocomplete": "17: alfred clean folders  🐙",
+      "subtitle": "clean all items from Desktop  remove alfred workflow from ~/Downloads",
       "arg": "https://github.com/nikitavoloboev/alfred-clean-folders"
     },
     {
       "uid": "17: alfred web searches  💡",
       "title": "17: alfred web searches  💡",
       "autocomplete": "17: alfred web searches  💡",
+      "subtitle": "fuzzy search through a list of web searches",
       "arg": "https://github.com/nikitavoloboev/alfred-web-searches"
     },
     {
@@ -70,6 +76,7 @@
       "uid": "17: alfred goodreads  💡",
       "title": "17: alfred goodreads  💡",
       "autocomplete": "17: alfred goodreads  💡",
+      "subtitle": "search with autosuggestions on Goodreads from Alfred",
       "arg": "https://github.com/nikitavoloboev/alfred-goodreads"
     },
     {
@@ -118,6 +125,7 @@
       "uid": "16: web todo  🐙",
       "title": "16: web todo  🐙",
       "autocomplete": "16: web todo  🐙",
+      "subtitle": "is quite bad ",
       "arg": "https://github.com/nikitavoloboev/web-todo"
     },
     {
@@ -148,30 +156,35 @@
       "uid": "16: my macOS  🐙",
       "title": "16: my macOS  🐙",
       "autocomplete": "16: my macOS  🐙",
+      "subtitle": "a list of applications and various tools that make my macOS experience even more amazing",
       "arg": "https://github.com/nikitavoloboev/my-mac-os"
     },
     {
       "uid": "16: my iOS  🐙",
       "title": "16: my iOS  🐙",
       "autocomplete": "16: my iOS  🐙",
+      "subtitle": "what I use on my phone",
       "arg": "https://github.com/nikitavoloboev/my-ios"
     },
     {
       "uid": "16: awesome tue software  🐙",
       "title": "16: awesome tue software  🐙",
       "autocomplete": "16: awesome tue software  🐙",
+      "subtitle": "my bachelor degree’s awesome list  notes, links, summaries",
       "arg": "https://github.com/nikitavoloboev/awesome-tue-software"
     },
     {
       "uid": "17: awesome mindmaps  🐙",
       "title": "17: awesome mindmaps  🐙",
       "autocomplete": "17: awesome mindmaps  🐙",
+      "subtitle": "awesome list of all the mind maps made in MindNode, Xmind, iMindMap and others",
       "arg": "https://github.com/nikitavoloboev/awesome-mindmaps"
     },
     {
       "uid": "16: android thermostat app  🐙",
       "title": "16: android thermostat app  🐙",
       "autocomplete": "16: android thermostat app  🐙",
+      "subtitle": "pretty bad code",
       "arg": "https://github.com/nikitavoloboev/android-thermostat-app"
     },
     {

@@ -154,6 +154,7 @@
       "uid": "1912, 1948: Wright brothers  🌐",
       "title": "1912, 1948: Wright brothers  🌐",
       "autocomplete": "1912, 1948: Wright brothers  🌐",
+      "subtitle": "designed, built and flew the first controlled, powered, heavier than air airplane in 1903",
       "arg": "http://www.wikiwand.com/en/Wright_brothers"
     },
     {
@@ -412,6 +413,7 @@
       "uid": "1950: Eric Arthur Blair  🌐",
       "title": "1950: Eric Arthur Blair  🌐",
       "autocomplete": "1950: Eric Arthur Blair  🌐",
+      "subtitle": "known by his pen name ‘George Orwell’",
       "arg": "http://www.wikiwand.com/en/George_Orwell"
     },
     {
@@ -592,6 +594,7 @@
       "uid": "10: Jun Seba  🌐",
       "title": "10: Jun Seba  🌐",
       "autocomplete": "10: Jun Seba  🌐",
+      "subtitle": "stage name: Nujabes",
       "arg": "http://www.wikiwand.com/en/Nujabes"
     },
     {
@@ -610,24 +613,28 @@
       "uid": "Kevin Parker  🌐",
       "title": "Kevin Parker  🌐",
       "autocomplete": "Kevin Parker  🌐",
+      "subtitle": "band: Tame Impala",
       "arg": "http://www.wikiwand.com/en/Kevin_Parker_(musician)"
     },
     {
       "uid": "Justin Vernon  🌐",
       "title": "Justin Vernon  🌐",
       "autocomplete": "Justin Vernon  🌐",
+      "subtitle": "band: Bon Iver",
       "arg": "http://www.wikiwand.com/en/Justin_Vernon"
     },
     {
       "uid": "Marcos Ortega  🌐",
       "title": "Marcos Ortega  🌐",
       "autocomplete": "Marcos Ortega  🌐",
+      "subtitle": "stage name: Lorn",
       "arg": "http://www.wikiwand.com/en/Lorn_(musician)"
     },
     {
       "uid": "Douglas Appling  🌐",
       "title": "Douglas Appling  🌐",
       "autocomplete": "Douglas Appling  🌐",
+      "subtitle": "stage name: Emancipator",
       "arg": "http://www.wikiwand.com/en/Emancipator_(musician)"
     },
     {
@@ -640,12 +647,14 @@
       "uid": "Chazwick Bundick  🌐",
       "title": "Chazwick Bundick  🌐",
       "autocomplete": "Chazwick Bundick  🌐",
+      "subtitle": "stage name: Tory Y Moi",
       "arg": "http://www.wikiwand.com/en/Toro_y_Moi"
     },
     {
       "uid": "Henry Laufer  🌐",
       "title": "Henry Laufer  🌐",
       "autocomplete": "Henry Laufer  🌐",
+      "subtitle": "stage name: Shlohmo",
       "arg": "http://www.wikiwand.com/en/Henry_Laufer"
     },
     {
@@ -742,6 +751,7 @@
       "uid": "1980: Jean Piaget  🌐",
       "title": "1980: Jean Piaget  🌐",
       "autocomplete": "1980: Jean Piaget  🌐",
+      "subtitle": "known for his pioneering work in child development",
       "arg": "http://www.wikiwand.com/en/Jean_Piaget"
     },
     {
@@ -928,6 +938,7 @@
       "uid": "Tony Hoare  🌐",
       "title": "Tony Hoare  🌐",
       "autocomplete": "Tony Hoare  🌐",
+      "subtitle": "developed QuickSort algorithm",
       "arg": "http://www.wikiwand.com/en/Tony_Hoare"
     },
     {
@@ -1186,90 +1197,105 @@
       "uid": "James Gosling  🌐",
       "title": "James Gosling  🌐",
       "autocomplete": "James Gosling  🌐",
+      "subtitle": "designed Java language",
       "arg": "http://www.wikiwand.com/en/James_Gosling"
     },
     {
       "uid": "Martin Richards  🌐",
       "title": "Martin Richards  🌐",
       "autocomplete": "Martin Richards  🌐",
+      "subtitle": "developed BCPL programming language",
       "arg": "http://www.wikiwand.com/en/Martin_Richards_(computer_scientist)"
     },
     {
       "uid": "Niklaus Wirth  🌐",
       "title": "Niklaus Wirth  🌐",
       "autocomplete": "Niklaus Wirth  🌐",
+      "subtitle": "designed several languages including Pascal",
       "arg": "http://www.wikiwand.com/en/Niklaus_Wirth"
     },
     {
       "uid": "Xavier Leroy  🌐",
       "title": "Xavier Leroy  🌐",
       "autocomplete": "Xavier Leroy  🌐",
+      "subtitle": "primary developer of the OCaml system",
       "arg": "http://www.wikiwand.com/en/Xavier_Leroy"
     },
     {
       "uid": "Alan Kay  🌐",
       "title": "Alan Kay  🌐",
       "autocomplete": "Alan Kay  🌐",
+      "subtitle": "helped design Smalltalk language",
       "arg": "http://www.wikiwand.com/en/Alan_Kay"
     },
     {
       "uid": "Anders Hejlsberg  🌐",
       "title": "Anders Hejlsberg  🌐",
       "autocomplete": "Anders Hejlsberg  🌐",
+      "subtitle": "designed Turbo Pascal and Delphi languages and works as lead architect of C+ and core developer of TypeScript",
       "arg": "http://www.wikiwand.com/en/Anders_Hejlsberg"
     },
     {
       "uid": "Rob Pike  🌐",
       "title": "Rob Pike  🌐",
       "autocomplete": "Rob Pike  🌐",
+      "subtitle": "helped design Go language",
       "arg": "http://www.wikiwand.com/en/Rob_Pike"
     },
     {
       "uid": "Ken Thompson  🌐",
       "title": "Ken Thompson  🌐",
       "autocomplete": "Ken Thompson  🌐",
+      "subtitle": "designed C language",
       "arg": "http://www.wikiwand.com/en/Ken_Thompson"
     },
     {
       "uid": "Yukihiro Matsumoto  🌐",
       "title": "Yukihiro Matsumoto  🌐",
       "autocomplete": "Yukihiro Matsumoto  🌐",
+      "subtitle": "designed ruby language",
       "arg": "http://www.wikiwand.com/en/Yukihiro_Matsumoto"
     },
     {
       "uid": "Larry Wall  🌐",
       "title": "Larry Wall  🌐",
       "autocomplete": "Larry Wall  🌐",
+      "subtitle": "designed Perl language",
       "arg": "http://www.wikiwand.com/en/Larry_Wall"
     },
     {
       "uid": "Guido van Rossum  🌐",
       "title": "Guido van Rossum  🌐",
       "autocomplete": "Guido van Rossum  🌐",
+      "subtitle": "designed Python language",
       "arg": "http://www.wikiwand.com/en/Guido_van_Rossum"
     },
     {
       "uid": "Rasmus Lerdorf  🌐",
       "title": "Rasmus Lerdorf  🌐",
       "autocomplete": "Rasmus Lerdorf  🌐",
+      "subtitle": "designed PHP language",
       "arg": "http://www.wikiwand.com/en/Rasmus_Lerdorf"
     },
     {
       "uid": "Bjarne Stroustrup  🌐",
       "title": "Bjarne Stroustrup  🌐",
       "autocomplete": "Bjarne Stroustrup  🌐",
+      "subtitle": "designed C++ language",
       "arg": "http://www.wikiwand.com/en/Bjarne_Stroustrup"
     },
     {
       "uid": "Brendan Eich  🌐",
       "title": "Brendan Eich  🌐",
       "autocomplete": "Brendan Eich  🌐",
+      "subtitle": "designed Javascript language",
       "arg": "http://www.wikiwand.com/en/Brendan_Eich"
     },
     {
       "uid": "Chris Lattner  🌐",
       "title": "Chris Lattner  🌐",
       "autocomplete": "Chris Lattner  🌐",
+      "subtitle": "designed Swift language",
       "arg": "http://www.wikiwand.com/en/Chris_Lattner"
     },
     {
@@ -1366,6 +1392,7 @@
       "uid": "1679: Thomas Hobbes  🌐",
       "title": "1679: Thomas Hobbes  🌐",
       "autocomplete": "1679: Thomas Hobbes  🌐",
+      "subtitle": "proposed that reasoning was like numerical computation, that “we add and subtract in our silent thoughts”",
       "arg": "http://www.wikiwand.com/en/Thomas_Hobbes"
     },
     {
@@ -1474,6 +1501,7 @@
       "uid": "Larry Tesler  🌐",
       "title": "Larry Tesler  🌐",
       "autocomplete": "Larry Tesler  🌐",
+      "subtitle": "pioneered cut, copy, paste action",
       "arg": "http://www.wikiwand.com/en/Larry_Tesler"
     },
     {
@@ -1510,6 +1538,7 @@
       "uid": "495 BC: Pythagoras  🌐",
       "title": "495 BC: Pythagoras  🌐",
       "autocomplete": "495 BC: Pythagoras  🌐",
+      "subtitle": "invented the famous Pythagoras’s Theorem",
       "arg": "http://www.wikiwand.com/en/Pythagoras"
     },
     {
@@ -1522,24 +1551,28 @@
       "uid": "~300BC: Euclid  🌐",
       "title": "~300BC: Euclid  🌐",
       "autocomplete": "~300BC: Euclid  🌐",
+      "subtitle": "mathematical treatment of “preferred outcomes” or utility was first finalised by him, gave the basis for modern proof-based mathematics",
       "arg": "http://www.wikiwand.com/en/Euclid"
     },
     {
       "uid": "212 BC: Archimedes  🌐",
       "title": "212 BC: Archimedes  🌐",
       "autocomplete": "212 BC: Archimedes  🌐",
+      "subtitle": "used a lot of advanced methods (something like infinitesimal calculus) which he used to derive the formulas for computing the volume of cones and other solids of revolution, he also used similar methods to investigate the properties of conics",
       "arg": "http://www.wikiwand.com/en/Archimedes"
     },
     {
       "uid": "194 BC: Eratosthenes  🌐",
       "title": "194 BC: Eratosthenes  🌐",
       "autocomplete": "194 BC: Eratosthenes  🌐",
+      "subtitle": "known for the Sieve of Eratosthenes, which is a method of finding prime numbers",
       "arg": "http://www.wikiwand.com/en/Eratosthenes"
     },
     {
       "uid": "299: Diophantus  🌐",
       "title": "299: Diophantus  🌐",
       "autocomplete": "299: Diophantus  🌐",
+      "subtitle": "was interested in properties of integers",
       "arg": "http://www.wikiwand.com/en/Diophantus"
     },
     {
@@ -1552,12 +1585,14 @@
       "uid": "1576: Gerolamo Cardano  🌐",
       "title": "1576: Gerolamo Cardano  🌐",
       "autocomplete": "1576: Gerolamo Cardano  🌐",
+      "subtitle": "first framed the idea of probability, describing it in terms of the possible outcomes of gambling events",
       "arg": "http://www.wikiwand.com/en/Gerolamo_Cardano"
     },
     {
       "uid": "1617: John Napier  🌐",
       "title": "1617: John Napier  🌐",
       "autocomplete": "1617: John Napier  🌐",
+      "subtitle": "invented logarithms",
       "arg": "http://www.wikiwand.com/en/John_Napier"
     },
     {
@@ -1576,36 +1611,42 @@
       "uid": "1650: Rene Descartes  🌐",
       "title": "1650: Rene Descartes  🌐",
       "autocomplete": "1650: Rene Descartes  🌐",
+      "subtitle": "gave the first clear discussion of the distinction between mind and matter and of the problems that arise",
       "arg": "http://www.wikiwand.com/en/Ren%C3%A9_Descartes"
     },
     {
       "uid": "1662: Blaise Pascal  🌐",
       "title": "1662: Blaise Pascal  🌐",
       "autocomplete": "1662: Blaise Pascal  🌐",
+      "subtitle": "built a famous calculating machine",
       "arg": "http://www.wikiwand.com/en/Blaise_Pascal"
     },
     {
       "uid": "1716: Gottfried Leibniz  🌐",
       "title": "1716: Gottfried Leibniz  🌐",
       "autocomplete": "1716: Gottfried Leibniz  🌐",
+      "subtitle": "built a mechanical device intended to carry out operations on concepts rather than numbers",
       "arg": "http://www.wikiwand.com/en/Gottfried_Wilhelm_Leibniz"
     },
     {
       "uid": "1761: Thomas Bayes  🌐",
       "title": "1761: Thomas Bayes  🌐",
       "autocomplete": "1761: Thomas Bayes  🌐",
+      "subtitle": "proposed a rule for updating probabilities in light of new evidence",
       "arg": "http://www.wikiwand.com/en/Thomas_Bayes"
     },
     {
       "uid": "1777: Johann Lambert  🌐",
       "title": "1777: Johann Lambert  🌐",
       "autocomplete": "1777: Johann Lambert  🌐",
+      "subtitle": "invented Wave Equation",
       "arg": "http://www.wikiwand.com/en/Johann_Heinrich_Lambert"
     },
     {
       "uid": "1783: Leonhard Euler  🌐",
       "title": "1783: Leonhard Euler  🌐",
       "autocomplete": "1783: Leonhard Euler  🌐",
+      "subtitle": "invented The Square Root of Minus One, Euler’s Formula for Polyhedra",
       "arg": "http://www.wikiwand.com/en/Leonhard_Euler"
     },
     {
@@ -1618,6 +1659,7 @@
       "uid": "1827: Pierre Laplace  🌐",
       "title": "1827: Pierre Laplace  🌐",
       "autocomplete": "1827: Pierre Laplace  🌐",
+      "subtitle": "advanced the theory and introduced new statistical methods",
       "arg": "http://www.wikiwand.com/en/Pierre-Simon_Laplace"
     },
     {
@@ -1630,6 +1672,7 @@
       "uid": "1830: Joseph Fourier  🌐",
       "title": "1830: Joseph Fourier  🌐",
       "autocomplete": "1830: Joseph Fourier  🌐",
+      "subtitle": "invented Fourier Transform",
       "arg": "http://www.wikiwand.com/en/Joseph_Fourier"
     },
     {
@@ -1660,6 +1703,7 @@
       "uid": "1855: Carl Gauss  🌐",
       "title": "1855: Carl Gauss  🌐",
       "autocomplete": "1855: Carl Gauss  🌐",
+      "subtitle": "invented Normal Distribution",
       "arg": "http://www.wikiwand.com/en/Carl_Friedrich_Gauss"
     },
     {
@@ -1678,6 +1722,7 @@
       "uid": "1864: George Boole  🌐",
       "title": "1864: George Boole  🌐",
       "autocomplete": "1864: George Boole  🌐",
+      "subtitle": "worked out the details of propositional, or Boolean logic",
       "arg": "http://www.wikiwand.com/en/George_Boole"
     },
     {
@@ -1726,6 +1771,7 @@
       "uid": "1925: Gottlob Frege  🌐",
       "title": "1925: Gottlob Frege  🌐",
       "autocomplete": "1925: Gottlob Frege  🌐",
+      "subtitle": "extended Boole’s logic to include objects and relations, creating the first-order logic that is used today",
       "arg": "http://www.wikiwand.com/en/Gottlob_Frege"
     },
     {
@@ -1798,6 +1844,7 @@
       "uid": "1983: Alfred Tarski  🌐",
       "title": "1983: Alfred Tarski  🌐",
       "autocomplete": "1983: Alfred Tarski  🌐",
+      "subtitle": "introduced a theory of reference that shows how to relate the objects in logic to objects in the real world",
       "arg": "http://www.wikiwand.com/en/Alfred_Tarski"
     },
     {
@@ -1828,6 +1875,7 @@
       "uid": "01: Claude Shannon  🌐",
       "title": "01: Claude Shannon  🌐",
       "autocomplete": "01: Claude Shannon  🌐",
+      "subtitle": "invented Information Theory",
       "arg": "http://www.wikiwand.com/en/Claude_Shannon"
     },
     {
@@ -1924,24 +1972,28 @@
       "uid": "1726: Isaac Newton  🌐",
       "title": "1726: Isaac Newton  🌐",
       "autocomplete": "1726: Isaac Newton  🌐",
+      "subtitle": "invented Calculus and Law of Gravity",
       "arg": "http://www.wikiwand.com/en/Isaac_Newton"
     },
     {
       "uid": "1879: James Maxwell  🌐",
       "title": "1879: James Maxwell  🌐",
       "autocomplete": "1879: James Maxwell  🌐",
+      "subtitle": "invented Maxwell’s equations",
       "arg": "http://www.wikiwand.com/en/James_Clerk_Maxwell"
     },
     {
       "uid": "1894: Heinrich Hertz  🌐",
       "title": "1894: Heinrich Hertz  🌐",
       "autocomplete": "1894: Heinrich Hertz  🌐",
+      "subtitle": "first person to transmit and receive radio waves",
       "arg": "http://www.wikiwand.com/en/Heinrich_Hertz"
     },
     {
       "uid": "1906: Ludwig Boltzmann  🌐",
       "title": "1906: Ludwig Boltzmann  🌐",
       "autocomplete": "1906: Ludwig Boltzmann  🌐",
+      "subtitle": "invented Schrodinger’s Equation",
       "arg": "http://www.wikiwand.com/en/Ludwig_Boltzmann"
     },
     {
@@ -2116,6 +2168,7 @@
       "uid": "400 BC: Gautama Buddha  🌐",
       "title": "400 BC: Gautama Buddha  🌐",
       "autocomplete": "400 BC: Gautama Buddha  🌐",
+      "subtitle": "was the man who started Buddhism",
       "arg": "http://www.wikiwand.com/en/Gautama_Buddha"
     },
     {
@@ -2212,6 +2265,7 @@
       "uid": "Geoffrey Hinton  🌐",
       "title": "Geoffrey Hinton  🌐",
       "autocomplete": "Geoffrey Hinton  🌐",
+      "subtitle": "was one of the first researchers who demonstrated the use of generalised back propagation algorithm for training multi-layer neural nets",
       "arg": "http://www.wikiwand.com/en/Geoffrey_Hinton"
     },
     {
