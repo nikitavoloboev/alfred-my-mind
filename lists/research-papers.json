@@ -1,1 +1,502 @@
-{"items":[{"title":"lively linear lisp -- 'look ma, no garbage! 📄","arg":"http://www.pipeline.com/~hbaker1/LinearLisp.html","autocomplete":"lively linear lisp -- 'look ma, no garbage! 📄"},{"title":"thermodynamics and garbage collection 📄","arg":"http://www.pipeline.com/~hbaker1/ThermoGC.html","autocomplete":"thermodynamics and garbage collection 📄"},{"title":"reverse compilation techniques 📄","arg":"https://yurichev.com/mirrors/DCC_decompilation_thesis.pdf","autocomplete":"reverse compilation techniques 📄"},{"title":"scripting: higher level programming for the 21st century 📄","arg":"http://web.stanford.edu/~ouster/cgi-bin/papers/scripting.pdf","autocomplete":"scripting: higher level programming for the 21st century 📄"},{"title":"notes on postmodern programming 📄","arg":"http://www.mcs.vuw.ac.nz/comp/Publications/CS-TR-02-9.abs.html","autocomplete":"notes on postmodern programming 📄"},{"title":"recursive make considered harmful 📄","arg":"https://web.archive.org/web/20070205051133/http://members.canb.auug.org.au/~millerp/rmch/recu-make-cons-harm.html","autocomplete":"recursive make considered harmful 📄"},{"title":"kademlia: a peer-to-peer information system based on the xor metric 📄","arg":"http://www.scs.stanford.edu/~dm/home/papers/kpos.pdf","autocomplete":"kademlia: a peer-to-peer information system based on the xor metric 📄"},{"title":"equal rights for functional objects or, the more things change, the more they are the same 📄","arg":"http://home.pipeline.com/~hbaker1/ObjectIdentity.html","autocomplete":"equal rights for functional objects or, the more things change, the more they are the same 📄"},{"title":"what every programmer should know about memory 📄","arg":"https://www.akkadia.org/drepper/cpumemory.pdf","autocomplete":"what every programmer should know about memory 📄"},{"title":"the c standard formalised in coq 📄","arg":"http://robbertkrebbers.nl/research/thesis.pdf","autocomplete":"the c standard formalised in coq 📄"},{"title":"an analysis and survey of the development of","arg":"https://pdfs.semanticscholar.org/3277/8a2eb4c74cd437e922ac1eb6a1477dfcb925.pdf","autocomplete":"an analysis and survey of the development of"},{"title":"04: the holographic solution - why general relativity must be understood in terms of strings 📄","arg":"https://arxiv.org/abs/gr-qc/0405007","autocomplete":"04: the holographic solution - why general relativity must be understood in terms of strings 📄"},{"title":"16: hamiltonian for the zeros of the riemann zeta function 📄","arg":"https://arxiv.org/abs/1608.03679","autocomplete":"16: hamiltonian for the zeros of the riemann zeta function 📄"},{"title":"an analysis of single-layer networks in unsupervised feature learning 📄","arg":"http://ai.stanford.edu/%7Eacoates/papers/coatesleeng_aistats_2011.pdf","autocomplete":"an analysis of single-layer networks in unsupervised feature learning 📄"},{"title":"mask r-cnn 📄","arg":"https://arxiv.org/abs/1703.06870","autocomplete":"mask r-cnn 📄"},{"title":"viola jones robust real-time object detection 📄","arg":"http://www.swarthmore.edu/NatSci/mzucker1/papers/violaJones_IJCV.pdf","autocomplete":"viola jones robust real-time object detection 📄"},{"title":"example-based photometric stereo: shape reconstruction with general, varying brdfs 📄","arg":"http://grail.cs.washington.edu/projects/sam/HertzmannSeitzPAMI2005.pdf","autocomplete":"example-based photometric stereo: shape reconstruction with general, varying brdfs 📄"},{"title":"17: breaking the browser language barrier 📄","arg":"http://plasma-umass.github.io/doppio-demo/paper.pdf","autocomplete":"17: breaking the browser language barrier 📄"},{"title":"17: evolution strategies as a scalable alternative to reinforcement learning 📄","arg":"https://arxiv.org/abs/1703.03864","autocomplete":"17: evolution strategies as a scalable alternative to reinforcement learning 📄"},{"title":"some thoughts on security after ten years of qmail 1.0 📄","arg":"http://cr.yp.to/qmail/qmailsec-20071101.pdf","autocomplete":"some thoughts on security after ten years of qmail 1.0 📄"},{"title":"probabilistic machine learning and artificial intelligence 📄","arg":"http://www.nature.com/nature/journal/v521/n7553/full/nature14541.html","autocomplete":"probabilistic machine learning and artificial intelligence 📄"},{"title":"design beyond human abilities 📄","arg":"https://dreamsongs.com/Files/DesignBeyondHumanAbilitiesSimp.pdf","autocomplete":"design beyond human abilities 📄"},{"title":"14: dropout- a simple way to prevent neural networks from overfitting 📄","arg":"https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf","autocomplete":"14: dropout- a simple way to prevent neural networks from overfitting 📄"},{"title":"17: deep voice: real-time neural text-to-speech 📄","arg":"https://arxiv.org/pdf/1702.07825.pdf","autocomplete":"17: deep voice: real-time neural text-to-speech 📄"},{"title":"gaussian processes for big data 📄","arg":"http://auai.org/uai2013/prints/papers/244.pdf","autocomplete":"gaussian processes for big data 📄"},{"title":"a few useful things to know about machine learning 📄","arg":"http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf","autocomplete":"a few useful things to know about machine learning 📄"},{"title":"the high-interest credit card of technical debt 📄","arg":"https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf","autocomplete":"the high-interest credit card of technical debt 📄"},{"title":"systems approaches to tackling configuration errors: a survey 📄","arg":"http://opera.ucsd.edu/paper/csur15-survey.pdf","autocomplete":"systems approaches to tackling configuration errors: a survey 📄"},{"title":"an incremental approach to compiler construction 📄","arg":"http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf","autocomplete":"an incremental approach to compiler construction 📄"},{"title":"dynamo: a transparent dynamic optimization system 📄","arg":"https://www.cs.virginia.edu/kim/courses/cs771/papers/bala00dynamo.pdf","autocomplete":"dynamo: a transparent dynamic optimization system 📄"},{"title":"15: calculating correct compilers 📄","arg":"http://www.cs.nott.ac.uk/%7Epszgmh/ccc.pdf","autocomplete":"15: calculating correct compilers 📄"},{"title":"virtual machine monitors: current technology and future trends 📄","arg":"http://xenon.stanford.edu/%7Etalg/papers/COMPUTER05/virtual-future-computer05.pdf","autocomplete":"virtual machine monitors: current technology and future trends 📄"},{"title":"the pathologies of big data 📄","arg":"http://queue.acm.org/detail.cfm?id=1563874","autocomplete":"the pathologies of big data 📄"},{"title":"07: robots take over the world 📄","arg":"http://cseweb.ucsd.edu/classes/fa16/cse200-a/robots_rule.pdf","autocomplete":"07: robots take over the world 📄"},{"title":"07: let’s go to the whiteboard:","arg":"https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/p557-cherubini.pdf","autocomplete":"07: let’s go to the whiteboard:"},{"title":"how complex systems fail 📄","arg":"http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf","autocomplete":"how complex systems fail 📄"},{"title":"how to make ad-hoc polymorphism less add hoc 📄","arg":"https://people.csail.mit.edu/dnj/teaching/6898/papers/wadler88.pdf","autocomplete":"how to make ad-hoc polymorphism less add hoc 📄"},{"title":"challenges to adopting stronger consistency at scale 📄","arg":"http://www-bcf.usc.edu/~wyattllo/papers/challenges-hotos15.pdf","autocomplete":"challenges to adopting stronger consistency at scale 📄"},{"title":"17: squeak makes a good python debugger 📄","arg":"https://github.com/fniephaus/papers/blob/master/2017/px17-debugger.pdf","autocomplete":"17: squeak makes a good python debugger 📄"},{"title":"naked objects 📄","arg":"http://downloads.nakedobjects.net/resources/Pawson%20thesis.pdf","autocomplete":"naked objects 📄"},{"title":"a hub-based labeling algorithm for shortest paths on road networks 📄","arg":"https://www.microsoft.com/en-us/research/wp-content/uploads/2010/12/HL-TR.pdf","autocomplete":"a hub-based labeling algorithm for shortest paths on road networks 📄"},{"title":"propositions as types 📄","arg":"http://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf","autocomplete":"propositions as types 📄"},{"title":"winner-take-all autoencoders 📄","arg":"https://arxiv.org/pdf/1409.2752.pdf","autocomplete":"winner-take-all autoencoders 📄"},{"title":"a roadmap towards machine intelligence 📄","arg":"https://arxiv.org/pdf/1511.08130.pdf","autocomplete":"a roadmap towards machine intelligence 📄"},{"title":"is the brain a good model for machine intelligence? 📄","arg":"http://www.gatsby.ucl.ac.uk/%7Edemis/TuringSpecialIssue%28Nature2012%29.pdf","autocomplete":"is the brain a good model for machine intelligence? 📄"},{"title":"concrete problems in ai safety 📄","arg":"https://arxiv.org/pdf/1606.06565.pdf","autocomplete":"concrete problems in ai safety 📄"},{"title":"neural networks and deep learning 📄","arg":"http://neuralnetworksanddeeplearning.com/","autocomplete":"neural networks and deep learning 📄"},{"title":"learning without forgetting 📄","arg":"https://arxiv.org/pdf/1606.09282.pdf","autocomplete":"learning without forgetting 📄"},{"title":"neural turing machine 📄","arg":"http://www.wikiwand.com/en/Neural_Turing_machine","autocomplete":"neural turing machine 📄"},{"title":"densely connected convolutional networks 📄","arg":"https://arxiv.org/abs/1608.06993","autocomplete":"densely connected convolutional networks 📄"},{"title":"overcoming catastrophic forgetting in neural networks 📄","arg":"http://www.pnas.org/content/early/2017/03/13/1611835114.full.pdf","autocomplete":"overcoming catastrophic forgetting in neural networks 📄"},{"title":"pathnet: evolution channels gradient descent in super neural networks 📄","arg":"https://arxiv.org/pdf/1701.08734.pdf","autocomplete":"pathnet: evolution channels gradient descent in super neural networks 📄"},{"title":"crystal structure of an lsd-bound human serotonin receptor 📄","arg":"http://www.cell.com/cell/fulltext/S0092-8674%2816%2931749-4","autocomplete":"crystal structure of an lsd-bound human serotonin receptor 📄"},{"title":"polynomial exact-3-sat solving algorithm 📄","arg":"http://vixra.org/pdf/1212.0109v1.pdf","autocomplete":"polynomial exact-3-sat solving algorithm 📄"},{"title":"the language and grammar of mathematics 📄","arg":"http://press.princeton.edu/chapters/gowers/gowers_I_2.pdf","autocomplete":"the language and grammar of mathematics 📄"},{"title":"notation as a tool of thought 📄","arg":"http://www.jsoftware.com/papers/tot.htm","autocomplete":"notation as a tool of thought 📄"},{"title":"graph isomorphism in quasipolynomial time 📄","arg":"https://arxiv.org/abs/1512.03547","autocomplete":"graph isomorphism in quasipolynomial time 📄"},{"title":"on proof and progress in mathematics 📄","arg":"https://arxiv.org/pdf/math/9404236v1.pdf","autocomplete":"on proof and progress in mathematics 📄"},{"title":"introduction to categories and categorical logic 📄","arg":"https://arxiv.org/abs/1102.1313","autocomplete":"introduction to categories and categorical logic 📄"},{"title":"a notion of a computational step for partial combinatory algebras 📄","arg":"http://math.mit.edu/~freer/papers/AF-stepalg.pdf","autocomplete":"a notion of a computational step for partial combinatory algebras 📄"},{"title":"reading mathematics 📄","arg":"http://www.math.cornell.edu/~hubbard/readingmath.pdf","autocomplete":"reading mathematics 📄"},{"title":"quotients homophones des groupes libres homophonic quotients of free groups 📄","arg":"http://people.mpim-bonn.mpg.de/zagier/files/exp-math-2/fulltext.pdf","autocomplete":"quotients homophones des groupes libres homophonic quotients of free groups 📄"},{"title":"a beginner’s guide to forcing 📄","arg":"https://arxiv.org/pdf/0712.1320.pdf","autocomplete":"a beginner’s guide to forcing 📄"},{"title":"a lagrangian dual approach to the generalized kyp lemma 📄","arg":"https://pdfs.semanticscholar.org/acdc/f72a08e4847f4e0ab2e7cf0d58bd4d8ded92.pdf","autocomplete":"a lagrangian dual approach to the generalized kyp lemma 📄"},{"title":"07: what is good mathematics? 📄","arg":"https://arxiv.org/abs/math/0702396","autocomplete":"07: what is good mathematics? 📄"},{"title":"on the dimensionality of spacetime 📄","arg":"https://arxiv.org/pdf/gr-qc/9702052.pdf","autocomplete":"on the dimensionality of spacetime 📄"},{"title":"a cohomological viewpoint on elementary school arithmetic 📄","arg":"http://www.math.wayne.edu/~isaksen/Expository/carrying.pdf","autocomplete":"a cohomological viewpoint on elementary school arithmetic 📄"},{"title":"beta reduction is invariant, indeed 📄","arg":"https://arxiv.org/abs/1601.01233","autocomplete":"beta reduction is invariant, indeed 📄"},{"title":"15: a naturalist account of the limited, and hence reasonable, effectiveness of mathematics in physics 📄","arg":"https://arxiv.org/abs/1506.03733","autocomplete":"15: a naturalist account of the limited, and hence reasonable, effectiveness of mathematics in physics 📄"},{"title":"the derivative of a regular type is its type of one-hole contexts 📄","arg":"http://strictlypositive.org/diff.pdf","autocomplete":"the derivative of a regular type is its type of one-hole contexts 📄"},{"title":"1988: how to make ad-hoc polymorphism less ad hoc 📄","arg":"https://pdfs.semanticscholar.org/cc7f/2242dba6f09023128897762d07517f13ba4a.pdf","autocomplete":"1988: how to make ad-hoc polymorphism less ad hoc 📄"},{"title":"1994: lazy functional state threads 📄","arg":"https://www.microsoft.com/en-us/research/wp-content/uploads/1994/06/lazy-functional-state-threads.pdf","autocomplete":"1994: lazy functional state threads 📄"},{"title":"02: the countdown problem 📄","arg":"http://www.cs.nott.ac.uk/%7Epszgmh/countdown.pdf","autocomplete":"02: the countdown problem 📄"},{"title":"06: functional program to solve sudoku 📄","arg":"http://www.cs.tufts.edu/%7Enr/cs257/archive/richard-bird/sudoku.pdf","autocomplete":"06: functional program to solve sudoku 📄"},{"title":"07: infinite sets that admit fast exhaustive search 📄","arg":"http://www.cs.bham.ac.uk/%7Emhe/papers/exhaustive.pdf","autocomplete":"07: infinite sets that admit fast exhaustive search 📄"},{"title":"08: applicative programming with effects 📄","arg":"http://www.staff.city.ac.uk/%7Eross/papers/Applicative.html","autocomplete":"08: applicative programming with effects 📄"},{"title":"08: data types a la carte 📄","arg":"http://www.cs.ru.nl/%7EW.Swierstra/Publications/DataTypesALaCarte.pdf","autocomplete":"08: data types a la carte 📄"},{"title":"trees that grow 📄","arg":"https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/trees-that-grow.pdf","autocomplete":"trees that grow 📄"},{"title":"super compilation by evaluation 📄","arg":"https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/supercomp-by-eval.pdf","autocomplete":"super compilation by evaluation 📄"},{"title":"breaking through the normalisation barrier: a self-interpreter for f-omega 📄","arg":"http://compilers.cs.ucla.edu/popl16/","autocomplete":"breaking through the normalisation barrier: a self-interpreter for f-omega 📄"},{"title":"typed self-evaluation via intensional type functions 📄","arg":"http://compilers.cs.ucla.edu/popl17/","autocomplete":"typed self-evaluation via intensional type functions 📄"},{"title":"freer monads, more extensible effects 📄","arg":"http://okmij.org/ftp/Haskell/extensible/more.pdf","autocomplete":"freer monads, more extensible effects 📄"},{"title":"07: beautiful concurrency 📄","arg":"https://www.microsoft.com/en-us/research/publication/beautiful-concurrency/","autocomplete":"07: beautiful concurrency 📄"}]}
+{
+  "items": [
+    {
+      "uid": "lively linear lisp -- 'look ma, no garbage!  📄",
+      "title": "lively linear lisp -- 'look ma, no garbage!  📄",
+      "autocomplete": "lively linear lisp -- 'look ma, no garbage!  📄",
+      "arg": "http://www.pipeline.com/~hbaker1/LinearLisp.html"
+    },
+    {
+      "uid": "thermodynamics and garbage collection  📄",
+      "title": "thermodynamics and garbage collection  📄",
+      "autocomplete": "thermodynamics and garbage collection  📄",
+      "arg": "http://www.pipeline.com/~hbaker1/ThermoGC.html"
+    },
+    {
+      "uid": "reverse compilation techniques  📄",
+      "title": "reverse compilation techniques  📄",
+      "autocomplete": "reverse compilation techniques  📄",
+      "arg": "https://yurichev.com/mirrors/DCC_decompilation_thesis.pdf"
+    },
+    {
+      "uid": "scripting: higher level programming for the 21st century  📄",
+      "title": "scripting: higher level programming for the 21st century  📄",
+      "autocomplete": "scripting: higher level programming for the 21st century  📄",
+      "arg": "http://web.stanford.edu/~ouster/cgi-bin/papers/scripting.pdf"
+    },
+    {
+      "uid": "notes on postmodern programming  📄",
+      "title": "notes on postmodern programming  📄",
+      "autocomplete": "notes on postmodern programming  📄",
+      "arg": "http://www.mcs.vuw.ac.nz/comp/Publications/CS-TR-02-9.abs.html"
+    },
+    {
+      "uid": "recursive make considered harmful  📄",
+      "title": "recursive make considered harmful  📄",
+      "autocomplete": "recursive make considered harmful  📄",
+      "arg": "https://web.archive.org/web/20070205051133/http://members.canb.auug.org.au/~millerp/rmch/recu-make-cons-harm.html"
+    },
+    {
+      "uid": "kademlia: a peer-to-peer information system based on the xor metric  📄",
+      "title": "kademlia: a peer-to-peer information system based on the xor metric  📄",
+      "autocomplete": "kademlia: a peer-to-peer information system based on the xor metric  📄",
+      "arg": "http://www.scs.stanford.edu/~dm/home/papers/kpos.pdf"
+    },
+    {
+      "uid": "equal rights for functional objects or, the more things change, the more they are the same  📄",
+      "title": "equal rights for functional objects or, the more things change, the more they are the same  📄",
+      "autocomplete": "equal rights for functional objects or, the more things change, the more they are the same  📄",
+      "arg": "http://home.pipeline.com/~hbaker1/ObjectIdentity.html"
+    },
+    {
+      "uid": "what every programmer should know about memory  📄",
+      "title": "what every programmer should know about memory  📄",
+      "autocomplete": "what every programmer should know about memory  📄",
+      "arg": "https://www.akkadia.org/drepper/cpumemory.pdf"
+    },
+    {
+      "uid": "the c standard formalised in coq  📄",
+      "title": "the c standard formalised in coq  📄",
+      "autocomplete": "the c standard formalised in coq  📄",
+      "arg": "http://robbertkrebbers.nl/research/thesis.pdf"
+    },
+    {
+      "uid": "an analysis and survey of the development of mutation testing  📄",
+      "title": "an analysis and survey of the development of mutation testing  📄",
+      "autocomplete": "an analysis and survey of the development of mutation testing  📄",
+      "arg": "https://pdfs.semanticscholar.org/3277/8a2eb4c74cd437e922ac1eb6a1477dfcb925.pdf"
+    },
+    {
+      "uid": "04: the holographic solution - why general relativity must be understood in terms of strings  📄",
+      "title": "04: the holographic solution - why general relativity must be understood in terms of strings  📄",
+      "autocomplete": "04: the holographic solution - why general relativity must be understood in terms of strings  📄",
+      "arg": "https://arxiv.org/abs/gr-qc/0405007"
+    },
+    {
+      "uid": "16: hamiltonian for the zeros of the riemann zeta function  📄",
+      "title": "16: hamiltonian for the zeros of the riemann zeta function  📄",
+      "autocomplete": "16: hamiltonian for the zeros of the riemann zeta function  📄",
+      "arg": "https://arxiv.org/abs/1608.03679"
+    },
+    {
+      "uid": "an analysis of single-layer networks in unsupervised feature learning  📄",
+      "title": "an analysis of single-layer networks in unsupervised feature learning  📄",
+      "autocomplete": "an analysis of single-layer networks in unsupervised feature learning  📄",
+      "arg": "http://ai.stanford.edu/%7Eacoates/papers/coatesleeng_aistats_2011.pdf"
+    },
+    {
+      "uid": "mask r-cnn  📄",
+      "title": "mask r-cnn  📄",
+      "autocomplete": "mask r-cnn  📄",
+      "arg": "https://arxiv.org/abs/1703.06870"
+    },
+    {
+      "uid": "viola jones robust real-time object detection  📄",
+      "title": "viola jones robust real-time object detection  📄",
+      "autocomplete": "viola jones robust real-time object detection  📄",
+      "arg": "http://www.swarthmore.edu/NatSci/mzucker1/papers/violaJones_IJCV.pdf"
+    },
+    {
+      "uid": "example-based photometric stereo: shape reconstruction with general, varying brdfs  📄",
+      "title": "example-based photometric stereo: shape reconstruction with general, varying brdfs  📄",
+      "autocomplete": "example-based photometric stereo: shape reconstruction with general, varying brdfs  📄",
+      "arg": "http://grail.cs.washington.edu/projects/sam/HertzmannSeitzPAMI2005.pdf"
+    },
+    {
+      "uid": "17: breaking the browser language barrier  📄",
+      "title": "17: breaking the browser language barrier  📄",
+      "autocomplete": "17: breaking the browser language barrier  📄",
+      "arg": "http://plasma-umass.github.io/doppio-demo/paper.pdf"
+    },
+    {
+      "uid": "17: evolution strategies as a scalable alternative to reinforcement learning  📄",
+      "title": "17: evolution strategies as a scalable alternative to reinforcement learning  📄",
+      "autocomplete": "17: evolution strategies as a scalable alternative to reinforcement learning  📄",
+      "arg": "https://arxiv.org/abs/1703.03864"
+    },
+    {
+      "uid": "some thoughts on security after ten years of qmail 1.0  📄",
+      "title": "some thoughts on security after ten years of qmail 1.0  📄",
+      "autocomplete": "some thoughts on security after ten years of qmail 1.0  📄",
+      "arg": "http://cr.yp.to/qmail/qmailsec-20071101.pdf"
+    },
+    {
+      "uid": "probabilistic machine learning and artificial intelligence  📄",
+      "title": "probabilistic machine learning and artificial intelligence  📄",
+      "autocomplete": "probabilistic machine learning and artificial intelligence  📄",
+      "arg": "http://www.nature.com/nature/journal/v521/n7553/full/nature14541.html"
+    },
+    {
+      "uid": "design beyond human abilities  📄",
+      "title": "design beyond human abilities  📄",
+      "autocomplete": "design beyond human abilities  📄",
+      "arg": "https://dreamsongs.com/Files/DesignBeyondHumanAbilitiesSimp.pdf"
+    },
+    {
+      "uid": "14: dropout- a simple way to prevent neural networks from overfitting  📄",
+      "title": "14: dropout- a simple way to prevent neural networks from overfitting  📄",
+      "autocomplete": "14: dropout- a simple way to prevent neural networks from overfitting  📄",
+      "arg": "https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf"
+    },
+    {
+      "uid": "17: deep voice: real-time neural text-to-speech  📄",
+      "title": "17: deep voice: real-time neural text-to-speech  📄",
+      "autocomplete": "17: deep voice: real-time neural text-to-speech  📄",
+      "arg": "https://arxiv.org/pdf/1702.07825.pdf"
+    },
+    {
+      "uid": "gaussian processes for big data  📄",
+      "title": "gaussian processes for big data  📄",
+      "autocomplete": "gaussian processes for big data  📄",
+      "arg": "http://auai.org/uai2013/prints/papers/244.pdf"
+    },
+    {
+      "uid": "a few useful things to know about machine learning  📄",
+      "title": "a few useful things to know about machine learning  📄",
+      "autocomplete": "a few useful things to know about machine learning  📄",
+      "arg": "http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf"
+    },
+    {
+      "uid": "the high-interest credit card of technical debt  📄",
+      "title": "the high-interest credit card of technical debt  📄",
+      "autocomplete": "the high-interest credit card of technical debt  📄",
+      "arg": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf"
+    },
+    {
+      "uid": "systems approaches to tackling configuration errors: a survey  📄",
+      "title": "systems approaches to tackling configuration errors: a survey  📄",
+      "autocomplete": "systems approaches to tackling configuration errors: a survey  📄",
+      "arg": "http://opera.ucsd.edu/paper/csur15-survey.pdf"
+    },
+    {
+      "uid": "an incremental approach to compiler construction  📄",
+      "title": "an incremental approach to compiler construction  📄",
+      "autocomplete": "an incremental approach to compiler construction  📄",
+      "arg": "http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf"
+    },
+    {
+      "uid": "dynamo: a transparent dynamic optimization system  📄",
+      "title": "dynamo: a transparent dynamic optimization system  📄",
+      "autocomplete": "dynamo: a transparent dynamic optimization system  📄",
+      "arg": "https://www.cs.virginia.edu/kim/courses/cs771/papers/bala00dynamo.pdf"
+    },
+    {
+      "uid": "15: calculating correct compilers  📄",
+      "title": "15: calculating correct compilers  📄",
+      "autocomplete": "15: calculating correct compilers  📄",
+      "arg": "http://www.cs.nott.ac.uk/%7Epszgmh/ccc.pdf"
+    },
+    {
+      "uid": "virtual machine monitors: current technology and future trends  📄",
+      "title": "virtual machine monitors: current technology and future trends  📄",
+      "autocomplete": "virtual machine monitors: current technology and future trends  📄",
+      "arg": "http://xenon.stanford.edu/%7Etalg/papers/COMPUTER05/virtual-future-computer05.pdf"
+    },
+    {
+      "uid": "the pathologies of big data  📄",
+      "title": "the pathologies of big data  📄",
+      "autocomplete": "the pathologies of big data  📄",
+      "arg": "http://queue.acm.org/detail.cfm?id=1563874"
+    },
+    {
+      "uid": "07: robots take over the world  📄",
+      "title": "07: robots take over the world  📄",
+      "autocomplete": "07: robots take over the world  📄",
+      "arg": "http://cseweb.ucsd.edu/classes/fa16/cse200-a/robots_rule.pdf"
+    },
+    {
+      "uid": "07: let’s go to the whiteboard: how and why software developers use drawings  📄",
+      "title": "07: let’s go to the whiteboard: how and why software developers use drawings  📄",
+      "autocomplete": "07: let’s go to the whiteboard: how and why software developers use drawings  📄",
+      "arg": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/p557-cherubini.pdf"
+    },
+    {
+      "uid": "how complex systems fail  📄",
+      "title": "how complex systems fail  📄",
+      "autocomplete": "how complex systems fail  📄",
+      "arg": "http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf"
+    },
+    {
+      "uid": "how to make ad-hoc polymorphism less add hoc  📄",
+      "title": "how to make ad-hoc polymorphism less add hoc  📄",
+      "autocomplete": "how to make ad-hoc polymorphism less add hoc  📄",
+      "arg": "https://people.csail.mit.edu/dnj/teaching/6898/papers/wadler88.pdf"
+    },
+    {
+      "uid": "challenges to adopting stronger consistency at scale  📄",
+      "title": "challenges to adopting stronger consistency at scale  📄",
+      "autocomplete": "challenges to adopting stronger consistency at scale  📄",
+      "arg": "http://www-bcf.usc.edu/~wyattllo/papers/challenges-hotos15.pdf"
+    },
+    {
+      "uid": "17: squeak makes a good python debugger  📄",
+      "title": "17: squeak makes a good python debugger  📄",
+      "autocomplete": "17: squeak makes a good python debugger  📄",
+      "arg": "https://github.com/fniephaus/papers/blob/master/2017/px17-debugger.pdf"
+    },
+    {
+      "uid": "naked objects  📄",
+      "title": "naked objects  📄",
+      "autocomplete": "naked objects  📄",
+      "arg": "http://downloads.nakedobjects.net/resources/Pawson%20thesis.pdf"
+    },
+    {
+      "uid": "a hub-based labeling algorithm for shortest paths on road networks  📄",
+      "title": "a hub-based labeling algorithm for shortest paths on road networks  📄",
+      "autocomplete": "a hub-based labeling algorithm for shortest paths on road networks  📄",
+      "arg": "https://www.microsoft.com/en-us/research/wp-content/uploads/2010/12/HL-TR.pdf"
+    },
+    {
+      "uid": "propositions as types  📄",
+      "title": "propositions as types  📄",
+      "autocomplete": "propositions as types  📄",
+      "arg": "http://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf"
+    },
+    {
+      "uid": "winner-take-all autoencoders  📄",
+      "title": "winner-take-all autoencoders  📄",
+      "autocomplete": "winner-take-all autoencoders  📄",
+      "arg": "https://arxiv.org/pdf/1409.2752.pdf"
+    },
+    {
+      "uid": "a roadmap towards machine intelligence  📄",
+      "title": "a roadmap towards machine intelligence  📄",
+      "autocomplete": "a roadmap towards machine intelligence  📄",
+      "arg": "https://arxiv.org/pdf/1511.08130.pdf"
+    },
+    {
+      "uid": "is the brain a good model for machine intelligence?  📄",
+      "title": "is the brain a good model for machine intelligence?  📄",
+      "autocomplete": "is the brain a good model for machine intelligence?  📄",
+      "arg": "http://www.gatsby.ucl.ac.uk/%7Edemis/TuringSpecialIssue%28Nature2012%29.pdf"
+    },
+    {
+      "uid": "concrete problems in ai safety  📄",
+      "title": "concrete problems in ai safety  📄",
+      "autocomplete": "concrete problems in ai safety  📄",
+      "arg": "https://arxiv.org/pdf/1606.06565.pdf"
+    },
+    {
+      "uid": "neural networks and deep learning  📄",
+      "title": "neural networks and deep learning  📄",
+      "autocomplete": "neural networks and deep learning  📄",
+      "arg": "http://neuralnetworksanddeeplearning.com/"
+    },
+    {
+      "uid": "learning without forgetting  📄",
+      "title": "learning without forgetting  📄",
+      "autocomplete": "learning without forgetting  📄",
+      "arg": "https://arxiv.org/pdf/1606.09282.pdf"
+    },
+    {
+      "uid": "neural turing machine  📄",
+      "title": "neural turing machine  📄",
+      "autocomplete": "neural turing machine  📄",
+      "arg": "http://www.wikiwand.com/en/Neural_Turing_machine"
+    },
+    {
+      "uid": "densely connected convolutional networks  📄",
+      "title": "densely connected convolutional networks  📄",
+      "autocomplete": "densely connected convolutional networks  📄",
+      "arg": "https://arxiv.org/abs/1608.06993"
+    },
+    {
+      "uid": "overcoming catastrophic forgetting in neural networks  📄",
+      "title": "overcoming catastrophic forgetting in neural networks  📄",
+      "autocomplete": "overcoming catastrophic forgetting in neural networks  📄",
+      "arg": "http://www.pnas.org/content/early/2017/03/13/1611835114.full.pdf"
+    },
+    {
+      "uid": "pathnet: evolution channels gradient descent in super neural networks  📄",
+      "title": "pathnet: evolution channels gradient descent in super neural networks  📄",
+      "autocomplete": "pathnet: evolution channels gradient descent in super neural networks  📄",
+      "arg": "https://arxiv.org/pdf/1701.08734.pdf"
+    },
+    {
+      "uid": "crystal structure of an lsd-bound human serotonin receptor  📄",
+      "title": "crystal structure of an lsd-bound human serotonin receptor  📄",
+      "autocomplete": "crystal structure of an lsd-bound human serotonin receptor  📄",
+      "arg": "http://www.cell.com/cell/fulltext/S0092-8674%2816%2931749-4"
+    },
+    {
+      "uid": "polynomial exact-3-sat solving algorithm  📄",
+      "title": "polynomial exact-3-sat solving algorithm  📄",
+      "autocomplete": "polynomial exact-3-sat solving algorithm  📄",
+      "arg": "http://vixra.org/pdf/1212.0109v1.pdf"
+    },
+    {
+      "uid": "the language and grammar of mathematics  📄",
+      "title": "the language and grammar of mathematics  📄",
+      "autocomplete": "the language and grammar of mathematics  📄",
+      "arg": "http://press.princeton.edu/chapters/gowers/gowers_I_2.pdf"
+    },
+    {
+      "uid": "notation as a tool of thought  📄",
+      "title": "notation as a tool of thought  📄",
+      "autocomplete": "notation as a tool of thought  📄",
+      "arg": "http://www.jsoftware.com/papers/tot.htm"
+    },
+    {
+      "uid": "graph isomorphism in quasipolynomial time  📄",
+      "title": "graph isomorphism in quasipolynomial time  📄",
+      "autocomplete": "graph isomorphism in quasipolynomial time  📄",
+      "arg": "https://arxiv.org/abs/1512.03547"
+    },
+    {
+      "uid": "on proof and progress in mathematics  📄",
+      "title": "on proof and progress in mathematics  📄",
+      "autocomplete": "on proof and progress in mathematics  📄",
+      "arg": "https://arxiv.org/pdf/math/9404236v1.pdf"
+    },
+    {
+      "uid": "introduction to categories and categorical logic  📄",
+      "title": "introduction to categories and categorical logic  📄",
+      "autocomplete": "introduction to categories and categorical logic  📄",
+      "arg": "https://arxiv.org/abs/1102.1313"
+    },
+    {
+      "uid": "a notion of a computational step for partial combinatory algebras  📄",
+      "title": "a notion of a computational step for partial combinatory algebras  📄",
+      "autocomplete": "a notion of a computational step for partial combinatory algebras  📄",
+      "arg": "http://math.mit.edu/~freer/papers/AF-stepalg.pdf"
+    },
+    {
+      "uid": "reading mathematics  📄",
+      "title": "reading mathematics  📄",
+      "autocomplete": "reading mathematics  📄",
+      "arg": "http://www.math.cornell.edu/~hubbard/readingmath.pdf"
+    },
+    {
+      "uid": "quotients homophones des groupes libres homophonic quotients of free groups  📄",
+      "title": "quotients homophones des groupes libres homophonic quotients of free groups  📄",
+      "autocomplete": "quotients homophones des groupes libres homophonic quotients of free groups  📄",
+      "arg": "http://people.mpim-bonn.mpg.de/zagier/files/exp-math-2/fulltext.pdf"
+    },
+    {
+      "uid": "a beginner’s guide to forcing  📄",
+      "title": "a beginner’s guide to forcing  📄",
+      "autocomplete": "a beginner’s guide to forcing  📄",
+      "arg": "https://arxiv.org/pdf/0712.1320.pdf"
+    },
+    {
+      "uid": "a lagrangian dual approach to the generalized kyp lemma  📄",
+      "title": "a lagrangian dual approach to the generalized kyp lemma  📄",
+      "autocomplete": "a lagrangian dual approach to the generalized kyp lemma  📄",
+      "arg": "https://pdfs.semanticscholar.org/acdc/f72a08e4847f4e0ab2e7cf0d58bd4d8ded92.pdf"
+    },
+    {
+      "uid": "07: what is good mathematics?  📄",
+      "title": "07: what is good mathematics?  📄",
+      "autocomplete": "07: what is good mathematics?  📄",
+      "arg": "https://arxiv.org/abs/math/0702396"
+    },
+    {
+      "uid": "on the dimensionality of spacetime  📄",
+      "title": "on the dimensionality of spacetime  📄",
+      "autocomplete": "on the dimensionality of spacetime  📄",
+      "arg": "https://arxiv.org/pdf/gr-qc/9702052.pdf"
+    },
+    {
+      "uid": "a cohomological viewpoint on elementary school arithmetic  📄",
+      "title": "a cohomological viewpoint on elementary school arithmetic  📄",
+      "autocomplete": "a cohomological viewpoint on elementary school arithmetic  📄",
+      "arg": "http://www.math.wayne.edu/~isaksen/Expository/carrying.pdf"
+    },
+    {
+      "uid": "beta reduction is invariant, indeed  📄",
+      "title": "beta reduction is invariant, indeed  📄",
+      "autocomplete": "beta reduction is invariant, indeed  📄",
+      "arg": "https://arxiv.org/abs/1601.01233"
+    },
+    {
+      "uid": "15: a naturalist account of the limited, and hence reasonable, effectiveness of mathematics in physics  📄",
+      "title": "15: a naturalist account of the limited, and hence reasonable, effectiveness of mathematics in physics  📄",
+      "autocomplete": "15: a naturalist account of the limited, and hence reasonable, effectiveness of mathematics in physics  📄",
+      "arg": "https://arxiv.org/abs/1506.03733"
+    },
+    {
+      "uid": "the derivative of a regular type is its type of one-hole contexts  📄",
+      "title": "the derivative of a regular type is its type of one-hole contexts  📄",
+      "autocomplete": "the derivative of a regular type is its type of one-hole contexts  📄",
+      "arg": "http://strictlypositive.org/diff.pdf"
+    },
+    {
+      "uid": "1988: how to make ad-hoc polymorphism less ad hoc  📄",
+      "title": "1988: how to make ad-hoc polymorphism less ad hoc  📄",
+      "autocomplete": "1988: how to make ad-hoc polymorphism less ad hoc  📄",
+      "arg": "https://pdfs.semanticscholar.org/cc7f/2242dba6f09023128897762d07517f13ba4a.pdf"
+    },
+    {
+      "uid": "1994: lazy functional state threads  📄",
+      "title": "1994: lazy functional state threads  📄",
+      "autocomplete": "1994: lazy functional state threads  📄",
+      "arg": "https://www.microsoft.com/en-us/research/wp-content/uploads/1994/06/lazy-functional-state-threads.pdf"
+    },
+    {
+      "uid": "02: the countdown problem  📄",
+      "title": "02: the countdown problem  📄",
+      "autocomplete": "02: the countdown problem  📄",
+      "arg": "http://www.cs.nott.ac.uk/%7Epszgmh/countdown.pdf"
+    },
+    {
+      "uid": "06: functional program to solve sudoku  📄",
+      "title": "06: functional program to solve sudoku  📄",
+      "autocomplete": "06: functional program to solve sudoku  📄",
+      "arg": "http://www.cs.tufts.edu/%7Enr/cs257/archive/richard-bird/sudoku.pdf"
+    },
+    {
+      "uid": "07: infinite sets that admit fast exhaustive search  📄",
+      "title": "07: infinite sets that admit fast exhaustive search  📄",
+      "autocomplete": "07: infinite sets that admit fast exhaustive search  📄",
+      "arg": "http://www.cs.bham.ac.uk/%7Emhe/papers/exhaustive.pdf"
+    },
+    {
+      "uid": "08: applicative programming with effects  📄",
+      "title": "08: applicative programming with effects  📄",
+      "autocomplete": "08: applicative programming with effects  📄",
+      "arg": "http://www.staff.city.ac.uk/%7Eross/papers/Applicative.html"
+    },
+    {
+      "uid": "08: data types a la carte  📄",
+      "title": "08: data types a la carte  📄",
+      "autocomplete": "08: data types a la carte  📄",
+      "arg": "http://www.cs.ru.nl/%7EW.Swierstra/Publications/DataTypesALaCarte.pdf"
+    },
+    {
+      "uid": "trees that grow  📄",
+      "title": "trees that grow  📄",
+      "autocomplete": "trees that grow  📄",
+      "arg": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/trees-that-grow.pdf"
+    },
+    {
+      "uid": "super compilation by evaluation  📄",
+      "title": "super compilation by evaluation  📄",
+      "autocomplete": "super compilation by evaluation  📄",
+      "arg": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/supercomp-by-eval.pdf"
+    },
+    {
+      "uid": "breaking through the normalisation barrier: a self-interpreter for f-omega  📄",
+      "title": "breaking through the normalisation barrier: a self-interpreter for f-omega  📄",
+      "autocomplete": "breaking through the normalisation barrier: a self-interpreter for f-omega  📄",
+      "arg": "http://compilers.cs.ucla.edu/popl16/"
+    },
+    {
+      "uid": "typed self-evaluation via intensional type functions  📄",
+      "title": "typed self-evaluation via intensional type functions  📄",
+      "autocomplete": "typed self-evaluation via intensional type functions  📄",
+      "arg": "http://compilers.cs.ucla.edu/popl17/"
+    },
+    {
+      "uid": "freer monads, more extensible effects  📄",
+      "title": "freer monads, more extensible effects  📄",
+      "autocomplete": "freer monads, more extensible effects  📄",
+      "arg": "http://okmij.org/ftp/Haskell/extensible/more.pdf"
+    },
+    {
+      "uid": "07: beautiful concurrency  📄",
+      "title": "07: beautiful concurrency  📄",
+      "autocomplete": "07: beautiful concurrency  📄",
+      "arg": "https://www.microsoft.com/en-us/research/publication/beautiful-concurrency/"
+    }
+  ]
+}

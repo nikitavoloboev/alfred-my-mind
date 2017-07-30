@@ -1,1 +1,64 @@
-{"items":[{"title":"17: learn anything roadmap 🗃️","arg":"https://learn-anything.github.io/2017/06/15/roadmap.html","autocomplete":"17: learn anything roadmap 🗃️"},{"title":"17: node map rendering 🗃️","arg":"https://learn-anything.github.io/internet/tech/2017/05/15/node-map.html","autocomplete":"17: node map rendering 🗃️"},{"title":"17: interactive node map 🗃️","arg":"https://learn-anything.github.io/internet/tech/2017/05/15/User-experience-explained.html","autocomplete":"17: interactive node map 🗃️"},{"title":"17: human curated backend 🗃️","arg":"https://learn-anything.github.io/internet/tech/2017/05/15/human-curated-backend.html","autocomplete":"17: human curated backend 🗃️"},{"title":"17: a pragmatic solution 🗃️","arg":"https://learn-anything.github.io/internet/tech/2017/05/17/A-pragmatic-solution.html","autocomplete":"17: a pragmatic solution 🗃️"},{"title":"17: automating the contribution system 🗃️","arg":"https://learn-anything.github.io/automation/2017/05/20/Automating-the-contribution-system.html","autocomplete":"17: automating the contribution system 🗃️"},{"title":"17: future of learning 🗃️","arg":"https://learn-anything.github.io/future/2017/05/27/future-of-learning.html","autocomplete":"17: future of learning 🗃️"},{"title":"17: no more deployment pain 🗃️","arg":"https://learn-anything.github.io/automation/2017/05/30/no-more-pain.html","autocomplete":"17: no more deployment pain 🗃️"},{"title":"17: contributing to learn anything 🗃️","arg":"https://learn-anything.github.io/2017/06/15/contributing.html","autocomplete":"17: contributing to learn anything 🗃️"},{"title":"17: mind maps design guideline 🗃️","arg":"https://learn-anything.github.io/2017/06/15/mind-map-design.html","autocomplete":"17: mind maps design guideline 🗃️"}]}
+{
+  "items": [
+    {
+      "uid": "17: learn anything roadmap  🗃️",
+      "title": "17: learn anything roadmap  🗃️",
+      "autocomplete": "17: learn anything roadmap  🗃️",
+      "arg": "https://learn-anything.github.io/2017/06/15/roadmap.html"
+    },
+    {
+      "uid": "17: node map rendering  🗃️",
+      "title": "17: node map rendering  🗃️",
+      "autocomplete": "17: node map rendering  🗃️",
+      "arg": "https://learn-anything.github.io/internet/tech/2017/05/15/node-map.html"
+    },
+    {
+      "uid": "17: interactive node map  🗃️",
+      "title": "17: interactive node map  🗃️",
+      "autocomplete": "17: interactive node map  🗃️",
+      "arg": "https://learn-anything.github.io/internet/tech/2017/05/15/User-experience-explained.html"
+    },
+    {
+      "uid": "17: human curated backend  🗃️",
+      "title": "17: human curated backend  🗃️",
+      "autocomplete": "17: human curated backend  🗃️",
+      "arg": "https://learn-anything.github.io/internet/tech/2017/05/15/human-curated-backend.html"
+    },
+    {
+      "uid": "17: a pragmatic solution  🗃️",
+      "title": "17: a pragmatic solution  🗃️",
+      "autocomplete": "17: a pragmatic solution  🗃️",
+      "arg": "https://learn-anything.github.io/internet/tech/2017/05/17/A-pragmatic-solution.html"
+    },
+    {
+      "uid": "17: automating the contribution system  🗃️",
+      "title": "17: automating the contribution system  🗃️",
+      "autocomplete": "17: automating the contribution system  🗃️",
+      "arg": "https://learn-anything.github.io/automation/2017/05/20/Automating-the-contribution-system.html"
+    },
+    {
+      "uid": "17: future of learning  🗃️",
+      "title": "17: future of learning  🗃️",
+      "autocomplete": "17: future of learning  🗃️",
+      "arg": "https://learn-anything.github.io/future/2017/05/27/future-of-learning.html"
+    },
+    {
+      "uid": "17: no more deployment pain  🗃️",
+      "title": "17: no more deployment pain  🗃️",
+      "autocomplete": "17: no more deployment pain  🗃️",
+      "arg": "https://learn-anything.github.io/automation/2017/05/30/no-more-pain.html"
+    },
+    {
+      "uid": "17: contributing to learn anything  🗃️",
+      "title": "17: contributing to learn anything  🗃️",
+      "autocomplete": "17: contributing to learn anything  🗃️",
+      "arg": "https://learn-anything.github.io/2017/06/15/contributing.html"
+    },
+    {
+      "uid": "17: mind maps design guideline  🗃️",
+      "title": "17: mind maps design guideline  🗃️",
+      "autocomplete": "17: mind maps design guideline  🗃️",
+      "arg": "https://learn-anything.github.io/2017/06/15/mind-map-design.html"
+    }
+  ]
+}

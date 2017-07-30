@@ -21,6 +21,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>4257FEFB-6CB5-4ADA-B381-17E29E313A77</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7850EC64-1846-40B7-8AF8-501256B73821</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>49000AF6-1B9D-4DB0-BAC6-10A19F53159E</key>
 		<array>
 			<dict>
@@ -202,7 +215,7 @@
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"blogs","arg":"lists\/blogs.json\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},{"title":"books","arg":"lists\/books.json"},{"title":"courses","arg":"lists\/courses.json"},{"title":"github users","arg":"lists\/github-users.json"},{"title":"humans","arg":"lists\/humans.json\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},{"title":"images","arg":"lists\/images.json"},{"title":"la blogs","arg":"lists\/la-blogs.json\n\n"},{"title":"articles","arg":"lists\/articles.json\n"},{"title":"personal","arg":"lists\/personal.json"},{"title":"quora","arg":"lists\/quora.json\n\n\n\n\n\n\n\n\n\n\n\n"},{"title":"reddit","arg":"lists\/reddit.json\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},{"title":"research papers","arg":"lists\/research-papers.json\n\n\n\n\n\n\n\n\n\n\n\n"},{"title":"twitter","arg":"lists\/twitter.json\n\n\n\n\n\n\n\n\n"},{"title":"web","arg":"lists\/websites.json"},{"title":"profiles","arg":"lists\/web-presence.json"},{"title":"github","arg":"lists\/github.json"}]</string>
+				<string>[{"title":"blogs","arg":"lists\/blogs.json\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},{"title":"books","arg":"lists\/books.json"},{"title":"courses","arg":"lists\/courses.json"},{"title":"github users","arg":"lists\/github-users.json"},{"title":"humans","arg":"lists\/humans.json\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},{"title":"images","arg":"lists\/images.json"},{"title":"la blogs","arg":"lists\/la-blogs.json\n\n"},{"title":"articles","arg":"lists\/articles.json\n"},{"title":"personal","arg":"lists\/personal.json"},{"title":"quora","arg":"lists\/quora.json\n\n\n\n\n\n\n\n\n\n\n\n"},{"title":"reddit","arg":"lists\/reddit.json\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},{"title":"research papers","arg":"lists\/research-papers.json\n\n\n\n\n\n\n\n\n\n\n\n"},{"title":"twitter","arg":"lists\/twitter.json\n\n\n\n\n\n\n\n\n"},{"title":"web","arg":"lists\/websites.json"},{"title":"profiles","arg":"lists\/web-presence.json"},{"title":"github","arg":"lists\/github.json"},{"title":"reddit users","arg":"lists\/reddit-users.json"}]</string>
 				<key>keyword</key>
 				<string>inside</string>
 				<key>runningsubtext</key>
@@ -332,6 +345,52 @@ fi #find</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>updatemind</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>test</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4257FEFB-6CB5-4ADA-B381-17E29E313A77</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+echo -n $query</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7850EC64-1846-40B7-8AF8-501256B73821</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Search through books, courses, my notes, bookmarks and more.
@@ -347,28 +406,42 @@ Big thanks to Deanishe for his patience and help.</string>
 			<key>xpos</key>
 			<integer>640</integer>
 			<key>ypos</key>
-			<integer>110</integer>
+			<integer>10</integer>
 		</dict>
 		<key>413FA2AE-0F4D-4662-9E53-BF30E2735EC6</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>130</integer>
+			<integer>30</integer>
+		</dict>
+		<key>4257FEFB-6CB5-4ADA-B381-17E29E313A77</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>340</integer>
 		</dict>
 		<key>49000AF6-1B9D-4DB0-BAC6-10A19F53159E</key>
 		<dict>
 			<key>xpos</key>
 			<integer>360</integer>
 			<key>ypos</key>
-			<integer>140</integer>
+			<integer>40</integer>
 		</dict>
 		<key>6445A419-2BF7-4CB1-9DD9-DDE8D9CC488B</key>
 		<dict>
 			<key>xpos</key>
 			<integer>180</integer>
 			<key>ypos</key>
-			<integer>190</integer>
+			<integer>90</integer>
+		</dict>
+		<key>7850EC64-1846-40B7-8AF8-501256B73821</key>
+		<dict>
+			<key>xpos</key>
+			<integer>320</integer>
+			<key>ypos</key>
+			<integer>360</integer>
 		</dict>
 		<key>83219C6A-3F57-44EA-B82E-168A6CC2ACFE</key>
 		<dict>
@@ -379,21 +452,21 @@ Big thanks to Deanishe for his patience and help.</string>
 			<key>xpos</key>
 			<integer>440</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>170</integer>
 		</dict>
 		<key>C8C01147-B974-49A7-96D6-FD7A9C7D5586</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>280</integer>
+			<integer>180</integer>
 		</dict>
 		<key>F2AA3969-D7B8-4BDF-9695-5817E82568EE</key>
 		<dict>
 			<key>xpos</key>
 			<integer>440</integer>
 			<key>ypos</key>
-			<integer>110</integer>
+			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>version</key>

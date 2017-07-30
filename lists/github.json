@@ -1,1 +1,202 @@
-{"items":[{"title":"17: ama 🐙","arg":"https://github.com/nikitavoloboev/ama","autocomplete":"17: ama 🐙"},{"title":"17: learn anything 🐙","arg":"https://github.com/nikitavoloboev/learn-anything","autocomplete":"17: learn anything 🐙"},{"title":"17: learn anything search engine 🐙","arg":"https://github.com/learn-anything/search-engine","autocomplete":"17: learn anything search engine 🐙"},{"title":"17: alfred learn anything 🐙","arg":"https://github.com/nikitavoloboev/alfred-learn-anything","autocomplete":"17: alfred learn anything 🐙"},{"title":"17: crafting ideas 🐙","arg":"https://github.com/nikitavoloboev/crafting-ideas","autocomplete":"17: crafting ideas 🐙"},{"title":"17: alfred ask create share 🐙","arg":"https://github.com/nikitavoloboev/alfred-ask-create-share","autocomplete":"17: alfred ask create share 🐙"},{"title":"17: alfred imgur album download 🐙","arg":"https://github.com/nikitavoloboev/alfred-imgur-album-download","autocomplete":"17: alfred imgur album download 🐙"},{"title":"17: alfred karabiner 🐙","arg":"https://github.com/nikitavoloboev/alfred-karabiner","autocomplete":"17: alfred karabiner 🐙"},{"title":"17: alfred clean folders 🐙","arg":"https://github.com/nikitavoloboev/alfred-clean-folders","autocomplete":"17: alfred clean folders 🐙"},{"title":"17: alfred web searches 💡","arg":"https://github.com/nikitavoloboev/alfred-web-searches","autocomplete":"17: alfred web searches 💡"},{"title":"17: alfred screenshot ocr 💡","arg":"https://github.com/nikitavoloboev/alfred-screenshot-ocr","autocomplete":"17: alfred screenshot ocr 💡"},{"title":"17: alfred goodreads 💡","arg":"https://github.com/nikitavoloboev/alfred-goodreads","autocomplete":"17: alfred goodreads 💡"},{"title":"17: alfred my mind 🐙","arg":"https://github.com/nikitavoloboev/alfred-my-mind","autocomplete":"17: alfred my mind 🐙"},{"title":"17: alfred pinboard tags 🐙","arg":"https://github.com/nikitavoloboev/alfred-pinboard-tags","autocomplete":"17: alfred pinboard tags 🐙"},{"title":"17: alfred twitter follows 💡","arg":"https://github.com/nikitavoloboev/alfred-twitter-follows","autocomplete":"17: alfred twitter follows 💡"},{"title":"17: alfred time 💡","arg":"https://github.com/nikitavoloboev/alfred-time","autocomplete":"17: alfred time 💡"},{"title":"17: alfred pixave 💡","arg":"https://github.com/nikitavoloboev/alfred-pixave","autocomplete":"17: alfred pixave 💡"},{"title":"17: alfred folder search 🐙","arg":"https://github.com/nikitavoloboev/alfred-folder-search","autocomplete":"17: alfred folder search 🐙"},{"title":"17: last time 💡","arg":"https://github.com/nikitavoloboev/last-time","autocomplete":"17: last time 💡"},{"title":"16: web todo 🐙","arg":"https://github.com/nikitavoloboev/web-todo","autocomplete":"16: web todo 🐙"},{"title":"17: boxes 💡","arg":"https://github.com/nikitavoloboev/boxes","autocomplete":"17: boxes 💡"},{"title":"16: dotfiles 🐙","arg":"https://github.com/nikitavoloboev/dotfiles","autocomplete":"16: dotfiles 🐙"},{"title":"17: my web home page 🐙","arg":"https://github.com/nikitavoloboev/nikitavoloboev.github.io","autocomplete":"17: my web home page 🐙"},{"title":"17: go leetcode 🐙","arg":"https://github.com/nikitavoloboev/go-leetcode","autocomplete":"17: go leetcode 🐙"},{"title":"16: my macOS 🐙","arg":"https://github.com/nikitavoloboev/my-mac-os","autocomplete":"16: my macOS 🐙"},{"title":"16: my iOS 🐙","arg":"https://github.com/nikitavoloboev/my-ios","autocomplete":"16: my iOS 🐙"},{"title":"16: awesome tue software 🐙","arg":"https://github.com/nikitavoloboev/awesome-tue-software","autocomplete":"16: awesome tue software 🐙"},{"title":"17: awesome mindmaps 🐙","arg":"https://github.com/nikitavoloboev/awesome-mindmaps","autocomplete":"17: awesome mindmaps 🐙"},{"title":"16: android thermostat app 🐙","arg":"https://github.com/nikitavoloboev/android-thermostat-app","autocomplete":"16: android thermostat app 🐙"},{"title":"17: md-to-cv 💡","arg":"https://github.com/nikitavoloboev/md-to-cv","autocomplete":"17: md-to-cv 💡"},{"title":"17: license up 🐙","arg":"https://github.com/nikitavoloboev/license-up","autocomplete":"17: license up 🐙"},{"title":"17: md to alfred 🐙","arg":"https://github.com/nikitavoloboev/md-to-alfred","autocomplete":"17: md to alfred 🐙"},{"title":"17: alias check 🐙","arg":"https://github.com/nikitavoloboev/alias-check","autocomplete":"17: alias check 🐙"}]}
+{
+  "items": [
+    {
+      "uid": "17: ama  🐙",
+      "title": "17: ama  🐙",
+      "autocomplete": "17: ama  🐙",
+      "arg": "https://github.com/nikitavoloboev/ama"
+    },
+    {
+      "uid": "17: learn anything  🐙",
+      "title": "17: learn anything  🐙",
+      "autocomplete": "17: learn anything  🐙",
+      "arg": "https://github.com/nikitavoloboev/learn-anything"
+    },
+    {
+      "uid": "17: learn anything search engine  🐙",
+      "title": "17: learn anything search engine  🐙",
+      "autocomplete": "17: learn anything search engine  🐙",
+      "arg": "https://github.com/learn-anything/search-engine"
+    },
+    {
+      "uid": "17: alfred learn anything  🐙",
+      "title": "17: alfred learn anything  🐙",
+      "autocomplete": "17: alfred learn anything  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-learn-anything"
+    },
+    {
+      "uid": "17: crafting ideas  🐙",
+      "title": "17: crafting ideas  🐙",
+      "autocomplete": "17: crafting ideas  🐙",
+      "arg": "https://github.com/nikitavoloboev/crafting-ideas"
+    },
+    {
+      "uid": "17: alfred ask create share  🐙",
+      "title": "17: alfred ask create share  🐙",
+      "autocomplete": "17: alfred ask create share  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-ask-create-share"
+    },
+    {
+      "uid": "17: alfred imgur album download  🐙",
+      "title": "17: alfred imgur album download  🐙",
+      "autocomplete": "17: alfred imgur album download  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-imgur-album-download"
+    },
+    {
+      "uid": "17: alfred karabiner  🐙",
+      "title": "17: alfred karabiner  🐙",
+      "autocomplete": "17: alfred karabiner  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-karabiner"
+    },
+    {
+      "uid": "17: alfred clean folders  🐙",
+      "title": "17: alfred clean folders  🐙",
+      "autocomplete": "17: alfred clean folders  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-clean-folders"
+    },
+    {
+      "uid": "17: alfred web searches  💡",
+      "title": "17: alfred web searches  💡",
+      "autocomplete": "17: alfred web searches  💡",
+      "arg": "https://github.com/nikitavoloboev/alfred-web-searches"
+    },
+    {
+      "uid": "17: alfred screenshot ocr  💡",
+      "title": "17: alfred screenshot ocr  💡",
+      "autocomplete": "17: alfred screenshot ocr  💡",
+      "arg": "https://github.com/nikitavoloboev/alfred-screenshot-ocr"
+    },
+    {
+      "uid": "17: alfred goodreads  💡",
+      "title": "17: alfred goodreads  💡",
+      "autocomplete": "17: alfred goodreads  💡",
+      "arg": "https://github.com/nikitavoloboev/alfred-goodreads"
+    },
+    {
+      "uid": "17: alfred my mind  🐙",
+      "title": "17: alfred my mind  🐙",
+      "autocomplete": "17: alfred my mind  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-my-mind"
+    },
+    {
+      "uid": "17: alfred pinboard tags  🐙",
+      "title": "17: alfred pinboard tags  🐙",
+      "autocomplete": "17: alfred pinboard tags  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-pinboard-tags"
+    },
+    {
+      "uid": "17: alfred twitter follows  💡",
+      "title": "17: alfred twitter follows  💡",
+      "autocomplete": "17: alfred twitter follows  💡",
+      "arg": "https://github.com/nikitavoloboev/alfred-twitter-follows"
+    },
+    {
+      "uid": "17: alfred time  💡",
+      "title": "17: alfred time  💡",
+      "autocomplete": "17: alfred time  💡",
+      "arg": "https://github.com/nikitavoloboev/alfred-time"
+    },
+    {
+      "uid": "17: alfred pixave  💡",
+      "title": "17: alfred pixave  💡",
+      "autocomplete": "17: alfred pixave  💡",
+      "arg": "https://github.com/nikitavoloboev/alfred-pixave"
+    },
+    {
+      "uid": "17: alfred folder search  🐙",
+      "title": "17: alfred folder search  🐙",
+      "autocomplete": "17: alfred folder search  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-folder-search"
+    },
+    {
+      "uid": "17: last time  💡",
+      "title": "17: last time  💡",
+      "autocomplete": "17: last time  💡",
+      "arg": "https://github.com/nikitavoloboev/last-time"
+    },
+    {
+      "uid": "16: web todo  🐙",
+      "title": "16: web todo  🐙",
+      "autocomplete": "16: web todo  🐙",
+      "arg": "https://github.com/nikitavoloboev/web-todo"
+    },
+    {
+      "uid": "17: boxes  💡",
+      "title": "17: boxes  💡",
+      "autocomplete": "17: boxes  💡",
+      "arg": "https://github.com/nikitavoloboev/boxes"
+    },
+    {
+      "uid": "16: dotfiles  🐙",
+      "title": "16: dotfiles  🐙",
+      "autocomplete": "16: dotfiles  🐙",
+      "arg": "https://github.com/nikitavoloboev/dotfiles"
+    },
+    {
+      "uid": "17: my web home page  🐙",
+      "title": "17: my web home page  🐙",
+      "autocomplete": "17: my web home page  🐙",
+      "arg": "https://github.com/nikitavoloboev/nikitavoloboev.github.io"
+    },
+    {
+      "uid": "17: go leetcode  🐙",
+      "title": "17: go leetcode  🐙",
+      "autocomplete": "17: go leetcode  🐙",
+      "arg": "https://github.com/nikitavoloboev/go-leetcode"
+    },
+    {
+      "uid": "16: my macOS  🐙",
+      "title": "16: my macOS  🐙",
+      "autocomplete": "16: my macOS  🐙",
+      "arg": "https://github.com/nikitavoloboev/my-mac-os"
+    },
+    {
+      "uid": "16: my iOS  🐙",
+      "title": "16: my iOS  🐙",
+      "autocomplete": "16: my iOS  🐙",
+      "arg": "https://github.com/nikitavoloboev/my-ios"
+    },
+    {
+      "uid": "16: awesome tue software  🐙",
+      "title": "16: awesome tue software  🐙",
+      "autocomplete": "16: awesome tue software  🐙",
+      "arg": "https://github.com/nikitavoloboev/awesome-tue-software"
+    },
+    {
+      "uid": "17: awesome mindmaps  🐙",
+      "title": "17: awesome mindmaps  🐙",
+      "autocomplete": "17: awesome mindmaps  🐙",
+      "arg": "https://github.com/nikitavoloboev/awesome-mindmaps"
+    },
+    {
+      "uid": "16: android thermostat app  🐙",
+      "title": "16: android thermostat app  🐙",
+      "autocomplete": "16: android thermostat app  🐙",
+      "arg": "https://github.com/nikitavoloboev/android-thermostat-app"
+    },
+    {
+      "uid": "17: md-to-cv  💡",
+      "title": "17: md-to-cv  💡",
+      "autocomplete": "17: md-to-cv  💡",
+      "arg": "https://github.com/nikitavoloboev/md-to-cv"
+    },
+    {
+      "uid": "17: license up  🐙",
+      "title": "17: license up  🐙",
+      "autocomplete": "17: license up  🐙",
+      "arg": "https://github.com/nikitavoloboev/license-up"
+    },
+    {
+      "uid": "17: md to alfred  🐙",
+      "title": "17: md to alfred  🐙",
+      "autocomplete": "17: md to alfred  🐙",
+      "arg": "https://github.com/nikitavoloboev/md-to-alfred"
+    },
+    {
+      "uid": "17: alias check  🐙",
+      "title": "17: alias check  🐙",
+      "autocomplete": "17: alias check  🐙",
+      "arg": "https://github.com/nikitavoloboev/alias-check"
+    }
+  ]
+}
