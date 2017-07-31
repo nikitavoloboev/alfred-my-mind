@@ -56,16 +56,14 @@ const walkDir = (dirname, fn) => {
 
 const parseNode = node => {
   const text = getText(node.title.text);
-  const nodes = [
-    {
-      uid: text,
-      title: text,
-      autocomplete: text,
-      subtitle: node.note ? getText(node.note.text) : undefined,
-      arg: getURL(node.title.text)
-      // eslint-disable-next-line no-use-before-define
-    }
-  ];
+  const parsedNode = {
+    uid: text,
+    title: text,
+    autocomplete: text,
+    subtitle: node.note ? getText(node.note.text) : undefined,
+    arg: getURL(node.title.text)
+  };
+  const nodes = [parsedNode];
 
   parseSubnodes(node.nodes).forEach(subnode => nodes.push(subnode));
   return nodes;
@@ -81,7 +79,6 @@ const parseSubnodes = subnodes => {
 
   subnodes.forEach(subnode => {
     parseNode(subnode).forEach(el => flatSubs.push(el));
-    parseSubnodes(subnode.nodes).forEach(sub => flatSubs.push(sub));
   });
 
   return flatSubs;

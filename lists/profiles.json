@@ -67,18 +67,6 @@
       "arg": "https://www.goodreads.com/user/show/15768482-nikita-voloboev"
     },
     {
-      "uid": "goodreads",
-      "title": "goodreads",
-      "autocomplete": "goodreads",
-      "arg": "https://www.goodreads.com/user/show/15768482-nikita-voloboev"
-    },
-    {
-      "uid": "trakt",
-      "title": "trakt",
-      "autocomplete": "trakt",
-      "arg": "https://trakt.tv/users/nikivi"
-    },
-    {
       "uid": "trakt",
       "title": "trakt",
       "autocomplete": "trakt",
@@ -89,18 +77,6 @@
       "title": "letterboxd",
       "autocomplete": "letterboxd",
       "arg": "https://letterboxd.com/NikitaVoloboev/"
-    },
-    {
-      "uid": "letterboxd",
-      "title": "letterboxd",
-      "autocomplete": "letterboxd",
-      "arg": "https://letterboxd.com/NikitaVoloboev/"
-    },
-    {
-      "uid": "grouvee",
-      "title": "grouvee",
-      "autocomplete": "grouvee",
-      "arg": "https://www.grouvee.com/user/nikivi/"
     },
     {
       "uid": "grouvee",

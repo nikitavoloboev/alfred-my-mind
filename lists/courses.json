@@ -308,12 +308,6 @@
       "arg": "https://github.com/1094401996/machine-learning-coursera"
     },
     {
-      "uid": "notes  🐙",
-      "title": "notes  🐙",
-      "autocomplete": "notes  🐙",
-      "arg": "https://github.com/1094401996/machine-learning-coursera"
-    },
-    {
       "uid": "artificial intelligence for robotics  📝",
       "title": "artificial intelligence for robotics  📝",
       "autocomplete": "artificial intelligence for robotics  📝",
@@ -348,30 +342,6 @@
       "title": "15: great ideas in computer architecture  📝",
       "autocomplete": "15: great ideas in computer architecture  📝",
       "arg": "http://www-inst.eecs.berkeley.edu/%7Ecs61c/sp15/"
-    },
-    {
-      "uid": "lectures",
-      "title": "lectures",
-      "autocomplete": "lectures",
-      "arg": "https://www.youtube.com/playlist?list=PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_"
-    },
-    {
-      "uid": "lecture notes",
-      "title": "lecture notes",
-      "autocomplete": "lecture notes",
-      "arg": "http://www-inst.eecs.berkeley.edu/%7Ecs61c/sp15/#Calendar"
-    },
-    {
-      "uid": "course resources",
-      "title": "course resources",
-      "autocomplete": "course resources",
-      "arg": "http://www-inst.eecs.berkeley.edu/%7Ecs61c/sp15/#Resources"
-    },
-    {
-      "uid": "old exams",
-      "title": "old exams",
-      "autocomplete": "old exams",
-      "arg": "https://hkn.eecs.berkeley.edu/exams/course/CS/61C"
     },
     {
       "uid": "lectures",
@@ -434,12 +404,6 @@
       "arg": "https://www.youtube.com/watch?v=2pWv7GOvuf0&amp;feature=youtu.be&amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT"
     },
     {
-      "uid": "lectures  👀",
-      "title": "lectures  👀",
-      "autocomplete": "lectures  👀",
-      "arg": "https://www.youtube.com/watch?v=2pWv7GOvuf0&amp;feature=youtu.be&amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT"
-    },
-    {
       "uid": "17: oxford cs deep nlp  📝",
       "title": "17: oxford cs deep nlp  📝",
       "autocomplete": "17: oxford cs deep nlp  📝",
@@ -488,34 +452,10 @@
       "arg": "http://www.seas.upenn.edu/%7Ecis194/spring13/"
     },
     {
-      "uid": "14: stanford functional systems in haskell  📝",
-      "title": "14: stanford functional systems in haskell  📝",
-      "autocomplete": "14: stanford functional systems in haskell  📝",
-      "arg": "http://www.scs.stanford.edu/14sp-cs240h/"
-    },
-    {
-      "uid": "16: introduction to haskell  📝",
-      "title": "16: introduction to haskell  📝",
-      "autocomplete": "16: introduction to haskell  📝",
-      "arg": "http://www.seas.upenn.edu/%7Ecis194/spring13/"
-    },
-    {
       "uid": "16: rust programming  📝",
       "title": "16: rust programming  📝",
       "autocomplete": "16: rust programming  📝",
       "arg": "http://cis198-2016s.github.io/"
-    },
-    {
-      "uid": "16: rust programming  📝",
-      "title": "16: rust programming  📝",
-      "autocomplete": "16: rust programming  📝",
-      "arg": "http://cis198-2016s.github.io/"
-    },
-    {
-      "uid": "functional programming principles in scala  📝",
-      "title": "functional programming principles in scala  📝",
-      "autocomplete": "functional programming principles in scala  📝",
-      "arg": "https://www.coursera.org/learn/progfun1"
     },
     {
       "uid": "functional programming principles in scala  📝",

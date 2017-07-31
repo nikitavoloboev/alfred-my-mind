@@ -4,7 +4,6 @@
       "uid": "christopher olah  🗃️",
       "title": "christopher olah  🗃️",
       "autocomplete": "christopher olah  🗃️",
-      "subtitle": "cool blog",
       "arg": "http://colah.github.io/"
     },
     {
@@ -84,12 +83,6 @@
       "title": "andrej karpathy  🗃️",
       "autocomplete": "andrej karpathy  🗃️",
       "arg": "https://karpathy.github.io/"
-    },
-    {
-      "uid": "his medium blog  🗃️",
-      "title": "his medium blog  🗃️",
-      "autocomplete": "his medium blog  🗃️",
-      "arg": "https://medium.com/@karpathy"
     },
     {
       "uid": "his medium blog  🗃️",
@@ -355,19 +348,8 @@
       "uid": "steve yegge  🗃️",
       "title": "steve yegge  🗃️",
       "autocomplete": "steve yegge  🗃️",
+      "subtitle": "also has an a pretty funny internal amazon blog",
       "arg": "https://steve-yegge.blogspot.nl/"
-    },
-    {
-      "uid": "also has an a pretty funny internal amazon blog",
-      "title": "also has an a pretty funny internal amazon blog",
-      "autocomplete": "also has an a pretty funny internal amazon blog",
-      "arg": "https://sites.google.com/site/steveyegge2/blog-rants"
-    },
-    {
-      "uid": "also has an a pretty funny internal amazon blog",
-      "title": "also has an a pretty funny internal amazon blog",
-      "autocomplete": "also has an a pretty funny internal amazon blog",
-      "arg": "https://sites.google.com/site/steveyegge2/blog-rants"
     },
     {
       "uid": "coding horror  🗃️",

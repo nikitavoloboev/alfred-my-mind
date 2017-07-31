@@ -348,18 +348,6 @@
       "arg": "https://github.com/holman/dotfiles"
     },
     {
-      "uid": "has a good blog",
-      "title": "has a good blog",
-      "autocomplete": "has a good blog",
-      "arg": "https://zachholman.com/"
-    },
-    {
-      "uid": "dotfiles",
-      "title": "dotfiles",
-      "autocomplete": "dotfiles",
-      "arg": "https://github.com/holman/dotfiles"
-    },
-    {
       "uid": "bozhidar batsov",
       "title": "bozhidar batsov",
       "autocomplete": "bozhidar batsov",

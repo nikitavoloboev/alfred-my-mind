@@ -353,12 +353,7 @@ fi #find</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string># download dependencies 
-
-# how to not do this
-sudo easy_install pip 
-pip install scrapy
-npm install
+				<string># need to change so other users can run it
 
 bash update.sh</string>
 				<key>scriptargtype</key>
@@ -443,6 +438,8 @@ Big thanks to Deanishe for his patience and help.</string>
 		</dict>
 		<key>7850EC64-1846-40B7-8AF8-501256B73821</key>
 		<dict>
+			<key>note</key>
+			<string>not working yet</string>
 			<key>xpos</key>
 			<integer>220</integer>
 			<key>ypos</key>

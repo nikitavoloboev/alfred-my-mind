@@ -37,150 +37,6 @@
       "arg": "https://github.com/zv/SICP-guile"
     },
     {
-      "uid": "SICP in Emacs Lisp  🐙",
-      "title": "SICP in Emacs Lisp  🐙",
-      "autocomplete": "SICP in Emacs Lisp  🐙",
-      "arg": "https://github.com/zv/SICP-guile"
-    },
-    {
-      "uid": "1980: mindstorms: children, computers, and powerful ideas  📖",
-      "title": "1980: mindstorms: children, computers, and powerful ideas  📖",
-      "autocomplete": "1980: mindstorms: children, computers, and powerful ideas  📖",
-      "arg": "http://mindstorms.media.mit.edu/"
-    },
-    {
-      "uid": "1985: communicating sequential processes  📖",
-      "title": "1985: communicating sequential processes  📖",
-      "autocomplete": "1985: communicating sequential processes  📖",
-      "arg": "http://www.usingcsp.com/cspbook.pdf"
-    },
-    {
-      "uid": "1991: the art of the metaobject protocol  📕",
-      "title": "1991: the art of the metaobject protocol  📕",
-      "autocomplete": "1991: the art of the metaobject protocol  📕",
-      "arg": "http://www.goodreads.com/book/show/274495.The_Art_of_the_Metaobject_Protocol"
-    },
-    {
-      "uid": "1999: code: hidden language of computer hardware and software   📕",
-      "title": "1999: code: hidden language of computer hardware and software   📕",
-      "autocomplete": "1999: code: hidden language of computer hardware and software   📕",
-      "arg": "http://www.goodreads.com/book/show/44882.Code"
-    },
-    {
-      "uid": "1999: the pragmatic programmer  📕",
-      "title": "1999: the pragmatic programmer  📕",
-      "autocomplete": "1999: the pragmatic programmer  📕",
-      "arg": "http://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer"
-    },
-    {
-      "uid": "1999: the practice of programming  📕",
-      "title": "1999: the practice of programming  📕",
-      "autocomplete": "1999: the practice of programming  📕",
-      "arg": "http://www.goodreads.com/book/show/1032758.The_Practice_of_Programming"
-    },
-    {
-      "uid": "1999: refactoring  📕",
-      "title": "1999: refactoring  📕",
-      "autocomplete": "1999: refactoring  📕",
-      "arg": "http://www.goodreads.com/book/show/44936.Refactoring"
-    },
-    {
-      "uid": "01: how to design programs  📕",
-      "title": "01: how to design programs  📕",
-      "autocomplete": "01: how to design programs  📕",
-      "arg": "http://www.goodreads.com/book/show/1119079.How_to_Design_Programs"
-    },
-    {
-      "uid": "08: clean code   📕",
-      "title": "08: clean code   📕",
-      "autocomplete": "08: clean code   📕",
-      "arg": "http://www.goodreads.com/book/show/3735293-clean-code"
-    },
-    {
-      "uid": "08: design concepts in programming  📕",
-      "title": "08: design concepts in programming  📕",
-      "autocomplete": "08: design concepts in programming  📕",
-      "arg": "http://www.goodreads.com/book/show/4412222-design-concepts-in-programming-languages"
-    },
-    {
-      "uid": "10: apprenticeship patterns  📕",
-      "title": "10: apprenticeship patterns  📕",
-      "autocomplete": "10: apprenticeship patterns  📕",
-      "arg": "http://www.goodreads.com/book/show/5608045-apprenticeship-patterns"
-    },
-    {
-      "uid": "11: the art of readable code: simple and practical techniques for writing better code  📕",
-      "title": "11: the art of readable code: simple and practical techniques for writing better code  📕",
-      "autocomplete": "11: the art of readable code: simple and practical techniques for writing better code  📕",
-      "arg": "http://www.goodreads.com/book/show/8677004-the-art-of-readable-code"
-    },
-    {
-      "uid": "12: programming in the large with design patterns  📕",
-      "title": "12: programming in the large with design patterns  📕",
-      "autocomplete": "12: programming in the large with design patterns  📕",
-      "arg": "http://www.goodreads.com/book/show/16418148-programming-in-the-large-with-design-patterns"
-    },
-    {
-      "uid": "12: programming languages: application and interpretation  📖",
-      "title": "12: programming languages: application and interpretation  📖",
-      "autocomplete": "12: programming languages: application and interpretation  📖",
-      "arg": "http://cs.brown.edu/courses/cs173/2012/book/book.pdf"
-    },
-    {
-      "uid": "15: crafting interpreters    📖",
-      "title": "15: crafting interpreters    📖",
-      "autocomplete": "15: crafting interpreters    📖",
-      "arg": "http://www.craftinginterpreters.com/introduction.html"
-    },
-    {
-      "uid": "composing programs  📖",
-      "title": "composing programs  📖",
-      "autocomplete": "composing programs  📖",
-      "arg": "http://www.composingprograms.com/"
-    },
-    {
-      "uid": "1968-: the art of computer programming  📕",
-      "title": "1968-: the art of computer programming  📕",
-      "autocomplete": "1968-: the art of computer programming  📕",
-      "arg": "http://www.goodreads.com/book/show/112239.The_Art_of_Computer_Programming_Volumes_1_3_Boxed_Set"
-    },
-    {
-      "uid": "1971: the psychology of computer programming  📕",
-      "title": "1971: the psychology of computer programming  📕",
-      "autocomplete": "1971: the psychology of computer programming  📕",
-      "arg": "http://www.goodreads.com/book/show/1660754.The_Psychology_of_Computer_Programming"
-    },
-    {
-      "uid": "1974: the elements of programming style  📕",
-      "title": "1974: the elements of programming style  📕",
-      "autocomplete": "1974: the elements of programming style  📕",
-      "arg": "http://www.goodreads.com/book/show/454039.The_Elements_of_Programming_Style"
-    },
-    {
-      "uid": "1976: software reliability: principles and practices  📕",
-      "title": "1976: software reliability: principles and practices  📕",
-      "autocomplete": "1976: software reliability: principles and practices  📕",
-      "arg": "http://www.goodreads.com/book/show/2383920.Software_Reliability"
-    },
-    {
-      "uid": "1979: structure and interpretation of computer programs  📖",
-      "title": "1979: structure and interpretation of computer programs  📖",
-      "autocomplete": "1979: structure and interpretation of computer programs  📖",
-      "arg": "http://sarabander.github.io/sicp/html/index.xhtml"
-    },
-    {
-      "uid": "SICP in Emacs Lisp  🐙",
-      "title": "SICP in Emacs Lisp  🐙",
-      "autocomplete": "SICP in Emacs Lisp  🐙",
-      "arg": "https://github.com/zv/SICP-guile"
-    },
-    {
-      "uid": "SICP in Emacs Lisp  🐙",
-      "title": "SICP in Emacs Lisp  🐙",
-      "autocomplete": "SICP in Emacs Lisp  🐙",
-      "arg": "https://github.com/zv/SICP-guile"
-    },
-    {
       "uid": "1980: mindstorms: children, computers, and powerful ideas  📖",
       "title": "1980: mindstorms: children, computers, and powerful ideas  📖",
       "autocomplete": "1980: mindstorms: children, computers, and powerful ideas  📖",
@@ -283,30 +139,6 @@
       "arg": "http://www.goodreads.com/book/show/515601.The_C_Programming_Language"
     },
     {
-      "uid": "1975: the c programming language  📕",
-      "title": "1975: the c programming language  📕",
-      "autocomplete": "1975: the c programming language  📕",
-      "arg": "http://www.goodreads.com/book/show/515601.The_C_Programming_Language"
-    },
-    {
-      "uid": "1989: c++ primer  📕",
-      "title": "1989: c++ primer  📕",
-      "autocomplete": "1989: c++ primer  📕",
-      "arg": "http://www.goodreads.com/book/show/120642.C_Primer_Plus"
-    },
-    {
-      "uid": "04: beginning c++ through game programming  📕",
-      "title": "04: beginning c++ through game programming  📕",
-      "autocomplete": "04: beginning c++ through game programming  📕",
-      "arg": "http://www.goodreads.com/book/show/852335.Beginning_C_Through_Game_Programming"
-    },
-    {
-      "uid": "17: c++ core guidelines  📖",
-      "title": "17: c++ core guidelines  📖",
-      "autocomplete": "17: c++ core guidelines  📖",
-      "arg": "https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md"
-    },
-    {
       "uid": "1989: c++ primer  📕",
       "title": "1989: c++ primer  📕",
       "autocomplete": "1989: c++ primer  📕",
@@ -355,112 +187,10 @@
       "arg": "https://github.com/namit/The-Go-Programming-Language"
     },
     {
-      "uid": "notes  🐙",
-      "title": "notes  🐙",
-      "autocomplete": "notes  🐙",
-      "arg": "https://github.com/namit/The-Go-Programming-Language"
-    },
-    {
       "uid": "web app with go - anti text book  📖",
       "title": "web app with go - anti text book  📖",
       "autocomplete": "web app with go - anti text book  📖",
       "arg": "https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/"
-    },
-    {
-      "uid": "12: network programming with go  📖",
-      "title": "12: network programming with go  📖",
-      "autocomplete": "12: network programming with go  📖",
-      "arg": "https://jan.newmarch.name/go/"
-    },
-    {
-      "uid": "14: the little go book  📖",
-      "title": "14: the little go book  📖",
-      "autocomplete": "14: the little go book  📖",
-      "arg": "http://openmymind.net/The-Little-Go-Book/"
-    },
-    {
-      "uid": "15: go in action   📖",
-      "title": "15: go in action   📖",
-      "autocomplete": "15: go in action   📖",
-      "arg": "https://github.com/miguellgt/books/blob/master/go/go-in-action.pdf"
-    },
-    {
-      "uid": "15: the go programming language    📕",
-      "title": "15: the go programming language    📕",
-      "autocomplete": "15: the go programming language    📕",
-      "arg": "http://www.goodreads.com/book/show/25080953-the-go-programming-language"
-    },
-    {
-      "uid": "notes  🐙",
-      "title": "notes  🐙",
-      "autocomplete": "notes  🐙",
-      "arg": "https://github.com/namit/The-Go-Programming-Language"
-    },
-    {
-      "uid": "notes  🐙",
-      "title": "notes  🐙",
-      "autocomplete": "notes  🐙",
-      "arg": "https://github.com/namit/The-Go-Programming-Language"
-    },
-    {
-      "uid": "web app with go - anti text book  📖",
-      "title": "web app with go - anti text book  📖",
-      "autocomplete": "web app with go - anti text book  📖",
-      "arg": "https://thewhitetulip.gitbooks.io/webapp-with-golang-anti-textbook/content/"
-    },
-    {
-      "uid": "1999: python essential reference  📕",
-      "title": "1999: python essential reference  📕",
-      "autocomplete": "1999: python essential reference  📕",
-      "arg": "https://www.goodreads.com/book/show/6666430-python-essential-reference"
-    },
-    {
-      "uid": "04: dive into python 3  📖",
-      "title": "04: dive into python 3  📖",
-      "autocomplete": "04: dive into python 3  📖",
-      "arg": "http://www.diveintopython3.net/"
-    },
-    {
-      "uid": "05: problem solving with algorithms and data structures using python  📖",
-      "title": "05: problem solving with algorithms and data structures using python  📖",
-      "autocomplete": "05: problem solving with algorithms and data structures using python  📖",
-      "arg": "http://interactivepython.org/runestone/static/pythonds/index.html"
-    },
-    {
-      "uid": "13: data structures and algorithms in python  📕",
-      "title": "13: data structures and algorithms in python  📕",
-      "autocomplete": "13: data structures and algorithms in python  📕",
-      "arg": "http://www.goodreads.com/book/show/13838796-data-structures-and-algorithms-in-python"
-    },
-    {
-      "uid": "14: test driven development with python  📕",
-      "title": "14: test driven development with python  📕",
-      "autocomplete": "14: test driven development with python  📕",
-      "arg": "http://www.goodreads.com/book/show/17912811-test-driven-web-development-with-python"
-    },
-    {
-      "uid": "15: effective python  📕",
-      "title": "15: effective python  📕",
-      "autocomplete": "15: effective python  📕",
-      "arg": "http://www.goodreads.com/book/show/23020812-effective-python"
-    },
-    {
-      "uid": "15: fluent python  📕",
-      "title": "15: fluent python  📕",
-      "autocomplete": "15: fluent python  📕",
-      "arg": "http://www.goodreads.com/book/show/22800567-fluent-python"
-    },
-    {
-      "uid": "17: inside the python virtual machine  📖",
-      "title": "17: inside the python virtual machine  📖",
-      "autocomplete": "17: inside the python virtual machine  📖",
-      "arg": "https://leanpub.com/insidethepythonvirtualmachine"
-    },
-    {
-      "uid": "automate the boring stuff with python  📖",
-      "title": "automate the boring stuff with python  📖",
-      "autocomplete": "automate the boring stuff with python  📖",
-      "arg": "https://automatetheboringstuff.com/"
     },
     {
       "uid": "1999: python essential reference  📕",
@@ -535,78 +265,6 @@
       "arg": "https://github.com/jwongo/effectivejava"
     },
     {
-      "uid": "code  🐙",
-      "title": "code  🐙",
-      "autocomplete": "code  🐙",
-      "arg": "https://github.com/marhan/effective-java-examples"
-    },
-    {
-      "uid": "notes  🐙",
-      "title": "notes  🐙",
-      "autocomplete": "notes  🐙",
-      "arg": "https://github.com/jwongo/effectivejava"
-    },
-    {
-      "uid": "03: data structures and algorithms in java  📖",
-      "title": "03: data structures and algorithms in java  📖",
-      "autocomplete": "03: data structures and algorithms in java  📖",
-      "arg": "http://coltech.vnu.edu.vn/~sonpb/DSA/Data%20Structures%20and%20Algorithms%20in%20Java,%206th%20Edition,%202014.pdf"
-    },
-    {
-      "uid": "06: java concurrency in practice  📕",
-      "title": "06: java concurrency in practice  📕",
-      "autocomplete": "06: java concurrency in practice  📕",
-      "arg": "http://jcip.net/"
-    },
-    {
-      "uid": "08: introduction to programming in java: an interdisciplinary approach  📖",
-      "title": "08: introduction to programming in java: an interdisciplinary approach  📖",
-      "autocomplete": "08: introduction to programming in java: an interdisciplinary approach  📖",
-      "arg": "http://introcs.cs.princeton.edu/java/home/chapter1.pdf"
-    },
-    {
-      "uid": "14: java 8 in action  📕",
-      "title": "14: java 8 in action  📕",
-      "autocomplete": "14: java 8 in action  📕",
-      "arg": "http://www.goodreads.com/book/show/20534354-java-8-in-action"
-    },
-    {
-      "uid": "15: test-driven java development  📕",
-      "title": "15: test-driven java development  📕",
-      "autocomplete": "15: test-driven java development  📕",
-      "arg": "http://www.goodreads.com/book/show/26333479-test-driven-java-development"
-    },
-    {
-      "uid": "01: effective java  📕",
-      "title": "01: effective java  📕",
-      "autocomplete": "01: effective java  📕",
-      "arg": "http://www.goodreads.com/book/show/105099.Effective_Java_Programming_Language_Guide"
-    },
-    {
-      "uid": "code  🐙",
-      "title": "code  🐙",
-      "autocomplete": "code  🐙",
-      "arg": "https://github.com/marhan/effective-java-examples"
-    },
-    {
-      "uid": "notes  🐙",
-      "title": "notes  🐙",
-      "autocomplete": "notes  🐙",
-      "arg": "https://github.com/jwongo/effectivejava"
-    },
-    {
-      "uid": "code  🐙",
-      "title": "code  🐙",
-      "autocomplete": "code  🐙",
-      "arg": "https://github.com/marhan/effective-java-examples"
-    },
-    {
-      "uid": "notes  🐙",
-      "title": "notes  🐙",
-      "autocomplete": "notes  🐙",
-      "arg": "https://github.com/jwongo/effectivejava"
-    },
-    {
       "uid": "03: data structures and algorithms in java  📖",
       "title": "03: data structures and algorithms in java  📖",
       "autocomplete": "03: data structures and algorithms in java  📖",
@@ -643,30 +301,6 @@
       "arg": "https://www.goodreads.com/book/show/25928594-programming-in-d"
     },
     {
-      "uid": "10: the d programming language  📕",
-      "title": "10: the d programming language  📕",
-      "autocomplete": "10: the d programming language  📕",
-      "arg": "https://www.goodreads.com/book/show/25928594-programming-in-d"
-    },
-    {
-      "uid": "rust by example  📖",
-      "title": "rust by example  📖",
-      "autocomplete": "rust by example  📖",
-      "arg": "http://rustbyexample.com/"
-    },
-    {
-      "uid": "the rust programming language  📖",
-      "title": "the rust programming language  📖",
-      "autocomplete": "the rust programming language  📖",
-      "arg": "https://doc.rust-lang.org/book/"
-    },
-    {
-      "uid": "the rustonomicon  📖",
-      "title": "the rustonomicon  📖",
-      "autocomplete": "the rustonomicon  📖",
-      "arg": "https://doc.rust-lang.org/nomicon/"
-    },
-    {
       "uid": "rust by example  📖",
       "title": "rust by example  📖",
       "autocomplete": "rust by example  📖",
@@ -689,24 +323,6 @@
       "title": "14: functional programming in scala  📕",
       "autocomplete": "14: functional programming in scala  📕",
       "arg": "https://www.manning.com/books/functional-programming-in-scala"
-    },
-    {
-      "uid": "14: functional programming in scala  📕",
-      "title": "14: functional programming in scala  📕",
-      "autocomplete": "14: functional programming in scala  📕",
-      "arg": "https://www.manning.com/books/functional-programming-in-scala"
-    },
-    {
-      "uid": "1974: the little schemer  📕",
-      "title": "1974: the little schemer  📕",
-      "autocomplete": "1974: the little schemer  📕",
-      "arg": "https://mitpress.mit.edu/books/little-schemer"
-    },
-    {
-      "uid": "1994: lisp in small pieces  📕",
-      "title": "1994: lisp in small pieces  📕",
-      "autocomplete": "1994: lisp in small pieces  📕",
-      "arg": "https://pages.lip6.fr/Christian.Queinnec/WWW/LiSP.html"
     },
     {
       "uid": "1974: the little schemer  📕",
@@ -733,46 +349,10 @@
       "arg": "https://github.com/AlphaMarc/WYAH"
     },
     {
-      "uid": "implementation  🐙",
-      "title": "implementation  🐙",
-      "autocomplete": "implementation  🐙",
-      "arg": "https://github.com/AlphaMarc/WYAH"
-    },
-    {
       "uid": "16: programming in haskell   📕",
       "title": "16: programming in haskell   📕",
       "autocomplete": "16: programming in haskell   📕",
       "arg": "http://www.goodreads.com/book/show/912217.Programming_in_Haskell"
-    },
-    {
-      "uid": "14: write you a haskell  📖",
-      "title": "14: write you a haskell  📖",
-      "autocomplete": "14: write you a haskell  📖",
-      "arg": "http://dev.stephendiehl.com/fun/"
-    },
-    {
-      "uid": "implementation  🐙",
-      "title": "implementation  🐙",
-      "autocomplete": "implementation  🐙",
-      "arg": "https://github.com/AlphaMarc/WYAH"
-    },
-    {
-      "uid": "implementation  🐙",
-      "title": "implementation  🐙",
-      "autocomplete": "implementation  🐙",
-      "arg": "https://github.com/AlphaMarc/WYAH"
-    },
-    {
-      "uid": "16: programming in haskell   📕",
-      "title": "16: programming in haskell   📕",
-      "autocomplete": "16: programming in haskell   📕",
-      "arg": "http://www.goodreads.com/book/show/912217.Programming_in_Haskell"
-    },
-    {
-      "uid": "16: modern perl  📖",
-      "title": "16: modern perl  📖",
-      "autocomplete": "16: modern perl  📖",
-      "arg": "http://modernperlbooks.com/books/modern_perl_2016/index.html"
     },
     {
       "uid": "16: modern perl  📖",
@@ -785,12 +365,6 @@
       "title": "08: cracking the coding interview   📕",
       "autocomplete": "08: cracking the coding interview   📕",
       "arg": "http://www.goodreads.com/book/show/12544648-cracking-the-coding-interview"
-    },
-    {
-      "uid": "solutions in swift  🐙",
-      "title": "solutions in swift  🐙",
-      "autocomplete": "solutions in swift  🐙",
-      "arg": "https://github.com/careercup/CtCI-6th-Edition-Swift"
     },
     {
       "uid": "solutions in swift  🐙",
@@ -829,256 +403,10 @@
       "arg": "https://github.com/adnanaziz/epicode"
     },
     {
-      "uid": "solutions in go  🐙",
-      "title": "solutions in go  🐙",
-      "autocomplete": "solutions in go  🐙",
-      "arg": "https://github.com/mykoweb/epi-go"
-    },
-    {
-      "uid": "solutions in python  🐙",
-      "title": "solutions in python  🐙",
-      "autocomplete": "solutions in python  🐙",
-      "arg": "https://github.com/akshaykumar90/sparkling-water"
-    },
-    {
-      "uid": "solutions in java  🐙",
-      "title": "solutions in java  🐙",
-      "autocomplete": "solutions in java  🐙",
-      "arg": "https://github.com/qtstc/Elements-of-Programming-Interviews-Java-Solution"
-    },
-    {
-      "uid": "solutions in c++  🐙",
-      "title": "solutions in c++  🐙",
-      "autocomplete": "solutions in c++  🐙",
-      "arg": "https://github.com/adnanaziz/epicode"
-    },
-    {
-      "uid": "08: cracking the coding interview   📕",
-      "title": "08: cracking the coding interview   📕",
-      "autocomplete": "08: cracking the coding interview   📕",
-      "arg": "http://www.goodreads.com/book/show/12544648-cracking-the-coding-interview"
-    },
-    {
-      "uid": "solutions in swift  🐙",
-      "title": "solutions in swift  🐙",
-      "autocomplete": "solutions in swift  🐙",
-      "arg": "https://github.com/careercup/CtCI-6th-Edition-Swift"
-    },
-    {
-      "uid": "solutions in swift  🐙",
-      "title": "solutions in swift  🐙",
-      "autocomplete": "solutions in swift  🐙",
-      "arg": "https://github.com/careercup/CtCI-6th-Edition-Swift"
-    },
-    {
-      "uid": "12: elements of programming interviews  📕",
-      "title": "12: elements of programming interviews  📕",
-      "autocomplete": "12: elements of programming interviews  📕",
-      "arg": "http://www.goodreads.com/book/show/16253895-elements-of-programming-interviews"
-    },
-    {
-      "uid": "solutions in go  🐙",
-      "title": "solutions in go  🐙",
-      "autocomplete": "solutions in go  🐙",
-      "arg": "https://github.com/mykoweb/epi-go"
-    },
-    {
-      "uid": "solutions in python  🐙",
-      "title": "solutions in python  🐙",
-      "autocomplete": "solutions in python  🐙",
-      "arg": "https://github.com/akshaykumar90/sparkling-water"
-    },
-    {
-      "uid": "solutions in java  🐙",
-      "title": "solutions in java  🐙",
-      "autocomplete": "solutions in java  🐙",
-      "arg": "https://github.com/qtstc/Elements-of-Programming-Interviews-Java-Solution"
-    },
-    {
-      "uid": "solutions in c++  🐙",
-      "title": "solutions in c++  🐙",
-      "autocomplete": "solutions in c++  🐙",
-      "arg": "https://github.com/adnanaziz/epicode"
-    },
-    {
-      "uid": "solutions in go  🐙",
-      "title": "solutions in go  🐙",
-      "autocomplete": "solutions in go  🐙",
-      "arg": "https://github.com/mykoweb/epi-go"
-    },
-    {
-      "uid": "solutions in python  🐙",
-      "title": "solutions in python  🐙",
-      "autocomplete": "solutions in python  🐙",
-      "arg": "https://github.com/akshaykumar90/sparkling-water"
-    },
-    {
-      "uid": "solutions in java  🐙",
-      "title": "solutions in java  🐙",
-      "autocomplete": "solutions in java  🐙",
-      "arg": "https://github.com/qtstc/Elements-of-Programming-Interviews-Java-Solution"
-    },
-    {
-      "uid": "solutions in c++  🐙",
-      "title": "solutions in c++  🐙",
-      "autocomplete": "solutions in c++  🐙",
-      "arg": "https://github.com/adnanaziz/epicode"
-    },
-    {
       "uid": "you don’t know js   📖",
       "title": "you don’t know js   📖",
       "autocomplete": "you don’t know js   📖",
       "arg": "https://github.com/getify/You-Dont-Know-JS"
-    },
-    {
-      "uid": "up and going   📖",
-      "title": "up and going   📖",
-      "autocomplete": "up and going   📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/foreword.md"
-    },
-    {
-      "uid": "scope and closures  📖",
-      "title": "scope and closures  📖",
-      "autocomplete": "scope and closures  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch1.md#you-dont-know-js-scope--closures"
-    },
-    {
-      "uid": "this and object prototypes  📖",
-      "title": "this and object prototypes  📖",
-      "autocomplete": "this and object prototypes  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch1.md"
-    },
-    {
-      "uid": "types and grammar  📖",
-      "title": "types and grammar  📖",
-      "autocomplete": "types and grammar  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md"
-    },
-    {
-      "uid": "async and performance  📖",
-      "title": "async and performance  📖",
-      "autocomplete": "async and performance  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/async%20%26%20performance/ch1.md"
-    },
-    {
-      "uid": "es6 and beyond  📖",
-      "title": "es6 and beyond  📖",
-      "autocomplete": "es6 and beyond  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20%26%20beyond/ch1.md"
-    },
-    {
-      "uid": "up and going   📖",
-      "title": "up and going   📖",
-      "autocomplete": "up and going   📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/foreword.md"
-    },
-    {
-      "uid": "scope and closures  📖",
-      "title": "scope and closures  📖",
-      "autocomplete": "scope and closures  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch1.md#you-dont-know-js-scope--closures"
-    },
-    {
-      "uid": "this and object prototypes  📖",
-      "title": "this and object prototypes  📖",
-      "autocomplete": "this and object prototypes  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch1.md"
-    },
-    {
-      "uid": "types and grammar  📖",
-      "title": "types and grammar  📖",
-      "autocomplete": "types and grammar  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md"
-    },
-    {
-      "uid": "async and performance  📖",
-      "title": "async and performance  📖",
-      "autocomplete": "async and performance  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/async%20%26%20performance/ch1.md"
-    },
-    {
-      "uid": "es6 and beyond  📖",
-      "title": "es6 and beyond  📖",
-      "autocomplete": "es6 and beyond  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20%26%20beyond/ch1.md"
-    },
-    {
-      "uid": "11: eloquent javascript  📖",
-      "title": "11: eloquent javascript  📖",
-      "autocomplete": "11: eloquent javascript  📖",
-      "arg": "http://eloquentjavascript.net/00_intro.html"
-    },
-    {
-      "uid": "12: effective javascript: 68 specific ways to harness the power of javascript  📕",
-      "title": "12: effective javascript: 68 specific ways to harness the power of javascript  📕",
-      "autocomplete": "12: effective javascript: 68 specific ways to harness the power of javascript  📕",
-      "arg": "http://www.goodreads.com/book/show/13705402-effective-javascript"
-    },
-    {
-      "uid": "13: secrets of the javascript ninja  📕",
-      "title": "13: secrets of the javascript ninja  📕",
-      "autocomplete": "13: secrets of the javascript ninja  📕",
-      "arg": "http://www.goodreads.com/book/show/4373732-secrets-of-the-javascript-ninja"
-    },
-    {
-      "uid": "15: learning javascript design patterns  📖",
-      "title": "15: learning javascript design patterns  📖",
-      "autocomplete": "15: learning javascript design patterns  📖",
-      "arg": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/"
-    },
-    {
-      "uid": "17: the javascript way  📖",
-      "title": "17: the javascript way  📖",
-      "autocomplete": "17: the javascript way  📖",
-      "arg": "https://leanpub.com/thejsway"
-    },
-    {
-      "uid": "exploring js  📖",
-      "title": "exploring js  📖",
-      "autocomplete": "exploring js  📖",
-      "arg": "http://exploringjs.com/"
-    },
-    {
-      "uid": "you don’t know js   📖",
-      "title": "you don’t know js   📖",
-      "autocomplete": "you don’t know js   📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS"
-    },
-    {
-      "uid": "up and going   📖",
-      "title": "up and going   📖",
-      "autocomplete": "up and going   📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/foreword.md"
-    },
-    {
-      "uid": "scope and closures  📖",
-      "title": "scope and closures  📖",
-      "autocomplete": "scope and closures  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch1.md#you-dont-know-js-scope--closures"
-    },
-    {
-      "uid": "this and object prototypes  📖",
-      "title": "this and object prototypes  📖",
-      "autocomplete": "this and object prototypes  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch1.md"
-    },
-    {
-      "uid": "types and grammar  📖",
-      "title": "types and grammar  📖",
-      "autocomplete": "types and grammar  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md"
-    },
-    {
-      "uid": "async and performance  📖",
-      "title": "async and performance  📖",
-      "autocomplete": "async and performance  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/async%20%26%20performance/ch1.md"
-    },
-    {
-      "uid": "es6 and beyond  📖",
-      "title": "es6 and beyond  📖",
-      "autocomplete": "es6 and beyond  📖",
-      "arg": "https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20%26%20beyond/ch1.md"
     },
     {
       "uid": "up and going   📖",
@@ -1159,40 +487,10 @@
       "arg": "https://basarat.gitbooks.io/typescript/"
     },
     {
-      "uid": "typescript deep dive  📖",
-      "title": "typescript deep dive  📖",
-      "autocomplete": "typescript deep dive  📖",
-      "arg": "https://basarat.gitbooks.io/typescript/"
-    },
-    {
       "uid": "14: swift programming language   📖",
       "title": "14: swift programming language   📖",
       "autocomplete": "14: swift programming language   📖",
       "arg": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/"
-    },
-    {
-      "uid": "cheat sheet  🐙",
-      "title": "cheat sheet  🐙",
-      "autocomplete": "cheat sheet  🐙",
-      "arg": "https://github.com/jugend/swift-cheat-sheet"
-    },
-    {
-      "uid": "cheat sheet  🐙",
-      "title": "cheat sheet  🐙",
-      "autocomplete": "cheat sheet  🐙",
-      "arg": "https://github.com/jugend/swift-cheat-sheet"
-    },
-    {
-      "uid": "14: swift programming language   📖",
-      "title": "14: swift programming language   📖",
-      "autocomplete": "14: swift programming language   📖",
-      "arg": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/"
-    },
-    {
-      "uid": "cheat sheet  🐙",
-      "title": "cheat sheet  🐙",
-      "autocomplete": "cheat sheet  🐙",
-      "arg": "https://github.com/jugend/swift-cheat-sheet"
     },
     {
       "uid": "cheat sheet  🐙",
@@ -1237,84 +535,6 @@
       "arg": "https://github.com/nathany/go-poodr"
     },
     {
-      "uid": "code  🐙",
-      "title": "code  🐙",
-      "autocomplete": "code  🐙",
-      "arg": "https://github.com/skmetz/poodr"
-    },
-    {
-      "uid": "notes  🐙",
-      "title": "notes  🐙",
-      "autocomplete": "notes  🐙",
-      "arg": "https://github.com/jordanpoulton/practical_object_oriented_design_in_ruby"
-    },
-    {
-      "uid": "go implementation  🐙",
-      "title": "go implementation  🐙",
-      "autocomplete": "go implementation  🐙",
-      "arg": "https://github.com/nathany/go-poodr"
-    },
-    {
-      "uid": "13: confident ruby  📕",
-      "title": "13: confident ruby  📕",
-      "autocomplete": "13: confident ruby  📕",
-      "arg": "http://www.goodreads.com/book/show/15847933-confident-ruby"
-    },
-    {
-      "uid": "09: the well grounded rubyist  📕",
-      "title": "09: the well grounded rubyist  📕",
-      "autocomplete": "09: the well grounded rubyist  📕",
-      "arg": "http://www.goodreads.com/book/show/3892688-the-well-grounded-rubyist"
-    },
-    {
-      "uid": "11: eloquent ruby  📕",
-      "title": "11: eloquent ruby  📕",
-      "autocomplete": "11: eloquent ruby  📕",
-      "arg": "http://www.goodreads.com/book/show/9364729-eloquent-ruby"
-    },
-    {
-      "uid": "12: practical object oriented design in ruby  📕",
-      "title": "12: practical object oriented design in ruby  📕",
-      "autocomplete": "12: practical object oriented design in ruby  📕",
-      "arg": "http://www.goodreads.com/book/show/13507787-practical-object-oriented-design-in-ruby"
-    },
-    {
-      "uid": "code  🐙",
-      "title": "code  🐙",
-      "autocomplete": "code  🐙",
-      "arg": "https://github.com/skmetz/poodr"
-    },
-    {
-      "uid": "notes  🐙",
-      "title": "notes  🐙",
-      "autocomplete": "notes  🐙",
-      "arg": "https://github.com/jordanpoulton/practical_object_oriented_design_in_ruby"
-    },
-    {
-      "uid": "go implementation  🐙",
-      "title": "go implementation  🐙",
-      "autocomplete": "go implementation  🐙",
-      "arg": "https://github.com/nathany/go-poodr"
-    },
-    {
-      "uid": "code  🐙",
-      "title": "code  🐙",
-      "autocomplete": "code  🐙",
-      "arg": "https://github.com/skmetz/poodr"
-    },
-    {
-      "uid": "notes  🐙",
-      "title": "notes  🐙",
-      "autocomplete": "notes  🐙",
-      "arg": "https://github.com/jordanpoulton/practical_object_oriented_design_in_ruby"
-    },
-    {
-      "uid": "go implementation  🐙",
-      "title": "go implementation  🐙",
-      "autocomplete": "go implementation  🐙",
-      "arg": "https://github.com/nathany/go-poodr"
-    },
-    {
       "uid": "13: confident ruby  📕",
       "title": "13: confident ruby  📕",
       "autocomplete": "13: confident ruby  📕",
@@ -1325,18 +545,6 @@
       "title": "1997: smalltalk best practice patterns  📕",
       "autocomplete": "1997: smalltalk best practice patterns  📕",
       "arg": "http://www.goodreads.com/book/show/781561.Smalltalk_Best_Practice_Patterns"
-    },
-    {
-      "uid": "1997: smalltalk best practice patterns  📕",
-      "title": "1997: smalltalk best practice patterns  📕",
-      "autocomplete": "1997: smalltalk best practice patterns  📕",
-      "arg": "http://www.goodreads.com/book/show/781561.Smalltalk_Best_Practice_Patterns"
-    },
-    {
-      "uid": "15: ios 10 programming fundamentals with swift   📕",
-      "title": "15: ios 10 programming fundamentals with swift   📕",
-      "autocomplete": "15: ios 10 programming fundamentals with swift   📕",
-      "arg": "http://shop.oreilly.com/product/0636920055211.do"
     },
     {
       "uid": "15: ios 10 programming fundamentals with swift   📕",
@@ -1355,42 +563,6 @@
       "title": "notes  🐙",
       "autocomplete": "notes  🐙",
       "arg": "https://github.com/gitig/Practical-Vim-Notes"
-    },
-    {
-      "uid": "notes  🐙",
-      "title": "notes  🐙",
-      "autocomplete": "notes  🐙",
-      "arg": "https://github.com/gitig/Practical-Vim-Notes"
-    },
-    {
-      "uid": "12: practical vim  📕",
-      "title": "12: practical vim  📕",
-      "autocomplete": "12: practical vim  📕",
-      "arg": "http://www.goodreads.com/book/show/13607232-practical-vim"
-    },
-    {
-      "uid": "notes  🐙",
-      "title": "notes  🐙",
-      "autocomplete": "notes  🐙",
-      "arg": "https://github.com/gitig/Practical-Vim-Notes"
-    },
-    {
-      "uid": "notes  🐙",
-      "title": "notes  🐙",
-      "autocomplete": "notes  🐙",
-      "arg": "https://github.com/gitig/Practical-Vim-Notes"
-    },
-    {
-      "uid": "14: git in practice  📖",
-      "title": "14: git in practice  📖",
-      "autocomplete": "14: git in practice  📖",
-      "arg": "https://content.mirantis.com/rs/451-RBY-185/images/McQuaid-git-in-practice.pdf"
-    },
-    {
-      "uid": "14: pro git  📖",
-      "title": "14: pro git  📖",
-      "autocomplete": "14: pro git  📖",
-      "arg": "https://git-scm.com/book/en/v2"
     },
     {
       "uid": "14: git in practice  📖",
@@ -1423,30 +595,6 @@
       "arg": "http://www.oliverelliott.org/article/computing/tut_unix/"
     },
     {
-      "uid": "1992: advanced programming in the unix environment  📕",
-      "title": "1992: advanced programming in the unix environment  📕",
-      "autocomplete": "1992: advanced programming in the unix environment  📕",
-      "arg": "http://www.goodreads.com/book/show/603263.Advanced_Programming_in_the_UNIX_Environment"
-    },
-    {
-      "uid": "1993: unix power tools  📕",
-      "title": "1993: unix power tools  📕",
-      "autocomplete": "1993: unix power tools  📕",
-      "arg": "http://www.goodreads.com/book/show/172314.UNIX_Power_Tools"
-    },
-    {
-      "uid": "14: an introduction to unix  📖",
-      "title": "14: an introduction to unix  📖",
-      "autocomplete": "14: an introduction to unix  📖",
-      "arg": "http://www.oliverelliott.org/article/computing/tut_unix/"
-    },
-    {
-      "uid": "14: how linux works  📕",
-      "title": "14: how linux works  📕",
-      "autocomplete": "14: how linux works  📕",
-      "arg": "http://www.goodreads.com/book/show/514432.How_Linux_Works"
-    },
-    {
       "uid": "14: how linux works  📕",
       "title": "14: how linux works  📕",
       "autocomplete": "14: how linux works  📕",
@@ -1459,28 +607,10 @@
       "arg": "http://chimera.labs.oreilly.com/books/1234000001808/index.html"
     },
     {
-      "uid": "12: node up and running  📖",
-      "title": "12: node up and running  📖",
-      "autocomplete": "12: node up and running  📖",
-      "arg": "http://chimera.labs.oreilly.com/books/1234000001808/index.html"
-    },
-    {
       "uid": "14: assembly language succinctly  📖",
       "title": "14: assembly language succinctly  📖",
       "autocomplete": "14: assembly language succinctly  📖",
       "arg": "https://www.syncfusion.com/resources/techportal/details/ebooks/assemblylanguage"
-    },
-    {
-      "uid": "14: assembly language succinctly  📖",
-      "title": "14: assembly language succinctly  📖",
-      "autocomplete": "14: assembly language succinctly  📖",
-      "arg": "https://www.syncfusion.com/resources/techportal/details/ebooks/assemblylanguage"
-    },
-    {
-      "uid": "beautiful racket  📖",
-      "title": "beautiful racket  📖",
-      "autocomplete": "beautiful racket  📖",
-      "arg": "http://beautifulracket.com/"
     },
     {
       "uid": "beautiful racket  📖",
@@ -2415,12 +1545,6 @@
       "arg": "https://github.com/nfmcclure/tensorflow_cookbook"
     },
     {
-      "uid": "code  🐙",
-      "title": "code  🐙",
-      "autocomplete": "code  🐙",
-      "arg": "https://github.com/nfmcclure/tensorflow_cookbook"
-    },
-    {
       "uid": "deep learning   📖",
       "title": "deep learning   📖",
       "autocomplete": "deep learning   📖",
@@ -2437,18 +1561,6 @@
       "title": "1867: capital  📕",
       "autocomplete": "1867: capital  📕",
       "arg": "http://www.goodreads.com/book/show/325785.Capital_Vol_1"
-    },
-    {
-      "uid": "reading capital",
-      "title": "reading capital",
-      "autocomplete": "reading capital",
-      "arg": "http://davidharvey.org/reading-capital/"
-    },
-    {
-      "uid": "kapitalism 101",
-      "title": "kapitalism 101",
-      "autocomplete": "kapitalism 101",
-      "arg": "https://kapitalism101.wordpress.com/"
     },
     {
       "uid": "reading capital",
@@ -2613,24 +1725,6 @@
       "arg": "http://www.goodreads.com/book/show/3761596-the-third-reich-at-war"
     },
     {
-      "uid": "the coming of the third reich  📕",
-      "title": "the coming of the third reich  📕",
-      "autocomplete": "the coming of the third reich  📕",
-      "arg": "http://www.goodreads.com/book/show/319473.The_Coming_of_the_Third_Reich"
-    },
-    {
-      "uid": "the third reich in power  📕",
-      "title": "the third reich in power  📕",
-      "autocomplete": "the third reich in power  📕",
-      "arg": "http://www.goodreads.com/book/show/536788.The_Third_Reich_in_Power"
-    },
-    {
-      "uid": "the third reich at war",
-      "title": "the third reich at war",
-      "autocomplete": "the third reich at war",
-      "arg": "http://www.goodreads.com/book/show/3761596-the-third-reich-at-war"
-    },
-    {
       "uid": "11: sapiens: a brief history of humankind  📕",
       "title": "11: sapiens: a brief history of humankind  📕",
       "autocomplete": "11: sapiens: a brief history of humankind  📕",
@@ -2721,12 +1815,6 @@
       "arg": "https://www.youtube.com/playlist?list=PLDcUM9US4XdMdZOhJWJJD4mDBMnbTWw_z"
     },
     {
-      "uid": "lectures  👀",
-      "title": "lectures  👀",
-      "autocomplete": "lectures  👀",
-      "arg": "https://www.youtube.com/playlist?list=PLDcUM9US4XdMdZOhJWJJD4mDBMnbTWw_z"
-    },
-    {
       "uid": "17: computational and inferential thinking  📖",
       "title": "17: computational and inferential thinking  📖",
       "autocomplete": "17: computational and inferential thinking  📖",
@@ -2781,12 +1869,6 @@
       "arg": "https://github.com/ryandougherty/Introduction-to-the-Theory-of-Computation-Solutions"
     },
     {
-      "uid": "solutions  🐙",
-      "title": "solutions  🐙",
-      "autocomplete": "solutions  🐙",
-      "arg": "https://github.com/ryandougherty/Introduction-to-the-Theory-of-Computation-Solutions"
-    },
-    {
       "uid": "1996: purely functional data structures  📖",
       "title": "1996: purely functional data structures  📖",
       "autocomplete": "1996: purely functional data structures  📖",
@@ -2809,12 +1891,6 @@
       "title": "05: the elements of computing systems  📕",
       "autocomplete": "05: the elements of computing systems  📕",
       "arg": "http://www.goodreads.com/book/show/910789.The_Elements_of_Computing_Systems"
-    },
-    {
-      "uid": "computer implementation  🐙",
-      "title": "computer implementation  🐙",
-      "autocomplete": "computer implementation  🐙",
-      "arg": "https://github.com/havivha/Nand2Tetris"
     },
     {
       "uid": "computer implementation  🐙",
@@ -3057,48 +2133,6 @@
       "arg": "http://www.goodreads.com/book/show/112537.Rendezvous_with_Rama"
     },
     {
-      "uid": "the baroque cycle  📕",
-      "title": "the baroque cycle  📕",
-      "autocomplete": "the baroque cycle  📕",
-      "arg": "https://www.goodreads.com/series/49317-the-baroque-cycle"
-    },
-    {
-      "uid": "hyperion cantos  📕",
-      "title": "hyperion cantos  📕",
-      "autocomplete": "hyperion cantos  📕",
-      "arg": "http://www.goodreads.com/series/40461-hyperion-cantos"
-    },
-    {
-      "uid": "the dark tower  📕",
-      "title": "the dark tower  📕",
-      "autocomplete": "the dark tower  📕",
-      "arg": "https://www.goodreads.com/series/40750-the-dark-tower"
-    },
-    {
-      "uid": "foundation  📕",
-      "title": "foundation  📕",
-      "autocomplete": "foundation  📕",
-      "arg": "http://www.goodreads.com/series/59386-foundation-publication-order"
-    },
-    {
-      "uid": "red rising  📕",
-      "title": "red rising  📕",
-      "autocomplete": "red rising  📕",
-      "arg": "http://www.goodreads.com/book/show/15839976-red-rising"
-    },
-    {
-      "uid": "culture  📕",
-      "title": "culture  📕",
-      "autocomplete": "culture  📕",
-      "arg": "http://www.goodreads.com/series/49118-culture"
-    },
-    {
-      "uid": "rama  📕",
-      "title": "rama  📕",
-      "autocomplete": "rama  📕",
-      "arg": "http://www.goodreads.com/book/show/112537.Rendezvous_with_Rama"
-    },
-    {
       "uid": "14: creativity, inc  📕",
       "title": "14: creativity, inc  📕",
       "autocomplete": "14: creativity, inc  📕",
@@ -3109,12 +2143,6 @@
       "title": "1975: the mythical man-month  📕",
       "autocomplete": "1975: the mythical man-month  📕",
       "arg": "http://www.goodreads.com/book/show/13629.The_Mythical_Man_Month"
-    },
-    {
-      "uid": "notes  🐙",
-      "title": "notes  🐙",
-      "autocomplete": "notes  🐙",
-      "arg": "https://github.com/andrewwoz/the-mythical-man-month-notes"
     },
     {
       "uid": "notes  🐙",
@@ -3190,24 +2218,6 @@
       "arg": "https://github.com/alexprengere/FormalSystems"
     },
     {
-      "uid": "lecture notes",
-      "title": "lecture notes",
-      "autocomplete": "lecture notes",
-      "arg": "https://ocw.mit.edu/high-school/humanities-and-social-sciences/godel-escher-bach/lecture-notes/"
-    },
-    {
-      "uid": "course on the book  👀",
-      "title": "course on the book  👀",
-      "autocomplete": "course on the book  👀",
-      "arg": "https://www.youtube.com/playlist?list=PL068ES-0ca9CSIp5OPGI5RXB3k5XgYRxF"
-    },
-    {
-      "uid": "python implementation of formal systems  🐙",
-      "title": "python implementation of formal systems  🐙",
-      "autocomplete": "python implementation of formal systems  🐙",
-      "arg": "https://github.com/alexprengere/FormalSystems"
-    },
-    {
       "uid": "1983: prometheus rising  📕",
       "title": "1983: prometheus rising  📕",
       "autocomplete": "1983: prometheus rising  📕",
@@ -3242,24 +2252,6 @@
       "title": "11: the night circus  📕",
       "autocomplete": "11: the night circus  📕",
       "arg": "http://www.goodreads.com/book/show/9361589-the-night-circus"
-    },
-    {
-      "uid": "a song of ice and fire  📕",
-      "title": "a song of ice and fire  📕",
-      "autocomplete": "a song of ice and fire  📕",
-      "arg": "http://www.goodreads.com/series/43790-a-song-of-ice-and-fire"
-    },
-    {
-      "uid": "the stormlight archive  📕",
-      "title": "the stormlight archive  📕",
-      "autocomplete": "the stormlight archive  📕",
-      "arg": "http://www.goodreads.com/series/49075-the-stormlight-archive"
-    },
-    {
-      "uid": "the wheel of time  📕",
-      "title": "the wheel of time  📕",
-      "autocomplete": "the wheel of time  📕",
-      "arg": "http://www.goodreads.com/series/41526-the-wheel-of-time"
     },
     {
       "uid": "a song of ice and fire  📕",
