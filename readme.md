@@ -10,7 +10,7 @@
 </div>
 
 
-<p align="center"><img src="https://raw.githubusercontent.com/nikitavoloboev/img/master/github/alfred%20my%20mind.gif?token=AGGH4AajC-2AquZcrNnjoEOpi1kKcPZAks5ZhKSQwA%3D%3D" alt="img" width="600"></p>
+<p align="center"><img src="media/demo.gif" alt="img" width="600"></p>
 
 <h1 align="center"> Description 📕</h1>
 
