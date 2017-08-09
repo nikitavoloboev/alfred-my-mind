@@ -161,6 +161,12 @@
       "title": "ulysses  🐦",
       "autocomplete": "ulysses  🐦",
       "arg": "https://twitter.com/ulyssesapp?lang=en"
+    },
+    {
+      "uid": "sindre sorhus  🐦",
+      "title": "sindre sorhus  🐦",
+      "autocomplete": "sindre sorhus  🐦",
+      "arg": "https://twitter.com/sindresorhus?lang=en"
     }
   ]
 }
