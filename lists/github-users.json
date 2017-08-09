@@ -70,9 +70,35 @@
       "arg": "https://github.com/phadej"
     },
     {
+      "uid": "nglgzz  🐙",
+      "title": "nglgzz  🐙",
+      "autocomplete": "nglgzz  🐙",
+      "arg": "https://github.com/nglgzz"
+    },
+    {
+      "uid": "dominic tarr  🐙",
+      "title": "dominic tarr  🐙",
+      "autocomplete": "dominic tarr  🐙",
+      "arg": "https://github.com/dominictarr"
+    },
+    {
+      "uid": "cheng zhao  🐙",
+      "title": "cheng zhao  🐙",
+      "autocomplete": "cheng zhao  🐙",
+      "arg": "https://github.com/zcbenz"
+    },
+    {
+      "uid": "leo lamprecht  🐙",
+      "title": "leo lamprecht  🐙",
+      "autocomplete": "leo lamprecht  🐙",
+      "subtitle": "electron, js",
+      "arg": "https://github.com/leo"
+    },
+    {
       "uid": "junio c hamano",
       "title": "junio c hamano",
       "autocomplete": "junio c hamano",
+      "subtitle": "main contributor to git",
       "arg": "https://github.com/gitster"
     },
     {
@@ -146,6 +172,13 @@
       "title": "andrew tulloch",
       "autocomplete": "andrew tulloch",
       "arg": "https://github.com/ajtulloch"
+    },
+    {
+      "uid": "laanwj  🐙",
+      "title": "laanwj  🐙",
+      "autocomplete": "laanwj  🐙",
+      "subtitle": "works on bitcoin",
+      "arg": "https://github.com/laanwj"
     },
     {
       "uid": "russ cox",
@@ -248,6 +281,12 @@
       "title": "dan mclnerney",
       "autocomplete": "dan mclnerney",
       "arg": "https://github.com/DanMcInerney"
+    },
+    {
+      "uid": "paul tagliamonte  🐙",
+      "title": "paul tagliamonte  🐙",
+      "autocomplete": "paul tagliamonte  🐙",
+      "arg": "https://github.com/paultag"
     },
     {
       "uid": "vitor galvao  ✨",

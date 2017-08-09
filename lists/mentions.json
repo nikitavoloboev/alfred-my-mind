@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "uid": "reddit - domain  🤖",
+      "title": "reddit - domain  🤖",
+      "autocomplete": "reddit - domain  🤖",
+      "arg": "https://www.reddit.com/domain/learn-anything.xyz/"
+    },
+    {
+      "uid": "reddit past hour  🤖",
+      "title": "reddit past hour  🤖",
+      "autocomplete": "reddit past hour  🤖",
+      "arg": "https://www.reddit.com/search?q=learn-anything.xyz&amp;sort=relevance&amp;t=day"
+    },
+    {
+      "uid": "reddit past week  🤖",
+      "title": "reddit past week  🤖",
+      "autocomplete": "reddit past week  🤖",
+      "arg": "https://www.reddit.com/search?q=learn-anything.xyz&amp;sort=relevance&amp;t=week"
+    },
+    {
+      "uid": "reddit past month  🤖",
+      "title": "reddit past month  🤖",
+      "autocomplete": "reddit past month  🤖",
+      "arg": "https://www.reddit.com/search?q=learn-anything.xyz&amp;sort=relevance&amp;t=month"
+    },
+    {
+      "uid": "duckduckgo past week",
+      "title": "duckduckgo past week",
+      "autocomplete": "duckduckgo past week",
+      "arg": "https://duckduckgo.com/?q=learn-anything.xyz&amp;t=hz&amp;df=w&amp;ia=software"
+    },
+    {
+      "uid": "duckduckgo past day",
+      "title": "duckduckgo past day",
+      "autocomplete": "duckduckgo past day",
+      "arg": "https://duckduckgo.com/?q=learn-anything.xyz&amp;t=hz&amp;df=d&amp;ia=software"
+    },
+    {
+      "uid": "google past week",
+      "title": "google past week",
+      "autocomplete": "google past week",
+      "arg": "https://www.google.nl/#q=learn-anything.xyz&amp;tbs=qdr:w"
+    },
+    {
+      "uid": "google past 24 hours",
+      "title": "google past 24 hours",
+      "autocomplete": "google past 24 hours",
+      "arg": "https://www.google.nl/#q=learn-anything.xyz&amp;tbs=qdr:d"
+    },
+    {
+      "uid": "twitter recent  🐦",
+      "title": "twitter recent  🐦",
+      "autocomplete": "twitter recent  🐦",
+      "arg": "https://twitter.com/search?q=learn-anything.xyz&amp;src=typd"
+    },
+    {
+      "uid": "github recently indexed  🐙",
+      "title": "github recently indexed  🐙",
+      "autocomplete": "github recently indexed  🐙",
+      "arg": "https://github.com/search?o=desc&amp;q=learn-anything.xyz&amp;ref=searchresults&amp;s=indexed&amp;type=Code&amp;utf8=%E2%9C%93"
+    },
+    {
+      "uid": "google +",
+      "title": "google +",
+      "autocomplete": "google +",
+      "arg": "https://plus.google.com/s"
+    }
+  ]
+}

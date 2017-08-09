@@ -1,0 +1,260 @@
+{
+  "items": [
+    {
+      "uid": "pocket for alfred  🐙",
+      "title": "pocket for alfred  🐙",
+      "autocomplete": "pocket for alfred  🐙",
+      "arg": "https://github.com/fniephaus/alfred-pocket"
+    },
+    {
+      "uid": "kill processes  🐙",
+      "title": "kill processes  🐙",
+      "autocomplete": "kill processes  🐙",
+      "arg": "https://github.com/ngreenstein/alfred-process-killer"
+    },
+    {
+      "uid": "key clue  🐙",
+      "title": "key clue  🐙",
+      "autocomplete": "key clue  🐙",
+      "arg": "https://github.com/zhaocai/alfred2-keylue-workflow"
+    },
+    {
+      "uid": "toggl  🐙",
+      "title": "toggl  🐙",
+      "autocomplete": "toggl  🐙",
+      "arg": "https://github.com/jason0x43/alfred-toggl"
+    },
+    {
+      "uid": "mailto  🐙",
+      "title": "mailto  🐙",
+      "autocomplete": "mailto  🐙",
+      "arg": "https://github.com/deanishe/alfred-mailto"
+    },
+    {
+      "uid": "symbols search  🐙",
+      "title": "symbols search  🐙",
+      "autocomplete": "symbols search  🐙",
+      "arg": "https://github.com/bevesce/unicode-symbols-search"
+    },
+    {
+      "uid": "web screenshot",
+      "title": "web screenshot",
+      "autocomplete": "web screenshot",
+      "arg": "https://www.alfredforum.com/topic/8385-webscreenshot-%E2%80%94-take-screenshots-directly-to-the-web/"
+    },
+    {
+      "uid": "alfred maestro  🐙",
+      "title": "alfred maestro  🐙",
+      "autocomplete": "alfred maestro  🐙",
+      "arg": "https://github.com/iansinnott/alfred-maestro"
+    },
+    {
+      "uid": "weather  🐙",
+      "title": "weather  🐙",
+      "autocomplete": "weather  🐙",
+      "arg": "https://github.com/jason0x43/alfred-weather"
+    },
+    {
+      "uid": "reload karabiner  🐙",
+      "title": "reload karabiner  🐙",
+      "autocomplete": "reload karabiner  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-karabiner"
+    },
+    {
+      "uid": "machine clean",
+      "title": "machine clean",
+      "autocomplete": "machine clean",
+      "arg": "http://www.packal.org/workflow/machineclean"
+    },
+    {
+      "uid": "uninstall with clean my mac 3",
+      "title": "uninstall with clean my mac 3",
+      "autocomplete": "uninstall with clean my mac 3",
+      "arg": "http://www.packal.org/workflow/uninstall-cleanmymac-3"
+    },
+    {
+      "uid": "recent downloads  🐙",
+      "title": "recent downloads  🐙",
+      "autocomplete": "recent downloads  🐙",
+      "arg": "https://github.com/ddjfreedom/recent-downloads-alfred-v2"
+    },
+    {
+      "uid": "notes  🐙",
+      "title": "notes  🐙",
+      "autocomplete": "notes  🐙",
+      "arg": "https://github.com/surrealroad/alfred-notes"
+    },
+    {
+      "uid": "eggtimer",
+      "title": "eggtimer",
+      "autocomplete": "eggtimer",
+      "arg": "http://www.packal.org/workflow/eggtimer-2"
+    },
+    {
+      "uid": "ulysses  🐙",
+      "title": "ulysses  🐙",
+      "autocomplete": "ulysses  🐙",
+      "arg": "https://github.com/robwalton/alfred-ulysses-workflow"
+    },
+    {
+      "uid": "dark mode  🐙",
+      "title": "dark mode  🐙",
+      "autocomplete": "dark mode  🐙",
+      "arg": "https://github.com/sindresorhus/alfred-dark-mode"
+    },
+    {
+      "uid": "spotify mini player  🐙",
+      "title": "spotify mini player  🐙",
+      "autocomplete": "spotify mini player  🐙",
+      "arg": "https://github.com/vdesabou/alfred-spotify-mini-player"
+    },
+    {
+      "uid": "npms  🐙",
+      "title": "npms  🐙",
+      "autocomplete": "npms  🐙",
+      "subtitle": "search for npm packages with npms.io",
+      "arg": "https://github.com/sindresorhus/alfred-npms"
+    },
+    {
+      "uid": "pod search  🐙",
+      "title": "pod search  🐙",
+      "autocomplete": "pod search  🐙",
+      "arg": "https://github.com/BenchR267/Pod-Search-Alfred"
+    },
+    {
+      "uid": "SnippetsLab",
+      "title": "SnippetsLab",
+      "autocomplete": "SnippetsLab",
+      "arg": "https://www.renfei.org/snippets-lab/manual/mac/tips-and-tricks/alfred-integration.html"
+    },
+    {
+      "uid": "secure shell  🐙",
+      "title": "secure shell  🐙",
+      "autocomplete": "secure shell  🐙",
+      "arg": "https://github.com/deanishe/alfred-ssh"
+    },
+    {
+      "uid": "iTerm sessions  🐙",
+      "title": "iTerm sessions  🐙",
+      "autocomplete": "iTerm sessions  🐙",
+      "arg": "https://github.com/madvas/alfred-iterm-sessions"
+    },
+    {
+      "uid": "hastebin  🐙",
+      "title": "hastebin  🐙",
+      "autocomplete": "hastebin  🐙",
+      "arg": "https://github.com/jvandyke/alfred-hastebin"
+    },
+    {
+      "uid": "dash  🐙",
+      "title": "dash  🐙",
+      "autocomplete": "dash  🐙",
+      "arg": "https://github.com/Kapeli/Dash-Alfred-Workflow"
+    },
+    {
+      "uid": "gist  🐙",
+      "title": "gist  🐙",
+      "autocomplete": "gist  🐙",
+      "arg": "https://github.com/danielecook/gist-alfred"
+    },
+    {
+      "uid": "man",
+      "title": "man",
+      "autocomplete": "man",
+      "arg": "https://www.alfredforum.com/topic/1071-unix-man-page-workflow/"
+    },
+    {
+      "uid": "new terminal window  🐙",
+      "title": "new terminal window  🐙",
+      "autocomplete": "new terminal window  🐙",
+      "arg": "https://github.com/miromannino/alfred-new-terminal-window"
+    },
+    {
+      "uid": "searchio  🐙",
+      "title": "searchio  🐙",
+      "autocomplete": "searchio  🐙",
+      "subtitle": "auto-suggest search results from multiple search engines and languages",
+      "arg": "https://github.com/deanishe/alfred-searchio"
+    },
+    {
+      "uid": "safari assistant",
+      "title": "safari assistant",
+      "autocomplete": "safari assistant",
+      "subtitle": "safari bookmarks and tabs",
+      "arg": "https://git.deanishe.net/deanishe/alfred-safari-assistant"
+    },
+    {
+      "uid": "github jump  🐙",
+      "title": "github jump  🐙",
+      "autocomplete": "github jump  🐙",
+      "subtitle": "quickly jump to a github repository page",
+      "arg": "https://github.com/lox/alfred-github-jump"
+    },
+    {
+      "uid": "ask create share  🐙",
+      "title": "ask create share  🐙",
+      "autocomplete": "ask create share  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-ask-create-share"
+    },
+    {
+      "uid": "downvid",
+      "title": "downvid",
+      "autocomplete": "downvid",
+      "arg": "http://www.packal.org/workflow/downvid"
+    },
+    {
+      "uid": "github  🐙",
+      "title": "github  🐙",
+      "autocomplete": "github  🐙",
+      "arg": "https://github.com/gharlan/alfred-github-workflow"
+    },
+    {
+      "uid": "reddit  🐙",
+      "title": "reddit  🐙",
+      "autocomplete": "reddit  🐙",
+      "arg": "https://github.com/deanishe/alfred-reddit"
+    },
+    {
+      "uid": "flat ui colours  🐙",
+      "title": "flat ui colours  🐙",
+      "autocomplete": "flat ui colours  🐙",
+      "arg": "https://github.com/mi-ca/alfredapp_flatuicolors_workflow"
+    },
+    {
+      "uid": "alfred pwgen  🐙",
+      "title": "alfred pwgen  🐙",
+      "autocomplete": "alfred pwgen  🐙",
+      "arg": "https://github.com/deanishe/alfred-pwgen"
+    },
+    {
+      "uid": "google similar images  🐙",
+      "title": "google similar images  🐙",
+      "autocomplete": "google similar images  🐙",
+      "arg": "https://github.com/deanishe/alfred-similar-image-search"
+    },
+    {
+      "uid": "upload file",
+      "title": "upload file",
+      "autocomplete": "upload file",
+      "arg": "http://www.packal.org/workflow/uploadfile"
+    },
+    {
+      "uid": "telegram  🐙",
+      "title": "telegram  🐙",
+      "autocomplete": "telegram  🐙",
+      "arg": "https://github.com/Jamesits/alfred-workflow-telegram"
+    },
+    {
+      "uid": "translate ru-en en-ru  🐙",
+      "title": "translate ru-en en-ru  🐙",
+      "autocomplete": "translate ru-en en-ru  🐙",
+      "arg": "https://github.com/podgorniy/alfred-translate"
+    },
+    {
+      "uid": "manage alfred extension  🐙",
+      "title": "manage alfred extension  🐙",
+      "autocomplete": "manage alfred extension  🐙",
+      "arg": "https://github.com/jmjeong/alfred-extension"
+    }
+  ]
+}

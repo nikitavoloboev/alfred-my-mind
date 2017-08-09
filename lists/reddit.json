@@ -637,10 +637,22 @@
       "arg": "https://www.reddit.com/r/3Blue1Brown/"
     },
     {
+      "uid": "simulated reality  🤖",
+      "title": "simulated reality  🤖",
+      "autocomplete": "simulated reality  🤖",
+      "arg": "https://www.reddit.com/r/AWLIAS/"
+    },
+    {
       "uid": "idris  🤖",
       "title": "idris  🤖",
       "autocomplete": "idris  🤖",
       "arg": "https://www.reddit.com/r/Idris/"
+    },
+    {
+      "uid": "lisp  🤖",
+      "title": "lisp  🤖",
+      "autocomplete": "lisp  🤖",
+      "arg": "https://www.reddit.com/r/lisp/"
     },
     {
       "uid": "arch  🤖",
@@ -649,10 +661,40 @@
       "arg": "https://www.reddit.com/r/archlinux/"
     },
     {
+      "uid": "applescript  🤖",
+      "title": "applescript  🤖",
+      "autocomplete": "applescript  🤖",
+      "arg": "https://www.reddit.com/r/applescript/"
+    },
+    {
+      "uid": "rick and morty  🤖",
+      "title": "rick and morty  🤖",
+      "autocomplete": "rick and morty  🤖",
+      "arg": "https://www.reddit.com/r/rickandmorty/"
+    },
+    {
+      "uid": "rust  🤖",
+      "title": "rust  🤖",
+      "autocomplete": "rust  🤖",
+      "arg": "https://www.reddit.com/r/rust/"
+    },
+    {
+      "uid": "simulated reality  🤖",
+      "title": "simulated reality  🤖",
+      "autocomplete": "simulated reality  🤖",
+      "arg": "https://www.reddit.com/r/AWLIAS/"
+    },
+    {
       "uid": "japan  🤖",
       "title": "japan  🤖",
       "autocomplete": "japan  🤖",
       "arg": "https://www.reddit.com/r/japan/"
+    },
+    {
+      "uid": "live aboard  🤖",
+      "title": "live aboard  🤖",
+      "autocomplete": "live aboard  🤖",
+      "arg": "https://www.reddit.com/r/liveaboard/"
     },
     {
       "uid": "startled cats  🤖",

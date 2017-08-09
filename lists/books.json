@@ -947,7 +947,7 @@
       "uid": "15: harry potter and the methods of rationality  📖",
       "title": "15: harry potter and the methods of rationality  📖",
       "autocomplete": "15: harry potter and the methods of rationality  📖",
-      "arg": "http://www.hpmor.com/"
+      "arg": "http://www.hpmor.com/wordpress/wp-content/uploads/2012/03/Harry-Potter-and-the-Methods-of-Rationality.pdf"
     },
     {
       "uid": "1980: a confederacy of dunces  📕",
@@ -1009,6 +1009,12 @@
       "title": "13: the theoretical minimum  📕",
       "autocomplete": "13: the theoretical minimum  📕",
       "arg": "http://www.goodreads.com/book/show/13587145-the-theoretical-minimum"
+    },
+    {
+      "uid": "13: the Feynman lectures on physics  📖",
+      "title": "13: the Feynman lectures on physics  📖",
+      "autocomplete": "13: the Feynman lectures on physics  📖",
+      "arg": "http://feynmanlectures.caltech.edu/"
     },
     {
       "uid": "1939: and then there were none   📕",

@@ -55,6 +55,10 @@ const walkDir = (dirname, fn) => {
 };
 
 const parseNode = node => {
+  if (!node.title) {
+    return [];
+  }
+
   const text = getText(node.title.text);
   const parsedNode = {
     uid: text,

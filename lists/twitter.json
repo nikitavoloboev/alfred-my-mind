@@ -73,6 +73,12 @@
       "arg": "https://twitter.com/tekezo?lang=en"
     },
     {
+      "uid": "fantastical  🐦",
+      "title": "fantastical  🐦",
+      "autocomplete": "fantastical  🐦",
+      "arg": "https://twitter.com/flexibits?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+    },
+    {
       "uid": "day one  🐦",
       "title": "day one  🐦",
       "autocomplete": "day one  🐦",
@@ -137,6 +143,24 @@
       "title": "vitor galvao  🐦",
       "autocomplete": "vitor galvao  🐦",
       "arg": "https://twitter.com/vhgalvao"
+    },
+    {
+      "uid": "tower  🐦",
+      "title": "tower  🐦",
+      "autocomplete": "tower  🐦",
+      "arg": "https://twitter.com/gittower?lang=en"
+    },
+    {
+      "uid": "dominic tarr  🐦",
+      "title": "dominic tarr  🐦",
+      "autocomplete": "dominic tarr  🐦",
+      "arg": "https://twitter.com/dominictarr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+    },
+    {
+      "uid": "ulysses  🐦",
+      "title": "ulysses  🐦",
+      "autocomplete": "ulysses  🐦",
+      "arg": "https://twitter.com/ulyssesapp?lang=en"
     }
   ]
 }

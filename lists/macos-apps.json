@@ -1,0 +1,466 @@
+{
+  "items": [
+    {
+      "uid": "VLC",
+      "title": "VLC",
+      "autocomplete": "VLC",
+      "arg": "http://www.videolan.org/vlc/download-macosx.html"
+    },
+    {
+      "uid": "mpv",
+      "title": "mpv",
+      "autocomplete": "mpv",
+      "arg": "https://mpv.io/"
+    },
+    {
+      "uid": "Dragand",
+      "title": "Dragand",
+      "autocomplete": "Dragand",
+      "arg": "http://dragand.watch/"
+    },
+    {
+      "uid": "IINA  🐙",
+      "title": "IINA  🐙",
+      "autocomplete": "IINA  🐙",
+      "arg": "https://github.com/lhc70000/iina"
+    },
+    {
+      "uid": "ScreenFlow",
+      "title": "ScreenFlow",
+      "autocomplete": "ScreenFlow",
+      "arg": "https://www.telestream.net/screenflow/overview.htm"
+    },
+    {
+      "uid": "QuickCast",
+      "title": "QuickCast",
+      "autocomplete": "QuickCast",
+      "arg": "http://quickcast.io/"
+    },
+    {
+      "uid": "pixave",
+      "title": "pixave",
+      "autocomplete": "pixave",
+      "arg": "http://www.littlehj.com/"
+    },
+    {
+      "uid": "flume",
+      "title": "flume",
+      "autocomplete": "flume",
+      "arg": "https://flumeapp.com/"
+    },
+    {
+      "uid": "ynab",
+      "title": "ynab",
+      "autocomplete": "ynab",
+      "arg": "http://classic.youneedabudget.com/download/ynab4"
+    },
+    {
+      "uid": "2Do",
+      "title": "2Do",
+      "autocomplete": "2Do",
+      "arg": "https://www.2doapp.com/"
+    },
+    {
+      "uid": "MindNode",
+      "title": "MindNode",
+      "autocomplete": "MindNode",
+      "arg": "https://mindnode.com/"
+    },
+    {
+      "uid": "keyboard maestro",
+      "title": "keyboard maestro",
+      "autocomplete": "keyboard maestro",
+      "arg": "https://www.keyboardmaestro.com/main/"
+    },
+    {
+      "uid": "BetterTouchTool",
+      "title": "BetterTouchTool",
+      "autocomplete": "BetterTouchTool",
+      "arg": "https://www.boastr.net/"
+    },
+    {
+      "uid": "TogglDesktop",
+      "title": "TogglDesktop",
+      "autocomplete": "TogglDesktop",
+      "arg": "https://support.toggl.com/toggl-on-my-desktop/"
+    },
+    {
+      "uid": "next meeting",
+      "title": "next meeting",
+      "autocomplete": "next meeting",
+      "arg": "https://itunes.apple.com/us/app/next-meeting-quickly-see-it-in-your-menu-bar/id1017470484?mt=12"
+    },
+    {
+      "uid": "fantastical",
+      "title": "fantastical",
+      "autocomplete": "fantastical",
+      "arg": "https://flexibits.com/fantastical"
+    },
+    {
+      "uid": "timing 2",
+      "title": "timing 2",
+      "autocomplete": "timing 2",
+      "arg": "https://betalist.com/startups/timing-2"
+    },
+    {
+      "uid": "Xccello",
+      "title": "Xccello",
+      "autocomplete": "Xccello",
+      "arg": "http://xccello.com/"
+    },
+    {
+      "uid": "anki",
+      "title": "anki",
+      "autocomplete": "anki",
+      "arg": "https://apps.ankiweb.net/"
+    },
+    {
+      "uid": "soulver",
+      "title": "soulver",
+      "autocomplete": "soulver",
+      "arg": "http://acqualia.com/soulver/"
+    },
+    {
+      "uid": "sequel pro",
+      "title": "sequel pro",
+      "autocomplete": "sequel pro",
+      "arg": "https://www.sequelpro.com/"
+    },
+    {
+      "uid": "mongoDB",
+      "title": "mongoDB",
+      "autocomplete": "mongoDB",
+      "arg": "https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/"
+    },
+    {
+      "uid": "pdf expert",
+      "title": "pdf expert",
+      "autocomplete": "pdf expert",
+      "arg": "https://pdfexpert.com/"
+    },
+    {
+      "uid": "reeder 3",
+      "title": "reeder 3",
+      "autocomplete": "reeder 3",
+      "arg": "http://reederapp.com/mac/"
+    },
+    {
+      "uid": "iBooks",
+      "title": "iBooks",
+      "autocomplete": "iBooks",
+      "arg": "https://www.apple.com/lae/ibooks/"
+    },
+    {
+      "uid": "karabiner",
+      "title": "karabiner",
+      "autocomplete": "karabiner",
+      "arg": "https://pqrs.org/osx/karabiner/"
+    },
+    {
+      "uid": "alfred",
+      "title": "alfred",
+      "autocomplete": "alfred",
+      "arg": "https://www.alfredapp.com/"
+    },
+    {
+      "uid": "typinator",
+      "title": "typinator",
+      "autocomplete": "typinator",
+      "arg": "http://www.ergonis.com/products/typinator/"
+    },
+    {
+      "uid": "bearded spice  🐙",
+      "title": "bearded spice  🐙",
+      "autocomplete": "bearded spice  🐙",
+      "arg": "https://github.com/beardedspice/beardedspice"
+    },
+    {
+      "uid": "hammerspoon",
+      "title": "hammerspoon",
+      "autocomplete": "hammerspoon",
+      "arg": "http://www.hammerspoon.org/"
+    },
+    {
+      "uid": "popclip",
+      "title": "popclip",
+      "autocomplete": "popclip",
+      "arg": "https://pilotmoon.com/popclip/"
+    },
+    {
+      "uid": "bitbar  🐙",
+      "title": "bitbar  🐙",
+      "autocomplete": "bitbar  🐙",
+      "arg": "https://github.com/matryer/bitbar"
+    },
+    {
+      "uid": "dropzone 3",
+      "title": "dropzone 3",
+      "autocomplete": "dropzone 3",
+      "arg": "https://aptonic.com/"
+    },
+    {
+      "uid": "unclutter",
+      "title": "unclutter",
+      "autocomplete": "unclutter",
+      "arg": "https://unclutterapp.com/"
+    },
+    {
+      "uid": "daisy disk",
+      "title": "daisy disk",
+      "autocomplete": "daisy disk",
+      "arg": "https://daisydiskapp.com/"
+    },
+    {
+      "uid": "gitify  🐙",
+      "title": "gitify  🐙",
+      "autocomplete": "gitify  🐙",
+      "arg": "https://github.com/manosim/gitify"
+    },
+    {
+      "uid": "spotifree",
+      "title": "spotifree",
+      "autocomplete": "spotifree",
+      "arg": "http://spotifree.gordinskiy.com/"
+    },
+    {
+      "uid": "name mangler",
+      "title": "name mangler",
+      "autocomplete": "name mangler",
+      "arg": "https://manytricks.com/namemangler/"
+    },
+    {
+      "uid": "iStat menus",
+      "title": "iStat menus",
+      "autocomplete": "iStat menus",
+      "arg": "https://bjango.com/mac/istatmenus/"
+    },
+    {
+      "uid": "clean my mac 3",
+      "title": "clean my mac 3",
+      "autocomplete": "clean my mac 3",
+      "arg": "https://macpaw.com/cleanmymac"
+    },
+    {
+      "uid": "little snitch",
+      "title": "little snitch",
+      "autocomplete": "little snitch",
+      "arg": "https://www.obdev.at/products/littlesnitch/index.html"
+    },
+    {
+      "uid": "lumen  🐙",
+      "title": "lumen  🐙",
+      "autocomplete": "lumen  🐙",
+      "arg": "https://github.com/anishathalye/lumen"
+    },
+    {
+      "uid": "keka",
+      "title": "keka",
+      "autocomplete": "keka",
+      "arg": "http://www.kekaosx.com/en/"
+    },
+    {
+      "uid": "bartender",
+      "title": "bartender",
+      "autocomplete": "bartender",
+      "arg": "https://www.macbartender.com/"
+    },
+    {
+      "uid": "slack",
+      "title": "slack",
+      "autocomplete": "slack",
+      "arg": "https://slack.com/"
+    },
+    {
+      "uid": "gitter",
+      "title": "gitter",
+      "autocomplete": "gitter",
+      "arg": "https://gitter.im/apps"
+    },
+    {
+      "uid": "telegram",
+      "title": "telegram",
+      "autocomplete": "telegram",
+      "arg": "https://telegram.org/"
+    },
+    {
+      "uid": "tweetbot",
+      "title": "tweetbot",
+      "autocomplete": "tweetbot",
+      "arg": "https://tapbots.com/tweetbot/mac/"
+    },
+    {
+      "uid": "airmail",
+      "title": "airmail",
+      "autocomplete": "airmail",
+      "arg": "http://airmailapp.com/"
+    },
+    {
+      "uid": "textual",
+      "title": "textual",
+      "autocomplete": "textual",
+      "arg": "https://www.codeux.com/textual/"
+    },
+    {
+      "uid": "sketch",
+      "title": "sketch",
+      "autocomplete": "sketch",
+      "arg": "https://www.sketchapp.com/"
+    },
+    {
+      "uid": "sip",
+      "title": "sip",
+      "autocomplete": "sip",
+      "arg": "http://sipapp.io/"
+    },
+    {
+      "uid": "pixelmator",
+      "title": "pixelmator",
+      "autocomplete": "pixelmator",
+      "arg": "http://www.pixelmator.com/mac/"
+    },
+    {
+      "uid": "patina",
+      "title": "patina",
+      "autocomplete": "patina",
+      "arg": "http://www.patinaapp.com/"
+    },
+    {
+      "uid": "svgsus",
+      "title": "svgsus",
+      "autocomplete": "svgsus",
+      "arg": "http://www.svgs.us/"
+    },
+    {
+      "uid": "minecraft",
+      "title": "minecraft",
+      "autocomplete": "minecraft",
+      "arg": "https://minecraft.net/en-us/"
+    },
+    {
+      "uid": "stockfish",
+      "title": "stockfish",
+      "autocomplete": "stockfish",
+      "arg": "https://stockfishchess.org/"
+    },
+    {
+      "uid": "paprika recipe manager",
+      "title": "paprika recipe manager",
+      "autocomplete": "paprika recipe manager",
+      "arg": "https://www.paprikaapp.com/"
+    },
+    {
+      "uid": "spotify",
+      "title": "spotify",
+      "autocomplete": "spotify",
+      "arg": "https://www.spotify.com/"
+    },
+    {
+      "uid": "noizio",
+      "title": "noizio",
+      "autocomplete": "noizio",
+      "arg": "http://noiz.io/"
+    },
+    {
+      "uid": "day one",
+      "title": "day one",
+      "autocomplete": "day one",
+      "arg": "http://dayoneapp.com/"
+    },
+    {
+      "uid": "ulysses",
+      "title": "ulysses",
+      "autocomplete": "ulysses",
+      "arg": "https://www.ulyssesapp.com/"
+    },
+    {
+      "uid": "MacDown",
+      "title": "MacDown",
+      "autocomplete": "MacDown",
+      "arg": "https://macdown.uranusjr.com/"
+    },
+    {
+      "uid": "texpad",
+      "title": "texpad",
+      "autocomplete": "texpad",
+      "arg": "https://www.texpad.com/"
+    },
+    {
+      "uid": "marked 2",
+      "title": "marked 2",
+      "autocomplete": "marked 2",
+      "arg": "http://marked2app.com/"
+    },
+    {
+      "uid": "iTerm",
+      "title": "iTerm",
+      "autocomplete": "iTerm",
+      "arg": "https://www.iterm2.com/"
+    },
+    {
+      "uid": "SnippetsLab",
+      "title": "SnippetsLab",
+      "autocomplete": "SnippetsLab",
+      "arg": "https://www.renfei.org/snippets-lab/"
+    },
+    {
+      "uid": "dash",
+      "title": "dash",
+      "autocomplete": "dash",
+      "arg": "https://kapeli.com/dash"
+    },
+    {
+      "uid": "paw",
+      "title": "paw",
+      "autocomplete": "paw",
+      "arg": "https://paw.cloud/"
+    },
+    {
+      "uid": "tower",
+      "title": "tower",
+      "autocomplete": "tower",
+      "arg": "https://www.git-tower.com/mac/"
+    },
+    {
+      "uid": "code runner",
+      "title": "code runner",
+      "autocomplete": "code runner",
+      "arg": "https://coderunnerapp.com/"
+    },
+    {
+      "uid": "sublime text",
+      "title": "sublime text",
+      "autocomplete": "sublime text",
+      "arg": "https://www.sublimetext.com/"
+    },
+    {
+      "uid": "vs code",
+      "title": "vs code",
+      "autocomplete": "vs code",
+      "arg": "https://code.visualstudio.com/"
+    },
+    {
+      "uid": "1password",
+      "title": "1password",
+      "autocomplete": "1password",
+      "arg": "https://1password.com/"
+    },
+    {
+      "uid": "hider 2",
+      "title": "hider 2",
+      "autocomplete": "hider 2",
+      "arg": "https://macpaw.com/hider"
+    },
+    {
+      "uid": "IntelliJ",
+      "title": "IntelliJ",
+      "autocomplete": "IntelliJ",
+      "arg": "https://www.jetbrains.com/idea/"
+    },
+    {
+      "uid": "Pycharm",
+      "title": "Pycharm",
+      "autocomplete": "Pycharm",
+      "arg": "https://www.jetbrains.com/pycharm/"
+    }
+  ]
+}

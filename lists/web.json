@@ -73,6 +73,36 @@
       "arg": "http://reactiongifsarchive.imgur.com/"
     },
     {
+      "uid": "g: online go",
+      "title": "g: online go",
+      "autocomplete": "g: online go",
+      "arg": "https://online-go.com/play"
+    },
+    {
+      "uid": "g: thinking chess",
+      "title": "g: thinking chess",
+      "autocomplete": "g: thinking chess",
+      "arg": "http://www.bewitched.com/chess/"
+    },
+    {
+      "uid": "g: human benchmark",
+      "title": "g: human benchmark",
+      "autocomplete": "g: human benchmark",
+      "arg": "https://www.humanbenchmark.com/tests/memory"
+    },
+    {
+      "uid": "g: the ai games",
+      "title": "g: the ai games",
+      "autocomplete": "g: the ai games",
+      "arg": "http://theaigames.com/"
+    },
+    {
+      "uid": "g: lichess",
+      "title": "g: lichess",
+      "autocomplete": "g: lichess",
+      "arg": "https://lichess.org/"
+    },
+    {
       "uid": "w: tumblr",
       "title": "w: tumblr",
       "autocomplete": "w: tumblr",
@@ -343,6 +373,42 @@
       "arg": "http://githut.info/"
     },
     {
+      "uid": "w: github  🐙",
+      "title": "w: github  🐙",
+      "autocomplete": "w: github  🐙",
+      "arg": "https://github.com/"
+    },
+    {
+      "uid": "w: github trending  🐙",
+      "title": "w: github trending  🐙",
+      "autocomplete": "w: github trending  🐙",
+      "arg": "https://github.com/trending"
+    },
+    {
+      "uid": "w: stack exchange hot  🗂️",
+      "title": "w: stack exchange hot  🗂️",
+      "autocomplete": "w: stack exchange hot  🗂️",
+      "arg": "https://stackexchange.com/?pagesize=50"
+    },
+    {
+      "uid": "w: godoc",
+      "title": "w: godoc",
+      "autocomplete": "w: godoc",
+      "arg": "https://godoc.org/"
+    },
+    {
+      "uid": "w: hacker news new",
+      "title": "w: hacker news new",
+      "autocomplete": "w: hacker news new",
+      "arg": "https://news.ycombinator.com/newest"
+    },
+    {
+      "uid": "w: hacker news",
+      "title": "w: hacker news",
+      "autocomplete": "w: hacker news",
+      "arg": "https://hckrnews.com/"
+    },
+    {
       "uid": "w: daybook",
       "title": "w: daybook",
       "autocomplete": "w: daybook",
@@ -385,10 +451,28 @@
       "arg": "https://www.booking.com/"
     },
     {
+      "uid": "w: reddit",
+      "title": "w: reddit",
+      "autocomplete": "w: reddit",
+      "arg": "https://www.reddit.com"
+    },
+    {
+      "uid": "w: quora",
+      "title": "w: quora",
+      "autocomplete": "w: quora",
+      "arg": "https://www.quora.com/"
+    },
+    {
       "uid": "w: heroku apps",
       "title": "w: heroku apps",
       "autocomplete": "w: heroku apps",
       "arg": "https://dashboard.heroku.com/apps"
+    },
+    {
+      "uid": "w: stack real time  🗂️",
+      "title": "w: stack real time  🗂️",
+      "autocomplete": "w: stack real time  🗂️",
+      "arg": "https://stackexchange.com/questions?tab=realtime"
     },
     {
       "uid": "w: google dashboard",
@@ -421,6 +505,12 @@
       "arg": "https://bold.io/"
     },
     {
+      "uid": "w: pinboard recent",
+      "title": "w: pinboard recent",
+      "autocomplete": "w: pinboard recent",
+      "arg": "https://pinboard.in/recent/"
+    },
+    {
       "uid": "w: google projects",
       "title": "w: google projects",
       "autocomplete": "w: google projects",
@@ -433,10 +523,22 @@
       "arg": "https://codecombat.com/"
     },
     {
+      "uid": "w: learn anything",
+      "title": "w: learn anything",
+      "autocomplete": "w: learn anything",
+      "arg": "https://learn-anything.xyz/"
+    },
+    {
       "uid": "w: npm",
       "title": "w: npm",
       "autocomplete": "w: npm",
       "arg": "https://www.npmjs.com/"
+    },
+    {
+      "uid": "w: leetcode",
+      "title": "w: leetcode",
+      "autocomplete": "w: leetcode",
+      "arg": "https://leetcode.com"
     },
     {
       "uid": "w: kaggle",
@@ -751,6 +853,12 @@
       "arg": "https://www.numbeo.com/common/"
     },
     {
+      "uid": "w: codepen",
+      "title": "w: codepen",
+      "autocomplete": "w: codepen",
+      "arg": "https://codepen.io/"
+    },
+    {
       "uid": "w. hn favourites",
       "title": "w. hn favourites",
       "autocomplete": "w. hn favourites",
@@ -781,52 +889,28 @@
       "arg": "https://readspike.com/"
     },
     {
-      "uid": "g: online go",
-      "title": "g: online go",
-      "autocomplete": "g: online go",
-      "arg": "https://online-go.com/play"
-    },
-    {
-      "uid": "g: thinking chess",
-      "title": "g: thinking chess",
-      "autocomplete": "g: thinking chess",
-      "arg": "http://www.bewitched.com/chess/"
-    },
-    {
-      "uid": "g: human benchmark",
-      "title": "g: human benchmark",
-      "autocomplete": "g: human benchmark",
-      "arg": "https://www.humanbenchmark.com/tests/memory"
-    },
-    {
-      "uid": "g: the ai games",
-      "title": "g: the ai games",
-      "autocomplete": "g: the ai games",
-      "arg": "http://theaigames.com/"
-    },
-    {
-      "uid": "g: lichess",
-      "title": "g: lichess",
-      "autocomplete": "g: lichess",
-      "arg": "https://lichess.org/"
-    },
-    {
-      "uid": "pinboard popular",
-      "title": "pinboard popular",
-      "autocomplete": "pinboard popular",
+      "uid": "w: pinboard popular",
+      "title": "w: pinboard popular",
+      "autocomplete": "w: pinboard popular",
       "arg": "https://pinboard.in/popular/"
     },
     {
-      "uid": "lobsters",
-      "title": "lobsters",
-      "autocomplete": "lobsters",
+      "uid": "w: lobsters",
+      "title": "w: lobsters",
+      "autocomplete": "w: lobsters",
       "arg": "https://lobste.rs/"
     },
     {
-      "uid": "facebook",
-      "title": "facebook",
-      "autocomplete": "facebook",
+      "uid": "w: facebook",
+      "title": "w: facebook",
+      "autocomplete": "w: facebook",
       "arg": "https://www.facebook.com/"
+    },
+    {
+      "uid": "w: 21.co",
+      "title": "w: 21.co",
+      "autocomplete": "w: 21.co",
+      "arg": "https://21.co/"
     },
     {
       "uid": "w: quizlet",
@@ -931,34 +1015,46 @@
       "arg": "https://www.youtube.com/"
     },
     {
+      "uid": "s: gwern",
+      "title": "s: gwern",
+      "autocomplete": "s: gwern",
+      "arg": "https://www.gwern.net/"
+    },
+    {
       "uid": "v: km",
       "title": "v: km",
       "autocomplete": "v: km",
       "arg": "https://wiki.keyboardmaestro.com/User_Manual"
     },
     {
-      "uid": "w: drive",
-      "title": "w: drive",
-      "autocomplete": "w: drive",
-      "arg": "https://drive.google.com/drive/my-drive"
+      "uid": "w: ill gander",
+      "title": "w: ill gander",
+      "autocomplete": "w: ill gander",
+      "arg": "https://illgander.com/"
     },
     {
-      "uid": "w: toggl",
-      "title": "w: toggl",
-      "autocomplete": "w: toggl",
-      "arg": "https://toggl.com/"
+      "uid": "w: flickr",
+      "title": "w: flickr",
+      "autocomplete": "w: flickr",
+      "arg": "https://www.flickr.com/"
     },
     {
-      "uid": "w: apple id",
-      "title": "w: apple id",
-      "autocomplete": "w: apple id",
-      "arg": "https://appleid.apple.com/"
+      "uid": "w: flickr - explore",
+      "title": "w: flickr - explore",
+      "autocomplete": "w: flickr - explore",
+      "arg": "https://www.flickr.com/explore"
     },
     {
-      "uid": "w: dropbox",
-      "title": "w: dropbox",
-      "autocomplete": "w: dropbox",
-      "arg": "https://www.dropbox.com/home"
+      "uid": "w: imgur",
+      "title": "w: imgur",
+      "autocomplete": "w: imgur",
+      "arg": "https://imgur.com/"
+    },
+    {
+      "uid": "w: instagram",
+      "title": "w: instagram",
+      "autocomplete": "w: instagram",
+      "arg": "https://www.instagram.com/"
     },
     {
       "uid": "f: km",
@@ -1045,34 +1141,58 @@
       "arg": "https://www.shroomery.org/"
     },
     {
-      "uid": "w: ill gander",
-      "title": "w: ill gander",
-      "autocomplete": "w: ill gander",
-      "arg": "https://illgander.com/"
+      "uid": "f: macscripter",
+      "title": "f: macscripter",
+      "autocomplete": "f: macscripter",
+      "arg": "http://macscripter.net/index.php"
     },
     {
-      "uid": "w: flickr",
-      "title": "w: flickr",
-      "autocomplete": "w: flickr",
-      "arg": "https://www.flickr.com/"
+      "uid": "f: hugo",
+      "title": "f: hugo",
+      "autocomplete": "f: hugo",
+      "arg": "https://discourse.gohugo.io/"
     },
     {
-      "uid": "w: flickr - explore",
-      "title": "w: flickr - explore",
-      "autocomplete": "w: flickr - explore",
-      "arg": "https://www.flickr.com/explore"
+      "uid": "w: drive",
+      "title": "w: drive",
+      "autocomplete": "w: drive",
+      "arg": "https://drive.google.com/drive/my-drive"
     },
     {
-      "uid": "w: imgur",
-      "title": "w: imgur",
-      "autocomplete": "w: imgur",
-      "arg": "https://imgur.com/"
+      "uid": "w: toggl",
+      "title": "w: toggl",
+      "autocomplete": "w: toggl",
+      "arg": "https://toggl.com/"
     },
     {
-      "uid": "w: instagram",
-      "title": "w: instagram",
-      "autocomplete": "w: instagram",
-      "arg": "https://www.instagram.com/"
+      "uid": "w: apple id",
+      "title": "w: apple id",
+      "autocomplete": "w: apple id",
+      "arg": "https://appleid.apple.com/"
+    },
+    {
+      "uid": "w: dropbox",
+      "title": "w: dropbox",
+      "autocomplete": "w: dropbox",
+      "arg": "https://www.dropbox.com/home"
+    },
+    {
+      "uid": "w: meetup",
+      "title": "w: meetup",
+      "autocomplete": "w: meetup",
+      "arg": "http://www.meetup.com/"
+    },
+    {
+      "uid": "w: whatsapp",
+      "title": "w: whatsapp",
+      "autocomplete": "w: whatsapp",
+      "arg": "https://web.whatsapp.com/"
+    },
+    {
+      "uid": "w: google plus",
+      "title": "w: google plus",
+      "autocomplete": "w: google plus",
+      "arg": "https://plus.google.com/"
     },
     {
       "uid": "w: slant",
@@ -1103,24 +1223,6 @@
       "title": "w: google scholar",
       "autocomplete": "w: google scholar",
       "arg": "https://scholar.google.nl/"
-    },
-    {
-      "uid": "w: meetup",
-      "title": "w: meetup",
-      "autocomplete": "w: meetup",
-      "arg": "http://www.meetup.com/"
-    },
-    {
-      "uid": "w: whatsapp",
-      "title": "w: whatsapp",
-      "autocomplete": "w: whatsapp",
-      "arg": "https://web.whatsapp.com/"
-    },
-    {
-      "uid": "w: google plus",
-      "title": "w: google plus",
-      "autocomplete": "w: google plus",
-      "arg": "https://plus.google.com/"
     },
     {
       "uid": "m: last.fm",
@@ -1351,6 +1453,12 @@
       "arg": "https://tio.run/#"
     },
     {
+      "uid": "t: jsfiddle",
+      "title": "t: jsfiddle",
+      "autocomplete": "t: jsfiddle",
+      "arg": "https://jsfiddle.net"
+    },
+    {
       "uid": "d: stackshare tools",
       "title": "d: stackshare tools",
       "autocomplete": "d: stackshare tools",
@@ -1427,6 +1535,12 @@
       "title": "d: codility",
       "autocomplete": "d: codility",
       "arg": "https://codility.com/programmers/"
+    },
+    {
+      "uid": "d: mozilla dev",
+      "title": "d: mozilla dev",
+      "autocomplete": "d: mozilla dev",
+      "arg": "https://developer.mozilla.org/"
     },
     {
       "uid": "w: finviz",

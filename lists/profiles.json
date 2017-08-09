@@ -43,6 +43,24 @@
       "arg": "https://www.codementor.io/nikitavoloboev"
     },
     {
+      "uid": "asciinema",
+      "title": "asciinema",
+      "autocomplete": "asciinema",
+      "arg": "https://asciinema.org/~nikivi"
+    },
+    {
+      "uid": "wakatime",
+      "title": "wakatime",
+      "autocomplete": "wakatime",
+      "arg": "https://wakatime.com/@nikivi"
+    },
+    {
+      "uid": "devpost",
+      "title": "devpost",
+      "autocomplete": "devpost",
+      "arg": "https://devpost.com/NikitaVoloboev"
+    },
+    {
       "uid": "soundcloud",
       "title": "soundcloud",
       "autocomplete": "soundcloud",
@@ -106,7 +124,7 @@
       "uid": "facebook",
       "title": "facebook",
       "autocomplete": "facebook",
-      "arg": "http://facebook.com/nikita.voloboev"
+      "arg": "https://facebook.com/nikita.voloboev"
     },
     {
       "uid": "hacker news",
@@ -119,6 +137,12 @@
       "title": "product hunt",
       "autocomplete": "product hunt",
       "arg": "https://www.producthunt.com/@nikitavoloboev"
+    },
+    {
+      "uid": "google+",
+      "title": "google+",
+      "autocomplete": "google+",
+      "arg": "https://plus.google.com/u/0/+NikitaVoloboev"
     },
     {
       "uid": "quora",
@@ -197,6 +221,36 @@
       "title": "etsy",
       "autocomplete": "etsy",
       "arg": "https://www.etsy.com/people/nikitavoloboev?ref=hdr_user_menu"
+    },
+    {
+      "uid": "linkedin",
+      "title": "linkedin",
+      "autocomplete": "linkedin",
+      "arg": "https://www.linkedin.com/in/nikitavoloboev/"
+    },
+    {
+      "uid": "angel.co",
+      "title": "angel.co",
+      "autocomplete": "angel.co",
+      "arg": "https://angel.co/nikita-voloboev"
+    },
+    {
+      "uid": "patreon",
+      "title": "patreon",
+      "autocomplete": "patreon",
+      "arg": "http://patreon.com/nikitavoloboev"
+    },
+    {
+      "uid": "CV",
+      "title": "CV",
+      "autocomplete": "CV",
+      "arg": "https://stackoverflow.com/cv/nikitavoloboev"
+    },
+    {
+      "uid": "home",
+      "title": "home",
+      "autocomplete": "home",
+      "arg": "https://www.nikitavoloboev.xyz/"
     }
   ]
 }

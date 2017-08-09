@@ -898,6 +898,30 @@
       "arg": "https://lord.io/blog/"
     },
     {
+      "uid": "tonsky  🗃️",
+      "title": "tonsky  🗃️",
+      "autocomplete": "tonsky  🗃️",
+      "arg": "http://tonsky.livejournal.com/"
+    },
+    {
+      "uid": "mark scholten  🗃️",
+      "title": "mark scholten  🗃️",
+      "autocomplete": "mark scholten  🗃️",
+      "arg": "https://www.mpscholten.de/"
+    },
+    {
+      "uid": "dosync  🗃️",
+      "title": "dosync  🗃️",
+      "autocomplete": "dosync  🗃️",
+      "arg": "http://swannodette.github.io/"
+    },
+    {
+      "uid": "eric gourlaouen  🗃️",
+      "title": "eric gourlaouen  🗃️",
+      "autocomplete": "eric gourlaouen  🗃️",
+      "arg": "http://blog.ericgourlaouen.com/"
+    },
+    {
       "uid": "dmitri shuralyov  🗃️",
       "title": "dmitri shuralyov  🗃️",
       "autocomplete": "dmitri shuralyov  🗃️",
@@ -1246,6 +1270,12 @@
       "arg": "http://nshipster.com/"
     },
     {
+      "uid": "fresh swift  🗃️",
+      "title": "fresh swift  🗃️",
+      "autocomplete": "fresh swift  🗃️",
+      "arg": "http://freshswift.net/"
+    },
+    {
       "uid": "tech specs  🗃️",
       "title": "tech specs  🗃️",
       "autocomplete": "tech specs  🗃️",
@@ -1442,6 +1472,12 @@
       "title": "paul graham  🗃️",
       "autocomplete": "paul graham  🗃️",
       "arg": "http://www.paulgraham.com/articles.html"
+    },
+    {
+      "uid": "Elad blog  🗃️",
+      "title": "Elad blog  🗃️",
+      "autocomplete": "Elad blog  🗃️",
+      "arg": "http://blog.eladgil.com/"
     },
     {
       "uid": "nikic  🗃️",
