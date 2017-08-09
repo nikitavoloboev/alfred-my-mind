@@ -28,7 +28,7 @@ Download the workflow from [GitHub releases](https://github.com/nikitavoloboev/a
 
 This workflow heavily leverages curated lists from Learn Anything that can be found [here](https://github.com/learn-anything). You can contribute directly to those lists so everyone benefits. 
 
-Or if you wish, you can add content to the [JSONs found in this repo](https://github.com/nikitavoloboev/alfred-my-mind/tree/master/lists) as that is what Alfred reads to present the content. 
+Or if you wish, you can add contentto the [JSONs found in this repo](https://github.com/nikitavoloboev/alfred-my-mind/tree/master/lists) as that is what Alfred reads to present the content. 
 
 Do note, that this workflow exists for my personal use and extend my idea of [knowledge bootstrapping](https://medium.com/@NikitaVoloboev/knowledge-bootstrapping-36c97e0dee19#.udmp9eotg) and tapping into a person's expertise in the most transparent way possible.
 
