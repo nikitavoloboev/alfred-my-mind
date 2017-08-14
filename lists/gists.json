@@ -23,6 +23,12 @@
       "title": "a: reset launchpad  🐙",
       "autocomplete": "a: reset launchpad  🐙",
       "arg": "https://gist.github.com/21c10b91e0f4b4093fdfe6840aea1079"
+    },
+    {
+      "uid": "conf: brew list  🐙",
+      "title": "conf: brew list  🐙",
+      "autocomplete": "conf: brew list  🐙",
+      "arg": "https://gist.github.com/3fbe13ce427132d0297f411b62f49034"
     }
   ]
 }

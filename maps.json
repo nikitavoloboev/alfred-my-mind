@@ -77,7 +77,7 @@
   },
   {
     "name": "la",
-    "map": "sJEx69zpznCseJTXWs5LyTFv95NjRV6yRUAsHTt2"
+    "map": "iySZGy11DU2xqC6b7GpLdsxk7pragwmy33ekKbMH"
   },
   {
     "name": "notes",
@@ -94,6 +94,10 @@
   {
     "name": "youtube",
     "map": "B9fhnvBwV5VpP4nkPaZsozRJzdoDfWfv68A9s3Jz"
+  },
+  {
+    "name": "other-articles",
+    "map": "paFJNgDpXfF4mtyTudcR5wX7K6iKZ7yB6hTyMsky"
   },
   {
     "name": "talks",
@@ -150,6 +154,22 @@
   {
     "name": "cli",
     "map": "PnCppksYzVsx5gF7c42jyX2QcFtdgn5Hq3A4B8Y7"
+  },
+  {
+    "name": "devian-art",
+    "map": "f4vB9nBKHWhFrpWD28KhDXUDxKyzDPZKNjbotxzN"
+  },
+  {
+    "name": "github-trending",
+    "map": "jNJtsnke18yKsgv3yKCwTyWNJdGDkGYAQMNbgZVZ"
+  },
+  {
+    "name": "instagram",
+    "map": "Txg55ViCiAaHUYrhYzDDq33yLCpspU5htyshwgnQ"
+  },
+  {
+    "name": "reddit-multi",
+    "map": "AghqDxXGwktnQ9BNUpfy2HyHBafitTfCLonFxrY7"
   },
   {
     "name": "reddit-users",

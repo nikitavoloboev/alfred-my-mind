@@ -67,6 +67,12 @@
       "arg": "https://www.keyboardmaestro.com/main/"
     },
     {
+      "uid": "a: telegram",
+      "title": "a: telegram",
+      "autocomplete": "a: telegram",
+      "arg": "https://telegram.org/"
+    },
+    {
       "uid": "i: reaction gif albums",
       "title": "i: reaction gif albums",
       "autocomplete": "i: reaction gif albums",
@@ -841,6 +847,12 @@
       "arg": "https://www.twitch.tv/"
     },
     {
+      "uid": "w: rutracker",
+      "title": "w: rutracker",
+      "autocomplete": "w: rutracker",
+      "arg": "http://rutracker.org/forum/index.php"
+    },
+    {
       "uid": "w: snoopsnoo",
       "title": "w: snoopsnoo",
       "autocomplete": "w: snoopsnoo",
@@ -911,6 +923,12 @@
       "title": "w: 21.co",
       "autocomplete": "w: 21.co",
       "arg": "https://21.co/"
+    },
+    {
+      "uid": "v: km",
+      "title": "v: km",
+      "autocomplete": "v: km",
+      "arg": "https://wiki.keyboardmaestro.com/User_Manual"
     },
     {
       "uid": "w: quizlet",
@@ -1015,16 +1033,22 @@
       "arg": "https://www.youtube.com/"
     },
     {
-      "uid": "s: gwern",
-      "title": "s: gwern",
-      "autocomplete": "s: gwern",
+      "uid": "j: graduateland",
+      "title": "j: graduateland",
+      "autocomplete": "j: graduateland",
+      "arg": "https://graduateland.com/dashboard"
+    },
+    {
+      "uid": "p: gwern",
+      "title": "p: gwern",
+      "autocomplete": "p: gwern",
       "arg": "https://www.gwern.net/"
     },
     {
-      "uid": "v: km",
-      "title": "v: km",
-      "autocomplete": "v: km",
-      "arg": "https://wiki.keyboardmaestro.com/User_Manual"
+      "uid": "s: flat UI colours",
+      "title": "s: flat UI colours",
+      "autocomplete": "s: flat UI colours",
+      "arg": "https://flatuicolors.com/"
     },
     {
       "uid": "w: ill gander",
@@ -1459,6 +1483,12 @@
       "arg": "https://jsfiddle.net"
     },
     {
+      "uid": "t: bangs",
+      "title": "t: bangs",
+      "autocomplete": "t: bangs",
+      "arg": "https://duckduckgo.com/bang?"
+    },
+    {
       "uid": "d: stackshare tools",
       "title": "d: stackshare tools",
       "autocomplete": "d: stackshare tools",
@@ -1541,6 +1571,12 @@
       "title": "d: mozilla dev",
       "autocomplete": "d: mozilla dev",
       "arg": "https://developer.mozilla.org/"
+    },
+    {
+      "uid": "d: go FAQ",
+      "title": "d: go FAQ",
+      "autocomplete": "d: go FAQ",
+      "arg": "https://golang.org/doc/faq#nil_error"
     },
     {
       "uid": "w: finviz",

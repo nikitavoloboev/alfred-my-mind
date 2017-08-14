@@ -60,9 +60,9 @@
       "arg": "https://github.com/nikitavoloboev/alfred-clean-folders"
     },
     {
-      "uid": "17: alfred web searches  💡",
-      "title": "17: alfred web searches  💡",
-      "autocomplete": "17: alfred web searches  💡",
+      "uid": "17: alfred web searches  🐙",
+      "title": "17: alfred web searches  🐙",
+      "autocomplete": "17: alfred web searches  🐙",
       "subtitle": "fuzzy search through a list of web searches",
       "arg": "https://github.com/nikitavoloboev/alfred-web-searches"
     },
@@ -84,12 +84,6 @@
       "title": "17: alfred my mind  🐙",
       "autocomplete": "17: alfred my mind  🐙",
       "arg": "https://github.com/nikitavoloboev/alfred-my-mind"
-    },
-    {
-      "uid": "17: alfred pinboard tags  🐙",
-      "title": "17: alfred pinboard tags  🐙",
-      "autocomplete": "17: alfred pinboard tags  🐙",
-      "arg": "https://github.com/nikitavoloboev/alfred-pinboard-tags"
     },
     {
       "uid": "17: alfred twitter follows  💡",
@@ -116,17 +110,22 @@
       "arg": "https://github.com/nikitavoloboev/alfred-folder-search"
     },
     {
-      "uid": "17: last time  💡",
-      "title": "17: last time  💡",
-      "autocomplete": "17: last time  💡",
-      "arg": "https://github.com/nikitavoloboev/last-time"
+      "uid": "17: alfred static searches  🐙",
+      "title": "17: alfred static searches  🐙",
+      "autocomplete": "17: alfred static searches  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-static-searches"
     },
     {
-      "uid": "16: web todo  🐙",
-      "title": "16: web todo  🐙",
-      "autocomplete": "16: web todo  🐙",
-      "subtitle": "is quite bad ",
-      "arg": "https://github.com/nikitavoloboev/web-todo"
+      "uid": "17: alfred dash profile switcher  🐙",
+      "title": "17: alfred dash profile switcher  🐙",
+      "autocomplete": "17: alfred dash profile switcher  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-dash-profile-switch"
+    },
+    {
+      "uid": "17: alfred edit files  🐙",
+      "title": "17: alfred edit files  🐙",
+      "autocomplete": "17: alfred edit files  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-edit-files/tree/master"
     },
     {
       "uid": "17: boxes  💡",
@@ -145,6 +144,19 @@
       "title": "17: my web home page  🐙",
       "autocomplete": "17: my web home page  🐙",
       "arg": "https://github.com/nikitavoloboev/nikitavoloboev.github.io"
+    },
+    {
+      "uid": "17: last time  💡",
+      "title": "17: last time  💡",
+      "autocomplete": "17: last time  💡",
+      "arg": "https://github.com/nikitavoloboev/last-time"
+    },
+    {
+      "uid": "16: web todo  🐙",
+      "title": "16: web todo  🐙",
+      "autocomplete": "16: web todo  🐙",
+      "subtitle": "is quite bad ",
+      "arg": "https://github.com/nikitavoloboev/web-todo"
     },
     {
       "uid": "17: go leetcode  🐙",
@@ -179,13 +191,6 @@
       "autocomplete": "17: awesome mindmaps  🐙",
       "subtitle": "awesome list of all the mind maps made in MindNode, Xmind, iMindMap and others",
       "arg": "https://github.com/nikitavoloboev/awesome-mindmaps"
-    },
-    {
-      "uid": "16: android thermostat app  🐙",
-      "title": "16: android thermostat app  🐙",
-      "autocomplete": "16: android thermostat app  🐙",
-      "subtitle": "pretty bad code",
-      "arg": "https://github.com/nikitavoloboev/android-thermostat-app"
     },
     {
       "uid": "17: md-to-cv  💡",

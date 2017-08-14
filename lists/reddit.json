@@ -661,6 +661,12 @@
       "arg": "https://www.reddit.com/r/archlinux/"
     },
     {
+      "uid": "godot  🤖",
+      "title": "godot  🤖",
+      "autocomplete": "godot  🤖",
+      "arg": "https://www.reddit.com/r/godot/"
+    },
+    {
       "uid": "applescript  🤖",
       "title": "applescript  🤖",
       "autocomplete": "applescript  🤖",
@@ -761,6 +767,12 @@
       "title": "vs code  🤖",
       "autocomplete": "vs code  🤖",
       "arg": "https://www.reddit.com/r/vscode/"
+    },
+    {
+      "uid": "civilisation  🤖",
+      "title": "civilisation  🤖",
+      "autocomplete": "civilisation  🤖",
+      "arg": "https://www.reddit.com/r/civ/"
     },
     {
       "uid": "health  🤖",
@@ -918,6 +930,12 @@
       "title": "art history  🤖",
       "autocomplete": "art history  🤖",
       "arg": "https://www.reddit.com/r/ArtHistory/"
+    },
+    {
+      "uid": "multihub  🤖",
+      "title": "multihub  🤖",
+      "autocomplete": "multihub  🤖",
+      "arg": "https://www.reddit.com/r/multihub/"
     },
     {
       "uid": "drug nerds  🤖",
