@@ -1,6 +1,348 @@
 {
   "items": [
     {
+      "uid": "amino acids  🗺️",
+      "title": "amino acids  🗺️",
+      "autocomplete": "amino acids  🗺️",
+      "arg": "https://my.mindnode.com/y4fWqmqALyzqK6gTcpz6kNXvqs27PCLe4CHCx9jz"
+    },
+    {
+      "uid": "animals  🗺️",
+      "title": "animals  🗺️",
+      "autocomplete": "animals  🗺️",
+      "arg": "https://my.mindnode.com/oN8Lkm2wucSDHZ8bKv8BnfDeujMzSQqE2hGvzo3W"
+    },
+    {
+      "uid": "bitcoin  🗺️",
+      "title": "bitcoin  🗺️",
+      "autocomplete": "bitcoin  🗺️",
+      "arg": "https://my.mindnode.com/hyexfHUpjmDAWHEW7PE5YbLtkF36YVWnVaubuZVJ"
+    },
+    {
+      "uid": "buddhism  🗺️",
+      "title": "buddhism  🗺️",
+      "autocomplete": "buddhism  🗺️",
+      "arg": "https://my.mindnode.com/k3d5sZTWVipF8FjVEZT5JMGpN2y3LU6zht1RFYjk"
+    },
+    {
+      "uid": "chess  🗺️",
+      "title": "chess  🗺️",
+      "autocomplete": "chess  🗺️",
+      "arg": "https://my.mindnode.com/or113MmGq89fKyiCxym1ZTPL3AFgmPw8H2zd85fx"
+    },
+    {
+      "uid": "clojure  🗺️",
+      "title": "clojure  🗺️",
+      "autocomplete": "clojure  🗺️",
+      "arg": "https://my.mindnode.com/2ssSNEw6szbbRatm6hAqwigA7BaSUz4xfLrtztp1"
+    },
+    {
+      "uid": "compound interest  🗺️",
+      "title": "compound interest  🗺️",
+      "autocomplete": "compound interest  🗺️",
+      "arg": "https://my.mindnode.com/qZF2uyWCjzpNG7o8fPGruYWvQsmYaiw3qNKaAAus"
+    },
+    {
+      "uid": "computation  🗺️",
+      "title": "computation  🗺️",
+      "autocomplete": "computation  🗺️",
+      "arg": "https://my.mindnode.com/wq4pbepPDPDZ8xpNAVA28u4dqF9egpkBpbMsnEDq"
+    },
+    {
+      "uid": "computers  🗺️",
+      "title": "computers  🗺️",
+      "autocomplete": "computers  🗺️",
+      "arg": "https://my.mindnode.com/Y3otdwEDNBGpqU47ihzAYeLzEqJoBVgCtaqcgYDg"
+    },
+    {
+      "uid": "concurrency  🗺️",
+      "title": "concurrency  🗺️",
+      "autocomplete": "concurrency  🗺️",
+      "arg": "https://my.mindnode.com/syGdZ6FabE3G93r5ByHEAv4ifNgYZxRseDRJRY4A"
+    },
+    {
+      "uid": "data structures  🗺️",
+      "title": "data structures  🗺️",
+      "autocomplete": "data structures  🗺️",
+      "arg": "https://my.mindnode.com/zXee7JH1K6eL55pWhCJB8GxryntYZ4LhFWZKYz7D"
+    },
+    {
+      "uid": "death  🗺️",
+      "title": "death  🗺️",
+      "autocomplete": "death  🗺️",
+      "arg": "https://my.mindnode.com/59yCzJhxDsPkLrzzsqZWp47VFGxJatNARgLunyHY"
+    },
+    {
+      "uid": "DMT  🗺️",
+      "title": "DMT  🗺️",
+      "autocomplete": "DMT  🗺️",
+      "arg": "https://my.mindnode.com/nBzQ6jPFUtx91VC5zg6G6tXd5oqCwib7esYxZ1y8"
+    },
+    {
+      "uid": "dreams  🗺️",
+      "title": "dreams  🗺️",
+      "autocomplete": "dreams  🗺️",
+      "arg": "https://my.mindnode.com/ZAhtb9iowLAyyaE9N6Luy3V9GV99fLH2soWrQxKq"
+    },
+    {
+      "uid": "ego  🗺️",
+      "title": "ego  🗺️",
+      "autocomplete": "ego  🗺️",
+      "arg": "https://my.mindnode.com/yRpqK9AwVBnfyQLbP7pQXXBXGEnfktqWVo6E1yLx"
+    },
+    {
+      "uid": "fields  🗺️",
+      "title": "fields  🗺️",
+      "autocomplete": "fields  🗺️",
+      "arg": "https://my.mindnode.com/uasXhJqgkNgxDxwo4vnzQ28KQJ6tavkQFDz6MHko"
+    },
+    {
+      "uid": "fuchsia OS  🗺️",
+      "title": "fuchsia OS  🗺️",
+      "autocomplete": "fuchsia OS  🗺️",
+      "arg": "https://my.mindnode.com/1nnUUynxx5mSqMX8XQ6iGMC5UqwyeuuCMqxVsqZq"
+    },
+    {
+      "uid": "fun  🗺️",
+      "title": "fun  🗺️",
+      "autocomplete": "fun  🗺️",
+      "arg": "https://my.mindnode.com/Bnui9RQc5BycY56UEQH8wyisr9qzsbwnakyo8qpA"
+    },
+    {
+      "uid": "funny  🗺️",
+      "title": "funny  🗺️",
+      "autocomplete": "funny  🗺️",
+      "arg": "https://my.mindnode.com/Co5cgp69v4Wu7a3BVQ4KqqFpsJWJYYnh3xc3D8vg"
+    },
+    {
+      "uid": "future  🗺️",
+      "title": "future  🗺️",
+      "autocomplete": "future  🗺️",
+      "arg": "https://my.mindnode.com/2LKTprX3EozSs1Xybi5s8CTd6FwFqQzgBrgMbbyi"
+    },
+    {
+      "uid": "games  🗺️",
+      "title": "games  🗺️",
+      "autocomplete": "games  🗺️",
+      "arg": "https://my.mindnode.com/juZ5BMJHDX2HTCKGpJFx8sBj3PBVG3gJ2hbBYFCa"
+    },
+    {
+      "uid": "gui scripting  🗺️",
+      "title": "gui scripting  🗺️",
+      "autocomplete": "gui scripting  🗺️",
+      "arg": "https://my.mindnode.com/rvLi4r9Gxx9JSbUBRBqoZSu6VkVtE5fUq6NXqZKP"
+    },
+    {
+      "uid": "hashing  🗺️",
+      "title": "hashing  🗺️",
+      "autocomplete": "hashing  🗺️",
+      "arg": "https://my.mindnode.com/nscGbRAEJh3SU94zs3nnLxmYqTruAneCtWsExqhH"
+    },
+    {
+      "uid": "HTML  🗺️",
+      "title": "HTML  🗺️",
+      "autocomplete": "HTML  🗺️",
+      "arg": "https://my.mindnode.com/GpCCcbdbXvKCmtsX9zCszBo3UGV5f5uJzQYW8erp"
+    },
+    {
+      "uid": "Galileo Galilei  🗺️",
+      "title": "Galileo Galilei  🗺️",
+      "autocomplete": "Galileo Galilei  🗺️",
+      "arg": "https://my.mindnode.com/7LxeGLuABYPpzvrssDz5DQcyjpbpqbhosGZpjMYz"
+    },
+    {
+      "uid": "Aldous Huxley  🗺️",
+      "title": "Aldous Huxley  🗺️",
+      "autocomplete": "Aldous Huxley  🗺️",
+      "arg": "https://my.mindnode.com/GJKREGyjWS8zTThjHnaLDxSqa9AyUfRsx9VxJq5C"
+    },
+    {
+      "uid": "innovation  🗺️",
+      "title": "innovation  🗺️",
+      "autocomplete": "innovation  🗺️",
+      "arg": "https://my.mindnode.com/Jds5j8BCeu9ujrgkoeupvszAbVh1MhbNMUZXHdxs"
+    },
+    {
+      "uid": "inspiring websites  🗺️",
+      "title": "inspiring websites  🗺️",
+      "autocomplete": "inspiring websites  🗺️",
+      "arg": "https://my.mindnode.com/A1y6siPdrn3JnvuLMz3d77yLd7yDYQqhLjfXJfx9"
+    },
+    {
+      "uid": "internet  🗺️",
+      "title": "internet  🗺️",
+      "autocomplete": "internet  🗺️",
+      "arg": "https://my.mindnode.com/V7por9pAY6oxXq61YicfFuCHqzASxg593yc2mN7y"
+    },
+    {
+      "uid": "js libraries  🗺️",
+      "title": "js libraries  🗺️",
+      "autocomplete": "js libraries  🗺️",
+      "arg": "https://my.mindnode.com/4itDuZKvfWgpMWn24yn8qg2BQr7sRGqTvaKXEk6Q"
+    },
+    {
+      "uid": "keyboard maestro  🗺️",
+      "title": "keyboard maestro  🗺️",
+      "autocomplete": "keyboard maestro  🗺️",
+      "arg": "https://my.mindnode.com/nGeTnNsTCKR5pyPFsj5aapNDdH33m1525SNXsRpV"
+    },
+    {
+      "uid": "learning  🗺️",
+      "title": "learning  🗺️",
+      "autocomplete": "learning  🗺️",
+      "arg": "https://my.mindnode.com/RDfrsCwytcyz86C5MxZM8gGM7H2nsguEaWqDZGzj"
+    },
+    {
+      "uid": "life  🗺️",
+      "title": "life  🗺️",
+      "autocomplete": "life  🗺️",
+      "arg": "https://my.mindnode.com/UCyhkBs1uMf3xhcpo7F4Y8rcqKDoiiKzqkE6ybqT"
+    },
+    {
+      "uid": "literature  🗺️",
+      "title": "literature  🗺️",
+      "autocomplete": "literature  🗺️",
+      "arg": "https://my.mindnode.com/ts5EsNEuFqSFtt4AZ7LxzjeWfFz7wa1LzgZY5HfP"
+    },
+    {
+      "uid": "macOS  🗺️",
+      "title": "macOS  🗺️",
+      "autocomplete": "macOS  🗺️",
+      "arg": "https://my.mindnode.com/hzQPdHgpuNJ6Rqvdy4RpNj2ruzjDqscvu3WApm19"
+    },
+    {
+      "uid": "meditation  🗺️",
+      "title": "meditation  🗺️",
+      "autocomplete": "meditation  🗺️",
+      "arg": "https://my.mindnode.com/wFnWzxrs8pZzvwo6HjoLsbRPFZDG1DpxorAP8ynx"
+    },
+    {
+      "uid": "mindfulness  🗺️",
+      "title": "mindfulness  🗺️",
+      "autocomplete": "mindfulness  🗺️",
+      "arg": "https://my.mindnode.com/t5UUqogrFnawSWzT3tvXqPcqpNaf43y1PKZyKVZK"
+    },
+    {
+      "uid": "minimalism  🗺️",
+      "title": "minimalism  🗺️",
+      "autocomplete": "minimalism  🗺️",
+      "arg": "https://my.mindnode.com/XJm7FLXwqSXfyAGRbhZAqeEzS4x1E2A5JWR3D9xj"
+    },
+    {
+      "uid": "network science  🗺️",
+      "title": "network science  🗺️",
+      "autocomplete": "network science  🗺️",
+      "arg": "https://my.mindnode.com/QrFiHpzGPnLMSxYjUswwo93RT7NGeQALzb9Ndzug"
+    },
+    {
+      "uid": "nutrition  🗺️",
+      "title": "nutrition  🗺️",
+      "autocomplete": "nutrition  🗺️",
+      "arg": "https://my.mindnode.com/Lc5DcPquA6muH9dpDqFG3Gy8vX5fixHXEiVEMCpy"
+    },
+    {
+      "uid": "operating systems  🗺️",
+      "title": "operating systems  🗺️",
+      "autocomplete": "operating systems  🗺️",
+      "arg": "https://my.mindnode.com/1kJmQN7a5BWchGQaZoF1g15jkBpvsmGqCvnPieFy"
+    },
+    {
+      "uid": "personal sites  🗺️",
+      "title": "personal sites  🗺️",
+      "autocomplete": "personal sites  🗺️",
+      "arg": "https://my.mindnode.com/qGypgEWWBqq2jpiExjd1FeouuYTxwn5AqzVqqfiX"
+    },
+    {
+      "uid": "politics  🗺️",
+      "title": "politics  🗺️",
+      "autocomplete": "politics  🗺️",
+      "arg": "https://my.mindnode.com/FDZoEaRsayQFrHc7Hf33gEx3kAoHVHLWgsJCY752"
+    },
+    {
+      "uid": "privacy  🗺️",
+      "title": "privacy  🗺️",
+      "autocomplete": "privacy  🗺️",
+      "arg": "https://my.mindnode.com/qL3KdTFbXZh3YpX2tpEn3xqRXyqbXZfHwLXfTywV"
+    },
+    {
+      "uid": "products  🗺️",
+      "title": "products  🗺️",
+      "autocomplete": "products  🗺️",
+      "arg": "https://my.mindnode.com/pz3afAawSqzZapnnVyeVq7LyiNYWsVzoPXwanNqn"
+    },
+    {
+      "uid": "quantum field theory  🗺️",
+      "title": "quantum field theory  🗺️",
+      "autocomplete": "quantum field theory  🗺️",
+      "arg": "https://my.mindnode.com/qg9ss1htfy3qmYvJhrwMiTSPJEqPBm7i1KskTWmA"
+    },
+    {
+      "uid": "research  🗺️",
+      "title": "research  🗺️",
+      "autocomplete": "research  🗺️",
+      "arg": "https://my.mindnode.com/1thkVKyFNywFz62zDwe5V97jLs2KYRaDykDYFTfz"
+    },
+    {
+      "uid": "richest humans  🗺️",
+      "title": "richest humans  🗺️",
+      "autocomplete": "richest humans  🗺️",
+      "arg": "https://my.mindnode.com/b7UgZ6qSXon2DcGznx7nSogJriWYvZtKsdB32H8b"
+    },
+    {
+      "uid": "ripgrep  🗺️",
+      "title": "ripgrep  🗺️",
+      "autocomplete": "ripgrep  🗺️",
+      "arg": "https://my.mindnode.com/o9fDmjUpUhyg3DtWq9omZuM8k1kHLVhsju7ip1Y5"
+    },
+    {
+      "uid": "seduction  🗺️",
+      "title": "seduction  🗺️",
+      "autocomplete": "seduction  🗺️",
+      "arg": "https://my.mindnode.com/iyy4pU9Ku3MhPfMCmUxApjtm7ypqPDd8DX3V2mrQ"
+    },
+    {
+      "uid": "standups  🗺️",
+      "title": "standups  🗺️",
+      "autocomplete": "standups  🗺️",
+      "arg": "https://my.mindnode.com/jTpwN6N9gg81WmkzvbSso43oU7RpezUYkTxEAzSS"
+    },
+    {
+      "uid": "startups  🗺️",
+      "title": "startups  🗺️",
+      "autocomplete": "startups  🗺️",
+      "arg": "https://my.mindnode.com/PccxxqvgKvHz41Cd1XtZFgYCsyB5D46YbzycCpWq"
+    },
+    {
+      "uid": "Steve Jobs  🗺️",
+      "title": "Steve Jobs  🗺️",
+      "autocomplete": "Steve Jobs  🗺️",
+      "arg": "https://my.mindnode.com/KkLdxjdzCugQm4x2wy7Z2h8yPdz1JWSkb7zJZpZG"
+    },
+    {
+      "uid": "success  🗺️",
+      "title": "success  🗺️",
+      "autocomplete": "success  🗺️",
+      "arg": "https://my.mindnode.com/ncB4E8H2E9zgqWZxRC1KjYk9TFyJyvAuH2rH5QjF"
+    },
+    {
+      "uid": "tooling  🗺️",
+      "title": "tooling  🗺️",
+      "autocomplete": "tooling  🗺️",
+      "arg": "https://my.mindnode.com/YjH1ysRZgC2eHc7VsxQqqE3W4jUFQjW8sBhpiUMc"
+    },
+    {
+      "uid": "unix  🗺️",
+      "title": "unix  🗺️",
+      "autocomplete": "unix  🗺️",
+      "arg": "https://my.mindnode.com/sUD7ZpkUAxLhzRyLbobUXtbiySs3Zszq3JU2GyfY"
+    },
+    {
+      "uid": "vs code  🗺️",
+      "title": "vs code  🗺️",
+      "autocomplete": "vs code  🗺️",
+      "arg": "https://my.mindnode.com/gfqZRrNjy2R8NBViXxhHtthxtgwpzAYpQfYjpFzy"
+    },
+    {
       "uid": "academia  🗺️",
       "title": "academia  🗺️",
       "autocomplete": "academia  🗺️",
@@ -239,12 +581,6 @@
       "title": "financial independence  🗺️",
       "autocomplete": "financial independence  🗺️",
       "arg": "https://my.mindnode.com/ns6bdhrhQsskjB1CE4NtT8M6sz9rhooSsFpuqm3K"
-    },
-    {
-      "uid": "fuchsia  🗺️",
-      "title": "fuchsia  🗺️",
-      "autocomplete": "fuchsia  🗺️",
-      "arg": "https://my.mindnode.com/1nnUUynxx5mSqMX8XQ6iGMC5UqwyeuuCMqxVsqZq"
     },
     {
       "uid": "functions  🗺️",
@@ -821,6 +1157,18 @@
       "title": "javascript  🗺️",
       "autocomplete": "javascript  🗺️",
       "arg": "https://my.mindnode.com/Q1qVZohzuiiQtshomLLmJa8ckBxQ4stesVMztp7Q"
+    },
+    {
+      "uid": "general  🗺️",
+      "title": "general  🗺️",
+      "autocomplete": "general  🗺️",
+      "arg": "https://my.mindnode.com/gxi6t5a2ziaoaMXYTCihBhbfUbE64BHopquxGtCu"
+    },
+    {
+      "uid": "Alan Watts  🗺️",
+      "title": "Alan Watts  🗺️",
+      "autocomplete": "Alan Watts  🗺️",
+      "arg": "https://my.mindnode.com/HKDuiAsa3QzpUyuexHKVdBUvoyzYQRxkxZvH5H7t"
     }
   ]
 }

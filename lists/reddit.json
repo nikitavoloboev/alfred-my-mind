@@ -637,12 +637,6 @@
       "arg": "https://www.reddit.com/r/3Blue1Brown/"
     },
     {
-      "uid": "simulated reality  🤖",
-      "title": "simulated reality  🤖",
-      "autocomplete": "simulated reality  🤖",
-      "arg": "https://www.reddit.com/r/AWLIAS/"
-    },
-    {
       "uid": "idris  🤖",
       "title": "idris  🤖",
       "autocomplete": "idris  🤖",
@@ -936,6 +930,12 @@
       "title": "multihub  🤖",
       "autocomplete": "multihub  🤖",
       "arg": "https://www.reddit.com/r/multihub/"
+    },
+    {
+      "uid": "unix porn  🤖",
+      "title": "unix porn  🤖",
+      "autocomplete": "unix porn  🤖",
+      "arg": "https://www.reddit.com/r/unixporn/"
     },
     {
       "uid": "drug nerds  🤖",

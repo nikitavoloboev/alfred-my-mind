@@ -180,6 +180,12 @@
       "arg": "https://github.com/ajtulloch"
     },
     {
+      "uid": "daniel smilkov  🐙",
+      "title": "daniel smilkov  🐙",
+      "autocomplete": "daniel smilkov  🐙",
+      "arg": "https://github.com/dsmilkov?tab=stars"
+    },
+    {
       "uid": "laanwj  🐙",
       "title": "laanwj  🐙",
       "autocomplete": "laanwj  🐙",
@@ -275,6 +281,12 @@
       "title": "nate finch  🐙",
       "autocomplete": "nate finch  🐙",
       "arg": "https://github.com/natefinch"
+    },
+    {
+      "uid": "rvolosatovs  🐙",
+      "title": "rvolosatovs  🐙",
+      "autocomplete": "rvolosatovs  🐙",
+      "arg": "https://github.com/rvolosatovs"
     },
     {
       "uid": "filippo valsorda",
