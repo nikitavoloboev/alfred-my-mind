@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	// "log"
 
 	"git.deanishe.net/deanishe/awgo"
@@ -12,7 +13,11 @@ import (
 const updateJobName = "checkForUpdate"
 
 var (
-	app   *kingpin.Application
+	app *kingpin.Application
+
+	// app commands
+	updateMapsCmd, downloadMapsCmd *kingpin.CmdClause
+
 	query string // script options
 	repo  = "nikitavoloboev/alfred-my-mind"
 	wf    *aw.Workflow
@@ -21,35 +26,58 @@ var (
 func init() {
 	wf = aw.New(update.GitHub(repo))
 
-	app = kingpin.New("query-maps", "search and query interactive maps")
+	// set up kingpin
+	app = kingpin.New("alfred-my-mind", "search and query my personal interactive maps")
+	app.HelpFlag.Short('h')
+	app.Version(wf.Version())
 
+	updateMapsCmd = app.Command("update", "updates maps")
+	downloadMapsCmd = app.Command("download", "downloads maps")
+
+	app.DefaultEnvars()
 }
 
-func parseMaps() {
+// _actions
+// parses maps.json and downloads maps to maps dir
+func parseMaps() error {
+	wf.NewItem("hello")
+	wf.SendFeedback()
+	return nil
+}
 
+func updateMaps() error {
+	wf.NewItem("hello")
+	wf.SendFeedback()
+	return nil
+}
+
+func downloadMaps() error {
+	wf.NewItem("here")
+	wf.SendFeedback()
+	return nil
 }
 
 func run() {
 
-	// var query string
-	// args := wf.Args()
+	var err error
 
-	// if len(args) > 0 {
-	// 	query = args[0]
-	// }
+	cmd, err := app.Parse(wf.Args())
+	if err != nil {
+		wf.FatalError(err)
+	}
 
-	// if query != "" {
-	// 	// sort results
-	// 	res := wf.Filter(query)
-	// 	log.Printf("%d results match `%s`", len(res), query)
+	switch cmd {
+	case updateMapsCmd.FullCommand():
+		err = updateMaps()
+	case downloadMapsCmd.FullCommand():
+		err = downloadMaps()
+	default:
+		err = fmt.Errorf("unknown command : %s", cmd)
+	}
 
-	// 	for i, r := range res {
-	// 		log.Printf("%02d. score=%0.1f sortkey=%s", i+1, r.Score, wf.Feedback.SortKey(i))
-	// 	}
-	// }
-
-	// wf.SendFeedback()
-
+	if err != nil {
+		wf.FatalError(err)
+	}
 }
 
 func main() {
