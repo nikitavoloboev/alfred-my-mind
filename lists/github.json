@@ -134,6 +134,24 @@
       "arg": "https://github.com/nikitavoloboev/alfred-useful-file-actions"
     },
     {
+      "uid": "17: alfred go search  🐙",
+      "title": "17: alfred go search  🐙",
+      "autocomplete": "17: alfred go search  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-go-search"
+    },
+    {
+      "uid": "17: alfred wifi  🐙",
+      "title": "17: alfred wifi  🐙",
+      "autocomplete": "17: alfred wifi  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-wifi"
+    },
+    {
+      "uid": "17: alfred search web with selection  🐙",
+      "title": "17: alfred search web with selection  🐙",
+      "autocomplete": "17: alfred search web with selection  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-search-web-with-selection"
+    },
+    {
       "uid": "17: boxes  💡",
       "title": "17: boxes  💡",
       "autocomplete": "17: boxes  💡",
@@ -197,6 +215,13 @@
       "autocomplete": "17: awesome mindmaps  🐙",
       "subtitle": "awesome list of all the mind maps made in MindNode, Xmind, iMindMap and others",
       "arg": "https://github.com/nikitavoloboev/awesome-mindmaps"
+    },
+    {
+      "uid": "17: km macros  🐙",
+      "title": "17: km macros  🐙",
+      "autocomplete": "17: km macros  🐙",
+      "subtitle": "Keyboard Maestro Macros I use",
+      "arg": "https://github.com/nikitavoloboev/km-macros"
     },
     {
       "uid": "17: md-to-cv  💡",

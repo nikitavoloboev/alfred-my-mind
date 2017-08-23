@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>nikivi.mind</string>
+	<string>nikivi.mind.v1</string>
 	<key>category</key>
 	<string>mine</string>
 	<key>connections</key>
@@ -1090,7 +1090,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>nikivis mind</string>
+	<string>nikivis mind v1</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -1196,7 +1196,7 @@ fi #find</string>
 				<key>fixedorder</key>
 				<true/>
 				<key>items</key>
-				<string>[{"title":"blogs","arg":"lists\/blogs.json"},{"title":"books","arg":"lists\/books.json"},{"title":"courses","arg":"lists\/courses.json"},{"title":"github users","arg":"lists\/github-users.json"},{"title":"humans","arg":"lists\/humans.json"},{"title":"images","arg":"lists\/images.json"},{"title":"la blogs","arg":"lists\/la-blogs.json"},{"title":"articles","arg":"lists\/articles.json"},{"title":"personal","arg":"lists\/personal.json"},{"title":"quora","arg":"lists\/quora.json"},{"title":"reddit","arg":"lists\/reddit.json"},{"title":"research papers","arg":"lists\/research-papers.json"},{"title":"twitter","arg":"lists\/twitter.json"},{"title":"web","arg":"lists\/web.json"},{"title":"profiles","arg":"lists\/profiles.json"},{"title":"github","arg":"lists\/github.json"},{"title":"reddit users","arg":"lists\/reddit-users.json"},{"title":"recent","arg":"lists\/recent.json"},{"title":"podcasts","arg":"lists\/podcasts.json"},{"title":"cli","arg":"lists\/cli.json"},{"title":"games","arg":"lists\/games.json"},{"title":"documentaries","arg":"lists\/documentaries.json"},{"title":"gists","arg":"lists\/gists.json"},{"title":"pinboard","arg":"lists\/pinboard.json"},{"title":"macOS apps","arg":"lists\/macos-apps.json"},{"title":"movies","arg":"lists\/movies.json"},{"title":"newsletters","arg":"lists\/newsletters.json"},{"title":"codepen","arg":"lists\/codepen.json"},{"title":"alfred workflows","arg":"lists\/alfred.json"},{"title":"other gists","arg":"lists\/other-gists.json"},{"title":"series","arg":"lists\/series.json"},{"title":"stack","arg":"lists\/stack.json"},{"title":"talks","arg":"lists\/talks.json"},{"title":"youtube","arg":"lists\/youtube.json"},{"title":"artists","arg":"lists\/artists.json"},{"title":"music playlists","arg":"lists\/music-playlists.json"},{"title":"notes","arg":"lists\/notes.json"},{"title":"la","arg":"lists\/la.json"},{"title":"mentions","arg":"lists\/mentions.json"},{"title":"slack","arg":"lists\/slack.json"},{"title":"instagram","arg":"lists\/instagram.json"},{"title":"devian art","arg":"lists\/devian-art.json"},{"title":"other articles","arg":"lists\/other-articles.json"},{"title":"github trending","arg":"lists\/github-trending.json"},{"title":"reddit multis","arg":"lists\/reddit-multi.json"},{"title":"explain shell","arg":"lists\/explain-shell.json"},{"title":"book notes","arg":"lists\/book-notes.json"}]</string>
+				<string>[{"title":"blogs","arg":"lists\/blogs.json"},{"title":"books","arg":"lists\/books.json"},{"title":"courses","arg":"lists\/courses.json"},{"title":"github users","arg":"lists\/github-users.json"},{"title":"humans","arg":"lists\/humans.json"},{"title":"images","arg":"lists\/images.json"},{"title":"la blogs","arg":"lists\/la-blogs.json"},{"title":"articles","arg":"lists\/articles.json"},{"title":"personal","arg":"lists\/personal.json"},{"title":"quora","arg":"lists\/quora.json"},{"title":"reddit","arg":"lists\/reddit.json"},{"title":"research papers","arg":"lists\/research-papers.json"},{"title":"twitter","arg":"lists\/twitter.json"},{"title":"web","arg":"lists\/web.json"},{"title":"profiles","arg":"lists\/profiles.json"},{"title":"github","arg":"lists\/github.json"},{"title":"reddit users","arg":"lists\/reddit-users.json"},{"title":"recent","arg":"lists\/recent.json"},{"title":"podcasts","arg":"lists\/podcasts.json"},{"title":"cli","arg":"lists\/cli.json"},{"title":"games","arg":"lists\/games.json"},{"title":"documentaries","arg":"lists\/documentaries.json"},{"title":"gists","arg":"lists\/gists.json"},{"title":"pinboard","arg":"lists\/pinboard.json"},{"title":"macOS apps","arg":"lists\/macos-apps.json"},{"title":"movies","arg":"lists\/movies.json"},{"title":"newsletters","arg":"lists\/newsletters.json"},{"title":"codepen","arg":"lists\/codepen.json"},{"title":"alfred workflows","arg":"lists\/alfred.json"},{"title":"other gists","arg":"lists\/other-gists.json"},{"title":"series","arg":"lists\/series.json"},{"title":"stack","arg":"lists\/stack.json"},{"title":"talks","arg":"lists\/talks.json"},{"title":"youtube","arg":"lists\/youtube.json"},{"title":"artists","arg":"lists\/artists.json"},{"title":"music playlists","arg":"lists\/music-playlists.json"},{"title":"notes","arg":"lists\/notes.json"},{"title":"la","arg":"lists\/la.json"},{"title":"mentions","arg":"lists\/mentions.json"},{"title":"slack","arg":"lists\/slack.json"},{"title":"instagram","arg":"lists\/instagram.json"},{"title":"devian art","arg":"lists\/devian-art.json"},{"title":"other articles","arg":"lists\/other-articles.json"},{"title":"github trending","arg":"lists\/github-trending.json"},{"title":"reddit multis","arg":"lists\/reddit-multi.json"},{"title":"explain shell","arg":"lists\/explain-shell.json"},{"title":"book notes","arg":"lists\/book-notes.json"},{"title":"stack tags","arg":"stack-tags.json"}]</string>
 				<key>keyword</key>
 				<string>inside</string>
 				<key>runningsubtext</key>
@@ -2398,24 +2398,6 @@ fi #find</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>variables</key>
-				<dict>
-					<key>sub</key>
-					<string>{query}?flow=grid&amp;view=0&amp;sort=p</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>AEB7597A-CE2E-480E-B550-19D46A8672C1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -2429,6 +2411,24 @@ fi #find</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>39DB31BF-BB62-4007-A771-C4B8042F1EDA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>sub</key>
+					<string>{query}?flow=grid&amp;view=0&amp;sort=p</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>AEB7597A-CE2E-480E-B550-19D46A8672C1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3450,9 +3450,9 @@ GitHub : https://github.com/nikitavoloboev/alfred-my-mind</string>
 		<key>AEB7597A-CE2E-480E-B550-19D46A8672C1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>830</integer>
+			<integer>840</integer>
 			<key>ypos</key>
-			<integer>2290</integer>
+			<integer>2310</integer>
 		</dict>
 		<key>B1A2C5EA-76DB-472E-A5E0-C0BBE06D8042</key>
 		<dict>

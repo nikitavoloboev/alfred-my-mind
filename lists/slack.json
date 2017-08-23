@@ -46,7 +46,7 @@
       "uid": "zeit community  💬",
       "title": "zeit community  💬",
       "autocomplete": "zeit community  💬",
-      "arg": "https://surge-sh.slack.com/messages/C042V1RV5/"
+      "arg": "https://zeit-community.slack.com/messages/C1T4U87JP/"
     },
     {
       "uid": "swift lang  💬",
@@ -59,6 +59,12 @@
       "title": "kubernetes  💬",
       "autocomplete": "kubernetes  💬",
       "arg": "https://kubernetes.slack.com/messages/C09NXKJKA/"
+    },
+    {
+      "uid": "vs code vim  💬",
+      "title": "vs code vim  💬",
+      "autocomplete": "vs code vim  💬",
+      "arg": "https://vscodevim.slack.com/messages/C0ENQMTUM/"
     },
     {
       "uid": "the brane  💬",

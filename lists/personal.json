@@ -43,12 +43,6 @@
       "arg": "https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX"
     },
     {
-      "uid": "dotfiles  🗺️",
-      "title": "dotfiles  🗺️",
-      "autocomplete": "dotfiles  🗺️",
-      "arg": "https://my.mindnode.com/3EfbezxGu7xVAM4GQNuN8Lq1naudqs333HqgTuDj"
-    },
-    {
       "uid": "aliases and programs I use  🗺️",
       "title": "aliases and programs I use  🗺️",
       "autocomplete": "aliases and programs I use  🗺️",
@@ -67,16 +61,10 @@
       "arg": "https://my.mindnode.com/c7EmmKvaxCyCEuTzcpkGB4MGeLpWdR8nsJK4rjDh"
     },
     {
-      "uid": "my vimrc  🗺️",
-      "title": "my vimrc  🗺️",
-      "autocomplete": "my vimrc  🗺️",
-      "arg": "https://my.mindnode.com/EPJxCtfjuZJGz5TTHiwTyshmUUBfwRpVyH4BvQj2"
-    },
-    {
-      "uid": "vs code  🗺️",
-      "title": "vs code  🗺️",
-      "autocomplete": "vs code  🗺️",
-      "arg": "https://my.mindnode.com/WwMqYJufHYM9ZDuMfAZeUdH3wktsMGgPmxeKrMHw"
+      "uid": "dotfiles  🗺️",
+      "title": "dotfiles  🗺️",
+      "autocomplete": "dotfiles  🗺️",
+      "arg": "https://my.mindnode.com/3EfbezxGu7xVAM4GQNuN8Lq1naudqs333HqgTuDj"
     },
     {
       "uid": "movies I have seen  🗺️",
@@ -288,6 +276,18 @@
       "title": "music playlists I like  🗺️",
       "autocomplete": "music playlists I like  🗺️",
       "arg": "https://my.mindnode.com/JsYDsxS9nJ6draySqjJ6p6usGbuCtzynQSgy6YdS"
+    },
+    {
+      "uid": "vs code  🗺️",
+      "title": "vs code  🗺️",
+      "autocomplete": "vs code  🗺️",
+      "arg": "https://my.mindnode.com/WwMqYJufHYM9ZDuMfAZeUdH3wktsMGgPmxeKrMHw"
+    },
+    {
+      "uid": "my vimrc  🗺️",
+      "title": "my vimrc  🗺️",
+      "autocomplete": "my vimrc  🗺️",
+      "arg": "https://my.mindnode.com/EPJxCtfjuZJGz5TTHiwTyshmUUBfwRpVyH4BvQj2"
     },
     {
       "uid": "music artists I like  🗺️",

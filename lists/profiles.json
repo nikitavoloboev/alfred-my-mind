@@ -251,6 +251,12 @@
       "title": "home",
       "autocomplete": "home",
       "arg": "https://www.nikitavoloboev.xyz/"
+    },
+    {
+      "uid": "vimeo",
+      "title": "vimeo",
+      "autocomplete": "vimeo",
+      "arg": "https://vimeo.com/user18010447"
     }
   ]
 }

@@ -11,6 +11,12 @@
       "title": "golang  🐙",
       "autocomplete": "golang  🐙",
       "arg": "https://github.com/trending/go"
+    },
+    {
+      "uid": "typescript  🐙",
+      "title": "typescript  🐙",
+      "autocomplete": "typescript  🐙",
+      "arg": "https://github.com/trending/typescript"
     }
   ]
 }
