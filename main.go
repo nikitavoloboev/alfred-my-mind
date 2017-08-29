@@ -1,8 +1,11 @@
 package main
 
 import (
+	// "encoding/json"
 	"fmt"
-	// "log"
+	"io/ioutil"
+	"log"
+	// "os"
 
 	"git.deanishe.net/deanishe/awgo"
 	"git.deanishe.net/deanishe/awgo/update"
@@ -16,7 +19,9 @@ var (
 	app *kingpin.Application
 
 	// app commands
-	updateMapsCmd, downloadMapsCmd *kingpin.CmdClause
+	updateMapsCmd, downloadMapsCmd, parseMapsCmd *kingpin.CmdClause
+
+	mindnodeUrls []string // contains links to JSON of maps
 
 	query string // script options
 	repo  = "nikitavoloboev/alfred-my-mind"
@@ -33,27 +38,53 @@ func init() {
 
 	updateMapsCmd = app.Command("update", "updates maps")
 	downloadMapsCmd = app.Command("download", "downloads maps")
+	// parseMapsCmd = app.Command("parse", "parses maps")
 
 	app.DefaultEnvars()
 }
 
 // _actions
-// parses maps.json and downloads maps to maps dir
-func parseMaps() error {
-	wf.NewItem("hello")
-	wf.SendFeedback()
+func parseMaps(file string) error {
 	return nil
 }
 
+// updateMaps
 func updateMaps() error {
 	wf.NewItem("hello")
 	wf.SendFeedback()
 	return nil
 }
 
-func downloadMaps() error {
-	wf.NewItem("here")
-	wf.SendFeedback()
+// parseUrls parses urls from maps.json
+func parseUrls(filename string) {
+	// f, err := os.Open(filename)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	// defer f.Close()
+
+	b, err := ioutil.ReadFile(filename)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println(string(b))
+}
+
+// downloadMaps parses maps.json and downloads maps specified there to maps directory
+func downloadMaps(filename string) error {
+	parseUrls(filename)
+
+	// f, err := os.Open(filename)
+	// if err != nil {
+	// 	panic(err)
+	// }
+	// defer f.Close()
+	// _, err = os.Stat("test.txt")
+	// if os.IsNotExist(err) { // file does not exist
+	// 	log.Fatal(err)
+	// }
+
+	// log.Printf("created file")
 	return nil
 }
 
@@ -70,7 +101,9 @@ func run() {
 	case updateMapsCmd.FullCommand():
 		err = updateMaps()
 	case downloadMapsCmd.FullCommand():
-		err = downloadMaps()
+		err = downloadMaps("maps.json")
+	case parseMapsCmd.FullCommand():
+		err = parseMaps("maps.json")
 	default:
 		err = fmt.Errorf("unknown command : %s", cmd)
 	}
