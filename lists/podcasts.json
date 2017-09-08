@@ -196,6 +196,12 @@
       "title": ".NET rocks  🎙️",
       "autocomplete": ".NET rocks  🎙️",
       "arg": "https://www.dotnetrocks.com/"
+    },
+    {
+      "uid": "the manifest",
+      "title": "the manifest",
+      "autocomplete": "the manifest",
+      "arg": "https://manifest.fm/"
     }
   ]
 }

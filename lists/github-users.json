@@ -7,6 +7,12 @@
       "arg": "https://github.com/alexcrichton"
     },
     {
+      "uid": "mike mcquaid  🐙",
+      "title": "mike mcquaid  🐙",
+      "autocomplete": "mike mcquaid  🐙",
+      "arg": "https://github.com/MikeMcQuaid"
+    },
+    {
       "uid": "steve lambert",
       "title": "steve lambert",
       "autocomplete": "steve lambert",
@@ -101,6 +107,12 @@
       "arg": "https://github.com/sindresorhus"
     },
     {
+      "uid": "tekezo  🐙",
+      "title": "tekezo  🐙",
+      "autocomplete": "tekezo  🐙",
+      "arg": "https://github.com/tekezo"
+    },
+    {
       "uid": "junio c hamano",
       "title": "junio c hamano",
       "autocomplete": "junio c hamano",
@@ -186,10 +198,10 @@
       "arg": "https://github.com/dsmilkov?tab=stars"
     },
     {
-      "uid": "tekezo  🐙",
-      "title": "tekezo  🐙",
-      "autocomplete": "tekezo  🐙",
-      "arg": "https://github.com/tekezo"
+      "uid": "Gabriel Gonzalez  🐙",
+      "title": "Gabriel Gonzalez  🐙",
+      "autocomplete": "Gabriel Gonzalez  🐙",
+      "arg": "https://github.com/Gabriel439"
     },
     {
       "uid": "laanwj  🐙",
@@ -295,10 +307,29 @@
       "arg": "https://github.com/rvolosatovs"
     },
     {
+      "uid": "rakyll  🐙",
+      "title": "rakyll  🐙",
+      "autocomplete": "rakyll  🐙",
+      "arg": "https://github.com/rakyll"
+    },
+    {
+      "uid": "tj  🐙",
+      "title": "tj  🐙",
+      "autocomplete": "tj  🐙",
+      "arg": "https://github.com/tj"
+    },
+    {
       "uid": "filippo valsorda",
       "title": "filippo valsorda",
       "autocomplete": "filippo valsorda",
       "arg": "https://github.com/FiloSottile"
+    },
+    {
+      "uid": "yan  🐙",
+      "title": "yan  🐙",
+      "autocomplete": "yan  🐙",
+      "subtitle": "brave browser",
+      "arg": "https://github.com/diracdeltas"
     },
     {
       "uid": "dan mclnerney",
@@ -337,6 +368,12 @@
       "title": "tim pope",
       "autocomplete": "tim pope",
       "arg": "https://github.com/tpope"
+    },
+    {
+      "uid": "junegunn  🐙",
+      "title": "junegunn  🐙",
+      "autocomplete": "junegunn  🐙",
+      "arg": "https://github.com/junegunn"
     },
     {
       "uid": "patricio gonzalez vivo",

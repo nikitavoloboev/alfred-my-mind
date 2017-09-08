@@ -9,6 +9,9 @@
 	</a>
 </div>
 
+  <a href="https://learn-anything.xyz/learn-anything">
+    <img width="900" heigth="900" src="media/mind.png">
+  </a>
 
 <p align="center"><img src="media/demo.gif" alt="img" width="600"></p>
 

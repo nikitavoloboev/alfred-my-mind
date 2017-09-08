@@ -152,10 +152,28 @@
       "arg": "https://github.com/nikitavoloboev/alfred-search-web-with-selection"
     },
     {
-      "uid": "17: boxes  💡",
-      "title": "17: boxes  💡",
-      "autocomplete": "17: boxes  💡",
-      "arg": "https://github.com/nikitavoloboev/boxes"
+      "uid": "17: last time  💡",
+      "title": "17: last time  💡",
+      "autocomplete": "17: last time  💡",
+      "arg": "https://github.com/nikitavoloboev/last-time"
+    },
+    {
+      "uid": "17: license up  🐙",
+      "title": "17: license up  🐙",
+      "autocomplete": "17: license up  🐙",
+      "arg": "https://github.com/nikitavoloboev/license-up"
+    },
+    {
+      "uid": "17: md to alfred  🐙",
+      "title": "17: md to alfred  🐙",
+      "autocomplete": "17: md to alfred  🐙",
+      "arg": "https://github.com/nikitavoloboev/md-to-alfred"
+    },
+    {
+      "uid": "17: mindnode parser  🐙",
+      "title": "17: mindnode parser  🐙",
+      "autocomplete": "17: mindnode parser  🐙",
+      "arg": "https://github.com/nikitavoloboev/mindnode-parser"
     },
     {
       "uid": "16: dotfiles  🐙",
@@ -170,23 +188,28 @@
       "arg": "https://github.com/nikitavoloboev/nikitavoloboev.github.io"
     },
     {
-      "uid": "17: last time  💡",
-      "title": "17: last time  💡",
-      "autocomplete": "17: last time  💡",
-      "arg": "https://github.com/nikitavoloboev/last-time"
-    },
-    {
-      "uid": "16: web todo  🐙",
-      "title": "16: web todo  🐙",
-      "autocomplete": "16: web todo  🐙",
-      "subtitle": "is quite bad ",
-      "arg": "https://github.com/nikitavoloboev/web-todo"
+      "uid": "17: md-to-cv  💡",
+      "title": "17: md-to-cv  💡",
+      "autocomplete": "17: md-to-cv  💡",
+      "arg": "https://github.com/nikitavoloboev/md-to-cv"
     },
     {
       "uid": "17: go leetcode  🐙",
       "title": "17: go leetcode  🐙",
       "autocomplete": "17: go leetcode  🐙",
       "arg": "https://github.com/nikitavoloboev/go-leetcode"
+    },
+    {
+      "uid": "17: go euler  🐙",
+      "title": "17: go euler  🐙",
+      "autocomplete": "17: go euler  🐙",
+      "arg": "https://github.com/nikitavoloboev/go-euler"
+    },
+    {
+      "uid": "17: boxes  💡",
+      "title": "17: boxes  💡",
+      "autocomplete": "17: boxes  💡",
+      "arg": "https://github.com/nikitavoloboev/boxes"
     },
     {
       "uid": "16: my macOS  🐙",
@@ -224,28 +247,10 @@
       "arg": "https://github.com/nikitavoloboev/km-macros"
     },
     {
-      "uid": "17: md-to-cv  💡",
-      "title": "17: md-to-cv  💡",
-      "autocomplete": "17: md-to-cv  💡",
-      "arg": "https://github.com/nikitavoloboev/md-to-cv"
-    },
-    {
-      "uid": "17: license up  🐙",
-      "title": "17: license up  🐙",
-      "autocomplete": "17: license up  🐙",
-      "arg": "https://github.com/nikitavoloboev/license-up"
-    },
-    {
-      "uid": "17: md to alfred  🐙",
-      "title": "17: md to alfred  🐙",
-      "autocomplete": "17: md to alfred  🐙",
-      "arg": "https://github.com/nikitavoloboev/md-to-alfred"
-    },
-    {
-      "uid": "17: alias check  🐙",
-      "title": "17: alias check  🐙",
-      "autocomplete": "17: alias check  🐙",
-      "arg": "https://github.com/nikitavoloboev/alias-check"
+      "uid": "17: privacy respecting  🐙",
+      "title": "17: privacy respecting  🐙",
+      "autocomplete": "17: privacy respecting  🐙",
+      "arg": "https://github.com/nikitavoloboev/privacy-respecting"
     }
   ]
 }

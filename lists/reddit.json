@@ -938,6 +938,84 @@
       "arg": "https://www.reddit.com/r/unixporn/"
     },
     {
+      "uid": "self hosted  🤖",
+      "title": "self hosted  🤖",
+      "autocomplete": "self hosted  🤖",
+      "arg": "https://www.reddit.com/r/selfhosted/"
+    },
+    {
+      "uid": "firefox  🤖",
+      "title": "firefox  🤖",
+      "autocomplete": "firefox  🤖",
+      "arg": "https://www.reddit.com/r/firefox/"
+    },
+    {
+      "uid": "anti facebook  🤖",
+      "title": "anti facebook  🤖",
+      "autocomplete": "anti facebook  🤖",
+      "arg": "https://www.reddit.com/r/AntiFacebook/"
+    },
+    {
+      "uid": "ethereum  🤖",
+      "title": "ethereum  🤖",
+      "autocomplete": "ethereum  🤖",
+      "arg": "https://www.reddit.com/r/ethereum/"
+    },
+    {
+      "uid": "rad decentralisation  🤖",
+      "title": "rad decentralisation  🤖",
+      "autocomplete": "rad decentralisation  🤖",
+      "arg": "https://www.reddit.com/r/Rad_Decentralization/"
+    },
+    {
+      "uid": "c++  🤖",
+      "title": "c++  🤖",
+      "autocomplete": "c++  🤖",
+      "arg": "https://www.reddit.com/r/cpp/"
+    },
+    {
+      "uid": "nixOS  🤖",
+      "title": "nixOS  🤖",
+      "autocomplete": "nixOS  🤖",
+      "arg": "https://www.reddit.com/r/NixOS/"
+    },
+    {
+      "uid": "clojure  🤖",
+      "title": "clojure  🤖",
+      "autocomplete": "clojure  🤖",
+      "arg": "https://www.reddit.com/r/Clojure/"
+    },
+    {
+      "uid": "telegram  🤖",
+      "title": "telegram  🤖",
+      "autocomplete": "telegram  🤖",
+      "arg": "https://www.reddit.com/r/Telegram/"
+    },
+    {
+      "uid": "discord  🤖",
+      "title": "discord  🤖",
+      "autocomplete": "discord  🤖",
+      "arg": "https://www.reddit.com/r/discordapp/"
+    },
+    {
+      "uid": "high intensity interval training  🤖",
+      "title": "high intensity interval training  🤖",
+      "autocomplete": "high intensity interval training  🤖",
+      "arg": "https://www.reddit.com/r/HIIT/"
+    },
+    {
+      "uid": "hearthstone  🤖",
+      "title": "hearthstone  🤖",
+      "autocomplete": "hearthstone  🤖",
+      "arg": "https://www.reddit.com/r/hearthstone/"
+    },
+    {
+      "uid": "music for concentration  🤖",
+      "title": "music for concentration  🤖",
+      "autocomplete": "music for concentration  🤖",
+      "arg": "https://www.reddit.com/r/MusicForConcentration/"
+    },
+    {
       "uid": "drug nerds  🤖",
       "title": "drug nerds  🤖",
       "autocomplete": "drug nerds  🤖",
@@ -948,6 +1026,12 @@
       "title": "drugs  🤖",
       "autocomplete": "drugs  🤖",
       "arg": "https://www.reddit.com/r/Drugs/"
+    },
+    {
+      "uid": "replications  🤖",
+      "title": "replications  🤖",
+      "autocomplete": "replications  🤖",
+      "arg": "https://www.reddit.com/r/replications/"
     },
     {
       "uid": "machine learning  🤖",

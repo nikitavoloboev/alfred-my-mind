@@ -349,6 +349,12 @@
       "arg": "https://macadmins.slack.com/messages/C19MR7EM9/"
     },
     {
+      "uid": "mit proxy  💬",
+      "title": "mit proxy  💬",
+      "autocomplete": "mit proxy  💬",
+      "arg": "https://mitmproxy.slack.com/messages/C060SGTJ6/"
+    },
+    {
       "uid": "16: junction  💬",
       "title": "16: junction  💬",
       "autocomplete": "16: junction  💬",
@@ -370,7 +376,7 @@
       "uid": "17: hackUPC  💬",
       "title": "17: hackUPC  💬",
       "autocomplete": "17: hackUPC  💬",
-      "arg": "https://hackupc2017w.slack.com/messages/C418HLCDS/"
+      "arg": "https://hackupc2017f.slack.com/messages/C6HL24S8L/"
     }
   ]
 }

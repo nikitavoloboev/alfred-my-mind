@@ -1,27 +1,33 @@
 {
   "items": [
     {
-      "uid": "all the music I like  ✨",
-      "title": "all the music I like  ✨",
-      "autocomplete": "all the music I like  ✨",
+      "uid": "all the music I like",
+      "title": "all the music I like",
+      "autocomplete": "all the music I like",
       "arg": "https://www.youtube.com/playlist?list=PL0nGxteCFLXYA1fsLmlWzY0Tyoo3c7tF-"
     },
     {
-      "uid": "neat  ✨",
-      "title": "neat  ✨",
-      "autocomplete": "neat  ✨",
+      "uid": "vaporware",
+      "title": "vaporware",
+      "autocomplete": "vaporware",
+      "arg": "https://www.youtube.com/playlist?list=PL0nGxteCFLXapia7BObp8ehDADOq1l5sB"
+    },
+    {
+      "uid": "neat",
+      "title": "neat",
+      "autocomplete": "neat",
       "arg": "https://soundcloud.com/nikitavoloboev/sets/neat"
     },
     {
-      "uid": "soo good  ✨",
-      "title": "soo good  ✨",
-      "autocomplete": "soo good  ✨",
+      "uid": "soo good",
+      "title": "soo good",
+      "autocomplete": "soo good",
       "arg": "https://soundcloud.com/nikitavoloboev/sets/soo-good"
     },
     {
-      "uid": "my profile  ✨",
-      "title": "my profile  ✨",
-      "autocomplete": "my profile  ✨",
+      "uid": "my profile",
+      "title": "my profile",
+      "autocomplete": "my profile",
       "arg": "https://soundcloud.com/nikitavoloboev"
     },
     {
@@ -49,15 +55,15 @@
       "arg": "https://open.spotify.com/user/nikitavoloboev/playlist/6L8Wat8OeDJB5o1P1i75ZE"
     },
     {
-      "uid": "good stuff  ✨",
-      "title": "good stuff  ✨",
-      "autocomplete": "good stuff  ✨",
+      "uid": "good stuff",
+      "title": "good stuff",
+      "autocomplete": "good stuff",
       "arg": "https://open.spotify.com/user/nikitavoloboev/playlist/30tVJRIDTcXUMJI0sAeUMS"
     },
     {
-      "uid": "favourite  ✨",
-      "title": "favourite  ✨",
-      "autocomplete": "favourite  ✨",
+      "uid": "favourite",
+      "title": "favourite",
+      "autocomplete": "favourite",
       "arg": "https://open.spotify.com/user/nikitavoloboev/playlist/7j0M4e0nxFtsrLREfcj2qk"
     },
     {

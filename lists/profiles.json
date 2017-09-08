@@ -121,12 +121,6 @@
       "arg": "https://lobste.rs/u/nikivi"
     },
     {
-      "uid": "facebook",
-      "title": "facebook",
-      "autocomplete": "facebook",
-      "arg": "https://facebook.com/nikita.voloboev"
-    },
-    {
       "uid": "hacker news",
       "title": "hacker news",
       "autocomplete": "hacker news",

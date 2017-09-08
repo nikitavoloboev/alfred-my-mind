@@ -73,6 +73,18 @@
       "arg": "https://telegram.org/"
     },
     {
+      "uid": "a: dash",
+      "title": "a: dash",
+      "autocomplete": "a: dash",
+      "arg": "https://kapeli.com/dash"
+    },
+    {
+      "uid": "a: bartender",
+      "title": "a: bartender",
+      "autocomplete": "a: bartender",
+      "arg": "https://www.macbartender.com/"
+    },
+    {
       "uid": "i: reaction gif albums",
       "title": "i: reaction gif albums",
       "autocomplete": "i: reaction gif albums",
@@ -925,6 +937,18 @@
       "arg": "https://21.co/"
     },
     {
+      "uid": "w: itch.io",
+      "title": "w: itch.io",
+      "autocomplete": "w: itch.io",
+      "arg": "https://itch.io/"
+    },
+    {
+      "uid": "w: hacker news ranking",
+      "title": "w: hacker news ranking",
+      "autocomplete": "w: hacker news ranking",
+      "arg": "http://hnrankings.info/search/"
+    },
+    {
       "uid": "v: km",
       "title": "v: km",
       "autocomplete": "v: km",
@@ -1177,6 +1201,12 @@
       "arg": "https://discourse.gohugo.io/"
     },
     {
+      "uid": "f: syncthing",
+      "title": "f: syncthing",
+      "autocomplete": "f: syncthing",
+      "arg": "https://forum.syncthing.net/"
+    },
+    {
       "uid": "w: drive",
       "title": "w: drive",
       "autocomplete": "w: drive",
@@ -1199,6 +1229,30 @@
       "title": "w: dropbox",
       "autocomplete": "w: dropbox",
       "arg": "https://www.dropbox.com/home"
+    },
+    {
+      "uid": "w: letterboxd",
+      "title": "w: letterboxd",
+      "autocomplete": "w: letterboxd",
+      "arg": "https://letterboxd.com"
+    },
+    {
+      "uid": "w: works for me",
+      "title": "w: works for me",
+      "autocomplete": "w: works for me",
+      "arg": "https://works-for-me.github.io/"
+    },
+    {
+      "uid": "w: nofile 2",
+      "title": "w: nofile 2",
+      "autocomplete": "w: nofile 2",
+      "arg": "https://nofile.io/"
+    },
+    {
+      "uid": "w: golang news",
+      "title": "w: golang news",
+      "autocomplete": "w: golang news",
+      "arg": "https://golangnews.com/"
     },
     {
       "uid": "w: meetup",
@@ -1489,6 +1543,12 @@
       "arg": "https://duckduckgo.com/bang?"
     },
     {
+      "uid": "t: vim cheat sheet",
+      "title": "t: vim cheat sheet",
+      "autocomplete": "t: vim cheat sheet",
+      "arg": "https://vim.rtorr.com/"
+    },
+    {
       "uid": "d: stackshare tools",
       "title": "d: stackshare tools",
       "autocomplete": "d: stackshare tools",
@@ -1577,6 +1637,12 @@
       "title": "d: go FAQ",
       "autocomplete": "d: go FAQ",
       "arg": "https://golang.org/doc/faq#nil_error"
+    },
+    {
+      "uid": "d: go compiler explorer",
+      "title": "d: go compiler explorer",
+      "autocomplete": "d: go compiler explorer",
+      "arg": "https://go.godbolt.org/"
     },
     {
       "uid": "w: finviz",
