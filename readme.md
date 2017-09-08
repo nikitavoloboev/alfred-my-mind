@@ -9,11 +9,9 @@
 	</a>
 </div>
 
-  <a href="https://learn-anything.xyz/learn-anything">
+  <a href="https://my.mindnode.com/4gWrZs1WYDYbuxaBm9NsxKchqDt1qV7nCy4LxH2Z#1796.4,-1512.6,2">
     <img width="900" heigth="900" src="media/mind.png">
   </a>
-
-<p align="center"><img src="media/demo.gif" alt="img" width="600"></p>
 
 <h1 align="center"> Description 📕</h1>
 
@@ -37,6 +35,7 @@ If you wish to extend this workflow to a launcher you use. Feel free to do so. Y
 
 <p align="center"><img src="http://i.imgur.com/4wvJNy6.png" alt="img" width="600"></p>
 
+<p align="center"><img src="media/demo.gif" alt="img" width="600"></p>
 
 <h1 align="center"> Thanks 🍀</h1>
 
