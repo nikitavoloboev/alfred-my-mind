@@ -1,14 +1,4 @@
 <h1 align="center">Alfred interface to my mind 🎗</h1>
-
-<div align="center">
-<a href="https://www.patreon.com/nikitavoloboev">
-		<img src="https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg">
-	</a>
-	<a href="https://github.com/nikitavoloboev/alfred-my-mind/blob/master/LICENSE">
-		<img src="https://img.shields.io/pypi/l/pipenv.svg">
-	</a>
-</div>
-
   <a href="https://my.mindnode.com/4gWrZs1WYDYbuxaBm9NsxKchqDt1qV7nCy4LxH2Z#1796.4,-1512.6,2">
     <img width="900" heigth="900" src="media/mind.png">
   </a>
