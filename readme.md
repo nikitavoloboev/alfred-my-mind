@@ -5,10 +5,15 @@
 
 <h1 align="center"> Description 📕</h1>
 
-
 You can read why this workflow exists in an article [here](https://medium.com/@NikitaVoloboev/opening-up-my-mind-%EF%B8%8F-575c8ece8a24). ✍🏻
 
 Essentially you can search through [all of my notes, bookmarks, blogs, github users, images, research papers and more](https://my.mindnode.com/myLVaRLKytoTYBLshxGzzb75MN9cyGHbQBgaVVPp#809.9,-15.9,1) that I use to move and learn things faster.
+
+Since this workflow is geared for my own personal use and productivity and in many ways tries to act as an extension of my brain, it can at times be quite messy and is always in *work in progress* state.
+
+Alternatively you can also go through my more official notes, I publish [here](https://nikitavoloboev.gitbooks.io/knowledge/content/) that are written to be a reference both to myself and anyone interested. And they can also be both searched through or simply explored.
+
+My goals with sharing both this workflow and my wiki knowledge base is to extend my idea of of [knowledge bootstrapping](https://medium.com/@NikitaVoloboev/knowledge-bootstrapping-36c97e0dee19#.udmp9eotg) and tapping into a person's expertise in the most transparent way possible.
 
 <h1 align="center"> Install 💎</h1>
 
@@ -18,8 +23,6 @@ Download the workflow from [GitHub releases](https://github.com/nikitavoloboev/a
 <h1 align="center"> Contribute 💛</h1>
 
 This workflow heavily leverages curated lists from Learn Anything that can be found [here](https://github.com/learn-anything). You can contribute directly to those lists so everyone benefits. 
-
-Do note, that this workflow exists for my personal use and to extend my idea of [knowledge bootstrapping](https://medium.com/@NikitaVoloboev/knowledge-bootstrapping-36c97e0dee19#.udmp9eotg) and tapping into a person's expertise in the most transparent way possible.
 
 If you wish to extend this workflow to a launcher you use. Feel free to do so. You will probably need to write a parser from the JSON here to the format your launcher supports.
 
