@@ -242,6 +242,12 @@
       "arg": "http://deepdojo.com/"
     },
     {
+      "uid": "Ryan Dahl  🗃️",
+      "title": "Ryan Dahl  🗃️",
+      "autocomplete": "Ryan Dahl  🗃️",
+      "arg": "http://tinyclouds.org/"
+    },
+    {
       "uid": "ritchie ng  🗃️",
       "title": "ritchie ng  🗃️",
       "autocomplete": "ritchie ng  🗃️",
@@ -922,6 +928,30 @@
       "arg": "http://blog.ericgourlaouen.com/"
     },
     {
+      "uid": "HookRace  🗃️",
+      "title": "HookRace  🗃️",
+      "autocomplete": "HookRace  🗃️",
+      "arg": "https://hookrace.net/"
+    },
+    {
+      "uid": "antirez  🗃️",
+      "title": "antirez  🗃️",
+      "autocomplete": "antirez  🗃️",
+      "arg": "http://antirez.com/latest/0"
+    },
+    {
+      "uid": "Nick Craver  🗃️",
+      "title": "Nick Craver  🗃️",
+      "autocomplete": "Nick Craver  🗃️",
+      "arg": "https://nickcraver.com/blog/"
+    },
+    {
+      "uid": "karol kuczmarski  🗃️",
+      "title": "karol kuczmarski  🗃️",
+      "autocomplete": "karol kuczmarski  🗃️",
+      "arg": "http://xion.io/archives.html"
+    },
+    {
       "uid": "dmitri shuralyov  🗃️",
       "title": "dmitri shuralyov  🗃️",
       "autocomplete": "dmitri shuralyov  🗃️",
@@ -998,6 +1028,12 @@
       "title": "Carlos Alexandro  🗃️",
       "autocomplete": "Carlos Alexandro  🗃️",
       "arg": "https://carlosbecker.com/archive/"
+    },
+    {
+      "uid": "going go  🗃️",
+      "title": "going go  🗃️",
+      "autocomplete": "going go  🗃️",
+      "arg": "https://www.goinggo.net/"
     },
     {
       "uid": "shape operator  🗃️",
@@ -1210,6 +1246,12 @@
       "arg": "http://xn--wxak1a.com/blog/"
     },
     {
+      "uid": "stephen diehl  🗃️",
+      "title": "stephen diehl  🗃️",
+      "autocomplete": "stephen diehl  🗃️",
+      "arg": "http://www.stephendiehl.com/posts/protolude.html"
+    },
+    {
       "uid": "perl tricks  🗃️",
       "title": "perl tricks  🗃️",
       "autocomplete": "perl tricks  🗃️",
@@ -1336,6 +1378,12 @@
       "arg": "http://stuff-gil-says.blogspot.nl/"
     },
     {
+      "uid": "it blues  🗃️",
+      "title": "it blues  🗃️",
+      "autocomplete": "it blues  🗃️",
+      "arg": "http://itblues.pl"
+    },
+    {
       "uid": "0 fps  🗃️",
       "title": "0 fps  🗃️",
       "autocomplete": "0 fps  🗃️",
@@ -1388,6 +1436,12 @@
       "title": "AirBlade Software  🗃️",
       "autocomplete": "AirBlade Software  🗃️",
       "arg": "https://airbladesoftware.com/notes/"
+    },
+    {
+      "uid": "bluz71  🗃️",
+      "title": "bluz71  🗃️",
+      "autocomplete": "bluz71  🗃️",
+      "arg": "https://bluz71.github.io/"
     },
     {
       "uid": "node as we go  🗃️",

@@ -199,6 +199,18 @@
       "arg": "https://unsplash.com/@nikivi/collections"
     },
     {
+      "uid": "youtube  👀",
+      "title": "youtube  👀",
+      "autocomplete": "youtube  👀",
+      "arg": "https://www.youtube.com/channel/UCEKqrUfr_FMKIO9XSJS4vDw"
+    },
+    {
+      "uid": "twitch",
+      "title": "twitch",
+      "autocomplete": "twitch",
+      "arg": "https://www.twitch.tv/nikiivi"
+    },
+    {
       "uid": "medium",
       "title": "medium",
       "autocomplete": "medium",

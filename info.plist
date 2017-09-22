@@ -250,19 +250,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>3A792975-0F5E-4E83-BED5-4B1AE93FB510</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>B1A2C5EA-76DB-472E-A5E0-C0BBE06D8042</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>3B04EB75-0185-4312-B8F4-AB5C78DB5ED2</key>
 		<array>
 			<dict>
@@ -317,6 +304,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>AA1B304E-7493-496F-ACBD-3BEE3F4405FA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>48ACDEAC-B97D-4E02-9D78-8C528F0C5DBB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>49000AF6-1B9D-4DB0-BAC6-10A19F53159E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1086,7 +1086,7 @@
 	<key>createdby</key>
 	<string>nikivi</string>
 	<key>description</key>
-	<string>Alfred interface to my mind maps and notes</string>
+	<string>alfred interface to my mind maps and notes</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -1196,7 +1196,7 @@ fi #find</string>
 				<key>fixedorder</key>
 				<true/>
 				<key>items</key>
-				<string>[{"title":"blogs","arg":"lists\/blogs.json"},{"title":"books","arg":"lists\/books.json"},{"title":"courses","arg":"lists\/courses.json"},{"title":"github users","arg":"lists\/github-users.json"},{"title":"humans","arg":"lists\/humans.json"},{"title":"images","arg":"lists\/images.json"},{"title":"la blogs","arg":"lists\/la-blogs.json"},{"title":"articles","arg":"lists\/articles.json"},{"title":"personal","arg":"lists\/personal.json"},{"title":"quora","arg":"lists\/quora.json"},{"title":"reddit","arg":"lists\/reddit.json"},{"title":"research papers","arg":"lists\/research-papers.json"},{"title":"twitter","arg":"lists\/twitter.json"},{"title":"web","arg":"lists\/web.json"},{"title":"profiles","arg":"lists\/profiles.json"},{"title":"github","arg":"lists\/github.json"},{"title":"reddit users","arg":"lists\/reddit-users.json"},{"title":"recent","arg":"lists\/recent.json"},{"title":"podcasts","arg":"lists\/podcasts.json"},{"title":"cli","arg":"lists\/cli.json"},{"title":"games","arg":"lists\/games.json"},{"title":"documentaries","arg":"lists\/documentaries.json"},{"title":"gists","arg":"lists\/gists.json"},{"title":"pinboard","arg":"lists\/pinboard.json"},{"title":"macOS apps","arg":"lists\/macos-apps.json"},{"title":"movies","arg":"lists\/movies.json"},{"title":"newsletters","arg":"lists\/newsletters.json"},{"title":"codepen","arg":"lists\/codepen.json"},{"title":"alfred workflows","arg":"lists\/alfred.json"},{"title":"other gists","arg":"lists\/other-gists.json"},{"title":"series","arg":"lists\/series.json"},{"title":"stack","arg":"lists\/stack.json"},{"title":"talks","arg":"lists\/talks.json"},{"title":"youtube","arg":"lists\/youtube.json"},{"title":"artists","arg":"lists\/artists.json"},{"title":"music playlists","arg":"lists\/music-playlists.json"},{"title":"notes","arg":"lists\/notes.json"},{"title":"la","arg":"lists\/la.json"},{"title":"mentions","arg":"lists\/mentions.json"},{"title":"slack","arg":"lists\/slack.json"},{"title":"instagram","arg":"lists\/instagram.json"},{"title":"devian art","arg":"lists\/devian-art.json"},{"title":"other articles","arg":"lists\/other-articles.json"},{"title":"github trending","arg":"lists\/github-trending.json"},{"title":"reddit multis","arg":"lists\/reddit-multi.json"},{"title":"explain shell","arg":"lists\/explain-shell.json"},{"title":"book notes","arg":"lists\/book-notes.json"},{"title":"stack tags","arg":"lists\/stack-tags.json"}]</string>
+				<string>[{"title":"blogs","arg":"lists\/blogs.json"},{"title":"books","arg":"lists\/books.json"},{"title":"courses","arg":"lists\/courses.json"},{"title":"github users","arg":"lists\/github-users.json"},{"title":"humans","arg":"lists\/humans.json"},{"title":"images","arg":"lists\/images.json"},{"title":"la blogs","arg":"lists\/la-blogs.json"},{"title":"articles","arg":"lists\/articles.json"},{"title":"personal","arg":"lists\/personal.json"},{"title":"quora","arg":"lists\/quora.json"},{"title":"reddit","arg":"lists\/reddit.json"},{"title":"research papers","arg":"lists\/research-papers.json"},{"title":"twitter","arg":"lists\/twitter.json"},{"title":"web","arg":"lists\/web.json"},{"title":"profiles","arg":"lists\/profiles.json"},{"title":"github","arg":"lists\/github.json"},{"title":"reddit users","arg":"lists\/reddit-users.json"},{"title":"recent","arg":"lists\/recent.json"},{"title":"podcasts","arg":"lists\/podcasts.json"},{"title":"cli","arg":"lists\/cli.json"},{"title":"games","arg":"lists\/games.json"},{"title":"documentaries","arg":"lists\/documentaries.json"},{"title":"gists","arg":"lists\/gists.json"},{"title":"pinboard","arg":"lists\/pinboard.json"},{"title":"macOS apps","arg":"lists\/macos-apps.json"},{"title":"movies","arg":"lists\/movies.json"},{"title":"newsletters","arg":"lists\/newsletters.json"},{"title":"codepen","arg":"lists\/codepen.json"},{"title":"alfred workflows","arg":"lists\/alfred.json"},{"title":"other gists","arg":"lists\/other-gists.json"},{"title":"series","arg":"lists\/series.json"},{"title":"stack","arg":"lists\/stack.json"},{"title":"talks","arg":"lists\/talks.json"},{"title":"other youtube","arg":"lists\/other-youtube.json"},{"title":"artists","arg":"lists\/artists.json"},{"title":"music playlists","arg":"lists\/music-playlists.json"},{"title":"notes","arg":"lists\/notes.json"},{"title":"la","arg":"lists\/la.json"},{"title":"mentions","arg":"lists\/mentions.json"},{"title":"slack","arg":"lists\/slack.json"},{"title":"instagram","arg":"lists\/instagram.json"},{"title":"devian art","arg":"lists\/devian-art.json"},{"title":"other articles","arg":"lists\/other-articles.json"},{"title":"github trending","arg":"lists\/github-trending.json"},{"title":"reddit multis","arg":"lists\/reddit-multi.json"},{"title":"explain shell","arg":"lists\/explain-shell.json"},{"title":"book notes","arg":"lists\/book-notes.json"},{"title":"stack tags","arg":"lists\/stack-tags.json"},{"title":"gitter","arg":"lists\/gitter.json"},{"title":"youtube","arg":"lists\/my-youtube.json"}]</string>
 				<key>keyword</key>
 				<string>inside</string>
 				<key>runningsubtext</key>
@@ -1220,6 +1220,8 @@ fi #find</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -1260,37 +1262,6 @@ fi #find</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>F2AA3969-D7B8-4BDF-9695-5817E82568EE</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>3A792975-0F5E-4E83-BED5-4B1AE93FB510</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1342,7 +1313,7 @@ fi #find</string>
 				<key>matchmode</key>
 				<integer>2</integer>
 				<key>matchstring</key>
-				<string>^(?!.*(?:notes|personal|twitter|reddit|stack|quora|youtube|github-users)).*</string>
+				<string>^(?!.*(?:notes|personal|twitter|reddit|stack|quora|other-youtube|github-users)).*</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.filter</string>
@@ -1372,8 +1343,43 @@ fi #find</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>lists/reddit.json</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>48ACDEAC-B97D-4E02-9D78-8C528F0C5DBB</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -1439,19 +1445,6 @@ fi #find</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>open</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>D3E53A84-8303-4C8C-B343-99D0AC727779</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -1479,6 +1472,19 @@ fi #find</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>triggerid</key>
+				<string>open</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>D3E53A84-8303-4C8C-B343-99D0AC727779</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>inputstring</key>
 				<string>{var:loc}</string>
 				<key>matchcasesensitive</key>
@@ -1500,6 +1506,8 @@ fi #find</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -1565,42 +1573,6 @@ fi #find</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>bash update.sh</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>7850EC64-1846-40B7-8AF8-501256B73821</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>updateMind</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>F75341A5-5D55-4A18-BA40-9DD848CD2FE6</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string>{query}</string>
 				<key>variables</key>
@@ -1621,6 +1593,8 @@ fi #find</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -1686,6 +1660,42 @@ fi #find</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>bash update.sh</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7850EC64-1846-40B7-8AF8-501256B73821</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>updateMind</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>F75341A5-5D55-4A18-BA40-9DD848CD2FE6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -1744,6 +1754,8 @@ fi #find</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -1848,6 +1860,8 @@ fi #find</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -2026,6 +2040,8 @@ fi #find</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -2278,6 +2294,8 @@ fi #find</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -2442,7 +2460,7 @@ fi #find</string>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
-				<string>lists/youtube.json</string>
+				<string>lists/other-youtube.json</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.filter</string>
@@ -2456,6 +2474,8 @@ fi #find</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -2560,6 +2580,8 @@ fi #find</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -2720,6 +2742,8 @@ fi #find</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -2879,6 +2903,8 @@ fi #find</string>
 			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -2998,11 +3024,7 @@ fi #find</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Search through books, courses, my notes, bookmarks and more.
-
-Enjoy. 🦄
-
-Big thanks to Deanishe for his patience and help.</string>
+	<string></string>
 	<key>uidata</key>
 	<dict>
 		<key>00D12202-7416-4413-936B-031B34829210</key>
@@ -3147,13 +3169,6 @@ Big thanks to Deanishe for his patience and help.</string>
 			<key>ypos</key>
 			<integer>2290</integer>
 		</dict>
-		<key>3A792975-0F5E-4E83-BED5-4B1AE93FB510</key>
-		<dict>
-			<key>xpos</key>
-			<integer>30</integer>
-			<key>ypos</key>
-			<integer>160</integer>
-		</dict>
 		<key>3B04EB75-0185-4312-B8F4-AB5C78DB5ED2</key>
 		<dict>
 			<key>xpos</key>
@@ -3166,7 +3181,7 @@ Big thanks to Deanishe for his patience and help.</string>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>30</integer>
+			<integer>70</integer>
 		</dict>
 		<key>3D2B46D6-AC03-4533-9AEF-171E926EB257</key>
 		<dict>
@@ -3192,6 +3207,15 @@ Big thanks to Deanishe for his patience and help.</string>
 			<integer>1000</integer>
 			<key>ypos</key>
 			<integer>1320</integer>
+		</dict>
+		<key>48ACDEAC-B97D-4E02-9D78-8C528F0C5DBB</key>
+		<dict>
+			<key>note</key>
+			<string>you can also pass through the path to the file here as text to instantly open of the filters</string>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>200</integer>
 		</dict>
 		<key>49000AF6-1B9D-4DB0-BAC6-10A19F53159E</key>
 		<dict>
@@ -3269,7 +3293,7 @@ Big thanks to Deanishe for his patience and help.</string>
 			<key>xpos</key>
 			<integer>160</integer>
 			<key>ypos</key>
-			<integer>510</integer>
+			<integer>620</integer>
 		</dict>
 		<key>7B1CE15C-5F5D-4AAA-8964-FFEF1968F098</key>
 		<dict>
@@ -3456,7 +3480,7 @@ Big thanks to Deanishe for his patience and help.</string>
 			<key>xpos</key>
 			<integer>210</integer>
 			<key>ypos</key>
-			<integer>90</integer>
+			<integer>70</integer>
 		</dict>
 		<key>B5122A36-4E67-44AB-8D96-21067BB7117C</key>
 		<dict>
@@ -3537,11 +3561,11 @@ Big thanks to Deanishe for his patience and help.</string>
 		<key>D3E53A84-8303-4C8C-B343-99D0AC727779</key>
 		<dict>
 			<key>note</key>
-			<string>I call this external trigger from Karabiner and pass in the path as argument</string>
+			<string>I do it from external trigger and call it from Karabiner 🙂</string>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>290</integer>
+			<integer>390</integer>
 		</dict>
 		<key>DAE43F5F-55CE-410B-84D4-3AFD4345BD08</key>
 		<dict>
@@ -3614,7 +3638,7 @@ Big thanks to Deanishe for his patience and help.</string>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>510</integer>
+			<integer>620</integer>
 		</dict>
 		<key>FCDF14D2-1F59-42D5-B92E-AC3CC3F3DFC9</key>
 		<dict>
@@ -3647,6 +3671,6 @@ Big thanks to Deanishe for his patience and help.</string>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
-	<string>https://github.com/nikitavoloboev</string>
+	<string>https://github.com/nikitavoloboev/alfred-my-mind</string>
 </dict>
 </plist>

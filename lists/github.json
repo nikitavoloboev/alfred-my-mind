@@ -32,6 +32,12 @@
       "arg": "https://github.com/nikitavoloboev/crafting-ideas"
     },
     {
+      "uid": "17: boxes  💡",
+      "title": "17: boxes  💡",
+      "autocomplete": "17: boxes  💡",
+      "arg": "https://github.com/nikitavoloboev/boxes"
+    },
+    {
       "uid": "17: alfred ask create share  🐙",
       "title": "17: alfred ask create share  🐙",
       "autocomplete": "17: alfred ask create share  🐙",
@@ -92,9 +98,9 @@
       "arg": "https://github.com/nikitavoloboev/alfred-twitter-follows"
     },
     {
-      "uid": "17: alfred time  💡",
-      "title": "17: alfred time  💡",
-      "autocomplete": "17: alfred time  💡",
+      "uid": "17: alfred time  🐙",
+      "title": "17: alfred time  🐙",
+      "autocomplete": "17: alfred time  🐙",
       "arg": "https://github.com/nikitavoloboev/alfred-time"
     },
     {
@@ -134,9 +140,9 @@
       "arg": "https://github.com/nikitavoloboev/alfred-useful-file-actions"
     },
     {
-      "uid": "17: alfred go search  🐙",
-      "title": "17: alfred go search  🐙",
-      "autocomplete": "17: alfred go search  🐙",
+      "uid": "17: alfred go search  💡",
+      "title": "17: alfred go search  💡",
+      "autocomplete": "17: alfred go search  💡",
       "arg": "https://github.com/nikitavoloboev/alfred-go-search"
     },
     {
@@ -152,10 +158,118 @@
       "arg": "https://github.com/nikitavoloboev/alfred-search-web-with-selection"
     },
     {
+      "uid": "17: alfred go to subreddit  🐙",
+      "title": "17: alfred go to subreddit  🐙",
+      "autocomplete": "17: alfred go to subreddit  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-go-to-subreddit"
+    },
+    {
+      "uid": "17: alfred go play  🐙",
+      "title": "17: alfred go play  🐙",
+      "autocomplete": "17: alfred go play  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-go-play"
+    },
+    {
+      "uid": "17: alfred months numbers  🐙",
+      "title": "17: alfred months numbers  🐙",
+      "autocomplete": "17: alfred months numbers  🐙",
+      "arg": "https://github.com/nikitavoloboev/alfred-month-numbers"
+    },
+    {
+      "uid": "17: small workflows  🐙",
+      "title": "17: small workflows  🐙",
+      "autocomplete": "17: small workflows  🐙",
+      "arg": "https://github.com/nikitavoloboev/small-workflows"
+    },
+    {
       "uid": "17: last time  💡",
       "title": "17: last time  💡",
       "autocomplete": "17: last time  💡",
       "arg": "https://github.com/nikitavoloboev/last-time"
+    },
+    {
+      "uid": "16: dotfiles  🐙",
+      "title": "16: dotfiles  🐙",
+      "autocomplete": "16: dotfiles  🐙",
+      "arg": "https://github.com/nikitavoloboev/dotfiles"
+    },
+    {
+      "uid": "16: my macOS  🐙",
+      "title": "16: my macOS  🐙",
+      "autocomplete": "16: my macOS  🐙",
+      "subtitle": "a list of applications and various tools that make my macOS experience even more amazing",
+      "arg": "https://github.com/nikitavoloboev/my-mac-os"
+    },
+    {
+      "uid": "16: my iOS  🐙",
+      "title": "16: my iOS  🐙",
+      "autocomplete": "16: my iOS  🐙",
+      "subtitle": "what I use on my phone",
+      "arg": "https://github.com/nikitavoloboev/my-ios"
+    },
+    {
+      "uid": "17: km macros  🐙",
+      "title": "17: km macros  🐙",
+      "autocomplete": "17: km macros  🐙",
+      "subtitle": "Keyboard Maestro Macros I use",
+      "arg": "https://github.com/nikitavoloboev/km-macros"
+    },
+    {
+      "uid": "17: typinator sets  🐙",
+      "title": "17: typinator sets  🐙",
+      "autocomplete": "17: typinator sets  🐙",
+      "arg": "https://github.com/nikitavoloboev/typinator-sets"
+    },
+    {
+      "uid": "17: my btt  🐙",
+      "title": "17: my btt  🐙",
+      "autocomplete": "17: my btt  🐙",
+      "subtitle": "BetterTouchTool Gestures I use",
+      "arg": "https://github.com/nikitavoloboev/my-btt"
+    },
+    {
+      "uid": "17: my web home page  🐙",
+      "title": "17: my web home page  🐙",
+      "autocomplete": "17: my web home page  🐙",
+      "arg": "https://github.com/nikitavoloboev/nikitavoloboev.github.io"
+    },
+    {
+      "uid": "17: my youtube  🐙",
+      "title": "17: my youtube  🐙",
+      "autocomplete": "17: my youtube  🐙",
+      "arg": "https://github.com/nikitavoloboev/my-youtube"
+    },
+    {
+      "uid": "17: go leetcode  🐙",
+      "title": "17: go leetcode  🐙",
+      "autocomplete": "17: go leetcode  🐙",
+      "arg": "https://github.com/nikitavoloboev/go-leetcode"
+    },
+    {
+      "uid": "17: go euler  🐙",
+      "title": "17: go euler  🐙",
+      "autocomplete": "17: go euler  🐙",
+      "arg": "https://github.com/nikitavoloboev/go-euler"
+    },
+    {
+      "uid": "16: awesome tue software  🐙",
+      "title": "16: awesome tue software  🐙",
+      "autocomplete": "16: awesome tue software  🐙",
+      "subtitle": "my bachelor degree’s awesome list  notes, links, summaries",
+      "arg": "https://github.com/nikitavoloboev/awesome-tue-software"
+    },
+    {
+      "uid": "17: awesome mindmaps  🐙",
+      "title": "17: awesome mindmaps  🐙",
+      "autocomplete": "17: awesome mindmaps  🐙",
+      "subtitle": "awesome list of all the mind maps made in MindNode, Xmind, iMindMap and others",
+      "arg": "https://github.com/nikitavoloboev/awesome-mindmaps"
+    },
+    {
+      "uid": "17: privacy respecting  🐙",
+      "title": "17: privacy respecting  🐙",
+      "autocomplete": "17: privacy respecting  🐙",
+      "arg": "https://github.com/nikitavoloboev/privacy-respecting"
     },
     {
       "uid": "17: license up  🐙",
@@ -176,81 +290,10 @@
       "arg": "https://github.com/nikitavoloboev/mindnode-parser"
     },
     {
-      "uid": "16: dotfiles  🐙",
-      "title": "16: dotfiles  🐙",
-      "autocomplete": "16: dotfiles  🐙",
-      "arg": "https://github.com/nikitavoloboev/dotfiles"
-    },
-    {
-      "uid": "17: my web home page  🐙",
-      "title": "17: my web home page  🐙",
-      "autocomplete": "17: my web home page  🐙",
-      "arg": "https://github.com/nikitavoloboev/nikitavoloboev.github.io"
-    },
-    {
       "uid": "17: md-to-cv  💡",
       "title": "17: md-to-cv  💡",
       "autocomplete": "17: md-to-cv  💡",
       "arg": "https://github.com/nikitavoloboev/md-to-cv"
-    },
-    {
-      "uid": "17: go leetcode  🐙",
-      "title": "17: go leetcode  🐙",
-      "autocomplete": "17: go leetcode  🐙",
-      "arg": "https://github.com/nikitavoloboev/go-leetcode"
-    },
-    {
-      "uid": "17: go euler  🐙",
-      "title": "17: go euler  🐙",
-      "autocomplete": "17: go euler  🐙",
-      "arg": "https://github.com/nikitavoloboev/go-euler"
-    },
-    {
-      "uid": "17: boxes  💡",
-      "title": "17: boxes  💡",
-      "autocomplete": "17: boxes  💡",
-      "arg": "https://github.com/nikitavoloboev/boxes"
-    },
-    {
-      "uid": "16: my macOS  🐙",
-      "title": "16: my macOS  🐙",
-      "autocomplete": "16: my macOS  🐙",
-      "subtitle": "a list of applications and various tools that make my macOS experience even more amazing",
-      "arg": "https://github.com/nikitavoloboev/my-mac-os"
-    },
-    {
-      "uid": "16: my iOS  🐙",
-      "title": "16: my iOS  🐙",
-      "autocomplete": "16: my iOS  🐙",
-      "subtitle": "what I use on my phone",
-      "arg": "https://github.com/nikitavoloboev/my-ios"
-    },
-    {
-      "uid": "16: awesome tue software  🐙",
-      "title": "16: awesome tue software  🐙",
-      "autocomplete": "16: awesome tue software  🐙",
-      "subtitle": "my bachelor degree’s awesome list  notes, links, summaries",
-      "arg": "https://github.com/nikitavoloboev/awesome-tue-software"
-    },
-    {
-      "uid": "17: awesome mindmaps  🐙",
-      "title": "17: awesome mindmaps  🐙",
-      "autocomplete": "17: awesome mindmaps  🐙",
-      "subtitle": "awesome list of all the mind maps made in MindNode, Xmind, iMindMap and others",
-      "arg": "https://github.com/nikitavoloboev/awesome-mindmaps"
-    },
-    {
-      "uid": "17: km macros  🐙",
-      "title": "17: km macros  🐙",
-      "autocomplete": "17: km macros  🐙",
-      "subtitle": "Keyboard Maestro Macros I use",
-      "arg": "https://github.com/nikitavoloboev/km-macros"
-    },
-    {
-      "uid": "17: privacy respecting  🐙",
-      "title": "17: privacy respecting  🐙",
-      "autocomplete": "17: privacy respecting  🐙",
-      "arg": "https://github.com/nikitavoloboev/privacy-respecting"
     }
   ]
 }

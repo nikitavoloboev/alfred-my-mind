@@ -12,6 +12,10 @@
     "map": "anrzuAWyaqWFjRwrp7aapQLtb9PPhBxhWny9VaQr"
   },
   {
+    "name": "my-youtube",
+    "map": "1TFgMjvqLR63KyTzBNL7o9oQbNVEuPvLJg6f7XxM"
+  },
+  {
     "name": "book-notes",
     "map": "UZn9r841Bz3gBgfVa7yrbw6YP7zdfHeKH1qyZPkn"
   },
@@ -100,7 +104,7 @@
     "map": "t9622zX2emWC3HxLNkFebMzuxWoF8PGH2MLjREpy"
   },
   {
-    "name": "youtube",
+    "name": "other-youtube",
     "map": "B9fhnvBwV5VpP4nkPaZsozRJzdoDfWfv68A9s3Jz"
   },
   {
@@ -176,8 +180,12 @@
     "map": "Txg55ViCiAaHUYrhYzDDq33yLCpspU5htyshwgnQ"
   },
   {
+    "name": "gitter",
+    "map": "y9pdg5yGY6CGySygXAuUZtjMXE16duFGGa5XjuEq"
+  },
+  {
     "name": "hn-users",
-    "map": "https://my.mindnode.com/hMsp918wYC6AufAXwrZMpaircP4nUyXDyheVkG17"
+    "map": "hMsp918wYC6AufAXwrZMpaircP4nUyXDyheVkG17"
   },
   {
     "name": "stack-tags",

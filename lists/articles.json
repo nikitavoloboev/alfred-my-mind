@@ -78,6 +78,12 @@
       "arg": "https://medium.com/@NikitaVoloboev/mind-map-everything-d27670f70739#.p7w44kr44"
     },
     {
+      "uid": "17: write once, never write again",
+      "title": "17: write once, never write again",
+      "autocomplete": "17: write once, never write again",
+      "arg": "https://medium.com/@NikitaVoloboev/write-once-never-write-again-c2fa1f6c4e8"
+    },
+    {
       "uid": "17: the best kind of web",
       "title": "17: the best kind of web",
       "autocomplete": "17: the best kind of web",
@@ -89,13 +95,6 @@
       "title": "17: like a dog on a leash ",
       "autocomplete": "17: like a dog on a leash ",
       "arg": "https://medium.com/@NikitaVoloboev/like-a-dog-on-a-leash-c0cdb8839079"
-    },
-    {
-      "uid": "17: pretty and fast shell",
-      "title": "17: pretty and fast shell",
-      "autocomplete": "17: pretty and fast shell",
-      "subtitle": "how to setup a very awesome and modern shell experience from the ground up and have full control over it",
-      "arg": "https://medium.com/@NikitaVoloboev/pretty-and-fast-shell-97ea870f2805"
     },
     {
       "uid": "17: Little trick I use to navigate source code better",
@@ -112,11 +111,24 @@
       "arg": "https://medium.com/@NikitaVoloboev/insta-cloning-ff5f38eb1d32"
     },
     {
+      "uid": "17: pretty and fast shell",
+      "title": "17: pretty and fast shell",
+      "autocomplete": "17: pretty and fast shell",
+      "subtitle": "how to setup a very awesome and modern shell experience from the ground up and have full control over it",
+      "arg": "https://medium.com/@NikitaVoloboev/pretty-and-fast-shell-97ea870f2805"
+    },
+    {
       "uid": "17: opening up my mind",
       "title": "17: opening up my mind",
       "autocomplete": "17: opening up my mind",
       "subtitle": "Sharing my most personal alfred workflow about myself, my entire workflow and setup, one download away for anyone who cares ",
       "arg": "https://medium.com/@NikitaVoloboev/opening-up-my-mind-%EF%B8%8F-575c8ece8a24"
+    },
+    {
+      "uid": "17: writing alfred workflows in Go",
+      "title": "17: writing alfred workflows in Go",
+      "autocomplete": "17: writing alfred workflows in Go",
+      "arg": "https://medium.com/@NikitaVoloboev/writing-alfred-workflows-in-go-2a44f62dc432"
     },
     {
       "uid": "16: why medium?",
