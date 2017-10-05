@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "uid": "karabiner",
+      "title": "karabiner",
+      "autocomplete": "karabiner",
+      "arg": "https://nikitavoloboev.gitbooks.io/knowledge/content/macOS/apps/karabiner/Karabiner.html"
+    },
+    {
+      "uid": "alfred",
+      "title": "alfred",
+      "autocomplete": "alfred",
+      "arg": "https://nikitavoloboev.gitbooks.io/knowledge/content/macOS/apps/alfred/Alfred.html"
+    },
+    {
+      "uid": "ego",
+      "title": "ego",
+      "autocomplete": "ego",
+      "arg": "https://nikitavoloboev.gitbooks.io/knowledge/content/consciousness/Ego.html"
+    }
+  ]
+}

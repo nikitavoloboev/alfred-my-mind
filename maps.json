@@ -4,6 +4,10 @@
     "map": "ugGHypBdhvNnPJEr4haw8z8x7pyPxdhbLVscfbqu"
   },
   {
+    "name": "discord",
+    "map": "qTUsfVpJtQSxv9Vv4aCU7a3k4FdZ37Mxnqi35xin"
+  },
+  {
     "name": "explain-shell",
     "map": "EGK6syLwZq9FqwB1hLZDrk2UR2Vxqxk8VoGnJkXz"
   },
@@ -53,7 +57,7 @@
   },
   {
     "name": "reddit",
-    "map": "YyiVuPAZSpqxyP26bkMvBuT8rPwUSyyggxSVgUz2"
+    "map": "QUvepUytUWtz3YY6owqvfNn1dvXZx3qHnSs9PWUz"
   },
   {
     "name": "research-papers",
@@ -180,6 +184,10 @@
     "map": "Txg55ViCiAaHUYrhYzDDq33yLCpspU5htyshwgnQ"
   },
   {
+    "name": "knowledge-bases",
+    "map": "QpQZX4Aq4Jne6boSXVXP2UapPyjdNYSqkDSpyME6"
+  },
+  {
     "name": "gitter",
     "map": "y9pdg5yGY6CGySygXAuUZtjMXE16duFGGa5XjuEq"
   },
@@ -198,6 +206,10 @@
   {
     "name": "reddit-multi",
     "map": "AghqDxXGwktnQ9BNUpfy2HyHBafitTfCLonFxrY7"
+  },
+    {
+    "name": "wiki",
+    "map": "fxAejpiVFm7wjHxpVL7JesDpw5xRPninCMax1Spy"
   },
   {
     "name": "reddit-users",

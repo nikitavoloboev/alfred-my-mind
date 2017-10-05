@@ -263,6 +263,30 @@
       "title": "vimeo",
       "autocomplete": "vimeo",
       "arg": "https://vimeo.com/user18010447"
+    },
+    {
+      "uid": "gitbooks",
+      "title": "gitbooks",
+      "autocomplete": "gitbooks",
+      "arg": "https://www.gitbook.com/@nikitavoloboev"
+    },
+    {
+      "uid": "code wars",
+      "title": "code wars",
+      "autocomplete": "code wars",
+      "arg": "https://www.codewars.com/users/nikitavoloboev"
+    },
+    {
+      "uid": "knowledge wiki",
+      "title": "knowledge wiki",
+      "autocomplete": "knowledge wiki",
+      "arg": "https://nikitavoloboev.gitbooks.io/knowledge/content/"
+    },
+    {
+      "uid": "automating macOS book",
+      "title": "automating macOS book",
+      "autocomplete": "automating macOS book",
+      "arg": "https://nikitavoloboev.gitbooks.io/macos-automation-guide/content/"
     }
   ]
 }

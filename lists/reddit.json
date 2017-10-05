@@ -769,6 +769,12 @@
       "arg": "https://www.reddit.com/r/civ/"
     },
     {
+      "uid": "sublime text  🤖",
+      "title": "sublime text  🤖",
+      "autocomplete": "sublime text  🤖",
+      "arg": "https://www.reddit.com/r/SublimeText/top/"
+    },
+    {
       "uid": "health  🤖",
       "title": "health  🤖",
       "autocomplete": "health  🤖",
@@ -1062,6 +1068,12 @@
       "title": "glitch art  🤖",
       "autocomplete": "glitch art  🤖",
       "arg": "https://www.reddit.com/r/glitch_art/"
+    },
+    {
+      "uid": "simulated  🤖",
+      "title": "simulated  🤖",
+      "autocomplete": "simulated  🤖",
+      "arg": "https://www.reddit.com/r/Simulated/"
     },
     {
       "uid": "drug nerds  🤖",

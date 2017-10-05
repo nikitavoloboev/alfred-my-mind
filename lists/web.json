@@ -85,6 +85,18 @@
       "arg": "https://www.macbartender.com/"
     },
     {
+      "uid": "a: typinator",
+      "title": "a: typinator",
+      "autocomplete": "a: typinator",
+      "arg": "http://www.ergonis.com/products/typinator/"
+    },
+    {
+      "uid": "a: ship",
+      "title": "a: ship",
+      "autocomplete": "a: ship",
+      "arg": "https://www.realartists.com"
+    },
+    {
       "uid": "i: reaction gif albums",
       "title": "i: reaction gif albums",
       "autocomplete": "i: reaction gif albums",
@@ -1207,6 +1219,12 @@
       "arg": "https://forum.syncthing.net/"
     },
     {
+      "uid": "f: binary age",
+      "title": "f: binary age",
+      "autocomplete": "f: binary age",
+      "arg": "https://discuss.binaryage.com/"
+    },
+    {
       "uid": "w: drive",
       "title": "w: drive",
       "autocomplete": "w: drive",
@@ -1253,6 +1271,60 @@
       "title": "w: golang news",
       "autocomplete": "w: golang news",
       "arg": "https://golangnews.com/"
+    },
+    {
+      "uid": "w: steemit",
+      "title": "w: steemit",
+      "autocomplete": "w: steemit",
+      "arg": "https://steemit.com/@nikivi/feed"
+    },
+    {
+      "uid": "w: desmos",
+      "title": "w: desmos",
+      "autocomplete": "w: desmos",
+      "arg": "https://www.desmos.com"
+    },
+    {
+      "uid": "w: we love golang",
+      "title": "w: we love golang",
+      "autocomplete": "w: we love golang",
+      "arg": "https://www.welovegolang.com/"
+    },
+    {
+      "uid": "w: digital ocean",
+      "title": "w: digital ocean",
+      "autocomplete": "w: digital ocean",
+      "arg": "https://www.digitalocean.com/"
+    },
+    {
+      "uid": "w: codewars",
+      "title": "w: codewars",
+      "autocomplete": "w: codewars",
+      "arg": "https://www.codewars.com/"
+    },
+    {
+      "uid": "w: codingame",
+      "title": "w: codingame",
+      "autocomplete": "w: codingame",
+      "arg": "https://www.codingame.com/home"
+    },
+    {
+      "uid": "w: twitter  🐦",
+      "title": "w: twitter  🐦",
+      "autocomplete": "w: twitter  🐦",
+      "arg": "https://twitter.com"
+    },
+    {
+      "uid": "w: reddit grid",
+      "title": "w: reddit grid",
+      "autocomplete": "w: reddit grid",
+      "arg": "https://redditgrid.com/"
+    },
+    {
+      "uid": "w: vimeo",
+      "title": "w: vimeo",
+      "autocomplete": "w: vimeo",
+      "arg": "https://vimeo.com/"
     },
     {
       "uid": "w: meetup",
@@ -1547,6 +1619,12 @@
       "title": "t: vim cheat sheet",
       "autocomplete": "t: vim cheat sheet",
       "arg": "https://vim.rtorr.com/"
+    },
+    {
+      "uid": "t: deepl",
+      "title": "t: deepl",
+      "autocomplete": "t: deepl",
+      "arg": "https://www.deepl.com/translator"
     },
     {
       "uid": "d: stackshare tools",

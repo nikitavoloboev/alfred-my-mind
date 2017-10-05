@@ -835,12 +835,6 @@
       "arg": "https://my.mindnode.com/ncB4E8H2E9zgqWZxRC1KjYk9TFyJyvAuH2rH5QjF"
     },
     {
-      "uid": "alfred  🗺️",
-      "title": "alfred  🗺️",
-      "autocomplete": "alfred  🗺️",
-      "arg": "https://my.mindnode.com/nGqZuMj3dNGbycpppaizg8Y2AXqkZPkpihXSQkn1"
-    },
-    {
       "uid": "learning  🗺️",
       "title": "learning  🗺️",
       "autocomplete": "learning  🗺️",
@@ -881,6 +875,12 @@
       "title": "academia  🗺️",
       "autocomplete": "academia  🗺️",
       "arg": "https://my.mindnode.com/w8nLZUNfczTJSbzZEcTKN12CfkvDSCE3x4nwWzzq"
+    },
+    {
+      "uid": "alfred",
+      "title": "alfred",
+      "autocomplete": "alfred",
+      "arg": "https://nikitavoloboev.gitbooks.io/knowledge/content/macOS/apps/alfred/Alfred.html"
     },
     {
       "uid": "shower thoughts  🗺️",
@@ -1175,6 +1175,12 @@
       "title": "guitar  🗺️",
       "autocomplete": "guitar  🗺️",
       "arg": "https://my.mindnode.com/XsSHzYEGp6WFBL4HHkdpmmYHywPKAF2p1271GqtZ"
+    },
+    {
+      "uid": "art  🗺️",
+      "title": "art  🗺️",
+      "autocomplete": "art  🗺️",
+      "arg": "https://my.mindnode.com/BNxmKxCdEuzoAT6EpATT3yuN6cuceyVaiSo3LCYY"
     },
     {
       "uid": "podcasts  🗺️",
