@@ -82,8 +82,7 @@ func run() {
 		}
 	}
 
-	// _start
-	wf.NewItem("hello")
+	parseSummary()
 
 	if query != "" {
 		wf.Filter(query)

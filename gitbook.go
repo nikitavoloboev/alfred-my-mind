@@ -3,31 +3,23 @@ package main
 
 import (
 	"bufio"
-	"fmt"
 	"io/ioutil"
 	"regexp"
 	"strings"
 )
 
-// getAllLinks returns all links and their names from a given markdown file.
-func getAllLinks(fileContent string) {
-	m := make(map[string]string)
+// parseSummary parses GitBook Summary.md file
+func parseSummary() {
+	bytes, _ := ioutil.ReadFile("Summary.md")
 
-	// regex to extract link and text attached to link
+	// regex to extract markdown links
 	re := regexp.MustCompile(`\[([^\]]*)\]\(([^)]*)\)`)
+	re1 := regexp.MustCompile(`(.md)`)
 
-	scanner := bufio.NewScanner(strings.NewReader(fileContent))
+	// read string line by line and apply regex
+	scanner := bufio.NewScanner(strings.NewReader(string(bytes)))
 	for scanner.Scan() {
 		matches := re.FindAllStringSubmatch(scanner.Text(), -1)
-		m[matches[0][1]] = matches[0][2]
+		wf.NewItem(matches[0][1]).Arg("https://nikitavoloboev.gitbooks.io/knowledge/content/" + re1.ReplaceAllString(matches[0][2], `.html`)).Valid(true)
 	}
-}
-
-// readFile Reads file.
-func readFile(filename string) string {
-	b, err := ioutil.ReadFile(filename) // just pass the file name
-	if err != nil {
-		fmt.Print(err)
-	}
-	return string(b)
 }
