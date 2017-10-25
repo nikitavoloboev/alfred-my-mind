@@ -1,0 +1,307 @@
+{
+  "items": [
+    {
+      "uid": "my macOS  🐙",
+      "title": "my macOS  🐙",
+      "autocomplete": "my macOS  🐙",
+      "subtitle": "everything related to my macOS system",
+      "arg": "https://github.com/nikitavoloboev/my-mac-os"
+    },
+    {
+      "uid": "my knowledge",
+      "title": "my knowledge",
+      "autocomplete": "my knowledge",
+      "subtitle": "everything I know",
+      "arg": "https://nikitavoloboev.gitbooks.io/knowledge/content/"
+    },
+    {
+      "uid": "code  🐙",
+      "title": "code  🐙",
+      "autocomplete": "code  🐙",
+      "subtitle": "all my code related activity and things",
+      "arg": "https://github.com/nikitavoloboev"
+    },
+    {
+      "uid": "my wiki  🗺️",
+      "title": "my wiki  🗺️",
+      "autocomplete": "my wiki  🗺️",
+      "subtitle": "my wiki visualised as a mind map",
+      "arg": "https://my.mindnode.com/fxAejpiVFm7wjHxpVL7JesDpw5xRPninCMax1Spy"
+    },
+    {
+      "uid": "my youtube videos  🐙",
+      "title": "my youtube videos  🐙",
+      "autocomplete": "my youtube videos  🐙",
+      "subtitle": "videos I have made and shared",
+      "arg": "https://github.com/nikitavoloboev/my-youtube"
+    },
+    {
+      "uid": "emoji reference  🗺️",
+      "title": "emoji reference  🗺️",
+      "autocomplete": "emoji reference  🗺️",
+      "subtitle": "emojis I use and these meanings  ",
+      "arg": "https://my.mindnode.com/s4ekUp1MmNr7VDeCNqcGfiHAtUGEtANRxwPB3vJ8"
+    },
+    {
+      "uid": "my articles  🗺️",
+      "title": "my articles  🗺️",
+      "autocomplete": "my articles  🗺️",
+      "subtitle": "articles I have written",
+      "arg": "https://my.mindnode.com/2YJ1yeqHkxaBMHKDPC1k2Ripxpx9Ne7ULk4rfh3H#-73.8,-445.4,2"
+    },
+    {
+      "uid": "dotfiles  🗺️",
+      "title": "dotfiles  🗺️",
+      "autocomplete": "dotfiles  🗺️",
+      "subtitle": "my dotfiles folder structure ",
+      "arg": "https://my.mindnode.com/3EfbezxGu7xVAM4GQNuN8Lq1naudqs333HqgTuDj"
+    },
+    {
+      "uid": "my github repos  🗺️",
+      "title": "my github repos  🗺️",
+      "autocomplete": "my github repos  🗺️",
+      "subtitle": "GitHub repositories I have shared",
+      "arg": "https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX"
+    },
+    {
+      "uid": "macOS apps I use  🗺️",
+      "title": "macOS apps I use  🗺️",
+      "autocomplete": "macOS apps I use  🗺️",
+      "subtitle": "big map of all the apps I use and their configuration   - hotkeys - my workflow with the app - prefixes if any",
+      "arg": "https://my.mindnode.com/R3rsy7p4juS3HxxwQvrCE6oiMbY6aefKshMX2Qwh"
+    },
+    {
+      "uid": "my keyboard layout  🗺️",
+      "title": "my keyboard layout  🗺️",
+      "autocomplete": "my keyboard layout  🗺️",
+      "subtitle": "my customised with Karabiner keyboard layout",
+      "arg": "https://my.mindnode.com/c7EmmKvaxCyCEuTzcpkGB4MGeLpWdR8nsJK4rjDh"
+    },
+    {
+      "uid": "aliases and programs I use  🗺️",
+      "title": "aliases and programs I use  🗺️",
+      "autocomplete": "aliases and programs I use  🗺️",
+      "subtitle": "all the alises and programmes I have setup to use from my shell",
+      "arg": "https://my.mindnode.com/upnFQeGrQCPwgCf3pfS4FgywQUj5sXNLxb1awm1D"
+    },
+    {
+      "uid": "music artists I like  🗺️",
+      "title": "music artists I like  🗺️",
+      "autocomplete": "music artists I like  🗺️",
+      "subtitle": "various music artists I love",
+      "arg": "https://my.mindnode.com/t9622zX2emWC3HxLNkFebMzuxWoF8PGH2MLjREpy"
+    },
+    {
+      "uid": "web presence  🗺️",
+      "title": "web presence  🗺️",
+      "autocomplete": "web presence  🗺️",
+      "subtitle": "my profiles on various social website I use",
+      "arg": "https://my.mindnode.com/16eWXEhcB6x9xMEewyipzPriBXJ5pk57wRgCXSgs"
+    },
+    {
+      "uid": "courses  🗺️",
+      "title": "courses  🗺️",
+      "autocomplete": "courses  🗺️",
+      "arg": "https://my.mindnode.com/f2sAoGJN9psymLPwcM2ohf1KwaH3rqxDBtB4psR4"
+    },
+    {
+      "uid": "blogs  🗺️",
+      "title": "blogs  🗺️",
+      "autocomplete": "blogs  🗺️",
+      "arg": "https://my.mindnode.com/ugGHypBdhvNnPJEr4haw8z8x7pyPxdhbLVscfbqu"
+    },
+    {
+      "uid": "books  🗺️",
+      "title": "books  🗺️",
+      "autocomplete": "books  🗺️",
+      "arg": "https://my.mindnode.com/anrzuAWyaqWFjRwrp7aapQLtb9PPhBxhWny9VaQr"
+    },
+    {
+      "uid": "reddit  🗺️",
+      "title": "reddit  🗺️",
+      "autocomplete": "reddit  🗺️",
+      "arg": "https://my.mindnode.com/YyiVuPAZSpqxyP26bkMvBuT8rPwUSyyggxSVgUz2"
+    },
+    {
+      "uid": "github users  🗺️",
+      "title": "github users  🗺️",
+      "autocomplete": "github users  🗺️",
+      "arg": "https://my.mindnode.com/GRmvczkG7gqfygUNYCsxnzsmUEDF7LH6uqyZuoJk"
+    },
+    {
+      "uid": "twitter users  🗺️",
+      "title": "twitter users  🗺️",
+      "autocomplete": "twitter users  🗺️",
+      "arg": "https://my.mindnode.com/MDQPpSsLQUjbj9xgUGoey9N8yiqNXHrNVbrDmJrD"
+    },
+    {
+      "uid": "websites  🗺️",
+      "title": "websites  🗺️",
+      "autocomplete": "websites  🗺️",
+      "arg": "https://my.mindnode.com/LQyxs8s9UewT5WKMbtUMrjJeRZCAHwU5JVY5ryiM"
+    },
+    {
+      "uid": "humans  🗺️",
+      "title": "humans  🗺️",
+      "autocomplete": "humans  🗺️",
+      "arg": "https://my.mindnode.com/LpbqeAKmsVvf4kszxeixX6W1noGH7C9xmBqvuiDq"
+    },
+    {
+      "uid": "quora  🗺️",
+      "title": "quora  🗺️",
+      "autocomplete": "quora  🗺️",
+      "arg": "https://my.mindnode.com/ASEXxCYFfupEVgpcs4tyi8CVEpeKHciCSxfewgYT"
+    },
+    {
+      "uid": "research papers  🗺️",
+      "title": "research papers  🗺️",
+      "autocomplete": "research papers  🗺️",
+      "arg": "https://my.mindnode.com/4Ybz71D27gsfq7bPqXp5Txg1uJzQHU5i9YxJoRyY"
+    },
+    {
+      "uid": "podcasts  🗺️",
+      "title": "podcasts  🗺️",
+      "autocomplete": "podcasts  🗺️",
+      "arg": "https://my.mindnode.com/WyVtw1JvqCzegeRQyKZnsUCP5s1SJsKL2p6zdkQ2"
+    },
+    {
+      "uid": "codepen  🗺️",
+      "title": "codepen  🗺️",
+      "autocomplete": "codepen  🗺️",
+      "arg": "https://my.mindnode.com/DJxrdPkpseeKnM9Wq4AAuszrs66KFST1sngqEdmp"
+    },
+    {
+      "uid": "gists  🗺️",
+      "title": "gists  🗺️",
+      "autocomplete": "gists  🗺️",
+      "arg": "https://my.mindnode.com/yMxS8U1hkey2sxUgRoDiqMiBKydvxKbBgrib7Bqk"
+    },
+    {
+      "uid": "cli  🗺️",
+      "title": "cli  🗺️",
+      "autocomplete": "cli  🗺️",
+      "arg": "https://my.mindnode.com/PnCppksYzVsx5gF7c42jyX2QcFtdgn5Hq3A4B8Y7"
+    },
+    {
+      "uid": "newsletters  🗺️",
+      "title": "newsletters  🗺️",
+      "autocomplete": "newsletters  🗺️",
+      "arg": "https://my.mindnode.com/ixrtWR2zxxxsZkqqTzarKYD6yqCuvbprxmrKuUES"
+    },
+    {
+      "uid": "images  🗺️",
+      "title": "images  🗺️",
+      "autocomplete": "images  🗺️",
+      "arg": "https://my.mindnode.com/rv3qy2JaEFRBT3nkwsyh1Q4koqC2qBzxcofqroda"
+    },
+    {
+      "uid": "macOS apps  🗺️",
+      "title": "macOS apps  🗺️",
+      "autocomplete": "macOS apps  🗺️",
+      "arg": "https://my.mindnode.com/yCa6UfTqiavpq4Y3BfsyeHNms6WvZgJqbwouDv6G"
+    },
+    {
+      "uid": "games  🗺️",
+      "title": "games  🗺️",
+      "autocomplete": "games  🗺️",
+      "arg": "https://my.mindnode.com/xYxK7wftCGJJyjAPrsyEEkzd2zYbizQcJPnycEpx"
+    },
+    {
+      "uid": "series  🗺️",
+      "title": "series  🗺️",
+      "autocomplete": "series  🗺️",
+      "arg": "https://my.mindnode.com/3G7agRfrg9RDcw66xYyKh8z2Xs7B6WFo8LzSpLzk"
+    },
+    {
+      "uid": "movies  🗺️",
+      "title": "movies  🗺️",
+      "autocomplete": "movies  🗺️",
+      "arg": "https://my.mindnode.com/cTCUsrTimwEFshTCxpcXEScW5aLQEm3nsZd52zFG"
+    },
+    {
+      "uid": "documentaries  🗺️",
+      "title": "documentaries  🗺️",
+      "autocomplete": "documentaries  🗺️",
+      "arg": "https://my.mindnode.com/QWhanQx2W2eZqxMZDzL8xGDGYHVH5S8PW24s6VBT"
+    },
+    {
+      "uid": "stack  🗺️",
+      "title": "stack  🗺️",
+      "autocomplete": "stack  🗺️",
+      "arg": "https://my.mindnode.com/nNhD7ynmFcgc4ibSmR1eptgkTgNEvtYhdbZuJ9vR"
+    },
+    {
+      "uid": "youtube  🗺️",
+      "title": "youtube  🗺️",
+      "autocomplete": "youtube  🗺️",
+      "arg": "https://my.mindnode.com/B9fhnvBwV5VpP4nkPaZsozRJzdoDfWfv68A9s3Jz"
+    },
+    {
+      "uid": "reddit multis  🗺️",
+      "title": "reddit multis  🗺️",
+      "autocomplete": "reddit multis  🗺️",
+      "arg": "https://my.mindnode.com/AghqDxXGwktnQ9BNUpfy2HyHBafitTfCLonFxrY7"
+    },
+    {
+      "uid": "talks  🗺️",
+      "title": "talks  🗺️",
+      "autocomplete": "talks  🗺️",
+      "arg": "https://my.mindnode.com/x2TpaysF8z2ySHhXxvhjnkRqpGivMacjQeZAn9pq"
+    },
+    {
+      "uid": "knowledge bases  🗺️",
+      "title": "knowledge bases  🗺️",
+      "autocomplete": "knowledge bases  🗺️",
+      "arg": "https://my.mindnode.com/QpQZX4Aq4Jne6boSXVXP2UapPyjdNYSqkDSpyME6"
+    },
+    {
+      "uid": "my github gists  🗺️",
+      "title": "my github gists  🗺️",
+      "autocomplete": "my github gists  🗺️",
+      "subtitle": "GitHub gists I have shared",
+      "arg": "https://my.mindnode.com/pW28cpz22qz4hsSHAGzixsSLkWCRrzQfTtUC85tL"
+    },
+    {
+      "uid": "my vimrc  🗺️",
+      "title": "my vimrc  🗺️",
+      "autocomplete": "my vimrc  🗺️",
+      "subtitle": "my personal vimrc",
+      "arg": "https://my.mindnode.com/EPJxCtfjuZJGz5TTHiwTyshmUUBfwRpVyH4BvQj2"
+    },
+    {
+      "uid": "vs code  🗺️",
+      "title": "vs code  🗺️",
+      "autocomplete": "vs code  🗺️",
+      "subtitle": "configs I use for vs code",
+      "arg": "https://my.mindnode.com/WwMqYJufHYM9ZDuMfAZeUdH3wktsMGgPmxeKrMHw"
+    },
+    {
+      "uid": "git  🗺️",
+      "title": "git  🗺️",
+      "autocomplete": "git  🗺️",
+      "subtitle": "configs and personal changes I use when I use git",
+      "arg": "https://my.mindnode.com/CdMLq8FCAF3vESnfxS1fueeWL2mDac9fkTfGherq"
+    },
+    {
+      "uid": "old map notes  🗺️",
+      "title": "old map notes  🗺️",
+      "autocomplete": "old map notes  🗺️",
+      "subtitle": "notes as mind maps   - need to transfer them to the wiki",
+      "arg": "https://my.mindnode.com/4gWrZs1WYDYbuxaBm9NsxKchqDt1qV7nCy4LxH2Z"
+    },
+    {
+      "uid": "my alfred layout  🗺️",
+      "title": "my alfred layout  🗺️",
+      "autocomplete": "my alfred layout  🗺️",
+      "subtitle": "my alfred textual layout",
+      "arg": "https://my.mindnode.com/TzQ2EjrCiyJsCqRotJmqujhinDZ49C31Xb4bisM6"
+    },
+    {
+      "uid": "book notes  🗺️",
+      "title": "book notes  🗺️",
+      "autocomplete": "book notes  🗺️",
+      "subtitle": "old notes",
+      "arg": "https://my.mindnode.com/UZn9r841Bz3gBgfVa7yrbw6YP7zdfHeKH1qyZPkn"
+    }
+  ]
+}

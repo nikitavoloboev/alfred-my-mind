@@ -1,0 +1,359 @@
+{
+  "items": [
+    {
+      "uid": "ls",
+      "title": "ls",
+      "autocomplete": "ls",
+      "arg": "https://www.explainshell.com/explain/ls"
+    },
+    {
+      "uid": "echo",
+      "title": "echo",
+      "autocomplete": "echo",
+      "arg": "https://www.explainshell.com/explain/echo"
+    },
+    {
+      "uid": "cat",
+      "title": "cat",
+      "autocomplete": "cat",
+      "arg": "https://www.explainshell.com/explain/cat"
+    },
+    {
+      "uid": "mv",
+      "title": "mv",
+      "autocomplete": "mv",
+      "arg": "https://www.explainshell.com/explain/mv"
+    },
+    {
+      "uid": "rm",
+      "title": "rm",
+      "autocomplete": "rm",
+      "arg": "https://www.explainshell.com/explain/rm"
+    },
+    {
+      "uid": "sed",
+      "title": "sed",
+      "autocomplete": "sed",
+      "arg": "https://www.explainshell.com/explain/sed"
+    },
+    {
+      "uid": "intro to sed",
+      "title": "intro to sed",
+      "autocomplete": "intro to sed",
+      "arg": "http://www.grymoire.com/Unix/Sed.html"
+    },
+    {
+      "uid": "wc",
+      "title": "wc",
+      "autocomplete": "wc",
+      "arg": "https://www.explainshell.com/explain/wc"
+    },
+    {
+      "uid": "sort",
+      "title": "sort",
+      "autocomplete": "sort",
+      "arg": "https://www.explainshell.com/explain/1/sort"
+    },
+    {
+      "uid": "uniq",
+      "title": "uniq",
+      "autocomplete": "uniq",
+      "arg": "https://www.explainshell.com/explain/uniq"
+    },
+    {
+      "uid": "tr",
+      "title": "tr",
+      "autocomplete": "tr",
+      "arg": "https://www.explainshell.com/explain/tr"
+    },
+    {
+      "uid": "cut",
+      "title": "cut",
+      "autocomplete": "cut",
+      "arg": "https://www.explainshell.com/explain/cut"
+    },
+    {
+      "uid": "paste",
+      "title": "paste",
+      "autocomplete": "paste",
+      "arg": "https://www.explainshell.com/explain/paste"
+    },
+    {
+      "uid": "split",
+      "title": "split",
+      "autocomplete": "split",
+      "arg": "https://www.explainshell.com/explain/1/split"
+    },
+    {
+      "uid": "join",
+      "title": "join",
+      "autocomplete": "join",
+      "arg": "https://www.explainshell.com/explain/1/join"
+    },
+    {
+      "uid": "bc",
+      "title": "bc",
+      "autocomplete": "bc",
+      "arg": "https://www.explainshell.com/explain/1/bc"
+    },
+    {
+      "uid": "find",
+      "title": "find",
+      "autocomplete": "find",
+      "arg": "https://www.explainshell.com/explain/1/find"
+    },
+    {
+      "uid": "grep",
+      "title": "grep",
+      "autocomplete": "grep",
+      "arg": "https://www.explainshell.com/explain/1/grep"
+    },
+    {
+      "uid": "ssh",
+      "title": "ssh",
+      "autocomplete": "ssh",
+      "arg": "https://www.explainshell.com/explain/1/ssh"
+    },
+    {
+      "uid": "scp",
+      "title": "scp",
+      "autocomplete": "scp",
+      "arg": "https://www.explainshell.com/explain/1/scp"
+    },
+    {
+      "uid": "nice",
+      "title": "nice",
+      "autocomplete": "nice",
+      "arg": "https://www.explainshell.com/explain/1/nice"
+    },
+    {
+      "uid": "kill",
+      "title": "kill",
+      "autocomplete": "kill",
+      "arg": "https://www.explainshell.com/explain/1/kill"
+    },
+    {
+      "uid": "top",
+      "title": "top",
+      "autocomplete": "top",
+      "arg": "https://www.explainshell.com/explain/1/top"
+    },
+    {
+      "uid": "jobs",
+      "title": "jobs",
+      "autocomplete": "jobs",
+      "arg": "https://www.explainshell.com/explain?cmd=jobs"
+    },
+    {
+      "uid": "cron",
+      "title": "cron",
+      "autocomplete": "cron",
+      "arg": "https://www.explainshell.com/explain/8/cron"
+    },
+    {
+      "uid": "diff",
+      "title": "diff",
+      "autocomplete": "diff",
+      "arg": "https://www.explainshell.com/explain/1/diff"
+    },
+    {
+      "uid": "awk",
+      "title": "awk",
+      "autocomplete": "awk",
+      "arg": "https://www.explainshell.com/explain?cmd=awk"
+    },
+    {
+      "uid": "screen",
+      "title": "screen",
+      "autocomplete": "screen",
+      "arg": "https://www.explainshell.com/explain/1/screen"
+    },
+    {
+      "uid": "gnuplot",
+      "title": "gnuplot",
+      "autocomplete": "gnuplot",
+      "arg": "https://www.explainshell.com/explain/1/gnuplot"
+    },
+    {
+      "uid": "tree",
+      "title": "tree",
+      "autocomplete": "tree",
+      "arg": "https://www.explainshell.com/explain/tree"
+    },
+    {
+      "uid": "killall",
+      "title": "killall",
+      "autocomplete": "killall",
+      "arg": "https://www.explainshell.com/explain/killall"
+    },
+    {
+      "uid": "touch",
+      "title": "touch",
+      "autocomplete": "touch",
+      "arg": "https://www.explainshell.com/explain/touch"
+    },
+    {
+      "uid": "type",
+      "title": "type",
+      "autocomplete": "type",
+      "arg": "https://www.explainshell.com/explain?cmd=type"
+    },
+    {
+      "uid": "tail",
+      "title": "tail",
+      "autocomplete": "tail",
+      "arg": "https://www.explainshell.com/explain/tail"
+    },
+    {
+      "uid": "head",
+      "title": "head",
+      "autocomplete": "head",
+      "arg": "https://www.explainshell.com/explain/head"
+    },
+    {
+      "uid": "cpu",
+      "title": "cpu",
+      "autocomplete": "cpu",
+      "arg": "https://www.explainshell.com/explain/cpu"
+    },
+    {
+      "uid": "man",
+      "title": "man",
+      "autocomplete": "man",
+      "arg": "https://www.explainshell.com/explain/1/man"
+    },
+    {
+      "uid": "chmod",
+      "title": "chmod",
+      "autocomplete": "chmod",
+      "arg": "https://www.explainshell.com/explain/chmod"
+    },
+    {
+      "uid": "ack",
+      "title": "ack",
+      "autocomplete": "ack",
+      "arg": "https://beyondgrep.com/documentation/"
+    },
+    {
+      "uid": "yarn",
+      "title": "yarn",
+      "autocomplete": "yarn",
+      "arg": "https://yarnpkg.com/lang/en/docs/"
+    },
+    {
+      "uid": "npm",
+      "title": "npm",
+      "autocomplete": "npm",
+      "arg": "http://manpages.ubuntu.com/manpages/precise/en/man1/npm.1.html"
+    },
+    {
+      "uid": "brew",
+      "title": "brew",
+      "autocomplete": "brew",
+      "arg": "http://docs.brew.sh/"
+    },
+    {
+      "uid": "hugo",
+      "title": "hugo",
+      "autocomplete": "hugo",
+      "arg": "https://gohugo.io/overview/introduction/"
+    },
+    {
+      "uid": "jekyll",
+      "title": "jekyll",
+      "autocomplete": "jekyll",
+      "arg": "https://jekyllrb.com/docs/home/"
+    },
+    {
+      "uid": "git  🗺️",
+      "title": "git  🗺️",
+      "autocomplete": "git  🗺️",
+      "arg": "https://my.mindnode.com/dzhbs3FRB4z143969SjnPEDspe1Gp3SEppissAqy#71.2,142.3,2"
+    },
+    {
+      "uid": "go",
+      "title": "go",
+      "autocomplete": "go",
+      "arg": "https://golang.org/doc/cmd"
+    },
+    {
+      "uid": "docker",
+      "title": "docker",
+      "autocomplete": "docker",
+      "arg": "https://docs.docker.com/"
+    },
+    {
+      "uid": "kubectl",
+      "title": "kubectl",
+      "autocomplete": "kubectl",
+      "arg": "https://kubernetes.io/docs/user-guide/kubectl-overview/"
+    },
+    {
+      "uid": "ag",
+      "title": "ag",
+      "autocomplete": "ag",
+      "arg": "https://github.com/ggreer/the_silver_searcher"
+    },
+    {
+      "uid": "curl",
+      "title": "curl",
+      "autocomplete": "curl",
+      "arg": "https://www.explainshell.com/explain/curl"
+    },
+    {
+      "uid": "reflex",
+      "title": "reflex",
+      "autocomplete": "reflex",
+      "arg": "https://github.com/cespare/reflex"
+    },
+    {
+      "uid": "cmake",
+      "title": "cmake",
+      "autocomplete": "cmake",
+      "arg": "https://www.explainshell.com/explain/1/cmake"
+    },
+    {
+      "uid": "ctop",
+      "title": "ctop",
+      "autocomplete": "ctop",
+      "arg": "https://github.com/bcicen/ctop"
+    },
+    {
+      "uid": "gotty",
+      "title": "gotty",
+      "autocomplete": "gotty",
+      "arg": "https://github.com/yudai/gotty"
+    },
+    {
+      "uid": "jq",
+      "title": "jq",
+      "autocomplete": "jq",
+      "arg": "https://github.com/stedolan/jq"
+    },
+    {
+      "uid": "pkg",
+      "title": "pkg",
+      "autocomplete": "pkg",
+      "arg": "https://github.com/zeit/pkg"
+    },
+    {
+      "uid": "fasd  🐙",
+      "title": "fasd  🐙",
+      "autocomplete": "fasd  🐙",
+      "subtitle": "offers quick access to files and directories, inspired by autojump, z and v",
+      "arg": "https://github.com/clvv/fasd"
+    },
+    {
+      "uid": "HTTPie",
+      "title": "HTTPie",
+      "autocomplete": "HTTPie",
+      "arg": "https://httpie.org/"
+    },
+    {
+      "uid": "warp  🐙",
+      "title": "warp  🐙",
+      "autocomplete": "warp  🐙",
+      "arg": "https://github.com/spolu/warp?attempt=8"
+    }
+  ]
+}

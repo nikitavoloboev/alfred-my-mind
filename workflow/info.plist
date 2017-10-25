@@ -8,7 +8,7 @@
 	<string>mine</string>
 	<key>connections</key>
 	<dict>
-		<key>E263917A-78B2-4035-B475-68F671E7B24D</key>
+		<key>0962E063-3DD4-40BB-AA5D-70B04CAD506B</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -21,9 +21,35 @@
 				<false/>
 			</dict>
 		</array>
+		<key>616E11AF-E559-4994-81C4-BCBBBEE85AB1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0962E063-3DD4-40BB-AA5D-70B04CAD506B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DA7BB8B6-116C-4D06-AB57-1601F4D94054</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0962E063-3DD4-40BB-AA5D-70B04CAD506B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
-	<string>nikivi</string>
+	<string>Nikita Voloboev &lt;nikita.voloboev@icloud.com&gt;</string>
 	<key>description</key>
 	<string>Alfred interface to my mind maps and notes</string>
 	<key>disabled</key>
@@ -35,14 +61,31 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>triggerid</key>
+				<string>mind</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>616E11AF-E559-4994-81C4-BCBBBEE85AB1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
 				<integer>102</integer>
+				<key>keyword</key>
+				<string>inside</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -54,7 +97,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>./alfred-my-mind download $1</string>
+				<string>./alfred-my-mind search "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -62,7 +105,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>notes, bookmarks, blogs</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -78,6 +121,30 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "title" : "",
+      "runningsubtext" : "",
+      "subtext" : ""
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>0962E063-3DD4-40BB-AA5D-70B04CAD506B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -87,11 +154,11 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>31</integer>
+				<integer>40</integer>
 				<key>hotmod</key>
-				<integer>1835008</integer>
+				<integer>393216</integer>
 				<key>hotstring</key>
-				<string>O</string>
+				<string>K</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -102,36 +169,46 @@
 			<key>type</key>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>E263917A-78B2-4035-B475-68F671E7B24D</string>
+			<string>DA7BB8B6-116C-4D06-AB57-1601F4D94054</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Search through books, courses, my notes, bookmarks and more.
-
-Enjoy. 🦄
-
-Big thanks to Deanishe for his patience and help.</string>
+	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>85C659D0-5703-426F-96FD-178D5699E68A</key>
+		<key>0962E063-3DD4-40BB-AA5D-70B04CAD506B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>290</integer>
+			<integer>170</integer>
 			<key>ypos</key>
 			<integer>70</integer>
 		</dict>
-		<key>E263917A-78B2-4035-B475-68F671E7B24D</key>
+		<key>616E11AF-E559-4994-81C4-BCBBBEE85AB1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>10</integer>
 			<key>ypos</key>
-			<integer>100</integer>
+			<integer>10</integer>
+		</dict>
+		<key>85C659D0-5703-426F-96FD-178D5699E68A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>260</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>DA7BB8B6-116C-4D06-AB57-1601F4D94054</key>
+		<dict>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>140</integer>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string></string>
+	<string>1.0.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-my-mind</string>
 </dict>

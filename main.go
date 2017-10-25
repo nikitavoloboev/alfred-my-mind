@@ -1,116 +1,96 @@
 package main
 
 import (
-	// "encoding/json"
-	"fmt"
-	"io/ioutil"
 	"log"
-	// "os"
+	"os/exec"
 
 	"git.deanishe.net/deanishe/awgo"
 	"git.deanishe.net/deanishe/awgo/update"
-	"gopkg.in/alecthomas/kingpin.v2"
+	"github.com/docopt/docopt-go"
 )
 
-// name of the background job that checks for updates
+// TODO: don't use docopt
+
+// Name of the background job that checks for updates
 const updateJobName = "checkForUpdate"
 
+var usage = `alfred-my-mind [search|check] [<query>]
+
+Access notes, wiki and more
+
+Usage:
+	alfred-web-searches search [<query>]
+	alfred-web-searches check
+    alfred-web-searches -h
+
+Options:
+    -h, --help    Show this message and exit.
+`
+
 var (
-	app *kingpin.Application
+	// icons
+	iconAvailable = &aw.Icon{Value: "icons/update.png"}
 
-	// app commands
-	updateMapsCmd, downloadMapsCmd, parseMapsCmd *kingpin.CmdClause
-
-	mindnodeUrls []string // contains links to JSON of maps
-
-	query string // script options
-	repo  = "nikitavoloboev/alfred-my-mind"
-	wf    *aw.Workflow
+	repo = "nikitavoloboev/alfred-web-searches"
+	wf   *aw.Workflow
 )
 
 func init() {
 	wf = aw.New(update.GitHub(repo))
-
-	// set up kingpin
-	app = kingpin.New("alfred-my-mind", "search and query my personal interactive maps")
-	app.HelpFlag.Short('h')
-	app.Version(wf.Version())
-
-	updateMapsCmd = app.Command("update", "updates maps")
-	downloadMapsCmd = app.Command("download", "downloads maps")
-	// parseMapsCmd = app.Command("parse", "parses maps")
-
-	app.DefaultEnvars()
-}
-
-// _actions
-func parseMaps(file string) error {
-	return nil
-}
-
-// updateMaps
-func updateMaps() error {
-	wf.NewItem("hello")
-	wf.SendFeedback()
-	return nil
-}
-
-// parseUrls parses urls from maps.json
-func parseUrls(filename string) {
-	// f, err := os.Open(filename)
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-	// defer f.Close()
-
-	b, err := ioutil.ReadFile(filename)
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println(string(b))
-}
-
-// downloadMaps parses maps.json and downloads maps specified there to maps directory
-func downloadMaps(filename string) error {
-	parseUrls(filename)
-
-	// f, err := os.Open(filename)
-	// if err != nil {
-	// 	panic(err)
-	// }
-	// defer f.Close()
-	// _, err = os.Stat("test.txt")
-	// if os.IsNotExist(err) { // file does not exist
-	// 	log.Fatal(err)
-	// }
-
-	// log.Printf("created file")
-	return nil
 }
 
 func run() {
+	// Pass wf.Args() to docopt because update logic relies on
+	// AwGo's magic actions.
+	args, _ := docopt.Parse(usage, wf.Args(), true, wf.Version(), false, true)
 
-	var err error
-
-	cmd, err := app.Parse(wf.Args())
-	if err != nil {
-		wf.FatalError(err)
+	// alternate action: get available releases from remote
+	if args["check"] != false {
+		wf.TextErrors = true
+		log.Println("checking for updates...")
+		if err := wf.CheckForUpdate(); err != nil {
+			wf.FatalError(err)
+		}
+		return
 	}
 
-	switch cmd {
-	case updateMapsCmd.FullCommand():
-		err = updateMaps()
-	case downloadMapsCmd.FullCommand():
-		err = downloadMaps("maps.json")
-	case parseMapsCmd.FullCommand():
-		err = parseMaps("maps.json")
-	default:
-		err = fmt.Errorf("unknown command : %s", cmd)
+	var query string
+	if args["<query>"] != nil {
+		query = args["<query>"].(string)
 	}
 
-	if err != nil {
-		wf.FatalError(err)
+	log.Printf("query=%s", query)
+
+	// call self with "check" command if an update is due and a
+	// check job isn't already running.
+	if wf.UpdateCheckDue() && !aw.IsRunning(updateJobName) {
+		log.Println("running update check in background...")
+		cmd := exec.Command("./alfred-web-searches", "check")
+		if err := aw.RunInBackground(updateJobName, cmd); err != nil {
+			log.Printf("error starting update check: %s", err)
+		}
 	}
+
+	if query == "" { // Only show update status if query is empty
+		// Send update status to Alfred
+		if wf.UpdateAvailable() {
+			wf.NewItem("update available!").
+				Subtitle("↩ to install").
+				Autocomplete("workflow:update").
+				Valid(false).
+				Icon(iconAvailable)
+		}
+	}
+
+	// _start
+	wf.NewItem("hello")
+
+	if query != "" {
+		wf.Filter(query)
+	}
+
+	wf.WarnEmpty("No matching items", "Try a different query?")
+	wf.SendFeedback()
 }
 
 func main() {

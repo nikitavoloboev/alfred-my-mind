@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "uid": "all  🐙",
+      "title": "all  🐙",
+      "autocomplete": "all  🐙",
+      "arg": "https://github.com/trending"
+    },
+    {
+      "uid": "golang  🐙",
+      "title": "golang  🐙",
+      "autocomplete": "golang  🐙",
+      "arg": "https://github.com/trending/go"
+    },
+    {
+      "uid": "typescript  🐙",
+      "title": "typescript  🐙",
+      "autocomplete": "typescript  🐙",
+      "arg": "https://github.com/trending/typescript"
+    }
+  ]
+}

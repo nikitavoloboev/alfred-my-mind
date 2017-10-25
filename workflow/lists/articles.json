@@ -1,0 +1,162 @@
+{
+  "items": [
+    {
+      "uid": "15: just keep expressing yourself",
+      "title": "15: just keep expressing yourself",
+      "autocomplete": "15: just keep expressing yourself",
+      "subtitle": "the first article I have ever done and published on how to not be afraid to express yourself and be you",
+      "arg": "https://medium.com/@NikitaVoloboev/just-keep-expressing-yourself-306870791ae4#.3ilcote4m"
+    },
+    {
+      "uid": "16: day evaluations",
+      "title": "16: day evaluations",
+      "autocomplete": "16: day evaluations",
+      "subtitle": "how I started my journey with journalling and living a more conscious life",
+      "arg": "https://medium.com/@NikitaVoloboev/day-evaluations-5706f31c9c5e#.m4lw1eo32"
+    },
+    {
+      "uid": "16: news",
+      "title": "16: news",
+      "autocomplete": "16: news",
+      "subtitle": "my approach to news and overflow of information",
+      "arg": "https://medium.com/@NikitaVoloboev/news-d6bcaaf40121#.mtj9gqvyu"
+    },
+    {
+      "uid": "16: what it means to live a conscious life",
+      "title": "16: what it means to live a conscious life",
+      "autocomplete": "16: what it means to live a conscious life",
+      "subtitle": "my journey with discovering and bringing compassion to my life",
+      "arg": "https://medium.com/@NikitaVoloboev/what-it-means-to-live-a-conscious-life-c96f6517077#.x3mzy1kcl"
+    },
+    {
+      "uid": "17: everything connects to everything else",
+      "title": "17: everything connects to everything else",
+      "autocomplete": "17: everything connects to everything else",
+      "subtitle": "why i decided to share all of my knowledge in a free and easily discoverable way as a big mind map of connections",
+      "arg": "https://medium.com/@NikitaVoloboev/everything-connects-to-everything-else-c6a2d96a809d#.nn8gvwavn"
+    },
+    {
+      "uid": "17: knowledge bootstrapping",
+      "title": "17: knowledge bootstrapping",
+      "autocomplete": "17: knowledge bootstrapping",
+      "subtitle": "how can you share your entire thought process with the world   my idea of open knowledge and how it can benefit all",
+      "arg": "https://medium.com/@NikitaVoloboev/knowledge-bootstrapping-36c97e0dee19#.udmp9eotg"
+    },
+    {
+      "uid": "17: the root of it all",
+      "title": "17: the root of it all",
+      "autocomplete": "17: the root of it all",
+      "subtitle": "what is efficiency and how it relates to my life  how I practice efficiency and what is my approach to learning and solving learning dependencies of life",
+      "arg": "https://medium.com/@NikitaVoloboev/the-root-of-it-all-9b6ab6a77e1d#.yt6ici5rf"
+    },
+    {
+      "uid": "17: project based learning",
+      "title": "17: project based learning",
+      "autocomplete": "17: project based learning",
+      "subtitle": "how i changed my approach to learning by focusing on projects and not on learning for the sake of learning.",
+      "arg": "https://medium.com/@NikitaVoloboev/project-based-learning-e511641869ca#.z6wr7ncu5"
+    },
+    {
+      "uid": "16: fantastical natural input + text expansions",
+      "title": "16: fantastical natural input + text expansions",
+      "autocomplete": "16: fantastical natural input + text expansions",
+      "subtitle": "how to combine Typinator and Fantastical to save time and ease the process of creating new events",
+      "arg": "https://medium.com/@NikitaVoloboev/fantastical-natural-input-text-expansions-3ea8cf7ccac3#.pv5937ncr"
+    },
+    {
+      "uid": "16: take control of your trackpad on macOS",
+      "title": "16: take control of your trackpad on macOS",
+      "autocomplete": "16: take control of your trackpad on macOS",
+      "subtitle": "how I personalise my macOS with custom gestures for the trackpad",
+      "arg": "https://medium.com/@NikitaVoloboev/take-control-of-your-touchpad-on-macos-45c581f542e0#.7n1ye6vze"
+    },
+    {
+      "uid": "16: mind map everything",
+      "title": "16: mind map everything",
+      "autocomplete": "16: mind map everything",
+      "subtitle": "my approach to indexing my own knowledge in a mind map format for fast retrieval and understanding",
+      "arg": "https://medium.com/@NikitaVoloboev/mind-map-everything-d27670f70739#.p7w44kr44"
+    },
+    {
+      "uid": "17: write once, never write again",
+      "title": "17: write once, never write again",
+      "autocomplete": "17: write once, never write again",
+      "arg": "https://medium.com/@NikitaVoloboev/write-once-never-write-again-c2fa1f6c4e8"
+    },
+    {
+      "uid": "17: the best kind of web",
+      "title": "17: the best kind of web",
+      "autocomplete": "17: the best kind of web",
+      "subtitle": "how you can personalise and improve your browsing experience",
+      "arg": "https://t.co/FTtusd4336"
+    },
+    {
+      "uid": "17: like a dog on a leash ",
+      "title": "17: like a dog on a leash ",
+      "autocomplete": "17: like a dog on a leash ",
+      "arg": "https://medium.com/@NikitaVoloboev/like-a-dog-on-a-leash-c0cdb8839079"
+    },
+    {
+      "uid": "17: Little trick I use to navigate source code better",
+      "title": "17: Little trick I use to navigate source code better",
+      "autocomplete": "17: Little trick I use to navigate source code better",
+      "subtitle": "I like to leave small traces in a code base to quickly jump to different points in code",
+      "arg": "https://medium.com/@NikitaVoloboev/little-trick-i-use-to-navigate-source-code-better-bc958ccd821#.7y4y3jhqz"
+    },
+    {
+      "uid": "17: insta cloning",
+      "title": "17: insta cloning",
+      "autocomplete": "17: insta cloning",
+      "subtitle": "how to quickly clone and open the repository in your favourite editor",
+      "arg": "https://medium.com/@NikitaVoloboev/insta-cloning-ff5f38eb1d32"
+    },
+    {
+      "uid": "17: pretty and fast shell",
+      "title": "17: pretty and fast shell",
+      "autocomplete": "17: pretty and fast shell",
+      "subtitle": "how to setup a very awesome and modern shell experience from the ground up and have full control over it",
+      "arg": "https://medium.com/@NikitaVoloboev/pretty-and-fast-shell-97ea870f2805"
+    },
+    {
+      "uid": "17: opening up my mind",
+      "title": "17: opening up my mind",
+      "autocomplete": "17: opening up my mind",
+      "subtitle": "Sharing my most personal alfred workflow about myself, my entire workflow and setup, one download away for anyone who cares ",
+      "arg": "https://medium.com/@NikitaVoloboev/opening-up-my-mind-%EF%B8%8F-575c8ece8a24"
+    },
+    {
+      "uid": "17: writing alfred workflows in Go",
+      "title": "17: writing alfred workflows in Go",
+      "autocomplete": "17: writing alfred workflows in Go",
+      "arg": "https://medium.com/@NikitaVoloboev/writing-alfred-workflows-in-go-2a44f62dc432"
+    },
+    {
+      "uid": "16: why medium?",
+      "title": "16: why medium?",
+      "autocomplete": "16: why medium?",
+      "subtitle": "why host my writing on medium and not on my own site",
+      "arg": "https://medium.com/@NikitaVoloboev/why-medium-ff9b13fefe61#.guictx69p"
+    },
+    {
+      "uid": "17: how I write",
+      "title": "17: how I write",
+      "autocomplete": "17: how I write",
+      "subtitle": "How I plan to write a lot more in the coming days and what my writing workflow looks like",
+      "arg": "https://medium.com/@NikitaVoloboev/how-i-write-cdc2cebdc70c"
+    },
+    {
+      "uid": "17: an incredible future",
+      "title": "17: an incredible future",
+      "autocomplete": "17: an incredible future",
+      "subtitle": "How Learn Anything got started",
+      "arg": "https://medium.com/@NikitaVoloboev/an-incredible-future-9f18bb0f3a7c"
+    },
+    {
+      "uid": "17: invisible mountains",
+      "title": "17: invisible mountains",
+      "autocomplete": "17: invisible mountains",
+      "subtitle": "What problems is Learn Anything is trying to solve can what we can do to solve them",
+      "arg": "https://medium.com/@NikitaVoloboev/the-invisible-mountains-bd50a31bc64e"
+    }
+  ]
+}
