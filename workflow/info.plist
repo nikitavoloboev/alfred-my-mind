@@ -1390,35 +1390,86 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>3</integer>
-				<key>argumenttext</key>
-				<string>lists/reddit.json</string>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
+				<key>triggerid</key>
+				<string>wiki</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
+			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
-			<string>4642EA52-9E56-4575-8892-3FA1929DD81F</string>
+			<string>616E11AF-E559-4994-81C4-BCBBBEE85AB1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>niki wiki</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./alfred-my-mind search "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>nikivi's wiki</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>85C659D0-5703-426F-96FD-178D5699E68A</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "title" : "",
+      "runningsubtext" : "",
+      "subtext" : ""
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>0962E063-3DD4-40BB-AA5D-70B04CAD506B</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1519,19 +1570,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>open</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>9A0F22E9-22A4-4753-BB7A-A4388E40D259</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>inputstring</key>
 				<string>{var:loc}</string>
 				<key>matchcasesensitive</key>
@@ -1595,6 +1633,39 @@ fi</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>492B8F9B-F172-454E-90C6-6AAF5057EC10</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>lists/reddit.json</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>4642EA52-9E56-4575-8892-3FA1929DD81F</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1688,66 +1759,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>wiki</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>616E11AF-E559-4994-81C4-BCBBBEE85AB1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<true/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>niki wiki</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>./alfred-my-mind search "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>nikivi's wiki</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>85C659D0-5703-426F-96FD-178D5699E68A</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>inputstring</key>
 				<string>{var:loc}</string>
 				<key>matchcasesensitive</key>
@@ -1767,30 +1778,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>json</key>
-				<string>{
-  "alfredworkflow" : {
-    "arg" : "{query}",
-    "config" : {
-      "title" : "",
-      "runningsubtext" : "",
-      "subtext" : ""
-    },
-    "variables" : {
-    }
-  }
-}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.json</string>
-			<key>uid</key>
-			<string>0962E063-3DD4-40BB-AA5D-70B04CAD506B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -1804,6 +1791,19 @@ fi</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>8DE830CB-A2E5-4753-BC5F-2FEFA35C469F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>open</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>9A0F22E9-22A4-4753-BB7A-A4388E40D259</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3161,7 +3161,7 @@ fi</string>
 		<key>01EC8E5F-FB95-4935-B116-6EEA6066989F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>840</integer>
+			<integer>1020</integer>
 			<key>ypos</key>
 			<integer>2300</integer>
 		</dict>
@@ -3170,7 +3170,7 @@ fi</string>
 			<key>note</key>
 			<string>answer</string>
 			<key>xpos</key>
-			<integer>990</integer>
+			<integer>1170</integer>
 			<key>ypos</key>
 			<integer>1850</integer>
 		</dict>
@@ -3179,51 +3179,51 @@ fi</string>
 			<key>note</key>
 			<string>stars</string>
 			<key>xpos</key>
-			<integer>970</integer>
+			<integer>1150</integer>
 			<key>ypos</key>
 			<integer>3000</integer>
 		</dict>
 		<key>07C2A72A-44EB-4FA0-94BF-C93DE89CB85D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>620</integer>
+			<integer>800</integer>
 			<key>ypos</key>
 			<integer>700</integer>
 		</dict>
 		<key>07D54374-CFA9-4384-8357-E015810DA113</key>
 		<dict>
 			<key>xpos</key>
-			<integer>940</integer>
+			<integer>1120</integer>
 			<key>ypos</key>
 			<integer>2870</integer>
 		</dict>
 		<key>08B60475-9673-43BF-9A3D-A7A1717B205B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>930</integer>
+			<integer>1110</integer>
 			<key>ypos</key>
 			<integer>1210</integer>
 		</dict>
 		<key>0962E063-3DD4-40BB-AA5D-70B04CAD506B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>170</integer>
 			<key>ypos</key>
-			<integer>590</integer>
+			<integer>230</integer>
 		</dict>
 		<key>0C4B93F3-9F46-479C-9FAF-BF71FBF9236D</key>
 		<dict>
 			<key>note</key>
 			<string>reddit users</string>
 			<key>xpos</key>
-			<integer>440</integer>
+			<integer>620</integer>
 			<key>ypos</key>
 			<integer>3180</integer>
 		</dict>
 		<key>0DE85601-3476-4709-B3E4-75C3823C7C23</key>
 		<dict>
 			<key>xpos</key>
-			<integer>890</integer>
+			<integer>1070</integer>
 			<key>ypos</key>
 			<integer>1710</integer>
 		</dict>
@@ -3232,14 +3232,14 @@ fi</string>
 			<key>note</key>
 			<string>top - month</string>
 			<key>xpos</key>
-			<integer>970</integer>
+			<integer>1150</integer>
 			<key>ypos</key>
 			<integer>3290</integer>
 		</dict>
 		<key>0EB887E1-8A45-4ECE-8BB5-EC856CDBA5A8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>600</integer>
+			<integer>780</integer>
 			<key>ypos</key>
 			<integer>1920</integer>
 		</dict>
@@ -3248,7 +3248,7 @@ fi</string>
 			<key>note</key>
 			<string>stack</string>
 			<key>xpos</key>
-			<integer>460</integer>
+			<integer>640</integer>
 			<key>ypos</key>
 			<integer>1250</integer>
 		</dict>
@@ -3257,21 +3257,21 @@ fi</string>
 			<key>note</key>
 			<string>twitter</string>
 			<key>xpos</key>
-			<integer>470</integer>
+			<integer>650</integer>
 			<key>ypos</key>
 			<integer>680</integer>
 		</dict>
 		<key>11A13B8F-CCA7-4876-A9D1-9AE32179048D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>210</integer>
+			<integer>240</integer>
 			<key>ypos</key>
 			<integer>60</integer>
 		</dict>
 		<key>12F54949-3CFB-44F1-8B81-B9A50D2549F3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1140</integer>
+			<integer>1320</integer>
 			<key>ypos</key>
 			<integer>150</integer>
 		</dict>
@@ -3280,21 +3280,21 @@ fi</string>
 			<key>note</key>
 			<string>personal</string>
 			<key>xpos</key>
-			<integer>470</integer>
+			<integer>650</integer>
 			<key>ypos</key>
 			<integer>570</integer>
 		</dict>
 		<key>14583F72-B5E9-40A3-9790-19593FDE0779</key>
 		<dict>
 			<key>xpos</key>
-			<integer>890</integer>
+			<integer>1070</integer>
 			<key>ypos</key>
 			<integer>3180</integer>
 		</dict>
 		<key>16E1E8A2-735E-46AF-B366-07A41CD26E05</key>
 		<dict>
 			<key>xpos</key>
-			<integer>620</integer>
+			<integer>800</integer>
 			<key>ypos</key>
 			<integer>840</integer>
 		</dict>
@@ -3303,7 +3303,7 @@ fi</string>
 			<key>note</key>
 			<string>top - all time</string>
 			<key>xpos</key>
-			<integer>1000</integer>
+			<integer>1180</integer>
 			<key>ypos</key>
 			<integer>920</integer>
 		</dict>
@@ -3312,7 +3312,7 @@ fi</string>
 			<key>note</key>
 			<string>FAQ</string>
 			<key>xpos</key>
-			<integer>990</integer>
+			<integer>1170</integer>
 			<key>ypos</key>
 			<integer>1990</integer>
 		</dict>
@@ -3321,7 +3321,7 @@ fi</string>
 			<key>note</key>
 			<string>copy JSON</string>
 			<key>xpos</key>
-			<integer>960</integer>
+			<integer>1140</integer>
 			<key>ypos</key>
 			<integer>150</integer>
 		</dict>
@@ -3330,21 +3330,21 @@ fi</string>
 			<key>note</key>
 			<string>new</string>
 			<key>xpos</key>
-			<integer>990</integer>
+			<integer>1170</integer>
 			<key>ypos</key>
 			<integer>2570</integer>
 		</dict>
 		<key>32345A37-5D77-4781-B786-A0A48CB6C4FA</key>
 		<dict>
 			<key>xpos</key>
-			<integer>580</integer>
+			<integer>760</integer>
 			<key>ypos</key>
 			<integer>2850</integer>
 		</dict>
 		<key>36A94F21-C7CF-4B00-A2EA-17D1FE32D81B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>870</integer>
+			<integer>1050</integer>
 			<key>ypos</key>
 			<integer>370</integer>
 		</dict>
@@ -3353,7 +3353,7 @@ fi</string>
 			<key>note</key>
 			<string>top - week</string>
 			<key>xpos</key>
-			<integer>990</integer>
+			<integer>1170</integer>
 			<key>ypos</key>
 			<integer>2700</integer>
 		</dict>
@@ -3362,14 +3362,14 @@ fi</string>
 			<key>note</key>
 			<string>top - all</string>
 			<key>xpos</key>
-			<integer>970</integer>
+			<integer>1150</integer>
 			<key>ypos</key>
 			<integer>3420</integer>
 		</dict>
 		<key>3FD339C0-E135-49F6-B51D-801D1E94706B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>590</integer>
+			<integer>770</integer>
 			<key>ypos</key>
 			<integer>2480</integer>
 		</dict>
@@ -3378,7 +3378,7 @@ fi</string>
 			<key>note</key>
 			<string>most popular</string>
 			<key>xpos</key>
-			<integer>990</integer>
+			<integer>1170</integer>
 			<key>ypos</key>
 			<integer>2280</integer>
 		</dict>
@@ -3387,21 +3387,21 @@ fi</string>
 			<key>note</key>
 			<string>you can also pass through the path to the file here as text to instantly open of the filters</string>
 			<key>xpos</key>
-			<integer>30</integer>
+			<integer>270</integer>
 			<key>ypos</key>
-			<integer>190</integer>
+			<integer>440</integer>
 		</dict>
 		<key>47700CE4-41E0-4150-8181-6941D1D969BF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>910</integer>
+			<integer>1090</integer>
 			<key>ypos</key>
 			<integer>2160</integer>
 		</dict>
 		<key>492B8F9B-F172-454E-90C6-6AAF5057EC10</key>
 		<dict>
 			<key>xpos</key>
-			<integer>630</integer>
+			<integer>810</integer>
 			<key>ypos</key>
 			<integer>400</integer>
 		</dict>
@@ -3410,21 +3410,21 @@ fi</string>
 			<key>note</key>
 			<string>top - past week</string>
 			<key>xpos</key>
-			<integer>1000</integer>
+			<integer>1180</integer>
 			<key>ypos</key>
 			<integer>780</integer>
 		</dict>
 		<key>4D4A0FFB-D390-49D2-AD7B-C91CFFDEC6C4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>920</integer>
+			<integer>1100</integer>
 			<key>ypos</key>
 			<integer>2730</integer>
 		</dict>
 		<key>4FAE6DD2-D73A-41E9-9AD1-7F2F1F983539</key>
 		<dict>
 			<key>xpos</key>
-			<integer>890</integer>
+			<integer>1070</integer>
 			<key>ypos</key>
 			<integer>3320</integer>
 		</dict>
@@ -3438,7 +3438,7 @@ fi</string>
 		<key>512AB236-F69A-4110-A262-09EEA9B29C5B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>910</integer>
+			<integer>1090</integer>
 			<key>ypos</key>
 			<integer>1880</integer>
 		</dict>
@@ -3447,42 +3447,42 @@ fi</string>
 			<key>note</key>
 			<string>youtube</string>
 			<key>xpos</key>
-			<integer>450</integer>
+			<integer>630</integer>
 			<key>ypos</key>
 			<integer>2310</integer>
 		</dict>
 		<key>541FA718-13B1-4BE3-B6D3-11B6DA6D56A7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>900</integer>
+			<integer>1080</integer>
 			<key>ypos</key>
 			<integer>3030</integer>
 		</dict>
 		<key>5DA0C27F-150F-4E58-AF4F-D001B6484D29</key>
 		<dict>
 			<key>xpos</key>
-			<integer>670</integer>
+			<integer>850</integer>
 			<key>ypos</key>
 			<integer>140</integer>
 		</dict>
 		<key>616E11AF-E559-4994-81C4-BCBBBEE85AB1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>30</integer>
+			<integer>20</integer>
 			<key>ypos</key>
-			<integer>560</integer>
+			<integer>200</integer>
 		</dict>
 		<key>62300FC3-1C21-4C66-926A-34B29A90FE51</key>
 		<dict>
 			<key>xpos</key>
-			<integer>580</integer>
+			<integer>760</integer>
 			<key>ypos</key>
 			<integer>3220</integer>
 		</dict>
 		<key>62FDA514-01CB-4D62-8DAE-CBDB12F8A35A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>910</integer>
+			<integer>1090</integer>
 			<key>ypos</key>
 			<integer>2020</integer>
 		</dict>
@@ -3491,21 +3491,21 @@ fi</string>
 			<key>note</key>
 			<string>none of the below</string>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>670</integer>
 			<key>ypos</key>
 			<integer>170</integer>
 		</dict>
 		<key>6740B49C-B05B-4C12-AABC-B519ABA95995</key>
 		<dict>
 			<key>xpos</key>
-			<integer>620</integer>
+			<integer>800</integer>
 			<key>ypos</key>
 			<integer>540</integer>
 		</dict>
 		<key>682A0702-A6C8-455B-AA76-FFE51BCF7008</key>
 		<dict>
 			<key>xpos</key>
-			<integer>910</integer>
+			<integer>1090</integer>
 			<key>ypos</key>
 			<integer>650</integer>
 		</dict>
@@ -3514,21 +3514,21 @@ fi</string>
 			<key>note</key>
 			<string>top - week</string>
 			<key>xpos</key>
-			<integer>1000</integer>
+			<integer>1180</integer>
 			<key>ypos</key>
 			<integer>1310</integer>
 		</dict>
 		<key>7370BC5F-BA83-4E41-B7F7-EE7BE456A72A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>990</integer>
+			<integer>1170</integer>
 			<key>ypos</key>
 			<integer>340</integer>
 		</dict>
 		<key>738A3232-4ABA-43CD-8193-2CCE854DFA6F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>640</integer>
+			<integer>820</integer>
 			<key>ypos</key>
 			<integer>270</integer>
 		</dict>
@@ -3537,7 +3537,7 @@ fi</string>
 			<key>note</key>
 			<string>hot</string>
 			<key>xpos</key>
-			<integer>1000</integer>
+			<integer>1180</integer>
 			<key>ypos</key>
 			<integer>1440</integer>
 		</dict>
@@ -3546,7 +3546,7 @@ fi</string>
 			<key>note</key>
 			<string>tweets &amp; replies</string>
 			<key>xpos</key>
-			<integer>990</integer>
+			<integer>1170</integer>
 			<key>ypos</key>
 			<integer>480</integer>
 		</dict>
@@ -3555,7 +3555,7 @@ fi</string>
 			<key>note</key>
 			<string>reddit multi</string>
 			<key>xpos</key>
-			<integer>450</integer>
+			<integer>630</integer>
 			<key>ypos</key>
 			<integer>2450</integer>
 		</dict>
@@ -3564,7 +3564,7 @@ fi</string>
 			<key>note</key>
 			<string>quora</string>
 			<key>xpos</key>
-			<integer>460</integer>
+			<integer>640</integer>
 			<key>ypos</key>
 			<integer>1880</integer>
 		</dict>
@@ -3573,23 +3573,23 @@ fi</string>
 			<key>note</key>
 			<string>my personal wiki on GitBook</string>
 			<key>xpos</key>
-			<integer>260</integer>
+			<integer>240</integer>
 			<key>ypos</key>
-			<integer>560</integer>
+			<integer>200</integer>
 		</dict>
 		<key>8DE830CB-A2E5-4753-BC5F-2FEFA35C469F</key>
 		<dict>
 			<key>note</key>
 			<string>newest</string>
 			<key>xpos</key>
-			<integer>990</integer>
+			<integer>1170</integer>
 			<key>ypos</key>
 			<integer>620</integer>
 		</dict>
 		<key>9235C46D-11B8-4D5B-9E45-2FD5DB241212</key>
 		<dict>
 			<key>xpos</key>
-			<integer>930</integer>
+			<integer>1110</integer>
 			<key>ypos</key>
 			<integer>810</integer>
 		</dict>
@@ -3598,35 +3598,35 @@ fi</string>
 			<key>note</key>
 			<string>I do it from external trigger and call it from Karabiner 🙂</string>
 			<key>xpos</key>
-			<integer>30</integer>
+			<integer>270</integer>
 			<key>ypos</key>
-			<integer>380</integer>
+			<integer>630</integer>
 		</dict>
 		<key>9C9A8566-4785-4BEA-8149-F1FDBCAC7FE1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>920</integer>
+			<integer>1100</integer>
 			<key>ypos</key>
 			<integer>1470</integer>
 		</dict>
 		<key>9E284991-148C-4392-B977-EC824DDF46A4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>930</integer>
+			<integer>1110</integer>
 			<key>ypos</key>
 			<integer>950</integer>
 		</dict>
 		<key>9E7DAD20-1409-4D72-97AA-ADE32C85DAE8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>930</integer>
+			<integer>1110</integer>
 			<key>ypos</key>
 			<integer>1340</integer>
 		</dict>
 		<key>9F062096-3846-4C20-941D-189420F45D80</key>
 		<dict>
 			<key>xpos</key>
-			<integer>610</integer>
+			<integer>790</integer>
 			<key>ypos</key>
 			<integer>1290</integer>
 		</dict>
@@ -3635,7 +3635,7 @@ fi</string>
 			<key>note</key>
 			<string>book notes</string>
 			<key>xpos</key>
-			<integer>480</integer>
+			<integer>660</integer>
 			<key>ypos</key>
 			<integer>400</integer>
 		</dict>
@@ -3644,7 +3644,7 @@ fi</string>
 			<key>note</key>
 			<string>top - all time</string>
 			<key>xpos</key>
-			<integer>990</integer>
+			<integer>1170</integer>
 			<key>ypos</key>
 			<integer>2430</integer>
 		</dict>
@@ -3653,14 +3653,14 @@ fi</string>
 			<key>note</key>
 			<string>featured</string>
 			<key>xpos</key>
-			<integer>1000</integer>
+			<integer>1180</integer>
 			<key>ypos</key>
 			<integer>1570</integer>
 		</dict>
 		<key>BC21A3DD-D0F4-4950-92B6-DC2B21E0476C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>370</integer>
+			<integer>570</integer>
 			<key>ypos</key>
 			<integer>180</integer>
 		</dict>
@@ -3669,7 +3669,7 @@ fi</string>
 			<key>note</key>
 			<string>top - month</string>
 			<key>xpos</key>
-			<integer>1000</integer>
+			<integer>1180</integer>
 			<key>ypos</key>
 			<integer>1180</integer>
 		</dict>
@@ -3678,7 +3678,7 @@ fi</string>
 			<key>note</key>
 			<string>repos</string>
 			<key>xpos</key>
-			<integer>1010</integer>
+			<integer>1190</integer>
 			<key>ypos</key>
 			<integer>2840</integer>
 		</dict>
@@ -3687,7 +3687,7 @@ fi</string>
 			<key>note</key>
 			<string>wiki</string>
 			<key>xpos</key>
-			<integer>1000</integer>
+			<integer>1180</integer>
 			<key>ypos</key>
 			<integer>1050</integer>
 		</dict>
@@ -3698,14 +3698,14 @@ fi</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>850</integer>
+			<integer>1030</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
 		<key>CCE0056B-B6D9-49BD-A4CA-33E1C46435DD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>930</integer>
+			<integer>1110</integer>
 			<key>ypos</key>
 			<integer>1080</integer>
 		</dict>
@@ -3714,21 +3714,21 @@ fi</string>
 			<key>note</key>
 			<string>tags</string>
 			<key>xpos</key>
-			<integer>990</integer>
+			<integer>1170</integer>
 			<key>ypos</key>
 			<integer>1700</integer>
 		</dict>
 		<key>D190F492-4144-4D30-B274-61E7F3EB5DF0</key>
 		<dict>
 			<key>xpos</key>
-			<integer>920</integer>
+			<integer>1100</integer>
 			<key>ypos</key>
 			<integer>510</integer>
 		</dict>
 		<key>D3B46A61-D49B-4DF0-ABAA-88D9AD545CA0</key>
 		<dict>
 			<key>xpos</key>
-			<integer>590</integer>
+			<integer>770</integer>
 			<key>ypos</key>
 			<integer>2340</integer>
 		</dict>
@@ -3737,7 +3737,7 @@ fi</string>
 			<key>note</key>
 			<string>github users</string>
 			<key>xpos</key>
-			<integer>440</integer>
+			<integer>620</integer>
 			<key>ypos</key>
 			<integer>2810</integer>
 		</dict>
@@ -3746,7 +3746,7 @@ fi</string>
 			<key>note</key>
 			<string>notes</string>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>670</integer>
 			<key>ypos</key>
 			<integer>280</integer>
 		</dict>
@@ -3755,7 +3755,7 @@ fi</string>
 			<key>note</key>
 			<string>top - week</string>
 			<key>xpos</key>
-			<integer>970</integer>
+			<integer>1150</integer>
 			<key>ypos</key>
 			<integer>3150</integer>
 		</dict>
@@ -3773,7 +3773,7 @@ fi</string>
 			<key>note</key>
 			<string>writers</string>
 			<key>xpos</key>
-			<integer>990</integer>
+			<integer>1170</integer>
 			<key>ypos</key>
 			<integer>2130</integer>
 		</dict>
@@ -3782,42 +3782,42 @@ fi</string>
 			<key>note</key>
 			<string>reddit</string>
 			<key>xpos</key>
-			<integer>460</integer>
+			<integer>640</integer>
 			<key>ypos</key>
 			<integer>820</integer>
 		</dict>
 		<key>F2FE7784-F801-4A80-AEB1-B3F6DA829F70</key>
 		<dict>
 			<key>xpos</key>
-			<integer>920</integer>
+			<integer>1100</integer>
 			<key>ypos</key>
 			<integer>2600</integer>
 		</dict>
 		<key>F48977BE-3BC9-4096-8FA7-F98251897B04</key>
 		<dict>
 			<key>xpos</key>
-			<integer>920</integer>
+			<integer>1100</integer>
 			<key>ypos</key>
 			<integer>2460</integer>
 		</dict>
 		<key>F651C0E9-8983-4C36-8D3E-AF223B032B3A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>900</integer>
+			<integer>1080</integer>
 			<key>ypos</key>
 			<integer>1600</integer>
 		</dict>
 		<key>FBCBD8C6-7F59-4E6B-8478-BB7088A7AFA2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>890</integer>
+			<integer>1070</integer>
 			<key>ypos</key>
 			<integer>3450</integer>
 		</dict>
 		<key>FE4970C3-7BD4-462E-BB8E-D6247DB9B99E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>30</integer>
+			<integer>20</integer>
 			<key>ypos</key>
 			<integer>60</integer>
 		</dict>

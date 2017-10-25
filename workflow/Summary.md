@@ -1,4 +1,4 @@
-* [Introduction](readme.md)
+* [Introduction]()
 * [meta](meta/meta.md)
 	* [my mind](meta/my-mind.md)
 	* [abbreviations](meta/abbreviations.md)
