@@ -4,8 +4,8 @@ import (
 	"log"
 	"os/exec"
 
-	"git.deanishe.net/deanishe/awgo"
-	"git.deanishe.net/deanishe/awgo/update"
+	"github.com/deanishe/awgo"
+	"github.com/deanishe/awgo/update"
 	"github.com/docopt/docopt-go"
 )
 
@@ -19,9 +19,9 @@ var usage = `alfred-my-mind [search|check] [<query>]
 Access notes, wiki and more
 
 Usage:
-	alfred-web-searches search [<query>]
-	alfred-web-searches check
-    alfred-web-searches -h
+	alfred-my-mind search [<query>]
+	alfred-my-mind check
+    alfred-my-mind -h
 
 Options:
     -h, --help    Show this message and exit.
@@ -31,7 +31,7 @@ var (
 	// icons
 	iconAvailable = &aw.Icon{Value: "icons/update.png"}
 
-	repo = "nikitavoloboev/alfred-web-searches"
+	repo = "nikitavoloboev/alfred-my-mind"
 	wf   *aw.Workflow
 )
 
@@ -65,7 +65,7 @@ func run() {
 	// check job isn't already running.
 	if wf.UpdateCheckDue() && !aw.IsRunning(updateJobName) {
 		log.Println("running update check in background...")
-		cmd := exec.Command("./alfred-web-searches", "check")
+		cmd := exec.Command("./alfred-my-mind", "check")
 		if err := aw.RunInBackground(updateJobName, cmd); err != nil {
 			log.Printf("error starting update check: %s", err)
 		}
