@@ -190,6 +190,16 @@
 				<key>vitoclose</key>
 				<true/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2892EFB1-8BDC-4823-B026-5D4CF0728AC1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>13B68EA2-E52C-4BD6-A95D-2D7E24C81EB9</key>
 		<array>
@@ -266,6 +276,19 @@
 				<integer>8388608</integer>
 				<key>modifiersubtext</key>
 				<string>wiki</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2892EFB1-8BDC-4823-B026-5D4CF0728AC1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B4A011FD-D4D4-4157-9D32-7AC693CB1414</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -843,6 +866,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>B4A011FD-D4D4-4157-9D32-7AC693CB1414</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0962E063-3DD4-40BB-AA5D-70B04CAD506B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>BC21A3DD-D0F4-4950-92B6-DC2B21E0476C</key>
 		<array>
 			<dict>
@@ -1243,9 +1279,9 @@ fi</string>
 				<key>fixedorder</key>
 				<true/>
 				<key>items</key>
-				<string>[{"title":"blogs","arg":"lists\/blogs.json"},{"title":"books","arg":"lists\/books.json"},{"title":"courses","arg":"lists\/courses.json"},{"title":"github users","arg":"lists\/github-users.json"},{"title":"humans","arg":"lists\/humans.json"},{"title":"images","arg":"lists\/images.json"},{"title":"la blogs","arg":"lists\/la-blogs.json"},{"title":"articles","arg":"lists\/articles.json"},{"title":"personal","arg":"lists\/personal.json"},{"title":"quora","arg":"lists\/quora.json"},{"title":"reddit","arg":"lists\/reddit.json"},{"title":"research papers","arg":"lists\/research-papers.json"},{"title":"twitter","arg":"lists\/twitter.json"},{"title":"web","arg":"lists\/web.json"},{"title":"profiles","arg":"lists\/profiles.json"},{"title":"github","arg":"lists\/github.json"},{"title":"reddit users","arg":"lists\/reddit-users.json"},{"title":"recent","arg":"lists\/recent.json"},{"title":"podcasts","arg":"lists\/podcasts.json"},{"title":"cli","arg":"lists\/cli.json"},{"title":"games","arg":"lists\/games.json"},{"title":"documentaries","arg":"lists\/documentaries.json"},{"title":"gists","arg":"lists\/gists.json"},{"title":"pinboard","arg":"lists\/pinboard.json"},{"title":"macOS apps","arg":"lists\/macos-apps.json"},{"title":"movies","arg":"lists\/movies.json"},{"title":"newsletters","arg":"lists\/newsletters.json"},{"title":"codepen","arg":"lists\/codepen.json"},{"title":"alfred workflows","arg":"lists\/alfred.json"},{"title":"other gists","arg":"lists\/other-gists.json"},{"title":"series","arg":"lists\/series.json"},{"title":"stack","arg":"lists\/stack.json"},{"title":"talks","arg":"lists\/talks.json"},{"title":"other youtube","arg":"lists\/other-youtube.json"},{"title":"artists","arg":"lists\/artists.json"},{"title":"music playlists","arg":"lists\/music-playlists.json"},{"title":"notes","arg":"lists\/notes.json"},{"title":"la","arg":"lists\/la.json"},{"title":"mentions","arg":"lists\/mentions.json"},{"title":"slack","arg":"lists\/slack.json"},{"title":"instagram","arg":"lists\/instagram.json"},{"title":"devian art","arg":"lists\/devian-art.json"},{"title":"other articles","arg":"lists\/other-articles.json"},{"title":"github trending","arg":"lists\/github-trending.json"},{"title":"reddit multis","arg":"lists\/reddit-multi.json"},{"title":"explain shell","arg":"lists\/explain-shell.json"},{"title":"book notes","arg":"lists\/book-notes.json"},{"title":"stack tags","arg":"lists\/stack-tags.json"},{"title":"gitter","arg":"lists\/gitter.json"},{"title":"youtube","arg":"lists\/my-youtube.json"},{"title":"knowledge bases","arg":"lists\/knowledge-bases.json","subtitle":""},{"title":"discord","arg":"lists\/discord.json"},{"title":"wiki","arg":"lists\/wiki.json"}]</string>
+				<string>[{"title":"blogs","arg":"lists\/blogs.json"},{"title":"books","arg":"lists\/books.json"},{"title":"courses","arg":"lists\/courses.json"},{"title":"github users","arg":"lists\/github-users.json"},{"title":"humans","arg":"lists\/humans.json"},{"title":"images","arg":"lists\/images.json"},{"title":"la blogs","arg":"lists\/la-blogs.json"},{"title":"articles","arg":"lists\/articles.json"},{"title":"personal","arg":"lists\/personal.json"},{"title":"quora","arg":"lists\/quora.json"},{"title":"reddit","arg":"lists\/reddit.json"},{"title":"research papers","arg":"lists\/research-papers.json"},{"title":"twitter","arg":"lists\/twitter.json"},{"title":"web","arg":"lists\/web.json"},{"title":"profiles","arg":"lists\/profiles.json"},{"title":"github","arg":"lists\/github.json"},{"title":"reddit users","arg":"lists\/reddit-users.json"},{"title":"recent","arg":"lists\/recent.json"},{"title":"podcasts","arg":"lists\/podcasts.json"},{"title":"cli","arg":"lists\/cli.json"},{"title":"games","arg":"lists\/games.json"},{"title":"documentaries","arg":"lists\/documentaries.json"},{"title":"gists","arg":"lists\/gists.json"},{"title":"pinboard","arg":"lists\/pinboard.json"},{"title":"macOS apps","arg":"lists\/macos-apps.json"},{"title":"movies","arg":"lists\/movies.json"},{"title":"newsletters","arg":"lists\/newsletters.json"},{"title":"codepen","arg":"lists\/codepen.json"},{"title":"alfred workflows","arg":"lists\/alfred.json"},{"title":"other gists","arg":"lists\/other-gists.json"},{"title":"series","arg":"lists\/series.json"},{"title":"stack","arg":"lists\/stack.json"},{"title":"talks","arg":"lists\/talks.json"},{"title":"other youtube","arg":"lists\/other-youtube.json"},{"title":"artists","arg":"lists\/artists.json"},{"title":"music playlists","arg":"lists\/music-playlists.json"},{"title":"notes","arg":"lists\/notes.json"},{"title":"la","arg":"lists\/la.json"},{"title":"mentions","arg":"lists\/mentions.json"},{"title":"slack","arg":"lists\/slack.json"},{"title":"instagram","arg":"lists\/instagram.json"},{"title":"devian art","arg":"lists\/devian-art.json"},{"title":"other articles","arg":"lists\/other-articles.json"},{"title":"github trending","arg":"lists\/github-trending.json"},{"title":"reddit multis","arg":"lists\/reddit-multi.json"},{"title":"explain shell","arg":"lists\/explain-shell.json"},{"title":"book notes","arg":"lists\/book-notes.json"},{"title":"stack tags","arg":"lists\/stack-tags.json"},{"title":"gitter","arg":"lists\/gitter.json"},{"title":"youtube","arg":"lists\/my-youtube.json"},{"title":"knowledge bases","arg":"lists\/knowledge-bases.json","subtitle":""},{"title":"discord","arg":"lists\/discord.json"},{"title":"wiki","arg":"wiki"}]</string>
 				<key>keyword</key>
-				<string>inside</string>
+				<string>niki</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
@@ -1390,6 +1426,93 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>inputstring</key>
+				<string>{var:loc}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>wiki</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>B4A011FD-D4D4-4157-9D32-7AC693CB1414</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict>
+					<key>loc</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2892EFB1-8BDC-4823-B026-5D4CF0728AC1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>cat $loc
+
+
+
+
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>738A3232-4ABA-43CD-8193-2CCE854DFA6F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>triggerid</key>
 				<string>wiki</string>
 			</dict>
@@ -1450,6 +1573,25 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>inputstring</key>
+				<string>{var:loc}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>lists/notes.json</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>DB2A05C3-1D1F-456A-B00C-AD31B546F0B4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>json</key>
 				<string>{
   "alfredworkflow" : {
@@ -1468,75 +1610,6 @@ fi</string>
 			<string>alfred.workflow.utility.json</string>
 			<key>uid</key>
 			<string>0962E063-3DD4-40BB-AA5D-70B04CAD506B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<true/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>cat $loc
-
-
-
-
-</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>738A3232-4ABA-43CD-8193-2CCE854DFA6F</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{var:loc}</string>
-				<key>matchcasesensitive</key>
-				<true/>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>lists/notes.json</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>DB2A05C3-1D1F-456A-B00C-AD31B546F0B4</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3207,9 +3280,9 @@ fi</string>
 		<key>0962E063-3DD4-40BB-AA5D-70B04CAD506B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>170</integer>
+			<integer>210</integer>
 			<key>ypos</key>
-			<integer>230</integer>
+			<integer>300</integer>
 		</dict>
 		<key>0C4B93F3-9F46-479C-9FAF-BF71FBF9236D</key>
 		<dict>
@@ -3297,6 +3370,13 @@ fi</string>
 			<integer>800</integer>
 			<key>ypos</key>
 			<integer>840</integer>
+		</dict>
+		<key>2892EFB1-8BDC-4823-B026-5D4CF0728AC1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>190</integer>
 		</dict>
 		<key>2AEB2758-9D4F-46B3-9866-F6CC8B67CD0A</key>
 		<dict>
@@ -3468,9 +3548,9 @@ fi</string>
 		<key>616E11AF-E559-4994-81C4-BCBBBEE85AB1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>20</integer>
+			<integer>60</integer>
 			<key>ypos</key>
-			<integer>200</integer>
+			<integer>270</integer>
 		</dict>
 		<key>62300FC3-1C21-4C66-926A-34B29A90FE51</key>
 		<dict>
@@ -3573,9 +3653,9 @@ fi</string>
 			<key>note</key>
 			<string>my personal wiki on GitBook</string>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>280</integer>
 			<key>ypos</key>
-			<integer>200</integer>
+			<integer>270</integer>
 		</dict>
 		<key>8DE830CB-A2E5-4753-BC5F-2FEFA35C469F</key>
 		<dict>
@@ -3638,6 +3718,13 @@ fi</string>
 			<integer>660</integer>
 			<key>ypos</key>
 			<integer>400</integer>
+		</dict>
+		<key>B4A011FD-D4D4-4157-9D32-7AC693CB1414</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>190</integer>
 		</dict>
 		<key>BB488B7C-4FF6-458D-A506-FD2D87B465D1</key>
 		<dict>
@@ -3817,13 +3904,13 @@ fi</string>
 		<key>FE4970C3-7BD4-462E-BB8E-D6247DB9B99E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>20</integer>
+			<integer>60</integer>
 			<key>ypos</key>
 			<integer>60</integer>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.2</string>
+	<string>1.0.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-my-mind</string>
 </dict>
