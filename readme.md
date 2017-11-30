@@ -14,14 +14,14 @@ My goals with sharing both this workflow and my [wiki knowledge base](https://ni
 ## Install
 Download the workflow from [GitHub releases](https://github.com/nikitavoloboev/alfred-my-mind/releases/latest).
 
-## Contributing
-This workflow heavily leverages curated lists from [Learn Anything](https://learn-anything.xyz/) that can be found [here](https://github.com/learn-anything). You can contribute directly to those lists so everyone benefits. 
-
-In the future, I hope to expose certain lists as CSV files that all can contribute and add to similar to [Web Searches workflow](https://github.com/nikitavoloboev/alfred-web-searches).
-
 ### Small Demo 
 
 <img src="media/demo.gif" width="500" alt="img">
+
+## Contribute
+This workflow heavily leverages curated lists from [Learn Anything](https://learn-anything.xyz/) that can be found [here](https://github.com/learn-anything). You can contribute directly to those lists so everyone benefits. 
+
+In the future, I hope to expose certain lists as CSV files that all can contribute and add to similar to [Web Searches workflow](https://github.com/nikitavoloboev/alfred-web-searches).
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. 

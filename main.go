@@ -74,7 +74,7 @@ func run() {
 	if query == "" { // Only show update status if query is empty
 		// Send update status to Alfred
 		if wf.UpdateAvailable() {
-			wf.NewItem("update available!").
+			wf.NewItem("Update Available!").
 				Subtitle("↩ to install").
 				Autocomplete("workflow:update").
 				Valid(false).

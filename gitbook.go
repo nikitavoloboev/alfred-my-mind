@@ -9,6 +9,7 @@ import (
 )
 
 // parseSummary parses GitBook Summary.md file
+// TODO: add special case for Introduction (one entry)
 func parseSummary() {
 	bytes, _ := ioutil.ReadFile("Summary.md")
 
