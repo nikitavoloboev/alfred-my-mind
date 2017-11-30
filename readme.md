@@ -18,7 +18,7 @@ Download the workflow from [GitHub releases](https://github.com/nikitavoloboev/a
 
 <img src="media/demo.gif" width="500" alt="img">
 
-## Contribute
+## Contributing
 This workflow heavily leverages curated lists from [Learn Anything](https://learn-anything.xyz/) that can be found [here](https://github.com/learn-anything). You can contribute directly to those lists so everyone benefits. 
 
 In the future, I hope to expose certain lists as CSV files that all can contribute and add to similar to [Web Searches workflow](https://github.com/nikitavoloboev/alfred-web-searches).
