@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>nikivi.mind</string>
 	<key>category</key>
-	<string>mine</string>
+	<string>Mine</string>
 	<key>connections</key>
 	<dict>
 		<key>01EC8E5F-FB95-4935-B116-6EEA6066989F</key>
@@ -62,19 +62,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>BD69D35F-F488-4674-B5B6-E39903A588E2</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>0962E063-3DD4-40BB-AA5D-70B04CAD506B</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>85C659D0-5703-426F-96FD-178D5699E68A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -395,19 +382,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>4642EA52-9E56-4575-8892-3FA1929DD81F</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>BC21A3DD-D0F4-4950-92B6-DC2B21E0476C</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>47700CE4-41E0-4150-8181-6941D1D969BF</key>
 		<array>
 			<dict>
@@ -462,19 +436,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>0EA1F5D8-BABE-46C0-8B53-34DA0CB942BD</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>5120A3A0-9B9C-4817-A151-4A49C4154EF2</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>E7E422D5-3682-4884-8B6E-3C1B2D5D51A9</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -549,7 +510,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0962E063-3DD4-40BB-AA5D-70B04CAD506B</string>
+				<string>85C659D0-5703-426F-96FD-178D5699E68A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -870,7 +831,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0962E063-3DD4-40BB-AA5D-70B04CAD506B</string>
+				<string>85C659D0-5703-426F-96FD-178D5699E68A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1174,10 +1135,10 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>readonly remote_info_plist='https://raw.githubusercontent.com/nikitavoloboev/alfred-my-mind/master/info.plist'
+				<string>readonly remote_info_plist='https://raw.githubusercontent.com/nikitavoloboev/alfred-my-mind/master/workflow/info.plist'
 readonly workflow_url='nikitavoloboev/alfred-my-mind'
 readonly download_type='github_release'
-readonly frequency_check='6'
+readonly frequency_check='4'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING!
 function abort {
@@ -1281,13 +1242,13 @@ fi</string>
 				<key>items</key>
 				<string>[{"title":"blogs","arg":"lists\/blogs.json"},{"title":"books","arg":"lists\/books.json"},{"title":"courses","arg":"lists\/courses.json"},{"title":"github users","arg":"lists\/github-users.json"},{"title":"humans","arg":"lists\/humans.json"},{"title":"images","arg":"lists\/images.json"},{"title":"la blogs","arg":"lists\/la-blogs.json"},{"title":"articles","arg":"lists\/articles.json"},{"title":"personal","arg":"lists\/personal.json"},{"title":"quora","arg":"lists\/quora.json"},{"title":"reddit","arg":"lists\/reddit.json"},{"title":"research papers","arg":"lists\/research-papers.json"},{"title":"twitter","arg":"lists\/twitter.json"},{"title":"web","arg":"lists\/web.json"},{"title":"profiles","arg":"lists\/profiles.json"},{"title":"github","arg":"lists\/github.json"},{"title":"reddit users","arg":"lists\/reddit-users.json"},{"title":"recent","arg":"lists\/recent.json"},{"title":"podcasts","arg":"lists\/podcasts.json"},{"title":"cli","arg":"lists\/cli.json"},{"title":"games","arg":"lists\/games.json"},{"title":"documentaries","arg":"lists\/documentaries.json"},{"title":"gists","arg":"lists\/gists.json"},{"title":"pinboard","arg":"lists\/pinboard.json"},{"title":"macOS apps","arg":"lists\/macos-apps.json"},{"title":"movies","arg":"lists\/movies.json"},{"title":"newsletters","arg":"lists\/newsletters.json"},{"title":"codepen","arg":"lists\/codepen.json"},{"title":"alfred workflows","arg":"lists\/alfred.json"},{"title":"other gists","arg":"lists\/other-gists.json"},{"title":"series","arg":"lists\/series.json"},{"title":"stack","arg":"lists\/stack.json"},{"title":"talks","arg":"lists\/talks.json"},{"title":"other youtube","arg":"lists\/other-youtube.json"},{"title":"artists","arg":"lists\/artists.json"},{"title":"music playlists","arg":"lists\/music-playlists.json"},{"title":"notes","arg":"lists\/notes.json"},{"title":"la","arg":"lists\/la.json"},{"title":"mentions","arg":"lists\/mentions.json"},{"title":"slack","arg":"lists\/slack.json"},{"title":"instagram","arg":"lists\/instagram.json"},{"title":"devian art","arg":"lists\/devian-art.json"},{"title":"other articles","arg":"lists\/other-articles.json"},{"title":"github trending","arg":"lists\/github-trending.json"},{"title":"reddit multis","arg":"lists\/reddit-multi.json"},{"title":"explain shell","arg":"lists\/explain-shell.json"},{"title":"book notes","arg":"lists\/book-notes.json"},{"title":"stack tags","arg":"lists\/stack-tags.json"},{"title":"gitter","arg":"lists\/gitter.json"},{"title":"youtube","arg":"lists\/my-youtube.json"},{"title":"knowledge bases","arg":"lists\/knowledge-bases.json","subtitle":""},{"title":"discord","arg":"lists\/discord.json"},{"title":"wiki","arg":"wiki"}]</string>
 				<key>keyword</key>
-				<string>niki</string>
+				<string>mind</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>notes, bookmarks, blogs</string>
+				<string>Search Nikita's mind</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1537,7 +1498,7 @@ fi</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>niki wiki</string>
+				<string>wiki</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -1557,7 +1518,7 @@ fi</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>nikivi's wiki</string>
+				<string>Nikita Voloboev's wiki</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -1586,30 +1547,6 @@ fi</string>
 			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
 			<string>DB2A05C3-1D1F-456A-B00C-AD31B546F0B4</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>json</key>
-				<string>{
-  "alfredworkflow" : {
-    "arg" : "{query}",
-    "config" : {
-      "title" : "",
-      "runningsubtext" : "",
-      "subtext" : ""
-    },
-    "variables" : {
-    }
-  }
-}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.json</string>
-			<key>uid</key>
-			<string>0962E063-3DD4-40BB-AA5D-70B04CAD506B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1712,35 +1649,15 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>3</integer>
-				<key>argumenttext</key>
-				<string>lists/reddit.json</string>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
+				<key>triggerid</key>
+				<string>open</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
+			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
-			<string>4642EA52-9E56-4575-8892-3FA1929DD81F</string>
+			<string>9A0F22E9-22A4-4753-BB7A-A4388E40D259</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1864,19 +1781,6 @@ fi</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>8DE830CB-A2E5-4753-BC5F-2FEFA35C469F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>open</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>9A0F22E9-22A4-4753-BB7A-A4388E40D259</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2109,42 +2013,6 @@ fi</string>
 			<string>9E284991-148C-4392-B977-EC824DDF46A4</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>updateMind</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>5120A3A0-9B9C-4817-A151-4A49C4154EF2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>bash update.sh</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>E7E422D5-3682-4884-8B6E-3C1B2D5D51A9</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3277,13 +3145,6 @@ fi</string>
 			<key>ypos</key>
 			<integer>1210</integer>
 		</dict>
-		<key>0962E063-3DD4-40BB-AA5D-70B04CAD506B</key>
-		<dict>
-			<key>xpos</key>
-			<integer>210</integer>
-			<key>ypos</key>
-			<integer>300</integer>
-		</dict>
 		<key>0C4B93F3-9F46-479C-9FAF-BF71FBF9236D</key>
 		<dict>
 			<key>note</key>
@@ -3374,9 +3235,9 @@ fi</string>
 		<key>2892EFB1-8BDC-4823-B026-5D4CF0728AC1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>370</integer>
 			<key>ypos</key>
-			<integer>190</integer>
+			<integer>200</integer>
 		</dict>
 		<key>2AEB2758-9D4F-46B3-9866-F6CC8B67CD0A</key>
 		<dict>
@@ -3462,15 +3323,6 @@ fi</string>
 			<key>ypos</key>
 			<integer>2280</integer>
 		</dict>
-		<key>4642EA52-9E56-4575-8892-3FA1929DD81F</key>
-		<dict>
-			<key>note</key>
-			<string>you can also pass through the path to the file here as text to instantly open of the filters</string>
-			<key>xpos</key>
-			<integer>270</integer>
-			<key>ypos</key>
-			<integer>440</integer>
-		</dict>
 		<key>47700CE4-41E0-4150-8181-6941D1D969BF</key>
 		<dict>
 			<key>xpos</key>
@@ -3507,13 +3359,6 @@ fi</string>
 			<integer>1070</integer>
 			<key>ypos</key>
 			<integer>3320</integer>
-		</dict>
-		<key>5120A3A0-9B9C-4817-A151-4A49C4154EF2</key>
-		<dict>
-			<key>xpos</key>
-			<integer>30</integer>
-			<key>ypos</key>
-			<integer>950</integer>
 		</dict>
 		<key>512AB236-F69A-4110-A262-09EEA9B29C5B</key>
 		<dict>
@@ -3651,9 +3496,9 @@ fi</string>
 		<key>85C659D0-5703-426F-96FD-178D5699E68A</key>
 		<dict>
 			<key>note</key>
-			<string>my personal wiki on GitBook</string>
+			<string>My personal wiki on GitBook</string>
 			<key>xpos</key>
-			<integer>280</integer>
+			<integer>250</integer>
 			<key>ypos</key>
 			<integer>270</integer>
 		</dict>
@@ -3676,11 +3521,11 @@ fi</string>
 		<key>9A0F22E9-22A4-4753-BB7A-A4388E40D259</key>
 		<dict>
 			<key>note</key>
-			<string>I do it from external trigger and call it from Karabiner 🙂</string>
+			<string>I call this trigger from Karabiner and pass in the list I want to open</string>
 			<key>xpos</key>
-			<integer>270</integer>
+			<integer>290</integer>
 			<key>ypos</key>
-			<integer>630</integer>
+			<integer>430</integer>
 		</dict>
 		<key>9C9A8566-4785-4BEA-8149-F1FDBCAC7FE1</key>
 		<dict>
@@ -3722,9 +3567,9 @@ fi</string>
 		<key>B4A011FD-D4D4-4157-9D32-7AC693CB1414</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>440</integer>
 			<key>ypos</key>
-			<integer>190</integer>
+			<integer>200</integer>
 		</dict>
 		<key>BB488B7C-4FF6-458D-A506-FD2D87B465D1</key>
 		<dict>
@@ -3846,15 +3691,6 @@ fi</string>
 			<key>ypos</key>
 			<integer>3150</integer>
 		</dict>
-		<key>E7E422D5-3682-4884-8B6E-3C1B2D5D51A9</key>
-		<dict>
-			<key>note</key>
-			<string>not working yet :(</string>
-			<key>xpos</key>
-			<integer>180</integer>
-			<key>ypos</key>
-			<integer>950</integer>
-		</dict>
 		<key>EA65AC0D-8F16-4915-B989-1E40EE20A2FF</key>
 		<dict>
 			<key>note</key>
@@ -3910,7 +3746,7 @@ fi</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.3</string>
+	<string>1.0.4</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-my-mind</string>
 </dict>
