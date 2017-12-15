@@ -19,12 +19,12 @@ Download the workflow from [GitHub releases](https://github.com/nikitavoloboev/a
 <img src="media/demo.gif" width="500" alt="img">
 
 ## Contributing
+[Suggestions](https://github.com/nikitavoloboev/alfred-my-mind/issues) and pull requests are highly encouraged!
+
 This workflow heavily leverages curated lists from [Learn Anything](https://learn-anything.xyz/) that can be found [here](https://github.com/learn-anything). You can contribute directly to those lists so everyone benefits. 
 
-You can also look into [issues](https://github.com/nikitavoloboev/alfred-my-mind/issues) and see if anything sparks your interest or [add ideas of your own](https://github.com/nikitavoloboev/alfred-my-mind/issues/new).
-
 ## Thank you 💜
-You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. 
+You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. 
 
 ## License
 MIT © [Nikita Voloboev](https://www.nikitavoloboev.xyz)
