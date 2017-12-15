@@ -1240,7 +1240,7 @@ fi</string>
 				<key>fixedorder</key>
 				<true/>
 				<key>items</key>
-				<string>[{"title":"blogs","arg":"lists\/blogs.json"},{"title":"books","arg":"lists\/books.json"},{"title":"courses","arg":"lists\/courses.json"},{"title":"github users","arg":"lists\/github-users.json"},{"title":"humans","arg":"lists\/humans.json"},{"title":"images","arg":"lists\/images.json"},{"title":"la blogs","arg":"lists\/la-blogs.json"},{"title":"articles","arg":"lists\/articles.json"},{"title":"personal","arg":"lists\/personal.json"},{"title":"quora","arg":"lists\/quora.json"},{"title":"reddit","arg":"lists\/reddit.json"},{"title":"research papers","arg":"lists\/research-papers.json"},{"title":"twitter","arg":"lists\/twitter.json"},{"title":"web","arg":"lists\/web.json"},{"title":"profiles","arg":"lists\/profiles.json"},{"title":"github","arg":"lists\/github.json"},{"title":"reddit users","arg":"lists\/reddit-users.json"},{"title":"recent","arg":"lists\/recent.json"},{"title":"podcasts","arg":"lists\/podcasts.json"},{"title":"cli","arg":"lists\/cli.json"},{"title":"games","arg":"lists\/games.json"},{"title":"documentaries","arg":"lists\/documentaries.json"},{"title":"gists","arg":"lists\/gists.json"},{"title":"pinboard","arg":"lists\/pinboard.json"},{"title":"macOS apps","arg":"lists\/macos-apps.json"},{"title":"movies","arg":"lists\/movies.json"},{"title":"newsletters","arg":"lists\/newsletters.json"},{"title":"codepen","arg":"lists\/codepen.json"},{"title":"alfred workflows","arg":"lists\/alfred.json"},{"title":"other gists","arg":"lists\/other-gists.json"},{"title":"series","arg":"lists\/series.json"},{"title":"stack","arg":"lists\/stack.json"},{"title":"talks","arg":"lists\/talks.json"},{"title":"other youtube","arg":"lists\/other-youtube.json"},{"title":"artists","arg":"lists\/artists.json"},{"title":"music playlists","arg":"lists\/music-playlists.json"},{"title":"notes","arg":"lists\/notes.json"},{"title":"la","arg":"lists\/la.json"},{"title":"mentions","arg":"lists\/mentions.json"},{"title":"slack","arg":"lists\/slack.json"},{"title":"instagram","arg":"lists\/instagram.json"},{"title":"devian art","arg":"lists\/devian-art.json"},{"title":"other articles","arg":"lists\/other-articles.json"},{"title":"github trending","arg":"lists\/github-trending.json"},{"title":"reddit multis","arg":"lists\/reddit-multi.json"},{"title":"explain shell","arg":"lists\/explain-shell.json"},{"title":"book notes","arg":"lists\/book-notes.json"},{"title":"stack tags","arg":"lists\/stack-tags.json"},{"title":"gitter","arg":"lists\/gitter.json"},{"title":"youtube","arg":"lists\/my-youtube.json"},{"title":"knowledge bases","arg":"lists\/knowledge-bases.json","subtitle":""},{"title":"discord","arg":"lists\/discord.json"},{"title":"wiki","arg":"wiki"}]</string>
+				<string>[{"title":"Blogs","arg":"lists\/blogs.json"},{"title":"Books","arg":"lists\/books.json"},{"title":"Courses","arg":"lists\/courses.json"},{"title":"GitHub users","arg":"lists\/github-users.json"},{"title":"Humans","arg":"lists\/humans.json"},{"title":"Images","arg":"lists\/images.json"},{"title":"LA Blogs","arg":"lists\/la-blogs.json"},{"title":"Articles","arg":"lists\/articles.json"},{"title":"Personal","arg":"lists\/personal.json"},{"title":"Quora","arg":"lists\/quora.json"},{"title":"Reddit","arg":"lists\/reddit.json"},{"title":"Research papers","arg":"lists\/research-papers.json"},{"title":"Twitter","arg":"lists\/twitter.json"},{"title":"Web","arg":"lists\/web.json"},{"title":"Profiles","arg":"lists\/profiles.json"},{"title":"GitHub","arg":"lists\/github.json"},{"title":"Reddit users","arg":"lists\/reddit-users.json"},{"title":"Recent","arg":"lists\/recent.json"},{"title":"Podcasts","arg":"lists\/podcasts.json"},{"title":"CLI","arg":"lists\/cli.json"},{"title":"Games","arg":"lists\/games.json"},{"title":"Documentaries","arg":"lists\/documentaries.json"},{"title":"Gists","arg":"lists\/gists.json"},{"title":"Pinboard","arg":"lists\/pinboard.json"},{"title":"macOS apps","arg":"lists\/macos-apps.json"},{"title":"Movies","arg":"lists\/movies.json"},{"title":"Newsletters","arg":"lists\/newsletters.json"},{"title":"Codepen","arg":"lists\/codepen.json"},{"title":"Alfred workflows","arg":"lists\/alfred.json"},{"title":"Other gists","arg":"lists\/other-gists.json"},{"title":"Series","arg":"lists\/series.json"},{"title":"Stack","arg":"lists\/stack.json"},{"title":"Talks","arg":"lists\/talks.json"},{"title":"Other youtube","arg":"lists\/other-youtube.json"},{"title":"Artists","arg":"lists\/artists.json"},{"title":"Music playlists","arg":"lists\/music-playlists.json"},{"title":"Notes","arg":"lists\/notes.json"},{"title":"LA","arg":"lists\/la.json"},{"title":"Mentions","arg":"lists\/mentions.json"},{"title":"Slack","arg":"lists\/slack.json"},{"title":"Instagram","arg":"lists\/instagram.json"},{"title":"Devian Art","arg":"lists\/devian-art.json"},{"title":"Other articles","arg":"lists\/other-articles.json"},{"title":"GitHub trending","arg":"lists\/github-trending.json"},{"title":"Reddit multis","arg":"lists\/reddit-multi.json"},{"title":"Explain shell","arg":"lists\/explain-shell.json"},{"title":"Book notes","arg":"lists\/book-notes.json"},{"title":"Stack tags","arg":"lists\/stack-tags.json"},{"title":"Gitter","arg":"lists\/gitter.json"},{"title":"YouTube","arg":"lists\/my-youtube.json"},{"title":"Knowledge bases","arg":"lists\/knowledge-bases.json","subtitle":""},{"title":"Discord","arg":"lists\/discord.json"},{"title":"Wiki","arg":"wiki"}]</string>
 				<key>keyword</key>
 				<string>mind</string>
 				<key>runningsubtext</key>
@@ -1474,66 +1474,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>wiki</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>616E11AF-E559-4994-81C4-BCBBBEE85AB1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<true/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>wiki</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>./alfred-my-mind search "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Nikita Voloboev's wiki</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>85C659D0-5703-426F-96FD-178D5699E68A</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>inputstring</key>
 				<string>{var:loc}</string>
 				<key>matchcasesensitive</key>
@@ -1566,6 +1506,19 @@ fi</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>7370BC5F-BA83-4E41-B7F7-EE7BE456A72A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>open</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>9A0F22E9-22A4-4753-BB7A-A4388E40D259</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1650,12 +1603,12 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>open</string>
+				<string>wiki</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
-			<string>9A0F22E9-22A4-4753-BB7A-A4388E40D259</string>
+			<string>616E11AF-E559-4994-81C4-BCBBBEE85AB1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1677,6 +1630,53 @@ fi</string>
 			<string>75DB201F-9934-4D28-8E85-14BCBA66C559</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>wiki</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./alfred-my-mind search "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Nikita Voloboev's wiki</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>85C659D0-5703-426F-96FD-178D5699E68A</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3198,7 +3198,7 @@ fi</string>
 		<key>11A13B8F-CCA7-4876-A9D1-9AE32179048D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>210</integer>
 			<key>ypos</key>
 			<integer>60</integer>
 		</dict>
@@ -3393,9 +3393,9 @@ fi</string>
 		<key>616E11AF-E559-4994-81C4-BCBBBEE85AB1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>60</integer>
+			<integer>190</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>480</integer>
 		</dict>
 		<key>62300FC3-1C21-4C66-926A-34B29A90FE51</key>
 		<dict>
@@ -3498,9 +3498,9 @@ fi</string>
 			<key>note</key>
 			<string>My personal wiki on GitBook</string>
 			<key>xpos</key>
-			<integer>250</integer>
+			<integer>380</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>480</integer>
 		</dict>
 		<key>8DE830CB-A2E5-4753-BC5F-2FEFA35C469F</key>
 		<dict>
@@ -3520,12 +3520,10 @@ fi</string>
 		</dict>
 		<key>9A0F22E9-22A4-4753-BB7A-A4388E40D259</key>
 		<dict>
-			<key>note</key>
-			<string>I call this trigger from Karabiner and pass in the list I want to open</string>
 			<key>xpos</key>
-			<integer>290</integer>
+			<integer>190</integer>
 			<key>ypos</key>
-			<integer>430</integer>
+			<integer>360</integer>
 		</dict>
 		<key>9C9A8566-4785-4BEA-8149-F1FDBCAC7FE1</key>
 		<dict>
@@ -3746,7 +3744,7 @@ fi</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.4</string>
+	<string>1.0.5</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-my-mind</string>
 </dict>
