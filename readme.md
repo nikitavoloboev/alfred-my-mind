@@ -3,9 +3,9 @@
 
 <img src="http://i.imgur.com/4wvJNy6.png" width="500" alt="img">
 
-You can read why this workflow exists [here](https://nikitavoloboev.gitbooks.io/knowledge/content/meta/my-mind.html). 
+You can read why this workflow exists [here](https://medium.com/@NikitaVoloboev/opening-up-my-mind-%EF%B8%8F-575c8ece8a24). 
 
-Essentially you can search through entirety of [my wiki](https://nikitavoloboev.gitbooks.io/knowledge/content/), all of [my mind maps](https://my.mindnode.com/myLVaRLKytoTYBLshxGzzb75MN9cyGHbQBgaVVPp#323.6,381.4,3) which include super fast access to various books, courses, blogs, research papers, reddit subreddits, stack exchange sites and more that I use to move and learn things faster.
+Essentially you can search through entirety of [my wiki](https://nikitavoloboev.gitbooks.io/knowledge/content/), all of [my mind maps](https://nikitavoloboev.gitbooks.io/knowledge/content/meta/my-mind.html) which include super fast access to various books, courses, blogs, research papers, reddit subreddits, stack exchange sites and more that I use to move and learn things faster.
 
 As this workflow is focused and optimised for fast access to all the knowledge and references I have indexed. It would make sense to read through the wiki I made and maintain [here](https://nikitavoloboev.gitbooks.io/knowledge/content/) first.
 
