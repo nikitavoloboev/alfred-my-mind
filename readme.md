@@ -23,6 +23,13 @@ Download the workflow from [GitHub releases](https://github.com/nikitavoloboev/a
 
 This workflow heavily leverages curated lists from [Learn Anything](https://learn-anything.xyz/) that can be found [here](https://github.com/learn-anything/learn-anything/wiki/Curated-Lists). You can contribute directly to those lists so everyone benefits. 
 
+## Developing
+If you want to add features and things to the workflow. I advise you to install [this Alfred CLI tool](https://godoc.org/github.com/jason0x43/go-alfred/alfred) by running:
+
+`go install github.com/jason0x43/go-alfred/alfred`
+
+You can then make your changes to the code and then run `alfred build` inside this repo to build the go binary to `workflow` directory. Which you can then use from Alfred script filters.
+
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. 
 
