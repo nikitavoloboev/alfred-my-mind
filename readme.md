@@ -5,11 +5,11 @@
 
 You can read why this workflow exists [here](https://medium.com/@NikitaVoloboev/opening-up-my-mind-%EF%B8%8F-575c8ece8a24). 
 
-Essentially you can search through entirety of [my wiki](https://nikitavoloboev.gitbooks.io/knowledge/content/), all of [my mind maps](https://nikitavoloboev.gitbooks.io/knowledge/content/meta/my-mind.html) which include super fast access to various books, courses, blogs, research papers, reddit subreddits, stack exchange sites and more that I use to move and learn things faster.
+Essentially you can search through entirety of [my wiki](https://wiki.nikitavoloboev.xyz), all of [my mind maps](https://wiki.nikitavoloboev.xyz/meta/my-mind.html) which include super fast access to various books, courses, blogs, research papers, reddit subreddits, stack exchange sites and more that I use to move and learn things faster.
 
-As this workflow is focused and optimised for fast access to all the knowledge and references I have indexed. It would make sense to read through the wiki I made and maintain [here](https://nikitavoloboev.gitbooks.io/knowledge/content/) first.
+As this workflow is focused and optimised for fast access to all the knowledge and references I have indexed. It would make sense to read through the wiki I made and maintain [here](https://wiki.nikitavoloboev.xyz) first.
 
-My goals with sharing both this workflow and my [wiki knowledge base](https://nikitavoloboev.gitbooks.io/knowledge/content/) is to extend my idea of [knowledge bootstrapping](https://medium.com/@NikitaVoloboev/knowledge-bootstrapping-36c97e0dee19#.udmp9eotg) and tapping into a person's expertise in the most transparent way possible.
+My goals with sharing both this workflow and my [wiki knowledge base](https://wiki.nikitavoloboev.xyz) is to extend my idea of [knowledge bootstrapping](https://medium.com/@NikitaVoloboev/knowledge-bootstrapping-36c97e0dee19#.udmp9eotg) and tapping into a person's expertise in the most transparent way possible.
 
 ## Installing
 Download the workflow from [GitHub releases](https://github.com/nikitavoloboev/alfred-my-mind/releases/latest).

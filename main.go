@@ -16,7 +16,7 @@ const updateJobName = "checkForUpdate"
 
 var usage = `alfred-my-mind [search|check] [<query>]
 
-Access notes, wiki and more
+Access notes, wiki and more.
 
 Usage:
 	alfred-my-mind search [<query>]
@@ -28,7 +28,7 @@ Options:
 `
 
 var (
-	// icons
+	// Icons
 	iconAvailable = &aw.Icon{Value: "icons/update.png"}
 
 	repo = "nikitavoloboev/alfred-my-mind"
@@ -44,7 +44,7 @@ func run() {
 	// AwGo's magic actions.
 	args, _ := docopt.Parse(usage, wf.Args(), true, wf.Version(), false, true)
 
-	// alternate action: get available releases from remote
+	// Alternate action: get available releases from remote
 	if args["check"] != false {
 		wf.TextErrors = true
 		log.Println("checking for updates...")
