@@ -32,6 +32,7 @@ You can then run `alfred link` inside this repo you cloned. This will make a sym
 
 You can then make your changes to the code and after run `alfred build` to build the go binary to `workflow` directory. Which you can then use from inside Alfred [script filters](https://www.alfredapp.com/help/workflows/inputs/script-filter/).
 
+## Credits
 The workflow is built using [Deanishe](https://github.com/deanishe)'s amazing [AwGo](https://github.com/deanishe/awgo) library.
 
 ## Thank you 💜
