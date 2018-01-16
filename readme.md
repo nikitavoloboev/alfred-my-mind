@@ -3,11 +3,11 @@
 
 <img src="http://i.imgur.com/4wvJNy6.png" width="500" alt="img">
 
-This workflow lets you search through entirety of [my personal wiki](https://wiki.nikitavoloboev.xyz), [all the articles](https://my.mindnode.com/qVGMak6nNCFxh5YxUGR3z6RKrmVNP6sr1Pk721FB#136.3,-676.8,0) I wrote and [GitHub repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0), as well as [GitHub Gists](https://gist.github.com/nikitavoloboev) I share and a lot more.
+This workflow lets you search through entirety of [my personal wiki](https://wiki.nikitavoloboev.xyz), [all the articles](https://wiki.nikitavoloboev.xyz/sharing/my-articles.html) I wrote, [GitHub repositories](https://wiki.nikitavoloboev.xyz/sharing/my-github.html) I made as well as [GitHub Gists](https://gist.github.com/nikitavoloboev) I share and a lot more.
 
 You can read why I made the workflow [here](https://medium.com/@NikitaVoloboev/opening-up-my-mind-%EF%B8%8F-575c8ece8a24).
 
-As this workflow is focused and optimised for fast access to all the knowledge and references I have indexed. It is advised you read through some parts of my [here](https://wiki.nikitavoloboev.xyz) first.
+As this workflow is focused and optimised for fast access to all the knowledge and references I have indexed. It is advised you read through some parts of my wiki [here](https://wiki.nikitavoloboev.xyz) first.
 
 My goals with sharing both this workflow and my [wiki knowledge base](https://wiki.nikitavoloboev.xyz) is to extend my idea of [knowledge bootstrapping](https://medium.com/@NikitaVoloboev/knowledge-bootstrapping-36c97e0dee19#.udmp9eotg) and tapping into a person's expertise in the most transparent way possible.
 
