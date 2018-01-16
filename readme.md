@@ -7,7 +7,7 @@ This workflow lets you search through entirety of [my personal wiki](https://wik
 
 You can read why I made the workflow [here](https://medium.com/@NikitaVoloboev/opening-up-my-mind-%EF%B8%8F-575c8ece8a24).
 
-As this workflow is focused and optimised for fast access to all the knowledge and references I have indexed. It is adised you read through some parts of my [here](https://wiki.nikitavoloboev.xyz) first.
+As this workflow is focused and optimised for fast access to all the knowledge and references I have indexed. It is advised you read through some parts of my [here](https://wiki.nikitavoloboev.xyz) first.
 
 My goals with sharing both this workflow and my [wiki knowledge base](https://wiki.nikitavoloboev.xyz) is to extend my idea of [knowledge bootstrapping](https://medium.com/@NikitaVoloboev/knowledge-bootstrapping-36c97e0dee19#.udmp9eotg) and tapping into a person's expertise in the most transparent way possible.
 
