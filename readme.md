@@ -19,21 +19,21 @@ Download the workflow from [GitHub releases](../../releases/latest).
 <img src="media/demo.gif" width="500" alt="img">
 
 ## Contributing
-[Suggestions](https://github.com/nikitavoloboev/alfred-my-mind/issues) and pull requests are highly encouraged!
+[Suggestions](../../issues/) and pull requests are highly encouraged!
 
-This workflow heavily leverages curated lists from [Learn Anything](https://learn-anything.xyz/) that can be found [here](https://github.com/learn-anything/learn-anything/wiki/Curated-Lists). You can contribute directly to those lists so everyone benefits.
+This workflow heavily leverages curated lists from [Learn Anything](https://learn-anything.xyz) that can be found [here](https://github.com/learn-anything/learn-anything/wiki/Curated-Lists). You can contribute directly to those lists so everyone benefits.
 
 ## Developing
 If you want to add features and things to the workflow. It is best to use [this Alfred CLI tool](https://godoc.org/github.com/jason0x43/go-alfred/alfred) which you can install by running:
 
 `go install github.com/jason0x43/go-alfred/alfred`
 
-You can then run `alfred link` inside this repo you cloned. This will make a symbolic link of the [`workflow`](workflow) directory.
+You can then clone this repo and run `alfred link` inside it. This will make a symbolic link of the [`workflow`](workflow) directory.
 
-You can then make your changes to the code and after run `alfred build` to build the go binary to `workflow` directory. Which you can then use from inside Alfred [script filters](https://www.alfredapp.com/help/workflows/inputs/script-filter/).
+You can then make changes to the code and after run `alfred build` to build the go binary to `workflow` directory. Which you can then use from inside Alfred [script filters](https://www.alfredapp.com/help/workflows/inputs/script-filter/).
 
 ## Credits
-The workflow is built using [Deanishe](https://github.com/deanishe)'s amazing [AwGo](https://github.com/deanishe/awgo) library.
+The workflow uses [AwGo](https://github.com/deanishe/awgo) library for all the workflow related things.
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
