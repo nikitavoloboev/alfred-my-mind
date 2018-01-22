@@ -33,7 +33,7 @@ You can then clone this repo and run `alfred link` inside it. This will make a s
 You can then make changes to the code and after run `alfred build` to build the go binary to `workflow` directory. Which you can then use from inside Alfred [script filters](https://www.alfredapp.com/help/workflows/inputs/script-filter/).
 
 ## Credits
-The workflow uses [AwGo](https://github.com/deanishe/awgo) library for all the workflow related things.
+The workflow uses [AwGo](https://github.com/deanishe/awgo) library for all the Alfred related things.
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
