@@ -1138,7 +1138,7 @@
 				<string>readonly remote_info_plist='https://raw.githubusercontent.com/nikitavoloboev/alfred-my-mind/master/workflow/info.plist'
 readonly workflow_url='nikitavoloboev/alfred-my-mind'
 readonly download_type='github_release'
-readonly frequency_check='0'
+readonly frequency_check='4'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING!
 function abort {
@@ -1216,27 +1216,6 @@ fi</string>
 			<string>C8B0059D-1C98-4872-A9C9-09052CDDFDAE</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string></string>
-				<key>title</key>
-				<string>Hello</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>F2701A48-ADA9-4CF3-8B76-5E27CF238F6D</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3730,13 +3709,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>820</integer>
 		</dict>
-		<key>F2701A48-ADA9-4CF3-8B76-5E27CF238F6D</key>
-		<dict>
-			<key>xpos</key>
-			<integer>860</integer>
-			<key>ypos</key>
-			<integer>20</integer>
-		</dict>
 		<key>F2FE7784-F801-4A80-AEB1-B3F6DA829F70</key>
 		<dict>
 			<key>xpos</key>
@@ -3774,7 +3746,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.7</string>
+	<string>1.0.6</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-my-mind</string>
 </dict>
