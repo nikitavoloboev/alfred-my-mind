@@ -1118,7 +1118,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Nikita Voloboev &lt;nikita.voloboev@icloud.com&gt;</string>
+	<string>Nikita Voloboev</string>
 	<key>description</key>
 	<string>Alfred interface to my mind maps and notes</string>
 	<key>disabled</key>
@@ -1138,7 +1138,7 @@
 				<string>readonly remote_info_plist='https://raw.githubusercontent.com/nikitavoloboev/alfred-my-mind/master/workflow/info.plist'
 readonly workflow_url='nikitavoloboev/alfred-my-mind'
 readonly download_type='github_release'
-readonly frequency_check='4'
+readonly frequency_check='0'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING!
 function abort {
@@ -1220,6 +1220,27 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>Hello</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>F2701A48-ADA9-4CF3-8B76-5E27CF238F6D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>triggerid</key>
 				<string>inside</string>
 			</dict>
@@ -1240,7 +1261,7 @@ fi</string>
 				<key>fixedorder</key>
 				<true/>
 				<key>items</key>
-				<string>[{"title":"Blogs","arg":"lists\/blogs.json"},{"title":"Books","arg":"lists\/books.json"},{"title":"Courses","arg":"lists\/courses.json"},{"title":"GitHub users","arg":"lists\/github-users.json"},{"title":"Humans","arg":"lists\/humans.json"},{"title":"Images","arg":"lists\/images.json"},{"title":"LA Blogs","arg":"lists\/la-blogs.json"},{"title":"Articles","arg":"lists\/articles.json"},{"title":"Personal","arg":"lists\/personal.json"},{"title":"Quora","arg":"lists\/quora.json"},{"title":"Reddit","arg":"lists\/reddit.json"},{"title":"Research papers","arg":"lists\/research-papers.json"},{"title":"Twitter","arg":"lists\/twitter.json"},{"title":"Web","arg":"lists\/web.json"},{"title":"Profiles","arg":"lists\/profiles.json"},{"title":"GitHub","arg":"lists\/github.json"},{"title":"Reddit users","arg":"lists\/reddit-users.json"},{"title":"Recent","arg":"lists\/recent.json"},{"title":"Podcasts","arg":"lists\/podcasts.json"},{"title":"CLI","arg":"lists\/cli.json"},{"title":"Games","arg":"lists\/games.json"},{"title":"Documentaries","arg":"lists\/documentaries.json"},{"title":"Gists","arg":"lists\/gists.json"},{"title":"Pinboard","arg":"lists\/pinboard.json"},{"title":"macOS apps","arg":"lists\/macos-apps.json"},{"title":"Movies","arg":"lists\/movies.json"},{"title":"Newsletters","arg":"lists\/newsletters.json"},{"title":"Codepen","arg":"lists\/codepen.json"},{"title":"Alfred workflows","arg":"lists\/alfred.json"},{"title":"Other gists","arg":"lists\/other-gists.json"},{"title":"Series","arg":"lists\/series.json"},{"title":"Stack","arg":"lists\/stack.json"},{"title":"Talks","arg":"lists\/talks.json"},{"title":"Other youtube","arg":"lists\/other-youtube.json"},{"title":"Artists","arg":"lists\/artists.json"},{"title":"Music playlists","arg":"lists\/music-playlists.json"},{"title":"Notes","arg":"lists\/notes.json"},{"title":"LA","arg":"lists\/la.json"},{"title":"Mentions","arg":"lists\/mentions.json"},{"title":"Slack","arg":"lists\/slack.json"},{"title":"Instagram","arg":"lists\/instagram.json"},{"title":"Devian Art","arg":"lists\/devian-art.json"},{"title":"Other articles","arg":"lists\/other-articles.json"},{"title":"GitHub trending","arg":"lists\/github-trending.json"},{"title":"Reddit multis","arg":"lists\/reddit-multi.json"},{"title":"Explain shell","arg":"lists\/explain-shell.json"},{"title":"Book notes","arg":"lists\/book-notes.json"},{"title":"Stack tags","arg":"lists\/stack-tags.json"},{"title":"Gitter","arg":"lists\/gitter.json"},{"title":"YouTube","arg":"lists\/my-youtube.json"},{"title":"Knowledge bases","arg":"lists\/knowledge-bases.json","subtitle":""},{"title":"Discord","arg":"lists\/discord.json"},{"title":"Wiki","arg":"wiki"}]</string>
+				<string>[{"title":"Blogs","arg":"lists\/blogs.json"},{"title":"Books","arg":"lists\/books.json"},{"title":"Courses","arg":"lists\/courses.json"},{"title":"GitHub users","arg":"lists\/github-users.json"},{"title":"Humans","arg":"lists\/humans.json"},{"title":"Articles","arg":"lists\/articles.json"},{"title":"Personal","arg":"lists\/personal.json"},{"title":"Quora","arg":"lists\/quora.json"},{"title":"Reddit","arg":"lists\/reddit.json"},{"title":"Research papers","arg":"lists\/research-papers.json"},{"title":"Twitter","arg":"lists\/twitter.json"},{"title":"Web","arg":"lists\/web.json"},{"title":"Profiles","arg":"lists\/profiles.json"},{"title":"GitHub","arg":"lists\/github.json"},{"title":"Reddit users","arg":"lists\/reddit-users.json"},{"title":"Recent","arg":"lists\/recent.json"},{"title":"Podcasts","arg":"lists\/podcasts.json"},{"title":"CLI","arg":"lists\/cli.json"},{"title":"Games","arg":"lists\/games.json"},{"title":"Documentaries","arg":"lists\/documentaries.json"},{"title":"Gists","arg":"lists\/gists.json"},{"title":"Pinboard","arg":"lists\/pinboard.json"},{"title":"macOS apps","arg":"lists\/macos-apps.json"},{"title":"Movies","arg":"lists\/movies.json"},{"title":"Newsletters","arg":"lists\/newsletters.json"},{"title":"Codepen","arg":"lists\/codepen.json"},{"title":"Alfred workflows","arg":"lists\/alfred.json"},{"title":"Other gists","arg":"lists\/other-gists.json"},{"title":"Series","arg":"lists\/series.json"},{"title":"Stack","arg":"lists\/stack.json"},{"title":"Talks","arg":"lists\/talks.json"},{"title":"Other youtube","arg":"lists\/other-youtube.json"},{"title":"Artists","arg":"lists\/artists.json"},{"title":"Music playlists","arg":"lists\/music-playlists.json"},{"title":"Notes","arg":"lists\/notes.json"},{"title":"LA","arg":"lists\/la.json"},{"title":"Mentions","arg":"lists\/mentions.json"},{"title":"Slack","arg":"lists\/slack.json"},{"title":"Instagram","arg":"lists\/instagram.json"},{"title":"Devian Art","arg":"lists\/devian-art.json"},{"title":"Other articles","arg":"lists\/other-articles.json"},{"title":"GitHub trending","arg":"lists\/github-trending.json"},{"title":"Reddit multis","arg":"lists\/reddit-multi.json"},{"title":"Explain shell","arg":"lists\/explain-shell.json"},{"title":"Book notes","arg":"lists\/book-notes.json"},{"title":"Stack tags","arg":"lists\/stack-tags.json"},{"title":"Gitter","arg":"lists\/gitter.json"},{"title":"YouTube","arg":"lists\/my-youtube.json"},{"title":"Knowledge bases","arg":"lists\/knowledge-bases.json","subtitle":""},{"title":"Discord","arg":"lists\/discord.json"},{"title":"Wiki","arg":"wiki"}]</string>
 				<key>keyword</key>
 				<string>mind</string>
 				<key>runningsubtext</key>
@@ -3096,7 +3117,9 @@ fi</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
+
+Post any issues and feature requests you have there. 💜</string>
 	<key>uidata</key>
 	<dict>
 		<key>01EC8E5F-FB95-4935-B116-6EEA6066989F</key>
@@ -3628,7 +3651,7 @@ fi</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>1030</integer>
+			<integer>1150</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
@@ -3707,6 +3730,13 @@ fi</string>
 			<key>ypos</key>
 			<integer>820</integer>
 		</dict>
+		<key>F2701A48-ADA9-4CF3-8B76-5E27CF238F6D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>860</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
 		<key>F2FE7784-F801-4A80-AEB1-B3F6DA829F70</key>
 		<dict>
 			<key>xpos</key>
@@ -3744,7 +3774,7 @@ fi</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.6</string>
+	<string>1.0.7</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-my-mind</string>
 </dict>

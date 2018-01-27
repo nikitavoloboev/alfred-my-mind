@@ -9,7 +9,7 @@ import (
 )
 
 // parseSummary parses GitBook Summary.md file
-// TODO: add special case for Introduction (one entry)
+// TODO: Add special case for Introduction (one entry)
 func parseSummary() {
 	bytes, _ := ioutil.ReadFile("Summary.md")
 
@@ -18,7 +18,7 @@ func parseSummary() {
 	re1 := regexp.MustCompile(`(.md)`)
 
 	// Read string line by line and apply regex
-	// TODO: add error check
+	// TODO: add map error check
 	scanner := bufio.NewScanner(strings.NewReader(string(bytes)))
 	for scanner.Scan() {
 		matches := re.FindAllStringSubmatch(scanner.Text(), -1)
