@@ -1138,7 +1138,7 @@
 				<string>readonly remote_info_plist='https://raw.githubusercontent.com/nikitavoloboev/alfred-my-mind/master/workflow/info.plist'
 readonly workflow_url='nikitavoloboev/alfred-my-mind'
 readonly download_type='github_release'
-readonly frequency_check='0'
+readonly frequency_check='4'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING!
 function abort {
@@ -3746,7 +3746,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.7</string>
+	<string>1.0.8</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-my-mind</string>
 </dict>
