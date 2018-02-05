@@ -21,7 +21,7 @@ Download the workflow from [GitHub releases](../../releases/latest).
 ## Contributing
 [Suggestions](../../issues/) and pull requests are highly encouraged!
 
-This workflow heavily leverages curated lists from [Learn Anything](https://learn-anything.xyz) that can be found [here](https://github.com/learn-anything/learn-anything/wiki/Curated-Lists). You can contribute directly to those lists so everyone benefits.
+This workflow heavily leverages [curated lists](https://github.com/learn-anything/learn-anything/wiki/Curated-Lists) from [Learn Anything](https://learn-anything.xyz). You can contribute directly to those lists so everyone benefits.
 
 ## Developing
 If you want to add features and things to the workflow. It is best to use [this Alfred CLI tool](https://godoc.org/github.com/jason0x43/go-alfred/alfred) which you can install by running:
