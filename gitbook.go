@@ -1,4 +1,4 @@
-// Package gitbook contains helper functions to parse GitBook summaries
+// Package gitbook contains helper functions to parse GitBook summaries.
 package main
 
 import (
