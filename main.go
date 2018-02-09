@@ -1,95 +1,77 @@
 package main
 
 import (
-	"log"
-	"os/exec"
+	"fmt"
 
+	"github.com/alecthomas/kingpin"
 	"github.com/deanishe/awgo"
 	"github.com/deanishe/awgo/update"
-	"github.com/docopt/docopt-go"
 )
-
-// TODO: don't use docopt
-
-// Name of the background job that checks for updates
-const updateJobName = "checkForUpdate"
-
-var usage = `alfred-my-mind [search|check] [<query>]
-
-Access notes, wiki and more.
-
-Usage:
-	alfred-my-mind search [<query>]
-	alfred-my-mind check
-    alfred-my-mind -h
-
-Options:
-    -h, --help    Show this message and exit.
-`
 
 var (
 	// Icons
-	iconAvailable = &aw.Icon{Value: "icons/update.png"}
+	updateAvailable = &aw.Icon{Value: "icons/update-available.png"}
+
+	// Kingpin and script options
+	app *kingpin.Application
+
+	// Application commands
+	searchCmd *kingpin.CmdClause
+	updateCmd *kingpin.CmdClause
+
+	query string
 
 	repo = "nikitavoloboev/alfred-my-mind"
-	wf   *aw.Workflow
+
+	// Workflow stuff
+	wf *aw.Workflow
 )
 
+// Mostly sets up kingpin commands
 func init() {
-	wf = aw.New(update.GitHub(repo))
+	wf = aw.New(update.GitHub(repo), aw.HelpURL(repo+"/issues"))
+
+	app = kingpin.New("ask", "Search my notes.")
+
+	// Update command
+	updateCmd = app.Command("update", "Check for new version.").Alias("u")
+
+	// Commands using query
+	searchCmd = app.Command("search", "Search websites.").Alias("s")
+
+	// Common options
+	for _, cmd := range []*kingpin.CmdClause{
+		searchCmd,
+	} {
+		cmd.Flag("query", "Search query.").Short('q').StringVar(&query)
+	}
 }
 
 func run() {
-	// Pass wf.Args() to docopt because update logic relies on
-	// AwGo's magic actions.
-	args, _ := docopt.Parse(usage, wf.Args(), true, wf.Version(), false, true)
+	var err error
 
-	// Alternate action: get available releases from remote
-	if args["check"] != false {
-		wf.TextErrors = true
-		log.Println("checking for updates...")
-		if err := wf.CheckForUpdate(); err != nil {
-			wf.FatalError(err)
-		}
-		return
+	cmd, err := app.Parse(wf.Args())
+	if err != nil {
+		wf.FatalError(err)
 	}
 
-	var query string
-	if args["<query>"] != nil {
-		query = args["<query>"].(string)
+	switch cmd {
+	case searchCmd.FullCommand():
+		err = doSearch()
+	case updateCmd.FullCommand():
+		err = doUpdate()
+	default:
+		err = fmt.Errorf("Uknown command: %s", cmd)
 	}
 
-	log.Printf("query=%s", query)
-
-	// call self with "check" command if an update is due and a
-	// check job isn't already running.
-	if wf.UpdateCheckDue() && !aw.IsRunning(updateJobName) {
-		log.Println("running update check in background...")
-		cmd := exec.Command("./alfred-my-mind", "check")
-		if err := aw.RunInBackground(updateJobName, cmd); err != nil {
-			log.Printf("error starting update check: %s", err)
-		}
+	// Check for update
+	if err == nil && cmd != updateCmd.FullCommand() {
+		err = checkForUpdate()
 	}
 
-	if query == "" { // Only show update status if query is empty
-		// Send update status to Alfred
-		if wf.UpdateAvailable() {
-			wf.NewItem("Update Available!").
-				Subtitle("↩ to install").
-				Autocomplete("workflow:update").
-				Valid(false).
-				Icon(iconAvailable)
-		}
+	if err != nil {
+		wf.FatalError(err)
 	}
-
-	parseSummary()
-
-	if query != "" {
-		wf.Filter(query)
-	}
-
-	wf.WarnEmpty("No matching items", "Try a different query?")
-	wf.SendFeedback()
 }
 
 func main() {

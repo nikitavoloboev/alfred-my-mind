@@ -1493,6 +1493,19 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>triggerid</key>
+				<string>open</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>9A0F22E9-22A4-4753-BB7A-A4388E40D259</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -1506,19 +1519,6 @@ fi</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>7370BC5F-BA83-4E41-B7F7-EE7BE456A72A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>open</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>9A0F22E9-22A4-4753-BB7A-A4388E40D259</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1655,9 +1655,9 @@ fi</string>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Loading...</string>
 				<key>script</key>
-				<string>./alfred-my-mind search "$1"</string>
+				<string>./alfred-my-mind search -q "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -3522,10 +3522,12 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 		<key>9A0F22E9-22A4-4753-BB7A-A4388E40D259</key>
 		<dict>
+			<key>note</key>
+			<string>I call this trigger with Karabiner and pass in a specific file as argument like "lists/reddit.json"</string>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>360</integer>
+			<integer>300</integer>
 		</dict>
 		<key>9C9A8566-4785-4BEA-8149-F1FDBCAC7FE1</key>
 		<dict>

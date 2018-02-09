@@ -4,9 +4,27 @@ package main
 import (
 	"bufio"
 	"io/ioutil"
+	"log"
 	"regexp"
 	"strings"
 )
+
+func doSearch() error {
+	showUpdateStatus()
+
+	log.Printf("query=%s", query)
+
+	parseSummary()
+
+	if query != "" {
+		wf.Filter(query)
+	}
+
+	wf.WarnEmpty("No matching items", "Try a different query?")
+	wf.SendFeedback()
+
+	return nil
+}
 
 // parseSummary parses GitBook Summary.md file
 // TODO: Add special case for Introduction (one entry)
