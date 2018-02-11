@@ -1,7 +1,7 @@
 # Contributing
 Thank you for wanting to make the workflow better. You can:
 - Make suggestions and file bugs in [Issues](../../issues/).
-- Fix issues and add features to the workflow with [Pull Requests](../../pulls/).
+- Fix issues and add features with [Pull Requests](../../pulls/).
 
 ## Dependencies
 The workflow is written in [Go language](https://golang.org/) and uses [AwGo](https://github.com/deanishe/awgo) library for all the Alfred related things.
