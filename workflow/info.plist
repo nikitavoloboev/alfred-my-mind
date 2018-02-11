@@ -1042,7 +1042,7 @@
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>inside</string>
+				<string>mind</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -3086,7 +3086,7 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>5DA0C27F-150F-4E58-AF4F-D001B6484D29</key>
 		<dict>
 			<key>xpos</key>
-			<integer>840</integer>
+			<integer>800</integer>
 			<key>ypos</key>
 			<integer>20</integer>
 		</dict>
