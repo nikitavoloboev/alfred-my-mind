@@ -19,7 +19,7 @@ Download the workflow from [GitHub releases](../../releases/latest).
 <img src="media/demo.gif" width="500" alt="img">
 
 ## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+Contributions are welcome! See [contribution guidelines](CONTRIBUTING.md#contributing).
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
