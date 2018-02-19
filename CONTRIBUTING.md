@@ -1,5 +1,5 @@
 # Contributing
-Thank you for wanting to make the workflow better. You can:
+Thank you for wanting to make *Alfred My Mind* better. You can:
 - Make suggestions and file bugs in [Issues](../../issues/).
 - Fix issues and add features with [Pull Requests](../../pulls/).
 
