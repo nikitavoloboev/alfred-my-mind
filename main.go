@@ -16,8 +16,8 @@ var (
 	app *kingpin.Application
 
 	// Application commands
-	searchCmd *kingpin.CmdClause
-	updateCmd *kingpin.CmdClause
+	searchWikiCmd *kingpin.CmdClause
+	updateCmd     *kingpin.CmdClause
 
 	query string
 
@@ -37,11 +37,11 @@ func init() {
 	updateCmd = app.Command("update", "Check for new version.").Alias("u")
 
 	// Commands using query
-	searchCmd = app.Command("search", "Search websites.").Alias("s")
+	searchWikiCmd = app.Command("search", "Search websites.").Alias("s")
 
 	// Common options
 	for _, cmd := range []*kingpin.CmdClause{
-		searchCmd,
+		searchWikiCmd,
 	} {
 		cmd.Flag("query", "Search query.").Short('q').StringVar(&query)
 	}
@@ -56,8 +56,8 @@ func run() {
 	}
 
 	switch cmd {
-	case searchCmd.FullCommand():
-		err = doSearch()
+	case searchWikiCmd.FullCommand():
+		err = doSearchWiki()
 	case updateCmd.FullCommand():
 		err = doUpdate()
 	default:

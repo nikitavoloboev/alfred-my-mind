@@ -1,5 +1,5 @@
-# Contributing
-Thank you for wanting to make Alfred My Mind better. You can:
+# Contributing to Alfred My Mind
+There are many ways you can contribute. You can:
 - Make suggestions and file bugs in [Issues](../../issues/).
 - Fix issues and add features with [Pull Requests](../../pulls/).
 

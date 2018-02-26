@@ -1,4 +1,4 @@
-# Alfred My Mind🎗 [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows#amazing-alfred-workflows-) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
+# Alfred My Mind [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows#readme) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
 > [Alfred](https://www.alfredapp.com/) workflow to search through my notes and bookmarks on the web
 
 <img src="https://i.imgur.com/ucqqcsT.png" width="500" alt="img">
@@ -19,7 +19,7 @@ Download the workflow from [GitHub releases](../../releases/latest).
 <img src="media/demo.gif" width="500" alt="img">
 
 ## Contributing
-See [contribution guidelines](CONTRIBUTING.md#contributing).
+See [contribution guidelines](CONTRIBUTING.md#readme).
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
