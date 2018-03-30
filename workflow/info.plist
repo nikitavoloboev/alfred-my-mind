@@ -1063,7 +1063,7 @@
 				<key>items</key>
 				<string>[{"title":"Blogs","arg":"lists\/blogs.json"},{"title":"Books","arg":"lists\/books.json"},{"title":"Courses","arg":"lists\/courses.json"},{"title":"GitHub users","arg":"lists\/github-users.json"},{"title":"Humans","arg":"lists\/humans.json"},{"title":"Articles","arg":"lists\/articles.json"},{"title":"Personal","arg":"lists\/personal.json"},{"title":"Quora","arg":"lists\/quora.json"},{"title":"Reddit","arg":"lists\/reddit.json"},{"title":"Research papers","arg":"lists\/research-papers.json"},{"title":"Twitter","arg":"lists\/twitter.json"},{"title":"Web","arg":"lists\/web.json"},{"title":"Profiles","arg":"lists\/profiles.json"},{"title":"GitHub","arg":"lists\/github.json"},{"title":"Reddit users","arg":"lists\/reddit-users.json"},{"title":"Recent","arg":"lists\/recent.json"},{"title":"Podcasts","arg":"lists\/podcasts.json"},{"title":"CLI","arg":"lists\/cli.json"},{"title":"Games","arg":"lists\/games.json"},{"title":"Documentaries","arg":"lists\/documentaries.json"},{"title":"Gists","arg":"lists\/gists.json"},{"title":"Pinboard","arg":"lists\/pinboard.json"},{"title":"macOS apps","arg":"lists\/macos-apps.json"},{"title":"Movies","arg":"lists\/movies.json"},{"title":"Newsletters","arg":"lists\/newsletters.json"},{"title":"Codepen","arg":"lists\/codepen.json"},{"title":"Alfred workflows","arg":"lists\/alfred.json"},{"title":"Other gists","arg":"lists\/other-gists.json"},{"title":"Series","arg":"lists\/series.json"},{"title":"Stack","arg":"lists\/stack.json"},{"title":"Talks","arg":"lists\/talks.json"},{"title":"Other youtube","arg":"lists\/other-youtube.json"},{"title":"Artists","arg":"lists\/artists.json"},{"title":"Music playlists","arg":"lists\/music-playlists.json"},{"title":"Notes","arg":"lists\/notes.json"},{"title":"LA","arg":"lists\/la.json"},{"title":"Mentions","arg":"lists\/mentions.json"},{"title":"Slack","arg":"lists\/slack.json"},{"title":"Instagram","arg":"lists\/instagram.json"},{"title":"Devian Art","arg":"lists\/devian-art.json"},{"title":"Other articles","arg":"lists\/other-articles.json"},{"title":"GitHub trending","arg":"lists\/github-trending.json"},{"title":"Reddit multis","arg":"lists\/reddit-multi.json"},{"title":"Explain shell","arg":"lists\/explain-shell.json"},{"title":"Book notes","arg":"lists\/book-notes.json"},{"title":"Stack tags","arg":"lists\/stack-tags.json"},{"title":"Gitter","arg":"lists\/gitter.json"},{"title":"YouTube","arg":"lists\/my-youtube.json"},{"title":"Knowledge bases","arg":"lists\/knowledge-bases.json","subtitle":""},{"title":"Discord","arg":"lists\/discord.json"},{"title":"Wiki","arg":"wiki"}]</string>
 				<key>keyword</key>
-				<string>mind</string>
+				<string>nikimind</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
@@ -3419,7 +3419,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.10</string>
+	<string>1.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-my-mind</string>
 </dict>

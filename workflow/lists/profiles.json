@@ -5,7 +5,7 @@
       "title": "GitHub",
       "autocomplete": "GitHub",
       "subtitle": "Share all my code there",
-      "arg": "https://github.com/nikitavoloboev"
+      "arg": "https://github.com/nikitavoloboev/"
     },
     {
       "uid": "Codepen",
@@ -166,7 +166,7 @@
       "title": "Twitter",
       "autocomplete": "Twitter",
       "subtitle": "Sharing all the different things I am up to right now",
-      "arg": "https://twitter.com/nikitavoloboev"
+      "arg": "https://twitter.com/nikitavoloboev/"
     },
     {
       "uid": "Reddit",
