@@ -169,23 +169,13 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>2892EFB1-8BDC-4823-B026-5D4CF0728AC1</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>BC21A3DD-D0F4-4950-92B6-DC2B21E0476C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<true/>
+				<false/>
 			</dict>
 		</array>
 		<key>13B68EA2-E52C-4BD6-A95D-2D7E24C81EB9</key>
@@ -263,19 +253,6 @@
 				<integer>8388608</integer>
 				<key>modifiersubtext</key>
 				<string>wiki</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>2892EFB1-8BDC-4823-B026-5D4CF0728AC1</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>B4A011FD-D4D4-4157-9D32-7AC693CB1414</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -788,6 +765,16 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
+				<string>B4A011FD-D4D4-4157-9D32-7AC693CB1414</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>B243E44E-9F04-41B9-9A09-CF83A3658A89</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -1140,49 +1127,12 @@
 				<key>matchmode</key>
 				<integer>2</integer>
 				<key>matchstring</key>
-				<string>wiki</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>B4A011FD-D4D4-4157-9D32-7AC693CB1414</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{var:loc}</string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>2</integer>
-				<key>matchstring</key>
 				<string>^(?!.*(?:personal|twitter|reddit|stack|quora|other-youtube|github-users)).*</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
 			<string>673F5C24-A4A1-4B44-9829-A7277FE78FBD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>variables</key>
-				<dict>
-					<key>loc</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>2892EFB1-8BDC-4823-B026-5D4CF0728AC1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1220,6 +1170,25 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>7370BC5F-BA83-4E41-B7F7-EE7BE456A72A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:loc}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>wiki</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>B4A011FD-D4D4-4157-9D32-7AC693CB1414</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2941,13 +2910,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>650</integer>
 		</dict>
-		<key>2892EFB1-8BDC-4823-B026-5D4CF0728AC1</key>
-		<dict>
-			<key>xpos</key>
-			<integer>330</integer>
-			<key>ypos</key>
-			<integer>50</integer>
-		</dict>
 		<key>2AEB2758-9D4F-46B3-9866-F6CC8B67CD0A</key>
 		<dict>
 			<key>note</key>
@@ -3093,7 +3055,7 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>616E11AF-E559-4994-81C4-BCBBBEE85AB1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>30</integer>
+			<integer>10</integer>
 			<key>ypos</key>
 			<integer>180</integer>
 		</dict>
@@ -3191,7 +3153,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>My personal wiki on GitBook</string>
 			<key>xpos</key>
-			<integer>200</integer>
+			<integer>180</integer>
 			<key>ypos</key>
 			<integer>180</integer>
 		</dict>
@@ -3216,7 +3178,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>I call this trigger with Karabiner and pass in a specific file as argument like "lists/reddit.json"</string>
 			<key>xpos</key>
-			<integer>220</integer>
+			<integer>180</integer>
 			<key>ypos</key>
 			<integer>340</integer>
 		</dict>
@@ -3260,9 +3222,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>B4A011FD-D4D4-4157-9D32-7AC693CB1414</key>
 		<dict>
 			<key>xpos</key>
-			<integer>410</integer>
+			<integer>320</integer>
 			<key>ypos</key>
-			<integer>50</integer>
+			<integer>150</integer>
 		</dict>
 		<key>BB488B7C-4FF6-458D-A506-FD2D87B465D1</key>
 		<dict>
@@ -3285,9 +3247,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>BC21A3DD-D0F4-4950-92B6-DC2B21E0476C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>560</integer>
+			<integer>450</integer>
 			<key>ypos</key>
-			<integer>60</integer>
+			<integer>50</integer>
 		</dict>
 		<key>BD69D35F-F488-4674-B5B6-E39903A588E2</key>
 		<dict>
@@ -3419,7 +3381,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.1.0</string>
+	<string>1.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-my-mind</string>
 </dict>
