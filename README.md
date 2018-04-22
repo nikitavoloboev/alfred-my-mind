@@ -22,7 +22,7 @@ Download the workflow from [GitHub releases](../../releases/latest).
 See [contribution guidelines](CONTRIBUTING.md#readme).
 
 ## Thank you 💜
-You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
+You can support me on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
 
 ## License
 MIT © [Nikita Voloboev](https://www.nikitavoloboev.xyz)
