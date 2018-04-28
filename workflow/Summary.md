@@ -352,7 +352,6 @@
 	- [Web presence](other/web-presence.md)
 - [Looking back](looking-back/looking-back.md)
 	- [2017](looking-back/2017/2017.md)
-	- 2018
 		- [2018 January](looking-back/2018/2018-january.md)
 		- [2018 February](looking-back/2018/2018-february.md)
 		- [2018 March](looking-back/2018/2018-march.md)
