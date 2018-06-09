@@ -14,10 +14,6 @@ My goals with sharing both this workflow and my [wiki knowledge base](https://wi
 ## Install
 Download the workflow from [GitHub releases](../../releases/latest).
 
-### Small Demo
-
-<img src="media/demo.gif" width="500" alt="img">
-
 ## Contributing
 See [contribution guidelines](CONTRIBUTING.md#readme).
 
