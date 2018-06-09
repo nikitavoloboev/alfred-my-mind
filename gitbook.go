@@ -8,11 +8,9 @@ import (
 	"io"
 	"io/ioutil"
 	"log"
-	"net/http"
 	"os"
 	"regexp"
 	"strings"
-	"time"
 )
 
 // popLine removes lines from file.
@@ -61,24 +59,24 @@ func popLine(f *os.File) ([]byte, error) {
 }
 
 // getSummary downloads GitBook summary from GitHub.
-func getSummary() ([]byte, error) {
-	resp, err := http.Get("https://raw.githubusercontent.com/nikitavoloboev/knowledge/master/SUMMARY.md")
-	if err != nil {
-		log.Panic(err)
-	}
-	defer resp.Body.Close()
+// func getSummary() ([]byte, error) {
+// 	resp, err := http.Get("https://raw.githubusercontent.com/nikitavoloboev/knowledge/master/SUMMARY.md")
+// 	if err != nil {
+// 		log.Panic(err)
+// 	}
+// 	defer resp.Body.Close()
 
-	return buf.Bytes(resp.Body), nil
+// 	return buf.Bytes(resp.Body), nil
 
-	// f, err := os.Create("SUMMARY.md")
-	// if err != nil {
-	// 	log.Panic(err)
-	// }
-	// defer f.Close()
+// 	// f, err := os.Create("SUMMARY.md")
+// 	// if err != nil {
+// 	// 	log.Panic(err)
+// 	// }
+// 	// defer f.Close()
 
-	// io.Copy(f, resp.Body)
+// 	// io.Copy(f, resp.Body)
 
-}
+// }
 
 func removeFirstLine(fname string) {
 	f, err := os.OpenFile(fname, os.O_RDWR|os.O_CREATE, 0666)
@@ -97,9 +95,9 @@ func removeFirstLine(fname string) {
 func doSearchWiki() error {
 	showUpdateStatus()
 
-	if err := wf.Session.LoadOrStore("wiki", 60*time.Minute, getSummary()) {
-		return nil, err
-	}
+	// if err := wf.Session.LoadOrStore("wiki", 60*time.Minute, getSummary()) {
+	// 	return nil, err
+	// }
 
 	log.Printf("query=%s", query)
 
