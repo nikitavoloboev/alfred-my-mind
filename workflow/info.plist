@@ -113,6 +113,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>63898482-0BE0-4D8A-9F16-8C6D685B4800</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8F380EE7-5EE7-443F-8784-674E6BDDC3D6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>682A0702-A6C8-455B-AA76-FFE51BCF7008</key>
 		<array>
 			<dict>
@@ -282,6 +295,16 @@
 		</array>
 		<key>BC21A3DD-D0F4-4950-92B6-DC2B21E0476C</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>63898482-0BE0-4D8A-9F16-8C6D685B4800</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>DB7D8323-F48D-404D-8651-950AA561101E</string>
@@ -534,12 +557,12 @@
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
-				<string>lists/web.json</string>
+				<string>lists/slack.json</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
-			<string>DB7D8323-F48D-404D-8651-950AA561101E</string>
+			<string>63898482-0BE0-4D8A-9F16-8C6D685B4800</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -571,6 +594,25 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>BC21A3DD-D0F4-4950-92B6-DC2B21E0476C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:loc}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>lists/web.json</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>DB7D8323-F48D-404D-8651-950AA561101E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1116,6 +1158,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>60</integer>
 		</dict>
+		<key>63898482-0BE0-4D8A-9F16-8C6D685B4800</key>
+		<dict>
+			<key>xpos</key>
+			<integer>440</integer>
+			<key>ypos</key>
+			<integer>250</integer>
+		</dict>
 		<key>682A0702-A6C8-455B-AA76-FFE51BCF7008</key>
 		<dict>
 			<key>xpos</key>
@@ -1169,9 +1218,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>8F380EE7-5EE7-443F-8784-674E6BDDC3D6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>560</integer>
+			<integer>580</integer>
 			<key>ypos</key>
-			<integer>220</integer>
+			<integer>230</integer>
 		</dict>
 		<key>9235C46D-11B8-4D5B-9E45-2FD5DB241212</key>
 		<dict>
@@ -1267,12 +1316,10 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 		<key>DB7D8323-F48D-404D-8651-950AA561101E</key>
 		<dict>
-			<key>note</key>
-			<string>websites</string>
 			<key>xpos</key>
 			<integer>440</integer>
 			<key>ypos</key>
-			<integer>250</integer>
+			<integer>310</integer>
 		</dict>
 		<key>F1ED5DA8-9820-408B-954A-B0F4ED5C447F</key>
 		<dict>

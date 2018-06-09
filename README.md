@@ -1,5 +1,5 @@
 # Alfred My Mind [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows#readme) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
-> [Alfred](https://www.alfredapp.com/) workflow to search through my notes and bookmarks on the web
+> [Alfred](https://www.alfredapp.com/) workflow to search through my notes and bookmarks
 
 <img src="https://i.imgur.com/ucqqcsT.png" width="500" alt="img">
 
