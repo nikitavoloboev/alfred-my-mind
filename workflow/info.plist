@@ -139,6 +139,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>8F380EE7-5EE7-443F-8784-674E6BDDC3D6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7370BC5F-BA83-4E41-B7F7-EE7BE456A72A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>9235C46D-11B8-4D5B-9E45-2FD5DB241212</key>
 		<array>
 			<dict>
@@ -317,7 +330,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>7370BC5F-BA83-4E41-B7F7-EE7BE456A72A</string>
+				<string>8F380EE7-5EE7-443F-8784-674E6BDDC3D6</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -356,7 +369,7 @@
 	<key>createdby</key>
 	<string>Nikita Voloboev</string>
 	<key>description</key>
-	<string>Alfred interface to my bookmarks and notes</string>
+	<string>Search through my notes and bookmarks on the web</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -464,6 +477,56 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>cat $loc
+
+
+
+
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>8F380EE7-5EE7-443F-8784-674E6BDDC3D6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>inputstring</key>
 				<string>{var:loc}</string>
 				<key>matchcasesensitive</key>
@@ -471,7 +534,7 @@
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
-				<string>lists/websites.json</string>
+				<string>lists/web.json</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.filter</string>
@@ -533,43 +596,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>variables</key>
-				<dict>
-					<key>sub</key>
-					<string>{query}new/</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>682A0702-A6C8-455B-AA76-FFE51BCF7008</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{var:loc}</string>
-				<key>matchcasesensitive</key>
-				<true/>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>lists/reddit.json</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>F1ED5DA8-9820-408B-954A-B0F4ED5C447F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -616,6 +642,43 @@
 			<string>16E1E8A2-735E-46AF-B366-07A41CD26E05</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>sub</key>
+					<string>{query}new/</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>682A0702-A6C8-455B-AA76-FFE51BCF7008</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:loc}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>lists/reddit.json</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>F1ED5DA8-9820-408B-954A-B0F4ED5C447F</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -994,50 +1057,50 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>08B60475-9673-43BF-9A3D-A7A1717B205B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1080</integer>
+			<integer>1030</integer>
 			<key>ypos</key>
-			<integer>1110</integer>
+			<integer>930</integer>
 		</dict>
 		<key>0DE85601-3476-4709-B3E4-75C3823C7C23</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1040</integer>
+			<integer>990</integer>
 			<key>ypos</key>
-			<integer>1650</integer>
+			<integer>1470</integer>
 		</dict>
 		<key>1045BA36-8906-4211-93ED-0EF761DBB912</key>
 		<dict>
 			<key>note</key>
 			<string>stack</string>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>440</integer>
 			<key>ypos</key>
-			<integer>690</integer>
+			<integer>510</integer>
 		</dict>
 		<key>16E1E8A2-735E-46AF-B366-07A41CD26E05</key>
 		<dict>
 			<key>xpos</key>
-			<integer>640</integer>
+			<integer>590</integer>
 			<key>ypos</key>
-			<integer>570</integer>
+			<integer>360</integer>
 		</dict>
 		<key>2AEB2758-9D4F-46B3-9866-F6CC8B67CD0A</key>
 		<dict>
 			<key>note</key>
 			<string>top - all time</string>
 			<key>xpos</key>
-			<integer>1150</integer>
+			<integer>1100</integer>
 			<key>ypos</key>
-			<integer>820</integer>
+			<integer>640</integer>
 		</dict>
 		<key>4B34F98B-E97A-4E1B-8146-336D5673D48E</key>
 		<dict>
 			<key>note</key>
 			<string>top - past week</string>
 			<key>xpos</key>
-			<integer>1150</integer>
+			<integer>1100</integer>
 			<key>ypos</key>
-			<integer>680</integer>
+			<integer>500</integer>
 		</dict>
 		<key>5703651B-7FAF-4BA2-9E98-F87053D7E257</key>
 		<dict>
@@ -1056,34 +1119,34 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>682A0702-A6C8-455B-AA76-FFE51BCF7008</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1060</integer>
+			<integer>1010</integer>
 			<key>ypos</key>
-			<integer>550</integer>
+			<integer>370</integer>
 		</dict>
 		<key>6CEBEAFE-B081-4EB4-B5A9-3EF82C64DEEF</key>
 		<dict>
 			<key>note</key>
 			<string>top - week</string>
 			<key>xpos</key>
-			<integer>1150</integer>
+			<integer>1100</integer>
 			<key>ypos</key>
-			<integer>1210</integer>
+			<integer>1030</integer>
 		</dict>
 		<key>7370BC5F-BA83-4E41-B7F7-EE7BE456A72A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1140</integer>
+			<integer>1090</integer>
 			<key>ypos</key>
-			<integer>380</integer>
+			<integer>210</integer>
 		</dict>
 		<key>752A07A8-F4C3-4AAA-9E65-D93CDEF5A130</key>
 		<dict>
 			<key>note</key>
 			<string>hot</string>
 			<key>xpos</key>
-			<integer>1150</integer>
+			<integer>1100</integer>
 			<key>ypos</key>
-			<integer>1340</integer>
+			<integer>1160</integer>
 		</dict>
 		<key>85C659D0-5703-426F-96FD-178D5699E68A</key>
 		<dict>
@@ -1099,126 +1162,133 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>newest</string>
 			<key>xpos</key>
-			<integer>1140</integer>
+			<integer>1090</integer>
 			<key>ypos</key>
-			<integer>520</integer>
+			<integer>340</integer>
+		</dict>
+		<key>8F380EE7-5EE7-443F-8784-674E6BDDC3D6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>560</integer>
+			<key>ypos</key>
+			<integer>220</integer>
 		</dict>
 		<key>9235C46D-11B8-4D5B-9E45-2FD5DB241212</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1080</integer>
+			<integer>1030</integer>
 			<key>ypos</key>
-			<integer>710</integer>
+			<integer>530</integer>
 		</dict>
 		<key>9A0F22E9-22A4-4753-BB7A-A4388E40D259</key>
 		<dict>
 			<key>xpos</key>
-			<integer>110</integer>
+			<integer>60</integer>
 			<key>ypos</key>
-			<integer>430</integer>
+			<integer>250</integer>
 		</dict>
 		<key>9C9A8566-4785-4BEA-8149-F1FDBCAC7FE1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1070</integer>
+			<integer>1020</integer>
 			<key>ypos</key>
-			<integer>1370</integer>
+			<integer>1190</integer>
 		</dict>
 		<key>9E284991-148C-4392-B977-EC824DDF46A4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1080</integer>
+			<integer>1030</integer>
 			<key>ypos</key>
-			<integer>850</integer>
+			<integer>670</integer>
 		</dict>
 		<key>9E7DAD20-1409-4D72-97AA-ADE32C85DAE8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1080</integer>
+			<integer>1030</integer>
 			<key>ypos</key>
-			<integer>1240</integer>
+			<integer>1060</integer>
 		</dict>
 		<key>9F062096-3846-4C20-941D-189420F45D80</key>
 		<dict>
 			<key>xpos</key>
-			<integer>640</integer>
+			<integer>590</integer>
 			<key>ypos</key>
-			<integer>700</integer>
+			<integer>520</integer>
 		</dict>
 		<key>BC135D9A-0CA3-4622-AF16-4F08DB65767C</key>
 		<dict>
 			<key>note</key>
 			<string>featured</string>
 			<key>xpos</key>
-			<integer>1150</integer>
+			<integer>1100</integer>
 			<key>ypos</key>
-			<integer>1470</integer>
+			<integer>1290</integer>
 		</dict>
 		<key>BC21A3DD-D0F4-4950-92B6-DC2B21E0476C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>310</integer>
+			<integer>260</integer>
 			<key>ypos</key>
-			<integer>460</integer>
+			<integer>280</integer>
 		</dict>
 		<key>BD69D35F-F488-4674-B5B6-E39903A588E2</key>
 		<dict>
 			<key>note</key>
 			<string>top - month</string>
 			<key>xpos</key>
-			<integer>1150</integer>
+			<integer>1100</integer>
 			<key>ypos</key>
-			<integer>1080</integer>
+			<integer>900</integer>
 		</dict>
 		<key>C770D7B1-0AEB-4525-A65B-E4730BF692FD</key>
 		<dict>
 			<key>note</key>
 			<string>wiki</string>
 			<key>xpos</key>
-			<integer>1150</integer>
+			<integer>1100</integer>
 			<key>ypos</key>
-			<integer>950</integer>
+			<integer>770</integer>
 		</dict>
 		<key>CCE0056B-B6D9-49BD-A4CA-33E1C46435DD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1080</integer>
+			<integer>1030</integer>
 			<key>ypos</key>
-			<integer>980</integer>
+			<integer>800</integer>
 		</dict>
 		<key>D0C4C96A-60AF-4EA8-B55C-D7876DF1C39D</key>
 		<dict>
 			<key>note</key>
 			<string>tags</string>
 			<key>xpos</key>
-			<integer>1150</integer>
+			<integer>1100</integer>
 			<key>ypos</key>
-			<integer>1620</integer>
+			<integer>1440</integer>
 		</dict>
 		<key>DB7D8323-F48D-404D-8651-950AA561101E</key>
 		<dict>
 			<key>note</key>
 			<string>websites</string>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>440</integer>
 			<key>ypos</key>
-			<integer>430</integer>
+			<integer>250</integer>
 		</dict>
 		<key>F1ED5DA8-9820-408B-954A-B0F4ED5C447F</key>
 		<dict>
 			<key>note</key>
 			<string>reddit</string>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>440</integer>
 			<key>ypos</key>
-			<integer>560</integer>
+			<integer>380</integer>
 		</dict>
 		<key>F651C0E9-8983-4C36-8D3E-AF223B032B3A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1050</integer>
+			<integer>1000</integer>
 			<key>ypos</key>
-			<integer>1500</integer>
+			<integer>1320</integer>
 		</dict>
 	</dict>
 	<key>version</key>
