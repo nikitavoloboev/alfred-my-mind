@@ -366,38 +366,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>5703651B-7FAF-4BA2-9E98-F87053D7E257</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>wiki</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>616E11AF-E559-4994-81C4-BCBBBEE85AB1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -457,7 +425,7 @@
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>7370BC5F-BA83-4E41-B7F7-EE7BE456A72A</string>
+			<string>5703651B-7FAF-4BA2-9E98-F87053D7E257</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -465,12 +433,31 @@
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>open</string>
+				<string>wiki</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
-			<string>9A0F22E9-22A4-4753-BB7A-A4388E40D259</string>
+			<string>616E11AF-E559-4994-81C4-BCBBBEE85AB1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>7370BC5F-BA83-4E41-B7F7-EE7BE456A72A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -490,6 +477,19 @@
 			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
 			<string>DB7D8323-F48D-404D-8651-950AA561101E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>open</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>9A0F22E9-22A4-4753-BB7A-A4388E40D259</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1222,7 +1222,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.2.4</string>
+	<string>1.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-my-mind#readme</string>
 </dict>
