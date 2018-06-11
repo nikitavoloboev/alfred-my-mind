@@ -26,7 +26,7 @@ func run() {
 	showUpdateStatus()
 	links := parseSummaryFile()
 	for _, link := range links {
-		wf.NewItem(link.name).UID(link.uid).Valid(true).Arg(link.uid)
+		wf.NewItem(link.name).UID(link.uid).Valid(true).Arg(link.url)
 	}
 
 	args := wf.Args()

@@ -1238,16 +1238,16 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>5703651B-7FAF-4BA2-9E98-F87053D7E257</key>
 		<dict>
 			<key>xpos</key>
-			<integer>360</integer>
+			<integer>350</integer>
 			<key>ypos</key>
-			<integer>60</integer>
+			<integer>30</integer>
 		</dict>
 		<key>616E11AF-E559-4994-81C4-BCBBBEE85AB1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>30</integer>
+			<integer>20</integer>
 			<key>ypos</key>
-			<integer>60</integer>
+			<integer>30</integer>
 		</dict>
 		<key>63898482-0BE0-4D8A-9F16-8C6D685B4800</key>
 		<dict>
@@ -1300,9 +1300,9 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>Search wiki</string>
 			<key>xpos</key>
-			<integer>200</integer>
+			<integer>190</integer>
 			<key>ypos</key>
-			<integer>60</integer>
+			<integer>30</integer>
 		</dict>
 		<key>8DE830CB-A2E5-4753-BC5F-2FEFA35C469F</key>
 		<dict>
