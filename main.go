@@ -1,7 +1,6 @@
 package main
 
 import (
-	"github.com/alecthomas/kingpin"
 	"github.com/deanishe/awgo"
 	"github.com/deanishe/awgo/update"
 )
@@ -9,13 +8,6 @@ import (
 var (
 	// Icons
 	updateAvailable = &aw.Icon{Value: "icons/update-available.png"}
-
-	// Kingpin and script options
-	app *kingpin.Application
-
-	// Application commands
-	searchWikiCmd *kingpin.CmdClause
-	updateCmd     *kingpin.CmdClause
 
 	query string
 
@@ -38,15 +30,14 @@ func run() {
 	}
 
 	args := wf.Args()
-	var searchQuery string
 	if len(args) > 0 {
-		searchQuery = args[0]
+		query = args[0]
 	}
 
-	if searchQuery == "" {
+	if query == "" {
 		wf.WarnEmpty("No Keyboard Maestro macros found", "It seems that you haven't created any macro yet.")
 	} else {
-		wf.Filter(searchQuery)
+		wf.Filter(query)
 		wf.WarnEmpty("No Keyboard Maestro macros found that matched your query", "Try a different query?")
 	}
 
