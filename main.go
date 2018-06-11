@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/alecthomas/kingpin"
 	"github.com/deanishe/awgo"
 	"github.com/deanishe/awgo/update"
@@ -30,48 +28,29 @@ var (
 // Mostly sets up kingpin commands
 func init() {
 	wf = aw.New(update.GitHub(repo), aw.HelpURL(repo+"/issues"))
-
-	app = kingpin.New("ask", "Search my notes.")
-
-	// Update command
-	updateCmd = app.Command("update", "Check for new version.").Alias("u")
-
-	// Commands using query
-	searchWikiCmd = app.Command("search", "Search websites.").Alias("s")
-
-	// Common options
-	for _, cmd := range []*kingpin.CmdClause{
-		searchWikiCmd,
-	} {
-		cmd.Flag("query", "Search query.").Short('q').StringVar(&query)
-	}
 }
 
 func run() {
-	var err error
-
-	cmd, err := app.Parse(wf.Args())
-	if err != nil {
-		wf.FatalError(err)
+	showUpdateStatus()
+	links := parseSummaryFile()
+	for _, link := range links {
+		wf.NewItem(link.name).UID(link.uid).Valid(true).Arg(link.uid)
 	}
 
-	switch cmd {
-	case searchWikiCmd.FullCommand():
-		err = doSearchWiki()
-	case updateCmd.FullCommand():
-		err = doUpdate()
-	default:
-		err = fmt.Errorf("Uknown command: %s", cmd)
+	args := wf.Args()
+	var searchQuery string
+	if len(args) > 0 {
+		searchQuery = args[0]
 	}
 
-	// Check for update
-	if err == nil && cmd != updateCmd.FullCommand() {
-		err = checkForUpdate()
+	if searchQuery == "" {
+		wf.WarnEmpty("No Keyboard Maestro macros found", "It seems that you haven't created any macro yet.")
+	} else {
+		wf.Filter(searchQuery)
+		wf.WarnEmpty("No Keyboard Maestro macros found that matched your query", "Try a different query?")
 	}
 
-	if err != nil {
-		wf.FatalError(err)
-	}
+	wf.SendFeedback()
 }
 
 func main() {
