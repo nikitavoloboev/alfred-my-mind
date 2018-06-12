@@ -6,7 +6,6 @@ import (
 )
 
 var (
-	// Icons
 	updateAvailable = &aw.Icon{Value: "icons/update-available.png"}
 
 	query string
