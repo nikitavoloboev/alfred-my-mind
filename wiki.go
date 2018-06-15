@@ -35,3 +35,18 @@ func parseSummaryFile() []link {
 	}
 	return links
 }
+
+func searchWiki() {
+	showUpdateStatus()
+	links := parseSummaryFile()
+
+	// TODO: implement caching
+	for _, link := range links {
+		wf.NewItem(link.name).UID(link.uid).Valid(true).Arg(link.url)
+	}
+
+	// TODO: message doesn't show
+	wf.WarnEmpty("No matching items", "Try a different query?")
+
+	wf.SendFeedback()
+}
