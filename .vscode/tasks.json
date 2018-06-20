@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "taskName": "alfred build",
+            "label": "alfred build",
             "type": "shell",
             "command": "alfred build",
             "group": {
