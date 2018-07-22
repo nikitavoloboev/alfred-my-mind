@@ -7,14 +7,15 @@ import (
 	"strings"
 )
 
-type link struct {
+// Link holds a link with unique UID.
+type Link struct {
 	uid  string
 	name string
 	url  string
 }
 
 // parseSummaryFile parses GitBook Summary.md file and returns links.
-func parseSummaryFile() []link {
+func parseSummaryFile() []Link {
 	bytes, _ := ioutil.ReadFile("summary.md")
 
 	// regex to extract markdown links
@@ -45,7 +46,7 @@ func searchWiki() {
 		wf.NewItem(link.name).UID(link.uid).Valid(true).Arg(link.url)
 	}
 
-	// TODO: message doesn't show
+	// TODO: message doesnt show
 	wf.WarnEmpty("No matching items", "Try a different query?")
 
 	wf.SendFeedback()
