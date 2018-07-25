@@ -15,7 +15,7 @@ You can then clone this repository and run: `alfred link` inside it. This will m
 
 You can then make changes to the code and after run `alfred build` to build the go binary to `workflow` directory. Which you can then call from Alfred's [Script Filters](https://www.alfredapp.com/help/workflows/inputs/script-filter/).
 
-You can also read [this article](https://medium.com/@NikitaVoloboev/writing-alfred-workflows-in-go-2a44f62dc432) on how to write your own Alfred workflows in Go.
+You can also read [this article](https://medium.com/@nikitavoloboev/writing-alfred-workflows-in-go-2a44f62dc432) on how to write your own Alfred workflows in Go.
 
 ## Submitting a Pull Request
 Please go through [existing issues](../../issues/) and [pull requests](../../pulls/) to check if somebody else is already working on the issue.
