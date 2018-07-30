@@ -17,6 +17,15 @@ You can then make changes to the code and after run `alfred build` to build the 
 
 You can also read [this article](https://medium.com/@nikitavoloboev/writing-alfred-workflows-in-go-2a44f62dc432) on how to write your own Alfred workflows in Go.
 
+## Sending PRs
+1. Fork repo
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Create new Pull Request
+
+For bigger code changes, it's best to first discuss what you want to add in an issue.
+
 ## Submitting a Pull Request
 Please go through [existing issues](../../issues/) and [pull requests](../../pulls/) to check if somebody else is already working on the issue.
 
