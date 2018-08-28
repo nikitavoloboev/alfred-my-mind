@@ -1,7 +1,7 @@
 # Alfred My Mind [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows#readme) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
 > [Alfred](https://www.alfredapp.com/) workflow to search through my notes and bookmarks
 
-<img src="https://i.imgur.com/DBrK7Q9.png" width="500" alt="img">
+<img src="https://i.imgur.com/8VBU1cO.png" width="500" alt="img">
 
 This workflow lets you search through entirety of [my personal wiki](https://wiki.nikitavoloboev.xyz), [all the articles](https://wiki.nikitavoloboev.xyz/sharing/my-articles.html) I wrote, [GitHub repositories](https://wiki.nikitavoloboev.xyz/sharing/my-github.html) I made as well as [GitHub Gists](https://gist.github.com/nikitavoloboev) I share and a lot more.
 
