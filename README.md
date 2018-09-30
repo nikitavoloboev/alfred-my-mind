@@ -1,4 +1,5 @@
-# Alfred My Mind [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows#readme) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
+# Alfred My Mind [![Workflows](https://img.shields.io/badge/-more%20workflows-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://github.com/learn-anything/alfred-workflows#readme) [![Thanks](http://bit.ly/saythankss)](https://patreon.com/nikitavoloboev)
+
 > [Alfred](https://www.alfredapp.com/) workflow to search through my notes and bookmarks
 
 <img src="https://i.imgur.com/8VBU1cO.png" width="500" alt="img">
@@ -12,13 +13,15 @@ As this workflow is focused and optimized for fast access to all the knowledge a
 My goals with sharing both this workflow and my [wiki knowledge base](https://wiki.nikitavoloboev.xyz) is to extend my idea of [knowledge bootstrapping](https://medium.com/@nikitavoloboev/knowledge-bootstrapping-36c97e0dee19#.udmp9eotg) and tapping into a person's expertise in the most transparent way possible.
 
 ## Install
+
 Download the workflow from [GitHub releases](../../releases/latest).
 
 ## Contributing
+
 See [contribution guidelines](CONTRIBUTING.md#readme).
 
-## Thank you 💜
+## Thank you
+
 You can support me on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
 
-## License
-MIT © [Nikita Voloboev](https://www.nikitavoloboev.xyz)
+[![MIT](http://bit.ly/mitbadge)](https://tldrlegal.com/license/mit-license) [![Twitter](http://bit.ly/nikitweet)](https://twitter.com/nikitavoloboev)
