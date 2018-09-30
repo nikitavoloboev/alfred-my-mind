@@ -24,4 +24,4 @@ See [contribution guidelines](CONTRIBUTING.md#readme).
 
 You can support me on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
 
-[![MIT](http://bit.ly/mitbadge)](https://tldrlegal.com/license/mit-license) [![Twitter](http://bit.ly/nikitweet)](https://twitter.com/nikitavoloboev)
+[![MIT](http://bit.ly/mitbadge)](LICENSE) [![Twitter](http://bit.ly/nikitweet)](https://twitter.com/nikitavoloboev)
