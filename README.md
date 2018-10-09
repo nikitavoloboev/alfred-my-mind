@@ -2,7 +2,7 @@
 
 > [Alfred](https://www.alfredapp.com/) workflow to search through my notes and bookmarks
 
-<img src="https://i.imgur.com/8VBU1cO.png" width="500" alt="img">
+<img src="https://i.imgur.com/RXRAG5c.png" width="500" alt="img">
 
 This workflow lets you search through entirety of [my personal wiki](https://wiki.nikitavoloboev.xyz), [all the articles](https://wiki.nikitavoloboev.xyz/sharing/my-articles.html) I wrote, [GitHub repositories](https://wiki.nikitavoloboev.xyz/sharing/my-github.html) I made as well as [GitHub Gists](https://gist.github.com/nikitavoloboev) I share and a lot more.
 
