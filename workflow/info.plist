@@ -12,6 +12,19 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>7728285A-6318-44B3-B058-FF3D6878362B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7728285A-6318-44B3-B058-FF3D6878362B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
 				<string>85C659D0-5703-426F-96FD-178D5699E68A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -48,25 +61,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>5703651B-7FAF-4BA2-9E98-F87053D7E257</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>triggerid</key>
 				<string>search wiki</string>
 			</dict>
@@ -84,6 +78,8 @@
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -122,7 +118,50 @@
 			<key>uid</key>
 			<string>85C659D0-5703-426F-96FD-178D5699E68A</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>5703651B-7FAF-4BA2-9E98-F87053D7E257</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "title" : "",
+      "runningsubtext" : "",
+      "subtext" : ""
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>7728285A-6318-44B3-B058-FF3D6878362B</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -136,7 +175,7 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>5703651B-7FAF-4BA2-9E98-F87053D7E257</key>
 		<dict>
 			<key>xpos</key>
-			<integer>350</integer>
+			<integer>415</integer>
 			<key>ypos</key>
 			<integer>30</integer>
 		</dict>
@@ -147,12 +186,19 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>30</integer>
 		</dict>
+		<key>7728285A-6318-44B3-B058-FF3D6878362B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>165</integer>
+			<key>ypos</key>
+			<integer>60</integer>
+		</dict>
 		<key>85C659D0-5703-426F-96FD-178D5699E68A</key>
 		<dict>
 			<key>note</key>
 			<string>Search wiki</string>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>255</integer>
 			<key>ypos</key>
 			<integer>30</integer>
 		</dict>
