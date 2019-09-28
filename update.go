@@ -16,11 +16,11 @@ func doUpdate() error {
 
 // checkForUpdate runs "./alsf update" in the background if an update check is due.
 func checkForUpdate() error {
-	if !wf.UpdateCheckDue() || aw.IsRunning("update") {
+	if !wf.UpdateCheckDue() || wf.IsRunning("update") {
 		return nil
 	}
 	cmd := exec.Command(os.Args[0], "update")
-	return aw.RunInBackground("update", cmd)
+	return wf.RunInBackground("update", cmd)
 }
 
 // showUpdateStatus adds an "update available!" message to Script Filters if an update is available
@@ -37,6 +37,6 @@ func showUpdateStatus() {
 			Subtitle("⇥ or ↩ to install update").
 			Valid(false).
 			Autocomplete("workflow:update").
-			Icon(updateAvailable)
+			Icon(iconUpdate)
 	}
 }
