@@ -4,7 +4,7 @@
 
 <img src="https://i.imgur.com/RXRAG5c.png" width="500" alt="img">
 
-This workflow lets you search through entirety of [my personal wiki](https://wiki.nikitavoloboev.xyz), [all the articles](https://wiki.nikitavoloboev.xyz/sharing/my-articles.html) I wrote, [GitHub repositories](https://wiki.nikitavoloboev.xyz/sharing/my-github.html) I made as well as [GitHub Gists](https://gist.github.com/nikitavoloboev) I share and a lot more.
+This workflow lets you search through entirety of [my personal wiki](https://wiki.nikitavoloboev.xyz), [all the articles](https://wiki.nikitavoloboev.xyz/sharing/my-articles) I wrote, [GitHub repositories](https://wiki.nikitavoloboev.xyz/sharing/my-github) I made as well as [GitHub Gists](https://gist.github.com/nikitavoloboev) I share and a lot more.
 
 You can read why I made the workflow [here](https://medium.com/@nikitavoloboev/opening-up-my-mind-%EF%B8%8F-575c8ece8a24).
 
@@ -24,4 +24,4 @@ See [contribution guidelines](CONTRIBUTING.md#readme).
 
 You can support me on [GitHub](https://github.com/sponsors/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
 
-[![MIT](http://bit.ly/mitbadge)](LICENSE) [![Twitter](http://bit.ly/nikitweet)](https://twitter.com/nikitavoloboev)
+[![MIT](http://bit.ly/mitbadge)](LICENSE) [![Twitter](http://bit.ly/nikitatweet)](https://twitter.com/nikitavoloboev)
