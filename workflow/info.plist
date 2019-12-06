@@ -203,6 +203,8 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>30</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>1.8.8</string>
 	<key>webaddress</key>
