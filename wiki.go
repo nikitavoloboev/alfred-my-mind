@@ -41,13 +41,11 @@ func parseSummaryFile() []Link {
 			last = last[:len(last)-3]
 		}
 		split[len(split)-1] = last
-		if contains(split, "apps") {
+		if contains(split, "macOS") {
 			for i, v := range split {
+				split[0] = "macos"
 				if v == "apps" {
 					split[i] = "macos-apps"
-				}
-				if v == "macOS" {
-					split[i] = "macos"
 				}
 			}
 		}
