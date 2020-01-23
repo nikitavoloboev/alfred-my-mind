@@ -206,8 +206,8 @@ Post any issues and feature requests you have there. 💜</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.8.8</string>
+	<string>1.9</string>
 	<key>webaddress</key>
-	<string>https://github.com/nikitavoloboev/alfred-my-mind#readme</string>
+	<string>https://github.com/nikitavoloboev/alfred-my-mind</string>
 </dict>
 </plist>

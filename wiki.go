@@ -20,7 +20,7 @@ func parseSummaryFile() []Link {
 
 	// regex to extract markdown links
 	re := regexp.MustCompile(`\[([^\]]*)\]\(([^)]*)\)`)
-	re1 := regexp.MustCompile(`(.md)`)
+	// re1 := regexp.MustCompile(`(.md)`)
 
 	var links []Link
 
@@ -28,13 +28,47 @@ func parseSummaryFile() []Link {
 	scanner := bufio.NewScanner(strings.NewReader(string(bytes)))
 	for scanner.Scan() {
 		matches := re.FindAllStringSubmatch(scanner.Text(), -1)
+		split := strings.Split(matches[0][2], "/")
+
+		noMD := strings.Split(split[len(split)-1], ".")[0]
+		// Delete last item if it's equal to the pre last item in paths
+		if split[len(split)-2] == noMD {
+			split = split[:len(split)-1]
+		}
+		// Remove .md if present
+		last := split[len(split)-1]
+		if strings.Contains(last, ".md") {
+			last = last[:len(last)-3]
+		}
+		split[len(split)-1] = last
+		if contains(split, "apps") {
+			for i, v := range split {
+				if v == "apps" {
+					split[i] = "macos-apps"
+				}
+				if v == "macOS" {
+					split[i] = "macos"
+				}
+			}
+		}
+
 		links = append(links, Link{
 			uid:  matches[0][1],
 			name: matches[0][1],
-			url:  "https://wiki.nikitavoloboev.xyz/" + re1.ReplaceAllString(matches[0][2], `.html`),
+			url:  "https://wiki.nikitavoloboev.xyz/" + strings.Join(split, "/"),
 		})
 	}
 	return links
+}
+
+// check if string is included in a slice
+func contains(s []string, e string) bool {
+	for _, a := range s {
+		if a == e {
+			return true
+		}
+	}
+	return false
 }
 
 func searchWiki() {
