@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/deanishe/awgo"
+	"flag"
+
+	aw "github.com/deanishe/awgo"
 	"github.com/deanishe/awgo/update"
 )
 
@@ -20,7 +22,16 @@ func init() {
 }
 
 func run() {
-	searchWiki()
+	wiki := flag.Bool("wiki", false, "Search wiki")
+	links := flag.Bool("links", false, "Search links in wiki")
+	flag.Parse()
+	if *wiki {
+		searchWiki()
+		return
+	} else if *links {
+		searchLinks()
+		return
+	}
 }
 
 func main() {

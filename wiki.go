@@ -16,7 +16,7 @@ type Link struct {
 
 // parseSummaryFile parses GitBook Summary.md file and returns links.
 func parseSummaryFile() []Link {
-	bytes, _ := ioutil.ReadFile("summary.md")
+	bytes, _ := ioutil.ReadFile("SUMMARY.md")
 
 	// regex to extract markdown links
 	re := regexp.MustCompile(`\[([^\]]*)\]\(([^)]*)\)`)

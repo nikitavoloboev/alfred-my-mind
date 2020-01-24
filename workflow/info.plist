@@ -8,6 +8,19 @@
 	<string>Mine</string>
 	<key>connections</key>
 	<dict>
+		<key>0595E5BE-28DF-4C2C-9CD2-CDBDAE95A11A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9E65DC5C-9F25-44CE-9554-F6D913B0CBAF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>616E11AF-E559-4994-81C4-BCBBBEE85AB1</key>
 		<array>
 			<dict>
@@ -39,6 +52,32 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>5703651B-7FAF-4BA2-9E98-F87053D7E257</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9E65DC5C-9F25-44CE-9554-F6D913B0CBAF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1DF8D1BA-13AD-4BBF-852E-B6D16F870E6B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A4602136-2A7F-474C-A4A8-8C8B2C8F3EE4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0595E5BE-28DF-4C2C-9CD2-CDBDAE95A11A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -99,7 +138,7 @@
 				<key>runningsubtext</key>
 				<string>Loading...</string>
 				<key>script</key>
-				<string>./alfred-my-mind "$1"</string>
+				<string>./alfred-my-mind -wiki "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -163,6 +202,111 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>1DF8D1BA-13AD-4BBF-852E-B6D16F870E6B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>search links</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>A4602136-2A7F-474C-A4A8-8C8B2C8F3EE4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>links</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string>./alfred-my-mind -links "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Search links</string>
+				<key>title</key>
+				<string>Links</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>9E65DC5C-9F25-44CE-9554-F6D913B0CBAF</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "title" : "",
+      "runningsubtext" : "",
+      "subtext" : ""
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>0595E5BE-28DF-4C2C-9CD2-CDBDAE95A11A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Details on how to use this workflow are found in the GitHub repo attached to the workflow. 
@@ -172,6 +316,20 @@ Double click this workflow in sidebar -&gt; Open website.
 Post any issues and feature requests you have there. 💜</string>
 	<key>uidata</key>
 	<dict>
+		<key>0595E5BE-28DF-4C2C-9CD2-CDBDAE95A11A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>165</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
+		<key>1DF8D1BA-13AD-4BBF-852E-B6D16F870E6B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>415</integer>
+			<key>ypos</key>
+			<integer>190</integer>
+		</dict>
 		<key>5703651B-7FAF-4BA2-9E98-F87053D7E257</key>
 		<dict>
 			<key>xpos</key>
@@ -189,7 +347,7 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>7728285A-6318-44B3-B058-FF3D6878362B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>165</integer>
+			<integer>180</integer>
 			<key>ypos</key>
 			<integer>60</integer>
 		</dict>
@@ -202,11 +360,27 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>30</integer>
 		</dict>
+		<key>9E65DC5C-9F25-44CE-9554-F6D913B0CBAF</key>
+		<dict>
+			<key>note</key>
+			<string>Search links</string>
+			<key>xpos</key>
+			<integer>255</integer>
+			<key>ypos</key>
+			<integer>190</integer>
+		</dict>
+		<key>A4602136-2A7F-474C-A4A8-8C8B2C8F3EE4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>190</integer>
+		</dict>
 	</dict>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.9</string>
+	<string>1.9.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-my-mind</string>
 </dict>
