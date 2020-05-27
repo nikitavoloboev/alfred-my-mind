@@ -29,7 +29,9 @@ func run() {
 		searchWiki()
 		return
 	} else if *links {
-		searchLinks()
+		// TODO: read from env var
+		// TODO: show description as subtitle
+		searchLinks("/Users/nikivi/Dropbox/Write/knowledge/")
 		return
 	}
 }

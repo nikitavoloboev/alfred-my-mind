@@ -146,7 +146,7 @@
 				<key>subtext</key>
 				<string>Search wiki</string>
 				<key>title</key>
-				<string>Nikita Voloboev's wiki</string>
+				<string>Wiki</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -377,8 +377,11 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>190</integer>
 		</dict>
 	</dict>
-	<key>variablesdontexport</key>
-	<array/>
+	<key>variables</key>
+	<dict>
+		<key>wikiPath</key>
+		<string>/Users/nikivi/Dropbox/Write/knowledge/</string>
+	</dict>
 	<key>version</key>
 	<string>1.9.1</string>
 	<key>webaddress</key>

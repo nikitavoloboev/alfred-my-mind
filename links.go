@@ -11,13 +11,13 @@ import (
 
 type bookmarks map[string]string
 
-func searchLinks() {
+func searchLinks(wikiPath string) {
 	showUpdateStatus()
 	bookmarks := make(bookmarks)
 
 	files := parseSummary()
 	for _, file := range files {
-		parseLinks(file, bookmarks)
+		parseLinks(wikiPath, file, bookmarks)
 	}
 	for name, link := range bookmarks {
 		wf.NewItem(name).UID(name).Valid(true).Arg(link)
@@ -52,9 +52,8 @@ func parseSummary() []string {
 }
 
 // Parse file for links and update bookmarks.
-func parseLinks(path string, bookmarks bookmarks) {
-	wikiPath := "/Users/nikivi/Dropbox/Write/knowledge/"
-	file, err := os.Open(wikiPath + path)
+func parseLinks(wikiPath string, filePath string, bookmarks bookmarks) {
+	file, err := os.Open(wikiPath + filePath)
 	if err != nil {
 		log.Fatal(err)
 	}
