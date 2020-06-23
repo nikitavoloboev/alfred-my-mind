@@ -382,6 +382,8 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>wikiPath</key>
 		<string>/Users/nikivi/Dropbox/Write/knowledge/</string>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>1.9.2</string>
 	<key>webaddress</key>
