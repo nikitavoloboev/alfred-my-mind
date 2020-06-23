@@ -3,7 +3,7 @@
 Thank you for taking the time to contribute! ♥️ You can:
 
 - Submit [bug reports or feature requests](../../issues/new/choose). Contribute to discussions.
-- Fix [open issues](../../issues) and [create PRs](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). Check existing issues & pull requests first.
+- Fix [open issues](../../issues) or help with open [PRs](../../pulls).
 - Improve docs, the code and more! Any idea is welcome.
 
 ## Dependencies
