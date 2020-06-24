@@ -8,7 +8,7 @@ This workflow lets you search through entirety of [my personal wiki](https://wik
 
 ## Install
 
-Download the workflow from [GitHub releases](../../releases/latest).
+Download workflow from [GitHub releases](../../releases/latest).
 
 ## Contributing
 
