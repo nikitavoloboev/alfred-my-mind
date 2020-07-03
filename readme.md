@@ -2,7 +2,7 @@
 
 > [Alfred](https://www.alfredapp.com/) workflow to search through my notes and bookmarks
 
-<img src="https://i.imgur.com/ZbpobeM.png" width="500" alt="img">
+<img src="https://i.imgur.com/XLuphK6.png" width="500" alt="img">
 
 This workflow lets you search through entirety of [my personal wiki](https://wiki.nikitavoloboev.xyz). There's over 27,000 lines of markdown with many links inside. This [video](https://www.youtube.com/watch?v=m5aFsVVknPU) showcases the workflow in action.
 
