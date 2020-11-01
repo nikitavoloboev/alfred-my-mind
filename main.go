@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 
 	aw "github.com/deanishe/awgo"
 	"github.com/deanishe/awgo/update"
@@ -24,14 +25,23 @@ func init() {
 func run() {
 	wiki := flag.Bool("wiki", false, "Search wiki")
 	links := flag.Bool("links", false, "Search links in wiki")
+	inside := flag.Bool("inside", false, "Search links inside files")
 	flag.Parse()
+
 	if *wiki {
 		searchWiki()
 		return
-	} else if *links {
+	}
+
+	if *links {
 		// TODO: read from env var
 		// TODO: show description as subtitle
 		searchLinks("/Users/nikivi/Dropbox/Write/knowledge/")
+		return
+	}
+
+	if *inside {
+		fmt.Println("hi")
 		return
 	}
 }
