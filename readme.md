@@ -4,7 +4,7 @@
 
 <img src="https://i.imgur.com/ZbpobeM.png" width="500" alt="img">
 
-This workflow lets you search through entirety of [my personal wiki](https://wiki.nikitavoloboev.xyz). There's over 50000 lines of markdown with many links inside. This [video](https://www.youtube.com/watch?v=m5aFsVVknPU) showcases the workflow in action.
+This workflow lets you search through entirety of [my personal wiki](https://wiki.nikiv.dev/). There's over 100,000 lines of markdown with many links inside. This [video](https://www.youtube.com/watch?v=m5aFsVVknPU) showcases the workflow in action.
 
 ## Install
 
