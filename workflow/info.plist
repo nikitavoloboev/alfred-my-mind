@@ -101,7 +101,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Nikita Voloboev</string>
+	<string>Nikita</string>
 	<key>description</key>
 	<string>Search through my notes and bookmarks</string>
 	<key>disabled</key>
@@ -477,12 +477,10 @@ Post any issues and feature requests you have there. 💜</string>
 	<key>variables</key>
 	<dict>
 		<key>wikiPath</key>
-		<string>/Users/nikivi/Dropbox/Write/knowledge/</string>
+		<string>/Users/nikiv/Dropbox/Write/knowledge/</string>
 	</dict>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>1.9.3</string>
+	<string>1.9.4</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/alfred-my-mind</string>
 </dict>

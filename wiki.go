@@ -52,7 +52,7 @@ func parseSummaryFile() []Link {
 		links = append(links, Link{
 			uid:  matches[0][1],
 			name: matches[0][1],
-			url:  "https://wiki.nikitavoloboev.xyz/" + strings.Join(split, "/"),
+			url:  "https://wiki.nikiv.dev/" + strings.Join(split, "/"),
 		})
 	}
 	return links
