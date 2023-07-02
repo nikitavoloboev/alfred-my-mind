@@ -26,6 +26,10 @@ It uses [modd](https://github.com/cortesi/modd) and [Alfred command](https://god
 
 ![](https://i.imgur.com/FFYOecx.png)
 
+## Discuss / help
+
+Search for [existing issues](../../issues/new/choose) or open [new ones](../../issues/new/choose).
+
 ## Thank you
 
 You can support me on [GitHub](https://github.com/sponsors/nikitavoloboev) or look into [other projects](https://nikiv.dev/projects) I shared.
