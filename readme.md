@@ -34,6 +34,6 @@ Search for [existing issues](../../issues) or open [new ones](../../issues/new/c
 
 You can support me on [GitHub](https://github.com/sponsors/nikitavoloboev) or look into [other projects](https://nikiv.dev/projects) I shared.
 
-I also have [personal Discord](https://discord.gg/f8YHjyrX3h) you can join for more indepth discussions.
+I also have [personal Discord](https://discord.com/invite/TVafwaD23d) you can join for more indepth discussions.
 
 [![MIT](http://bit.ly/mitbadge)](https://choosealicense.com/licenses/mit/) [![Twitter](http://bit.ly/nikitatweet)](https://twitter.com/nikitavoloboev)
