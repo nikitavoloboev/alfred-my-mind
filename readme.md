@@ -28,7 +28,7 @@ It uses [modd](https://github.com/cortesi/modd) and [Alfred command](https://god
 
 ## Discuss / help
 
-Search for [existing issues](../../issues/new/choose) or open [new ones](../../issues/new/choose).
+Search for [existing issues](../../issues) or open [new ones](../../issues/new/choose).
 
 ## Thank you
 
