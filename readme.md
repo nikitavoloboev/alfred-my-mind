@@ -26,7 +26,7 @@ It uses [modd](https://github.com/cortesi/modd) and [Alfred command](https://god
 
 ![](https://i.imgur.com/FFYOecx.png)
 
-## Discuss / help
+## Contribute
 
 Search for [existing issues](../../issues) or open [new one](../../issues/new/choose).
 
