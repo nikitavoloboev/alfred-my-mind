@@ -28,7 +28,11 @@ It uses [modd](https://github.com/cortesi/modd) and [Alfred command](https://god
 
 ## Contribute
 
+Have idea how to improve or something is broken?
+
 Search for [existing issues](../../issues) or open [new one](../../issues/new/choose).
+
+PRs with code/docs changes are welcome.
 
 ## Thank you
 
