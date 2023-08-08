@@ -1,4 +1,4 @@
-# Alfred My Mind [![Workflows](https://img.shields.io/badge/-more%20workflows-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://github.com/learn-anything/alfred-workflows) [![Thanks](http://bit.ly/saythankss)](https://github.com/sponsors/nikitavoloboev)
+# Alfred My Mind
 
 > [Alfred](https://www.alfredapp.com/) workflow to search through my notes and bookmarks
 
@@ -28,16 +28,21 @@ It uses [modd](https://github.com/cortesi/modd) and [Alfred command](https://god
 
 ## Contribute
 
-Have idea how to improve or something is broken?
+The tasks to do are outlined in [existing issues](../../issues) and in [tasks below](#tasks) (sorted by priority).
 
-Search for [existing issues](../../issues) or open [new one](../../issues/new/choose).
+If issue/idea you have is not there, [open new issue](../../issues/new/choose) or [start discussion](../../discussions).
 
-PRs with code/docs changes are welcome.
+Any PR with code/doc improvements is welcome. ✨
 
-## Thank you
+Join [Discord](https://discord.com/invite/TVafwaD23d) for more indepth discussions on this repo and [others](https://github.com/nikitavoloboev#src).
 
-You can support me on [GitHub](https://github.com/sponsors/nikitavoloboev) or look into [other projects](https://nikiv.dev/projects) I shared.
+## Tasks
 
-I also have [personal Discord](https://discord.com/invite/TVafwaD23d) you can join for more indepth discussions.
+- make images dark by default
+  - ideally have screenshots change color depending on user OS theme
+
+### ♥️
+
+[Support on GitHub](https://github.com/sponsors/nikitavoloboev) or look into [other projects](https://nikiv.dev/projects).
 
 [![MIT](http://bit.ly/mitbadge)](https://choosealicense.com/licenses/mit/) [![Twitter](http://bit.ly/nikitatweet)](https://twitter.com/nikitavoloboev)
