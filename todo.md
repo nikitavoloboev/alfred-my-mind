@@ -1,0 +1,2 @@
+- make images dark by default
+  - ideally have screenshots change color depending on user OS theme
